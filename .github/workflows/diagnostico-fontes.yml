@@ -1,0 +1,28 @@
+name: Diagnóstico de acesso a fontes
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: curl
+        run: |
+          for u in https://www.gov.br/ans/pt-br https://www.gov.br/trabalho-e-emprego/pt-br https://www.congressonacional.leg.br/ https://portal.cfm.org.br/ https://www.in.gov.br/; do
+            echo "== $u"; curl -sS -o /dev/null -w "%{http_code} %{remote_ip} %{time_total}s\n" --max-time 25 -A "Mozilla/5.0" "$u" || true
+          done
+      - name: node fetch
+        run: |
+          node -e '
+          for (const u of ["https://www.gov.br/ans/pt-br","https://www.congressonacional.leg.br/"]) {
+            fetch(u,{headers:{"user-agent":"Mozilla/5.0"},signal:AbortSignal.timeout(25000)})
+              .then(r=>console.log(u,r.status))
+              .catch(e=>console.log(u,"ERRO",e.message,e.cause?.code,e.cause?.message));
+          }'
