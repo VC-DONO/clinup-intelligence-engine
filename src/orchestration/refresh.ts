@@ -6,7 +6,7 @@ import {
 import { asData, type PromptSet } from "../agents/prompts.js";
 import type { Config } from "../config/config.js";
 import { canonicalizeUrl, dedupe, independentConfirmations } from "../deduplication/url.js";
-import { type AgentRequest, type AgentResult, BudgetExceededError, type LlmPort, type Usage } from "../llm/port.js";
+import { type AgentRequest, type AgentResult, AwaitingInputError, BudgetExceededError, type LlmPort, type Usage } from "../llm/port.js";
 import { FileStore, historyStatusFor, loadHistory, type HistoryIndex } from "../persistence/store.js";
 import {
   type CandidatePublication, type DecisionRecord, type EvidenceRecord, type HistoryStatus, PublishedReport,
@@ -32,6 +32,8 @@ export interface RefreshDeps {
   coverage: CoverageGroup[];
   catalog: Catalog;
   now?: () => Date;
+  /** Fixos quando a execução é retomada em etapas (modo sessão). */
+  run_id?: string;
 }
 
 interface Item {
@@ -54,11 +56,13 @@ interface Item {
   caveats: string[];
   incomplete?: string;
   downgraded?: boolean;
+  editorRevs: number;
 }
 
 export interface RefreshOutcome {
   run_id: string;
-  state: RunState;
+  state: RunState | "awaiting_input";
+  pending?: number;
   report: PublishedReport | null;
   warnings: string[];
   metrics: Record<string, unknown>;
@@ -74,7 +78,7 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
   const { llm, store, config, prompts, catalog } = deps;
   const t0 = (deps.now ?? (() => new Date()))();
   const window = computeWindow(t0, config.freshness_window_hours);
-  const run_id = randomUUID();
+  const run_id = deps.run_id ?? randomUUID();
   const sm = new RunStateMachine();
   const decisions: DecisionRecord[] = [];
   const agentLog: { agent: string; subject: string; ok: boolean; error?: string; usage: Usage; at: string }[] = [];
@@ -111,11 +115,17 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
       decision_status: "blocked", rule_id: code, evidence_ids, reason, actor, previous_status: "candidate", new_status: "vetoed" });
   };
 
-  async function call<T>(req: Omit<AgentRequest<T>, "system">, subject: string): Promise<AgentResult<T> | null> {
+  const checkPending = () => {
+    const n = llm.pendingCount?.() ?? 0;
+    if (n > 0) throw new AwaitingInputError(`${n} tarefa(s) de agente aguardando resposta`);
+  };
+
+  async function call<T>(req: Omit<AgentRequest<T>, "system" | "subject">, subject: string): Promise<AgentResult<T> | null> {
     if (budgetHit) return null;
     try {
-      const res = await llm.run({ ...req, system: prompts[req.agent] });
+      const res = await llm.run({ ...req, subject, system: prompts[req.agent] });
       agentLog.push({ agent: req.agent, subject, ok: res.ok, error: res.ok ? undefined : res.error, usage: res.usage, at: AT() });
+      if (!res.ok && res.error === "PENDING") return res;
       if (!res.ok) sm.warn(`Agente ${req.agent} falhou em "${subject}": ${res.error}`);
       return res;
     } catch (e) {
@@ -156,7 +166,7 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
           round > 1 ? "Segunda rodada: a primeira não trouxe candidatos. Tente outras consultas, fontes e idiomas." : "",
           asData("grupo_tematico", { id: g.id, tema: g.label, foco: g.focus, fontes_sugeridas: g.sources_hint, idiomas: config.languages, regioes: config.regions }),
         ].join("\n\n"),
-      }, `grupo ${g.id} (rodada ${round})`);
+      }, round === 1 ? g.id : `${g.id}#rodada${round}`);
       if (res) allQueries.push(...res.trace.search_queries);
       return res;
     };
@@ -166,6 +176,7 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
       const r = researchResults.get(g.id);
       if (r?.ok && r.output.candidates.length === 0 && !budgetHit) researchResults.set(g.id, (await research(g, 2)) ?? r);
     }
+    checkPending();
     for (const g of groups) {
       const r = researchResults.get(g.id);
       if (r?.ok) groupsSearched.push(g.label);
@@ -194,7 +205,7 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
           provenance_parent_ids: c.republication_of_url ? [canon(c.republication_of_url) ?? c.republication_of_url] : [],
           limitations: [],
         };
-        const it: Item = { candidate, vetoes: [], evidence: [], caveats: [] };
+        const it: Item = { candidate, vetoes: [], evidence: [], caveats: [], editorRevs: 0 };
         items.push(it);
         if (looksLikeInjection(`${c.title}\n${c.summary}`)) {
           veto(it, "V015_PROMPT_INJECTION_OR_UNTRUSTED_INSTRUCTION", "Conteúdo do candidato contém instruções ao sistema", "orchestrator");
@@ -241,11 +252,12 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
           asData("candidato", { titulo: c.title_original, url: c.url_discovered, veiculo: c.publisher, tipo: c.publisher_type,
             data_alegada: c.published_at_claimed, atualizacao_alegada: c.updated_at_claimed, resumo_do_pesquisador: c.content_excerpt }),
         ].join("\n\n"),
-      }, c.title_original);
+      }, c.canonical_url!);
       if (!res) { it.incomplete = "Verificação não executada (teto de custo)"; return; }
       if (!res.ok) { it.incomplete = `Verificação falhou: ${res.error}`; return; }
       applyFactCheck(it, res.output, res.trace.fetched, res.trace.fetch_failures.length);
     });
+    checkPending();
     sm.passGate("temporal_filter");
 
     // Deduplicação por acontecimento dentro da execução + histórico
@@ -287,6 +299,7 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
       }, it.event_key!) : null;
       it.fit = enforceFit(fit?.ok ? fit.output : null, catalog, catalogUsable);
     });
+    checkPending();
 
     // 8. Redação + contraditório
     go("challenging");
@@ -321,6 +334,7 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
         decision_status: d, rule_id: "4.11", evidence_ids: [], reason: adv.output.problems.join("; ") || "sem problemas materiais",
         actor: "adversarial_reviewer", previous_status: "drafted", new_status: d });
     });
+    checkPending();
 
     // 9. Auditoria final (código + agente), com um ciclo de correção
     go("editorial_review");
@@ -333,7 +347,7 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
           prompt: [asData("registros_de_evidencia", it.evidence.map((e) => ({ url: e.source_url, fonte: e.source_name, data: e.published_at, trecho: e.evidence_excerpt, sustenta: e.supports_or_contradicts }))),
             asData("afirmacoes_verificadas", it.fc!.central_claims), asData("ressalvas_obrigatorias", [...it.fc!.limitations, ...it.caveats]),
             asData("texto_final", it.draft)].join("\n\n"),
-        }, it.event_key!);
+        }, attempt === 0 ? it.event_key! : `${it.event_key!}#rev${attempt}`);
         if (!aud?.ok) { it.incomplete = "Auditoria final indisponível"; return; }
         it.audit = aud.output;
         const fails = [...codeIssues.blocking, ...(aud.output.result === "fail" ? aud.output.required_corrections.length ? aud.output.required_corrections : [aud.output.justification] : [])];
@@ -348,6 +362,7 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
         veto(it, code, `Auditoria final reprovou após correção: ${fails.join("; ")}`, "final_auditor");
       }
     });
+    checkPending();
     sm.passGate("final_audit");
 
     // 10. Montagem do relatório
@@ -397,6 +412,7 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
       const r = await call({ agent: "summary", model: config.models.editorial, schema: SummaryOutput, effort: "low", prompt: asData("noticias_aprovadas", compact) }, "resumo");
       if (r?.ok) summary = r.output;
     }
+    checkPending();
     if (!summary.executive_summary) {
       summary.executive_summary = news.length
         ? news.map((n) => n.editorial.summary).join(" ")
@@ -436,6 +452,9 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
     sm.finish();
     await store.writeJson(`${runDir}/run.json`, runSummary());
   } catch (e) {
+    if (e instanceof AwaitingInputError) {
+      return { run_id, state: "awaiting_input", pending: llm.pendingCount?.() ?? 0, report: null, warnings: [e.message], metrics: {} };
+    }
     sm.warn(`Falha: ${(e as Error).message}`);
     if (sm.state !== "failed" && !["completed", "completed_with_warnings"].includes(sm.state)) sm.transition("failed");
     report = null;
@@ -456,7 +475,7 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
     return s;
   }
 
-  function applyFactCheck(it: Item, fc: FactCheckOutput, fetched: Map<string, unknown>, fetchFailures: number) {
+  function applyFactCheck(it: Item, fc: FactCheckOutput, fetched: Map<string, { published_meta?: string | null }>, fetchFailures: number) {
     it.fc = fc;
     it.event_key = slug(fc.canonical_event_key) || `evt-${it.candidate.candidate_id.slice(0, 8)}`;
     const c = it.candidate;
@@ -500,6 +519,12 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
     }, window, config.future_date_tolerance_minutes);
     it.temporal = t;
     if (t.veto) veto(it, t.veto, `${t.reason}. Base: ${fc.date_basis}`, "temporal_filter");
+    // Data dos metadados da própria página (lida por código) contradiz a data confirmada pelo agente?
+    const meta = main ? fetched.get(main)?.published_meta : null;
+    if (meta && t.category === "new_publication") {
+      const m = classifyTemporal({ published_at_confirmed: meta }, window, config.future_date_tolerance_minutes);
+      if (!m.eligible) veto(it, "V002_DATE_UNVERIFIED", `Metadados da página indicam publicação em ${meta}, fora da janela, contrariando a data confirmada (${fc.published_at_confirmed})`, "temporal_filter");
+    }
 
     switch (fc.status) {
       case "false_or_misleading": veto(it, "V006_FALSE_OR_MISLEADING", fc.reasoning_summary, "fact_checker"); break;
@@ -553,7 +578,8 @@ export async function refresh(request: RunRequest, deps: RefreshDeps): Promise<R
       prompt: [asData("dossie", dossierOf(it)), asData("analise_critica", it.risk), asData("analise_oportunidades", it.opp),
         asData("estrategia", it.strategy), asData("aderencia_clinup", it.fit), asData("ressalvas_obrigatorias", [...it.fc!.limitations, ...it.caveats]),
         corrections.length ? asData("correcoes_exigidas", corrections) : ""].join("\n\n"),
-    }, it.event_key!);
+    }, it.editorRevs === 0 ? it.event_key! : `${it.event_key!}#rev${it.editorRevs}`);
+    it.editorRevs++;
     if (!r?.ok) { it.incomplete = "Redação indisponível"; return null; }
     return r.output;
   }

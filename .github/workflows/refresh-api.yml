@@ -1,0 +1,59 @@
+name: REFRESH via API paga (opcional, manual)
+
+# Alternativa paga: roda tudo pela API do Claude, sem a tarefa agendada.
+# Só funciona com o secret ANTHROPIC_API_KEY. O modo padrão (custo zero) é a tarefa agendada + "Conferir fontes e publicar".
+on:
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "Comando (ex.: REFRESH, REFRESH REGULATÓRIO)"
+        required: false
+        default: "REFRESH"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: weekly-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Testes determinísticos (bloqueiam a execução se falharem)
+        run: npm run typecheck && npm test
+      - name: REFRESH
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          COMMAND: ${{ github.event.inputs.command || 'REFRESH' }}
+        run: npx tsx src/cli/index.ts $COMMAND
+      - name: Guardar histórico, auditoria e edição publicada
+        if: always()
+        run: |
+          git config user.name "clinup-engine[bot]"
+          git config user.email "clinup-engine@users.noreply.github.com"
+          git add data public
+          git diff --cached --quiet || git commit -m "REFRESH $(date -u +%Y-%m-%d): histórico, auditoria e publicação"
+          git push
+      - uses: actions/configure-pages@v5
+        if: always()
+      - uses: actions/upload-pages-artifact@v4
+        if: always()
+        with:
+          path: public
+      - id: deploy
+        if: always()
+        uses: actions/deploy-pages@v4

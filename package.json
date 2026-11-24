@@ -8,6 +8,8 @@
   },
   "scripts": {
     "refresh": "tsx src/cli/index.ts REFRESH",
+    "coletar": "tsx src/cli/index.ts COLETAR",
+    "ingerir": "tsx src/cli/index.ts INGERIR",
     "status": "tsx src/cli/index.ts STATUS",
     "auditar": "tsx src/cli/index.ts AUDITAR",
     "test": "vitest run",

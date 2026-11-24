@@ -60,3 +60,11 @@ export function historyStatusFor(h: HistoryLoad, key: string, isMaterialDevelopm
   if (!known) return "NEW";
   return isMaterialDevelopment ? "MATERIAL_UPDATE" : "ALREADY_REPORTED";
 }
+
+/** Lê de um diretório e grava em outro: usado no modo sessão, para não tocar o histórico real. */
+export class OverlayStore extends FileStore {
+  constructor(private readonly readRoot: string, writeRoot: string) { super(writeRoot); }
+  override async readJson<T>(rel: string): Promise<T | null> {
+    return new FileStore(this.readRoot).readJson<T>(rel);
+  }
+}

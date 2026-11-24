@@ -9,6 +9,8 @@ export type Effort = "low" | "medium" | "high";
 
 export interface AgentRequest<T> {
   agent: AgentId;
+  /** Identificador estável do assunto (grupo, URL canônica ou event_key). Usado para replay e auditoria. */
+  subject: string;
   model: string;
   system: string;
   prompt: string;
@@ -20,7 +22,7 @@ export interface AgentRequest<T> {
 /** O que a ferramenta realmente fez: base para "busca encontrada não significa página lida". */
 export interface ToolTrace {
   /** URLs abertas com sucesso pelo web_fetch nesta chamada, normalizadas. */
-  fetched: Map<string, { retrieved_at: string | null; title: string | null }>;
+  fetched: Map<string, { retrieved_at: string | null; title: string | null; published_meta?: string | null }>;
   fetch_failures: { url: string | null; error: string }[];
   search_queries: string[];
   search_results: { url: string; title: string; page_age: string | null }[];
@@ -46,7 +48,12 @@ export interface LlmPort {
   /** Custo acumulado nesta execução. */
   spentUsd(): number;
   capabilities(): string[];
+  /** Modo sessão: tarefas que ainda aguardam resposta de um agente. */
+  pendingCount?(): number;
 }
+
+/** A execução parou porque há tarefas de agente aguardando resposta (modo sessão). */
+export class AwaitingInputError extends Error {}
 
 export class BudgetExceededError extends Error {}
 

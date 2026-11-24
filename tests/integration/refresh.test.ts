@@ -8,7 +8,11 @@ import { loadConfig } from "../../src/config/config.js";
 import { canonicalizeUrl } from "../../src/deduplication/url.js";
 import { type AgentRequest, type AgentResult, emptyTrace, emptyUsage, type LlmPort } from "../../src/llm/port.js";
 import { enforceFit, refresh, type CoverageGroup } from "../../src/orchestration/refresh.js";
-import { FileStore } from "../../src/persistence/store.js";
+import { FileStore, OverlayStore } from "../../src/persistence/store.js";
+import { ReplayLlm } from "../../src/llm/replay.js";
+import { mkdirSync, writeFileSync } from "node:fs";
+import { dirname } from "node:path";
+import type { PageCheck } from "../../src/verification/fetch-check.js";
 import { publish } from "../../src/reporting/publish.js";
 import { RunRequest } from "../../src/schemas/contracts.js";
 
@@ -218,5 +222,70 @@ describe("aderência CLIN-UP (AT-021, AT-022)", () => {
   });
   it("aderência real mantém CTA", () => {
     expect(enforceFit({ ...base, service_id: "diagnostico-financeiro" }, catalog, true).cta).toBe("Fale com o CLIN-UP");
+  });
+});
+
+describe("modo sessão (custo zero): coletar em etapas, conferir fontes no Actions", () => {
+  const script: Script = {
+    research: [cand("a"), cand("x")],
+    fc: {
+      a: { out: goodFc("a"), fetched: [] },
+      x: { out: goodFc("x"), fetched: [] }, // a página de x não contém o trecho citado
+    },
+  };
+  const pageOk = (url: string): PageCheck => ({ url, ok: true, status: 200, error: null, fetched_at: "t", title: null, content_type: "text/html",
+    excerpt_found: !url.includes("/x"), excerpt_match_ratio: 1, published_meta: url.includes("/a") ? "2026-11-26T10:00:00-03:00" : null });
+
+  it("avança etapa por etapa, depois só publica o que o código confirmou abrindo as páginas", async () => {
+    const dir = await mkdtemp(join(tmpdir(), "clinup-sess-"));
+    const inbox = join(dir, "inbox");
+    const answer = new FakeLlm(script);
+    const base = { config, prompts, coverage, catalog: { approved: false, services: [] }, now: () => T0, run_id: "11111111-2222-3333-4444-555555555555" };
+    let rounds = 0;
+    for (;;) {
+      const llm = new ReplayLlm(inbox, "collect");
+      const out = await refresh(RunRequest.parse({ command: "REFRESH" }), { ...base, llm, store: new OverlayStore(join(dir, "data"), join(inbox, "prov")) });
+      if (out.state !== "awaiting_input") { expect(out.report!.news).toHaveLength(2); llm.writeHashes(); break; }
+      // a "sessão agendada" responde cada tarefa
+      for (const t of llm.pending) {
+        const res = await answer.run({ agent: t.agent as never, subject: t.subject, model: "x", system: "", prompt: t.prompt + " " + t.subject, schema: { parse: (v: unknown) => v } as never, effort: "low" });
+        const f = join(inbox, t.output_file);
+        mkdirSync(dirname(f), { recursive: true });
+        writeFileSync(f, JSON.stringify((res as { output: unknown }).output));
+      }
+      expect(++rounds).toBeLessThan(15);
+    }
+    expect(rounds).toBeGreaterThanOrEqual(5);
+    // nada do histórico real foi tocado no modo coleta
+    expect(await new FileStore(join(dir, "data")).list("history")).toEqual([]);
+
+    const verify = new ReplayLlm(inbox, "verify", async (u) => pageOk(u));
+    const final = await refresh(RunRequest.parse({ command: "REFRESH" }), { ...base, llm: verify, store: new FileStore(join(dir, "data")) });
+    // A notícia x caiu na checagem; o resumo escrito com x na lista é descartado e trocado pelo resumo determinístico.
+    expect(final.state).toBe("completed_with_warnings");
+    expect(final.report!.executive_summary).not.toMatch(/Resumo da semana/);
+    expect(final.report!.news.map((n) => n.event_id)).toEqual(["evento-a"]);
+    expect(final.report!.exclusions.by_veto["V004_SOURCE_INACCESSIBLE"]).toBe(1);
+    expect(await new FileStore(join(dir, "data")).list("history")).toEqual(["events.json"]);
+  });
+
+  it("data dos metadados da página fora da janela veta a notícia (V002)", async () => {
+    const dir = await mkdtemp(join(tmpdir(), "clinup-sess2-"));
+    const inbox = join(dir, "inbox");
+    const answer = new FakeLlm({ research: [cand("a")], fc: { a: { out: goodFc("a"), fetched: [] } } });
+    const base = { config, prompts, coverage, catalog: { approved: false, services: [] }, now: () => T0, run_id: "11111111-2222-3333-4444-555555555556" };
+    for (let i = 0; i < 15; i++) {
+      const llm = new ReplayLlm(inbox, "collect");
+      const out = await refresh(RunRequest.parse({ command: "REFRESH" }), { ...base, llm, store: new OverlayStore(join(dir, "data"), join(inbox, "prov")) });
+      if (out.state !== "awaiting_input") { llm.writeHashes(); break; }
+      for (const t of llm.pending) {
+        const res = await answer.run({ agent: t.agent as never, subject: t.subject, model: "x", system: "", prompt: t.prompt + " " + t.subject, schema: { parse: (v: unknown) => v } as never, effort: "low" });
+        const f = join(inbox, t.output_file); mkdirSync(dirname(f), { recursive: true }); writeFileSync(f, JSON.stringify((res as { output: unknown }).output));
+      }
+    }
+    const verify = new ReplayLlm(inbox, "verify", async (u) => ({ ...pageOk(u), excerpt_found: true, published_meta: u.endsWith("/a") ? "2026-10-02" : null }));
+    const final = await refresh(RunRequest.parse({ command: "REFRESH" }), { ...base, llm: verify, store: new FileStore(join(dir, "data")) });
+    expect(final.report!.news).toHaveLength(0);
+    expect(final.report!.exclusions.by_veto["V002_DATE_UNVERIFIED"]).toBe(1);
   });
 });

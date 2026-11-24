@@ -35,40 +35,44 @@ Se uma execução falhar, `latest.json` continua com a última edição válida 
 
 O formato do JSON é o contrato `PublishedReport` em [`src/schemas/contracts.ts`](src/schemas/contracts.ts).
 
-## Como roda
+## Como roda (custo zero)
 
-1. **Toda segunda-feira às 06:00 (São Paulo)** o GitHub Actions executa `REFRESH` ([`.github/workflows/weekly-refresh.yml`](.github/workflows/weekly-refresh.yml)). Também dá para rodar na hora em *Actions → Pauta semanal → Run workflow*.
-2. Antes de pesquisar, os testes determinísticos rodam. Se algum falhar, nada é publicado.
-3. O orquestrador ([`src/orchestration/refresh.ts`](src/orchestration/refresh.ts)) fixa T0, calcula a janela de 7 dias e chama cada agente numa chamada separada da API do Claude, com contexto isolado:
-   pesquisador (busca e abre páginas) → verificador independente → analista crítico e analista de oportunidades (em paralelo, sem um ver o outro) → estrategista → aderência CLIN-UP → redator → advogado do diabo → auditor final → inteligência competitiva, sinais fracos e resumo.
-4. Datas, vetos, deduplicação, pontuação e checagem de números e fontes são **código**, não prompt.
-5. Histórico, decisões, vetos e evidências ficam em `data/` (versionado no Git). O relatório vai para `public/` e é publicado no GitHub Pages.
+Não usa a API paga do Claude. O trabalho é dividido entre duas peças gratuitas:
+
+1. **Tarefa agendada do Claude, toda segunda-feira às 05:40 (São Paulo).** Usa o plano do Claude que você já tem. A sessão segue [`docs/RUNBOOK-sessao.md`](docs/RUNBOOK-sessao.md): roda `npm run coletar`, o código diz quais agentes precisam responder, a sessão responde cada tarefa num subagente separado (pesquisador, verificador independente, riscos, oportunidades, estrategista, aderência CLIN-UP, redator, advogado do diabo, auditor final, competitivo, sinais fracos, resumo) e repete até o código dizer que está pronto. Depois faz commit da coleta.
+2. **GitHub Actions ([`ingest.yml`](.github/workflows/ingest.yml)), grátis em repositório público.** O commit da coleta dispara o workflow, que roda os testes, **abre por conta própria cada página citada** e confere se o trecho citado está lá e se a data dos metadados bate com a janela. Só depois aplica os portões, publica no GitHub Pages e grava o histórico em `data/`.
+
+O orquestrador ([`src/orchestration/refresh.ts`](src/orchestration/refresh.ts)) é o mesmo nos dois passos: no primeiro ele lê as respostas da sessão sem publicar nada; no segundo ele as relê, refaz todos os portões com as fontes conferidas e descarta qualquer resposta cuja entrada mudou depois da checagem.
+
+Há também um modo opcional pago ([`refresh-api.yml`](.github/workflows/refresh-api.yml)), que faz tudo pela API do Claude. Ele só é usado se alguém disparar manualmente e cadastrar o secret `ANTHROPIC_API_KEY`.
 
 ## Regras implementadas em código
 
 - Janela de 168 h (`config/defaults.yaml`), fronteira inclusiva, com fuso `America/Sao_Paulo`. Datas sem fuso ou em formato ambíguo são tratadas como não verificáveis.
-- Uma página só conta como evidência se o `web_fetch` a abriu **naquela verificação**. Resultado de busca não é leitura.
+- Uma página só conta como evidência se o código a abriu no GitHub Actions e encontrou nela o trecho citado (no modo API: se o `web_fetch` a abriu naquela verificação). Resultado de busca não é leitura.
+- Se a data nos metadados da página cair fora da janela, a notícia é vetada mesmo que o agente diga o contrário.
 - Vetos V001 a V015 da especificação, persistidos com código e justificativa em `data/runs/<data>_<id>/`.
 - Republicações da mesma origem contam como uma confirmação.
 - Notícia regulatória exige documento oficial aberto.
 - Número no texto final que não aparece nas evidências bloqueia a publicação até correção.
 - Linguagem sensacionalista e ressalvas removidas bloqueiam até correção.
 - CTA do CLIN-UP só com serviço do catálogo aprovado em `config/clinup-services.yaml`.
-- Teto de custo por execução (`limits.max_cost_usd_per_run`). Ao atingir, o que não foi concluído não é publicado e a execução termina `completed_with_warnings`.
+- No modo API (opcional), teto de custo por execução (`limits.max_cost_usd_per_run`).
 - Nada é enviado a redes sociais ou e-mail.
 
 ## Configuração inicial (uma vez)
 
-1. Em *Settings → Secrets and variables → Actions*, crie o secret `ANTHROPIC_API_KEY` com uma chave de [console.anthropic.com](https://console.anthropic.com).
-2. Em *Settings → Pages*, em *Source*, escolha **GitHub Actions**.
-3. Preencha `config/clinup-services.yaml` com os serviços reais e mude `approved` para `true` quando quiser CTAs.
+1. Em *Settings → Pages*, em *Source*, escolha **GitHub Actions**.
+2. Preencha `config/clinup-services.yaml` com os serviços reais e mude `approved` para `true` quando quiser CTAs.
 
 ## Comandos locais
 
 ```bash
 npm ci
 npm test                       # testes determinísticos e de ponta a ponta com agentes simulados
-ANTHROPIC_API_KEY=... npm run refresh
+npm run coletar               # modo sessão: gera tarefas / avança etapas
+npm run ingerir               # confere fontes, aplica portões e publica (o Actions roda isto)
+ANTHROPIC_API_KEY=... npm run refresh   # modo API opcional (pago)
 npx tsx src/cli/index.ts REFRESH REGULATÓRIO   # também: FINANCEIRO, COMERCIAL, IA, INTERNACIONAL, DENTISTAS, PSICOLOGIA
 npm run status                 # última execução
 npm run auditar -- <run_id>    # decisões e vetos de uma execução
@@ -83,5 +87,7 @@ npm run auditar -- <run_id>    # decisões e vetos de uma execução
 ## Limitações conhecidas
 
 - Cobertura depende do que a busca web encontra; não é cobertura total da internet.
+- O modo custo zero consome o limite de uso do seu plano do Claude na manhã de segunda. Se o limite estiver esgotado, a coleta não termina e a edição anterior continua no ar.
+- Sites que bloqueiam acesso automatizado a partir do GitHub Actions não podem ser conferidos e suas notícias são vetadas por fonte inacessível.
 - Páginas com paywall ou bloqueio de robôs podem não abrir, e então a notícia é vetada por falta de fonte acessível.
 - Os testes de ponta a ponta usam agentes simulados; a qualidade da pesquisa real precisa ser auditada nas primeiras edições.
