@@ -1,0 +1,10 @@
+# Catálogo de serviços do CLIN-UP aprovado para uso pelo agente de aderência (seção 4.7).
+# Enquanto "approved" for false ou a lista estiver vazia, nenhuma notícia recebe CTA comercial.
+approved: false
+services: []
+# Exemplo de formato (preencher com os serviços reais):
+# services:
+#   - id: diagnostico-financeiro
+#     name: Diagnóstico financeiro da clínica
+#     solves: [precificação, margem, fluxo de caixa]
+#     limits: Não substitui contador ou parecer tributário.

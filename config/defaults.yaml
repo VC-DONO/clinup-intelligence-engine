@@ -1,0 +1,31 @@
+# Configuração padrão do CLIN-UP Intelligence Engine.
+# Validada por esquema em src/config/config.ts.
+config_version: "1.0.0"
+timezone: America/Sao_Paulo
+# Execução semanal: janela de 7 dias (168 h). A especificação original usava 72 h.
+freshness_window_hours: 168
+max_main_news: 10
+min_main_news: 0
+min_score_main_report: 50
+languages: [pt-BR, en]
+regions: [Brazil, United States, European Union, United Kingdom, Latin America, Global]
+require_primary_source_for_regulatory: true
+require_editorial_review: true
+enable_competitive_intelligence: true
+enable_weak_signals: true
+# Publica somente no endpoint do site (JSON/HTML estático). Nunca em redes sociais ou e-mail.
+publish_to_site_endpoint: true
+publish_to_social_or_email: false
+# Tolerância para relógios de servidores de notícia adiantados (data "no futuro").
+future_date_tolerance_minutes: 10
+limits:
+  max_cost_usd_per_run: 8
+  max_search_queries_per_run: 60
+models:
+  # Um modelo por papel. Todos começam no Opus 5.5; troque aqui se quiser reduzir custo.
+  research: claude-opus-5-5
+  verification: claude-opus-5-5
+  analysis: claude-opus-5-5
+  editorial: claude-opus-5-5
+max_candidates_to_verify: 24
+concurrency: 4

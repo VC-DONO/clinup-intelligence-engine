@@ -1,0 +1,43 @@
+# Matriz de cobertura (seção 9). Cada grupo vira uma rodada de pesquisa independente.
+groups:
+  - id: financas_estrategia
+    label: Estratégia, finanças, tributos e economia
+    filter_keywords: [FINANCEIRO]
+    themes: [1, 2, 8]
+    focus: >
+      Rentabilidade e sobrevivência de clínicas; custos, precificação, margem, fluxo de caixa;
+      reforma tributária (IBS/CBS) e regras da Receita Federal que afetam serviços de saúde;
+      juros, crédito, inflação de insumos; comportamento de consumo de saúde privada; planos de saúde e glosas.
+    sources_hint: [Receita Federal, Ministério da Fazenda, ANS, IBGE, Valor Econômico, Folha, Estadão, Medicina S/A, Saúde Business]
+  - id: comercial_operacoes_pessoas
+    label: Comercial, marketing, operações e pessoas
+    filter_keywords: [COMERCIAL]
+    themes: [3, 4, 5]
+    focus: >
+      Aquisição e retenção de pacientes, marketing e publicidade em saúde, agendamento, no-show,
+      experiência do paciente, produtividade, processos, contratação, CLT/pejotização, liderança, piso salarial.
+    sources_hint: [Medicina S/A, Saúde Business, Exame, MIT Sloan Review Brasil, TST, Ministério do Trabalho]
+  - id: regulacao
+    label: Regulamentação, ética, LGPD e obrigações
+    filter_keywords: [REGULATÓRIO, REGULATORIO, DENTISTAS, PSICOLOGIA]
+    themes: [6]
+    focus: >
+      Resoluções e consultas públicas de CFM, CFO, CFP, CFN, ANS, ANVISA, ANPD, Ministério da Saúde;
+      publicidade médica e odontológica; telessaúde; prontuário eletrônico; LGPD em saúde; obrigações de vigilância sanitária.
+    sources_hint: [Diário Oficial da União, portal.cfm.org.br, website.cfo.org.br, site.cfp.org.br, cfn.org.br, gov.br/ans, gov.br/anvisa, gov.br/anpd]
+  - id: tecnologia_ia
+    label: Tecnologia, IA, automação e cibersegurança
+    filter_keywords: [IA]
+    themes: [7]
+    focus: >
+      IA aplicada a clínicas e consultórios (atendimento, agenda, prontuário, transcrição), regras de uso de IA em saúde,
+      incidentes de segurança e vazamentos em saúde, softwares de gestão de clínicas, automação e telessaúde.
+    sources_hint: [ANPD, CFM, Futuro da Saúde, Saúde Business, STAT News, Fierce Healthcare, Healthcare IT News]
+  - id: internacional_competitivo
+    label: Internacional, competitivo, sinais fracos e evidência clínica com impacto de negócio
+    filter_keywords: [INTERNACIONAL]
+    themes: [9, 10, 11]
+    focus: >
+      Aquisições, fusões e parcerias de redes de clínicas e healthtechs; novos modelos de negócio (assinatura, cartão de desconto, clínica popular);
+      tendências internacionais (EUA, UE, Reino Unido, América Latina) com possível reflexo no Brasil; estudos clínicos que mudam demanda ou operação.
+    sources_hint: [Fierce Healthcare, Modern Healthcare, STAT News, NHS England, CMS.gov, Valor Econômico, Pipeline]
