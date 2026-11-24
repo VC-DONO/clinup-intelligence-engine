@@ -1,9 +1,12 @@
-name: Publicar site (manual ou após mudança em public/)
+name: Publicar site
 
 on:
   push:
     branches: [main]
     paths: ["public/**"]
+  workflow_run:
+    workflows: ["Conferir fontes e publicar"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -23,6 +26,8 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: main
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

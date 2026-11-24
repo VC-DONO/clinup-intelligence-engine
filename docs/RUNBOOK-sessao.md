@@ -22,7 +22,8 @@ código abre cada página citada e confere o trecho.
    - **Use um subagente separado para cada tarefa** (ferramenta Agent), com contexto limpo, passando o conteúdo dos arquivos de papel, o `prompt` e o `output_json_schema`. Isso garante que o verificador não veja o raciocínio do pesquisador e que o analista de riscos não veja o de oportunidades. Rode até 4 subagentes em paralelo.
    - Tarefas com `needs_web: true` exigem pesquisa real com WebSearch e WebFetch. O verificador (`fact_checker`) deve abrir as páginas e copiar trechos LITERAIS: o GitHub Actions vai abrir cada URL e descartar evidência cujo trecho não esteja na página.
    - Grave a resposta em `data/inbox/current/<output_file>` (crie as pastas).
+   - A leitura de páginas (WebFetch) tem cota por hora. Na pesquisa, abra só o necessário para confirmar data e conteúdo e guarde a cota para os verificadores. Não troque a leitura real por resumos de terceiros: trecho que não estiver literalmente na página será descartado.
 5. Volte ao passo 3. Repita até o status ser `pronto_para_publicar` (costuma levar de 6 a 10 rodadas). Se o mesmo conjunto de tarefas voltar 3 vezes seguidas, pare e relate o erro.
-6. `git add data/inbox/current && git commit -m "Coleta semanal $(date +%Y-%m-%d)" && git push origin main`
-   O push dispara o workflow **Conferir fontes e publicar**, que abre as páginas, aplica os portões e publica.
+6. `git add data/inbox/current && git commit -m "Coleta semanal $(date +%Y-%m-%d)" && git push origin HEAD`
+   Envie para o branch de trabalho da própria sessão (`claude/...`); não é preciso enviar para a main. O push dispara o workflow **Conferir fontes e publicar**, que usa só a pasta `data/inbox/current` desse branch, roda tudo com o código da main, abre as páginas, aplica os portões e publica. O dono do projeto escolheu (24/11/2026) que a edição semanal seja publicada automaticamente por esse workflow.
 7. Termine com um resumo curto: quantas tarefas respondeu, quantas notícias provisórias e qualquer problema.

@@ -1,16 +1,21 @@
 name: Conferir fontes e publicar
 
-# Disparado quando a tarefa semanal do Claude envia a coleta (data/inbox/current/READY.json).
+# Disparado quando a tarefa semanal do Claude envia a coleta (data/inbox/current/READY.json),
+# na main ou no branch de trabalho da sessão (claude/...). Do branch só é aproveitada a pasta
+# data/inbox/current: todo o código, configuração e testes vêm da main.
 on:
   push:
-    branches: [main]
+    branches: [main, "claude/**"]
     paths: ["data/inbox/current/READY.json"]
   workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch com a coleta (data/inbox/current)"
+        required: false
+        default: "main"
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: ingest
@@ -20,11 +25,21 @@ jobs:
   ingest:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      SOURCE_BRANCH: ${{ github.event.inputs.branch || github.ref_name }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Trazer só a coleta do branch de origem
+        run: |
+          if [ "$SOURCE_BRANCH" != "main" ]; then
+            git fetch origin "$SOURCE_BRANCH"
+            rm -rf data/inbox/current
+            git checkout "origin/$SOURCE_BRANCH" -- data/inbox/current
+          fi
+          test -f data/inbox/current/READY.json
       - uses: actions/setup-node@v5
         with:
           node-version: 22
@@ -34,20 +49,11 @@ jobs:
         run: npm run typecheck && npm test
       - name: Conferir cada fonte abrindo a página, aplicar portões e montar a edição
         run: npx tsx src/cli/index.ts INGERIR
-      - name: Guardar histórico, auditoria e edição publicada
+      - name: Guardar histórico, auditoria e edição na main
         if: always()
         run: |
           git config user.name "clinup-engine[bot]"
           git config user.email "clinup-engine@users.noreply.github.com"
           git add -A data public
-          git diff --cached --quiet || git commit -m "Edição $(date -u +%Y-%m-%d): fontes conferidas e publicação"
-          git push
-      - uses: actions/configure-pages@v5
-        if: always()
-      - uses: actions/upload-pages-artifact@v4
-        if: always()
-        with:
-          path: public
-      - id: deploy
-        if: always()
-        uses: actions/deploy-pages@v4
+          git diff --cached --quiet || git commit -m "Edição $(date -u +%Y-%m-%d): fontes conferidas e publicação (coleta de $SOURCE_BRANCH)"
+          git push origin HEAD:main
