@@ -1,0 +1,33 @@
+{
+  "no_material_opportunity": false,
+  "opportunities": [
+    {
+      "opportunity": "Reduzir o tempo de primeira resposta a pedidos de agendamento para menos de 24 horas, com potencial de aumentar a taxa de confirmação.",
+      "evidence": "Fato (levantamento do BoaConsulta, via Medicina S/A, 19/11/2026; 21,9 mil pedidos em 2026): clínicas que levam mais de 24h para responder confirmam 22% das solicitações, contra 56% a 59% das que respondem rápido; acima de 24h, 57% dos pedidos expiram sem confirmação e 8% dos pacientes cancelam antes do retorno. Interpretação: é associação observada nos dados da plataforma, não prova de causa.",
+      "beneficiaries": [
+        "Clínicas e consultórios que recebem pedidos de agendamento por plataforma online, WhatsApp ou telefone",
+        "Clínicas com secretaria reduzida ou sem rotina definida de retorno"
+      ],
+      "capture_conditions": "Depende de a clínica medir o próprio tempo de resposta e ter equipe ou ferramenta para responder no prazo. Os percentuais são de uma única plataforma com interesse comercial no tema, com metodologia não verificada; o ganho na clínica pode ser diferente.",
+      "first_step": "Medir por duas a quatro semanas o tempo entre a chegada de cada pedido e a primeira resposta, e definir uma meta interna de retorno abaixo de 24 horas.",
+      "metric": "Tempo médio de primeira resposta; percentual de pedidos respondidos em até 24h; taxa de confirmação de pedidos antes e depois da mudança.",
+      "horizon": "Curto prazo (1 a 3 meses)."
+    },
+    {
+      "opportunity": "Atender pedidos feitos fora do horário comercial e priorizar o WhatsApp como canal de agendamento.",
+      "evidence": "Fato (mesmo levantamento): 32% dos agendamentos online ocorrem fora do horário comercial (46% pelo aplicativo) e cerca de 8% entre 22h e 6h; onde a origem é registrada, o WhatsApp gera 2,1 vezes mais solicitações que o telefone.",
+      "beneficiaries": [
+        "Clínicas e consultórios que hoje só agendam por telefone ou em horário comercial"
+      ],
+      "capture_conditions": "Exige agendamento online, resposta automática ou rotina de retorno no início do expediente seguinte, além de cuidado com dados de pacientes nesses canais. O volume fora do horário em cada clínica pode diferir da média da plataforma.",
+      "first_step": "Registrar por algumas semanas a origem (WhatsApp, telefone, online) e o horário de cada pedido de agendamento para verificar se o padrão se repete na clínica.",
+      "metric": "Percentual de pedidos recebidos fora do horário comercial; percentual de pedidos por canal; taxa de confirmação dos pedidos noturnos e de fim de semana.",
+      "horizon": "Curto prazo (1 a 3 meses)."
+    }
+  ],
+  "cannot_conclude": [
+    "Não foi localizada a fonte primária do BoaConsulta nem cobertura independente; metodologia e amostra não são verificáveis.",
+    "Não é possível concluir que responder mais rápido causa a maior conversão; clínicas que respondem rápido podem diferir em outros fatores.",
+    "Os dados não permitem estimar ganho de faturamento para uma clínica específica."
+  ]
+}

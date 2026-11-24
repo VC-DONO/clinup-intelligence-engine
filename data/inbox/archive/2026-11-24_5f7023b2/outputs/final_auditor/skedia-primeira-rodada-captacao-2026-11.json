@@ -1,0 +1,13 @@
+{
+  "result": "pass_with_warnings",
+  "unsupported_claims": [
+    "A caracterização da Skedia como 'sistema financeiro para clínicas' / 'de gestão financeira para clínicas' (headline, what_happened e summary) não tem trecho nos registros de evidência nem afirmação verificada correspondente."
+  ],
+  "mismatched_dates_or_numbers": [],
+  "omitted_caveats": [],
+  "sensational_language": [],
+  "required_corrections": [
+    "Sustentar com trecho da fonte a descrição da Skedia como sistema financeiro/gestão financeira para clínicas, ou substituí-la por descrição neutra (por exemplo, 'healthtech Skedia')."
+  ],
+  "justification": "Os números do texto (R$ 130 milhões em volume bruto, cerca de 20 unidades, cerca de 1.000 profissionais, mais de R$ 70 mil em risco de glosa em amostra de três meses) e a data da reportagem (19/11/2026) conferem com as evidências e as afirmações verificadas. O texto deixa claro que os R$ 130 milhões não são o valor da rodada, que valor e investidores não foram informados e que as métricas são declaradas pela empresa. Todas as ressalvas obrigatórias, inclusive as de confirmação parcial e a divergência com os R$ 63 milhões citados pela Startupi, foram incluídas. O ponto sem evidência é a descrição do tipo de produto da empresa. É periférico em relação ao fato noticiado (abertura da rodada) e não muda a decisão do leitor, mas deve ser corrigido."
+}

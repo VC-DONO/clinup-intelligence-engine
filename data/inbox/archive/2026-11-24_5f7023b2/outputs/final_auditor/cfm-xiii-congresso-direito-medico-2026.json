@@ -1,0 +1,15 @@
+{
+  "result": "pass_with_warnings",
+  "unsupported_claims": [
+    "O nome e a edição do congresso (XIII Congresso Brasileiro de Direito Médico), o tema, o local (sede do CFM, em Brasília) e os nomes de Francisco Cardoso e Diogo Sampaio não aparecem nos trechos transcritos. Os trechos citam 'o conselheiro' sem nome. Esses dados foram marcados como sustentados pela mesma URL oficial."
+  ],
+  "mismatched_dates_or_numbers": [
+    "Os números 54% e 33% (2012 a 2023) conferem com o trecho. A data de encerramento (18/11/2026, quarta-feira) bate com a data de publicação do registro (2026-11-18), mas não aparece literalmente no trecho; não há divergência."
+  ],
+  "omitted_caveats": [],
+  "sensational_language": [],
+  "required_corrections": [
+    "Opcional: anexar aos registros de evidência o trecho com o nome do congresso, a data de encerramento e os nomes dos palestrantes, para que as atribuições nominais tenham trecho literal."
+  ],
+  "justification": "As três ressalvas obrigatórias estão no texto: fonte única institucional, origem não verificada dos números sobre vínculos e falas sobre IA como opinião, não norma. Os números e as falas sobre IA, vínculos, publicidade e judicialização de procedimentos estéticos são sustentados pelos trechos. O texto deixa claro que são falas de evento, sem obrigação nova, e as recomendações são prudentes e marcadas como tais. Não há linguagem sensacionalista. A ressalva menor é que nomes de palestrantes, título do congresso e local não estão nos trechos transcritos, embora tenham sido marcados como sustentados pela mesma fonte oficial."
+}

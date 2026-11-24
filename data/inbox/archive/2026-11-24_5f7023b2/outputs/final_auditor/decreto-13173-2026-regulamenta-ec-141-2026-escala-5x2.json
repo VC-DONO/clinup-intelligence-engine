@@ -1,0 +1,16 @@
+{
+  "result": "pass_with_warnings",
+  "unsupported_claims": [
+    "Em why_it_matters, 'cobrir o mesmo horário de funcionamento pode exigir horas extras, revezamento ou reforço de equipe, o que tende a elevar o custo de pessoal' é interpretação editorial sem trecho nas evidências e não está marcada como interpretação."
+  ],
+  "mismatched_dates_or_numbers": [
+    "O trecho do MTE diz apenas '16 de dezembro', sem ano. O headline, o summary e o why_it_matters usam 16/12/2026. O ano é coerente com o contexto (comunicado de 19/11/2026) e com a afirmação verificada, mas não está no trecho citado.",
+    "A etapa de 40h vem do O Povo apenas como 'dezembro de 2027', sem dia; o texto mantém corretamente essa forma."
+  ],
+  "omitted_caveats": [],
+  "sensational_language": [],
+  "required_corrections": [
+    "Marcar como interpretação editorial a avaliação de que a mudança tende a elevar o custo de pessoal."
+  ],
+  "justification": "As afirmações do texto conferem com os trechos: assinatura do Decreto nº 13.173/2026 em 19/11/2026 (Agência Gov e O Povo), 44h para 42h com dois dias de repouso (MTE), 40h em dezembro de 2027 (O Povo), divisores 210 e 200 (Agência Gov) e a estimativa de 14,8 milhões apresentada como estimativa do MTE. As atribuições estão corretas. O dado de 21,7 milhões e os efeitos sobre adicional noturno e repouso remunerado, sem trecho, foram retirados ou marcados como tais. As ressalvas materiais estão presentes: decreto não aberto, portaria não verificada, mesma origem governamental e questão no STF não verificada. Só a nota de processo sobre WebFetch/apify foi omitida, e ela não é material para o leitor. Os problemas restantes são menores."
+}

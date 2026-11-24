@@ -1,0 +1,14 @@
+{
+  "result": "pass_with_warnings",
+  "unsupported_claims": [
+    "O trecho citado para os 22% ('conseguem confirmar apenas 22% das solicitações recebidas') não contém o recorte 'mais de 24 horas' nem a atribuição ao BoaConsulta. Esses elementos, usados no headline e no summary, vêm só da afirmação verificada ligada à mesma matéria.",
+    "A frase 'na forma divulgada, o levantamento não define o que é responder rápido' é uma avaliação sobre o conteúdo da matéria sem trecho correspondente. Além disso, ficou deslocada no what_happened, pois o texto não menciona mais o grupo que responde rápido."
+  ],
+  "mismatched_dates_or_numbers": [],
+  "omitted_caveats": [],
+  "sensational_language": [],
+  "required_corrections": [
+    "Retirar do what_happened a frase sobre a falta de definição de 'responder rápido' (já coberta nas caveats) ou reescrevê-la de forma que faça sentido sem a comparação removida."
+  ],
+  "justification": "Os números do texto (22%, 57%, 32% e 2,1 vezes) conferem com os trechos da Medicina S/A. Os números sem trecho (21,9 mil, 56%–59%, 8%, 46%, 8% entre 22h e 6h) foram retirados, e as bases diferentes das métricas foram explicitadas. O texto informa que os dados são proprietários, de plataforma com interesse comercial, divulgados por veículo secundário sem relatório primário nem metodologia, e que a relação é associação, não causa. As ressalvas materiais obrigatórias estão presentes. A nota de processo sobre metadados de hora foi omitida, o que não é material. Os pontos restantes são menores: o recorte de 24h e a atribuição ao BoaConsulta não aparecem no fragmento citado, e uma frase ficou deslocada no what_happened."
+}

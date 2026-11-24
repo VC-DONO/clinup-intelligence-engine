@@ -1,0 +1,33 @@
+{
+  "no_material_risk": false,
+  "risks": [
+    {
+      "risk": "Aumento da carga de IRPJ e CSLL para clínicas no Lucro Presumido com receita bruta anual acima de R$ 5 milhões, caso o PLP 299/2026 seja aprovado pela Câmara e sancionado.",
+      "supporting_fact": "O Senado concluiu em 18/11/2026 a votação do PLP 299/2026, que eleva em 20% sobre 2025 os percentuais de presunção de IRPJ e CSLL apenas sobre a parcela da receita bruta anual acima de R$ 5 milhões; para serviços, a presunção passaria de 32% (2025) para 38,4% em 2027 sobre o excedente. O texto foi remetido à Câmara em 19/11/2026 e não é norma vigente.",
+      "mechanism": "Uma base presumida maior sobre o excedente de receita eleva o IRPJ e a CSLL devidos sem que a receita mude, reduzindo a margem líquida da clínica.",
+      "conditions": "Depende de aprovação na Câmara sem alteração relevante e de sanção; atinge só pessoas jurídicas no Lucro Presumido, só sobre a receita acima de R$ 5 milhões por ano, e só se a clínica se enquadrar na presunção de serviços de 32%. Clínicas com receita inferior a esse limite ou em outros regimes não são alcançadas por essa regra.",
+      "exposed_profiles": [
+        "clínicas e consultórios pessoa jurídica no Lucro Presumido com receita bruta anual acima de R$ 5 milhões",
+        "clínicas multiprofissionais e grupos de maior porte no Lucro Presumido"
+      ],
+      "severity": "medium",
+      "mitigation": "Acompanhar a tramitação na Câmara; pedir ao contador uma simulação do efeito sobre o excedente de receita da própria clínica e comparar regimes (Lucro Presumido x Lucro Real) antes do planejamento tributário de 2027."
+    },
+    {
+      "risk": "Decisões de planejamento tomadas com base em estimativas de carga efetiva não verificadas.",
+      "supporting_fact": "A estimativa de carga de IRPJ/CSLL em serviços passando de 11,97% (2026) para 13,06% a partir de 2027 é da ROIT, encomendada pelo portal, supõe aplicação ao ano inteiro e usa exemplo de empresa com receita de R$ 50 milhões; está apenas parcialmente confirmada.",
+      "mechanism": "Aplicar um percentual de carga calculado para uma empresa de R$ 50 milhões a uma clínica de porte diferente pode superestimar ou subestimar o impacto real, levando a mudanças de regime ou de preços desnecessárias.",
+      "conditions": "Ocorre se o gestor usar o número divulgado como referência direta, sem cálculo próprio.",
+      "exposed_profiles": [
+        "gestores e sócios de clínicas que fazem planejamento tributário com base em notícias"
+      ],
+      "severity": "low",
+      "mitigation": "Usar a estimativa só como indicação de direção; calcular o impacto com os números da clínica e com o texto final aprovado."
+    }
+  ],
+  "cannot_conclude": [
+    "Não é possível concluir se a Câmara aprovará o texto, nem com que redação ou data de vigência.",
+    "O texto integral aprovado (redação final) não foi aberto; os percentuais foram confirmados apenas por fontes secundárias.",
+    "Não foi possível concluir qual percentual de presunção se aplica a cada tipo de serviço de saúde (por exemplo, serviços hospitalares) com base nos fatos disponíveis."
+  ]
+}

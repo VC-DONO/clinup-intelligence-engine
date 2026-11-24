@@ -1,0 +1,25 @@
+{
+  "headline": "Abramge apresenta agenda de prioridades para o próximo governo: judicialização, incorporação de tecnologias e combate a fraudes",
+  "what_happened": "Segundo o Brasil 247, a Abramge definiu três prioridades para o diálogo com o próximo governo — enfrentar a judicialização, aprimorar critérios de incorporação de novas tecnologias e combater fraudes —, detalhadas pelo presidente da entidade, Gustavo Ribeiro, em entrevista ao Saúde Insider. A associação propõe fortalecer os NatJus e estimular a criação de varas judiciais especializadas em saúde, além de defender maior integração de informações entre operadoras, hospitais, laboratórios e serviços públicos para combater fraudes. A entidade também defende a revisão da Lei 9.656/1998 e a ampliação da cooperação com o SUS, com programas como o 'Agora Tem Especialistas'. Trata-se de agenda de pleitos de uma entidade setorial, não de medida regulatória ou decisão de governo.",
+  "why_it_matters": "Para clínicas e consultórios credenciados a planos de saúde, a hipótese a acompanhar é que uma agenda antifraude com mais integração de dados aumente checagens, exigências documentais e contestações de cobranças, caso as propostas virem norma, contrato ou prática das operadoras. Não há, por ora, mudança a fazer; manter a documentação clínica e de faturamento completa e rastreável é boa prática independente desta agenda. O número de ações judiciais contra operadoras citado nas matérias não foi conferido no CNJ e não deve ser usado como fato consolidado.",
+  "summary": "A Abramge apresentou pleitos ao próximo governo sobre judicialização, incorporação de tecnologias e combate a fraudes, sem efeito regulatório imediato para clínicas.",
+  "caveats": [
+    "A entrevista original ao Saúde Insider não foi localizada nem aberta; não há comunicado da Abramge acessado.",
+    "O dado do CNJ (439.060 ações pendentes, +14,3%) não foi conferido no painel/estatística do CNJ; Brasil 247 informa que o número foi 'citado pelo Saúde Insider'.",
+    "Plantão Brasil é republicação/reescrita do Brasil 247 (crédito 'Fonte: Brasil 247'); as duas páginas pertencem à mesma cadeia de origem e não são confirmações independentes.",
+    "Trata-se de agenda de pleitos de uma entidade setorial, não de medida regulatória ou decisão de governo.",
+    "Parcialmente confirmado: A Abramge definiu três prioridades para o diálogo com o próximo governo: enfrentar a judicialização, aprimorar critérios de incorporação de novas tecnologias e combater fraudes, conforme entrevista de Gustavo Ribeiro ao Saúde Insider.",
+    "Parcialmente confirmado: Segundo dados do CNJ, havia 439.060 ações pendentes contra operadoras em agosto de 2026, alta de 14,3% em um ano.",
+    "Parcialmente confirmado: A Abramge propõe fortalecer os NatJus e criar varas judiciais especializadas em saúde.",
+    "Parcialmente confirmado: A entidade defende combate a fraudes com maior integração de dados, revisão da Lei 9.656/1998 e ampliação da cooperação com o SUS (programa Agora Tem Especialistas).",
+    "Não é possível concluir o conteúdo da revisão da Lei 9.656/1998 defendida pela Abramge nem se o próximo governo adotará alguma das prioridades."
+  ],
+  "claim_sources": [
+    {"claim": "As propostas foram detalhadas pelo presidente da Abramge, Gustavo Ribeiro, em entrevista ao Saúde Insider.", "url": "https://www.brasil247.com/saude/planos-de-saude-apresentam-tres-prioridades-ao-proximo-governo-lula/"},
+    {"claim": "A associação propõe fortalecer os NatJus e estimular a criação de varas judiciais especializadas em saúde.", "url": "https://www.brasil247.com/saude/planos-de-saude-apresentam-tres-prioridades-ao-proximo-governo-lula/"},
+    {"claim": "A terceira prioridade é o enfrentamento das fraudes, com maior integração de informações entre operadoras, hospitais, laboratórios e serviços públicos.", "url": "https://www.brasil247.com/saude/planos-de-saude-apresentam-tres-prioridades-ao-proximo-governo-lula/"},
+    {"claim": "A associação defende a revisão da Lei 9.656/1998.", "url": "https://www.brasil247.com/saude/planos-de-saude-apresentam-tres-prioridades-ao-proximo-governo-lula/"},
+    {"claim": "A Abramge busca ampliar a cooperação com o SUS, com programas como o 'Agora Tem Especialistas'.", "url": "https://www.plantaobrasil.net/noticias/164734-setor-de-planos-de-saude-define-agenda-de-prioridades-para-o-proximo-governo"},
+    {"claim": "As matérias citam dado do CNJ sobre ações pendentes contra operadoras, não conferido na fonte.", "url": "https://www.plantaobrasil.net/noticias/164734-setor-de-planos-de-saude-define-agenda-de-prioridades-para-o-proximo-governo"}
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "material_signal_found": true,
+  "hypotheses": [
+    {
+      "hypothesis": "Hipótese (não tendência comprovada): clínicas e consultórios podem enfrentar, a partir de dezembro de 2026 e ao longo de 2027, pressão simultânea sobre a margem vinda de duas frentes independentes: (1) custo de pessoal, com a jornada limitada a 42 horas semanais e divisor 210 a partir de 16/12/2026 (e, segundo o comunicado do MTE, 40 horas e divisor 200 a partir de 16/12/2027), sem redução salarial; e (2) possível aumento da carga de IRPJ e CSLL no Lucro Presumido sobre a parcela da receita bruta anual acima de R$ 5 milhões, caso o PLP 299/2026 seja aprovado pela Câmara e sancionado. A convergência entre as frentes justifica monitoramento, sem afirmar causalidade entre elas; o efeito tributário atingiria apenas clínicas no Lucro Presumido com receita acima desse patamar.",
+      "component_event_ids": [
+        "mte-portaria-2041-2026-regras-escala-5x2",
+        "decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2",
+        "mte-ec-141-adequacao-convencoes-coletivas-nova-jornada-16-12-2026",
+        "plp-299-2026-lucro-presumido-presuncao-senado-aprova"
+      ],
+      "contrary_evidence": [
+        "O PLP 299/2026 não é norma vigente: segue para revisão na Câmara e pode ser alterado ou não aprovado; a redação final aprovada no Senado não foi consultada.",
+        "A frente tributária atinge somente a parcela da receita acima de R$ 5 milhões no Lucro Presumido; muitos consultórios e clínicas menores ficariam fora desse efeito.",
+        "Os três eventos sobre a escala 5x2 (decreto, portaria e comunicado sobre convenções) são desdobramentos da mesma política (EC 141/2026) e não contam como sinais independentes entre si.",
+        "Parte das regras da Portaria nº 2.041/2026 foi informada apenas pelo comunicado do MTE (texto do DOU não verificado), e há menção não verificada a questão no STF que pode afetar a aplicação das regras.",
+        "Não há nos dados nenhuma medição do impacto efetivo sobre custos ou margens de clínicas."
+      ],
+      "alternative_explanations": [
+        "Coincidência de calendário legislativo e regulatório no fim do ano, sem relação entre as pautas trabalhista e tributária.",
+        "Clínicas com equipes já em jornada igual ou inferior a 42 horas semanais, ou em escalas reguladas por norma própria de profissão (portarias ainda a serem publicadas pelo MTE), podem ter impacto trabalhista pequeno.",
+        "Reajustes de preços ou de contratos com operadoras podem absorver parte do aumento de custo, o que reduziria a pressão sobre a margem."
+      ],
+      "confidence": "low",
+      "indicators_to_monitor": [
+        "Tramitação do PLP 299/2026 na Câmara dos Deputados, texto aprovado e eventual sanção.",
+        "Publicação do texto integral da Portaria MTE nº 2.041/2026 no DOU e das portarias anunciadas sobre compensação de repousos, afastamento contínuo e profissões regulamentadas.",
+        "Andamento de eventual questionamento no STF sobre a EC 141/2026 ou sua regulamentação.",
+        "Renegociação de convenções coletivas de trabalhadores da saúde (clínicas, consultórios, estabelecimentos de saúde) antes de 16/12/2026.",
+        "Relatos ou levantamentos setoriais sobre reajuste de preços, revisão de escalas ou mudança de regime tributário por clínicas."
+      ],
+      "invalidating_conditions": [
+        "Rejeição, arquivamento ou alteração substancial do PLP 299/2026 que retire o aumento da presunção para serviços.",
+        "Suspensão ou adiamento, por decisão judicial ou nova norma, dos limites de jornada previstos para 16/12/2026.",
+        "Normas específicas para profissões de saúde ou instrumentos coletivos que mantenham, de forma válida, a organização atual das jornadas sem custo adicional relevante."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1599 @@
+[
+  {
+    "agent": "researcher",
+    "subject": "financas_estrategia",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:03.978Z"
+  },
+  {
+    "agent": "researcher",
+    "subject": "comercial_operacoes_pessoas",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:03.978Z"
+  },
+  {
+    "agent": "researcher",
+    "subject": "regulacao",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:03.978Z"
+  },
+  {
+    "agent": "researcher",
+    "subject": "tecnologia_ia",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:03.978Z"
+  },
+  {
+    "agent": "researcher",
+    "subject": "internacional_competitivo",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:03.978Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:06.265Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://congressonacional.leg.br/web/atividade/materias/-/materia/176328",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:07.247Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://reformatributaria.com/governo/lucro-presumido-lula-e-congresso-podem-elevar-custo-com-irpj-e-csll-a-ate-13",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:07.707Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://plantaobrasil.net/noticias/164734-setor-de-planos-de-saude-define-agenda-de-prioridades-para-o-proximo-governo",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:08.218Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://reformatributaria.com/iva/receita-libera-para-todas-as-empresas-ambiente-piloto-da-cbs-com-inclusao-da-dere-acesse",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:14.507Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://agenciagov.ebc.com.br/noticias/202611/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:25.499Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://gov.br/ans/pt-br/assuntos/noticias/beneficiario/no-brasilcon-diretor-presidente-da-ans-destaca-desafios-da-regulacao-dos-planos-coletivos-e-a-importancia-da-protecao-ao-consumidor",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:26.889Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://medicinasa.com.br/clinicas-agendamentos",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:28.686Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:29.344Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:30.355Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://portal.cfm.org.br/noticias/cfm-e-crm-pr-reunem-medicos-e-instituicoes-para-debater-auditoria-medica",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:32.079Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:32.919Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:34.327Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://medicinasa.com.br/salux-e-telepatia",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:34.726Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://tiinside.com.br/23/11/2026/silencio-diante-da-anpd-leva-mais-a-processo-sancionador-do-que-o-tema-investigado",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:35.172Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://statnews.com/2026/11/17/hipaa-privacy-rule-update-aims-to-improve-patient-access-to-records",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:35.953Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://saudebusiness.com/gestao/legislacaoo-e-regulamentacao/ia-no-trabalho-regulatorio-tres-regras-antes-de-apertar-enter",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:36.111Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://statnews.com/2026/11/18/epic-defends-competitive-practices-promises-ai-access-to-records",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:36.470Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://statnews.com/2026/11/18/ai-scribe-market-emerging-winners-losers-ai-prognosis",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:36.846Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:37.024Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:38.795Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:40.902Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://gov.br/ans/pt-br/assuntos/noticias/sociedade/participacoes-sociais-em-andamento-11",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:49.371Z"
+  },
+  {
+    "agent": "fact_checker",
+    "subject": "https://gov.br/ans/pt-br/arquivos/assuntos/noticias/Pauta_Dicol_646ANS24.11.2026.pdf",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.467Z"
+  },
+  {
+    "agent": "risk_analyst",
+    "subject": "plp-299-2026-lucro-presumido-presuncao-senado-aprova",
+    "ok": false,
+    "error": "Entrada de outputs/risk_analyst/plp-299-2026-lucro-presumido-presuncao-senado-aprova.json mudou após a checagem de fontes; resposta descartada",
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.470Z"
+  },
+  {
+    "agent": "opportunity_analyst",
+    "subject": "plp-299-2026-lucro-presumido-presuncao-senado-aprova",
+    "ok": false,
+    "error": "Entrada de outputs/opportunity_analyst/plp-299-2026-lucro-presumido-presuncao-senado-aprova.json mudou após a checagem de fontes; resposta descartada",
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.470Z"
+  },
+  {
+    "agent": "risk_analyst",
+    "subject": "abramge-prioridades-proximo-governo-2026",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.470Z"
+  },
+  {
+    "agent": "opportunity_analyst",
+    "subject": "abramge-prioridades-proximo-governo-2026",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.470Z"
+  },
+  {
+    "agent": "risk_analyst",
+    "subject": "decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2",
+    "ok": false,
+    "error": "Entrada de outputs/risk_analyst/decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2.json mudou após a checagem de fontes; resposta descartada",
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.470Z"
+  },
+  {
+    "agent": "opportunity_analyst",
+    "subject": "decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2",
+    "ok": false,
+    "error": "Entrada de outputs/opportunity_analyst/decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2.json mudou após a checagem de fontes; resposta descartada",
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.470Z"
+  },
+  {
+    "agent": "risk_analyst",
+    "subject": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.470Z"
+  },
+  {
+    "agent": "opportunity_analyst",
+    "subject": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.470Z"
+  },
+  {
+    "agent": "clinic_strategy_analyst",
+    "subject": "abramge-prioridades-proximo-governo-2026",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.472Z"
+  },
+  {
+    "agent": "clinic_strategy_analyst",
+    "subject": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.472Z"
+  },
+  {
+    "agent": "risk_analyst",
+    "subject": "cfm-crm-pr-divulga-cfm-auditoria-medica-resolucao-2448-2025-curitiba",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.472Z"
+  },
+  {
+    "agent": "opportunity_analyst",
+    "subject": "cfm-crm-pr-divulga-cfm-auditoria-medica-resolucao-2448-2025-curitiba",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.472Z"
+  },
+  {
+    "agent": "risk_analyst",
+    "subject": "salux-telepatia-parceria-ia-clinica-initia",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.473Z"
+  },
+  {
+    "agent": "opportunity_analyst",
+    "subject": "salux-telepatia-parceria-ia-clinica-initia",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.473Z"
+  },
+  {
+    "agent": "risk_analyst",
+    "subject": "cfm-xiii-congresso-direito-medico-2026",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.474Z"
+  },
+  {
+    "agent": "opportunity_analyst",
+    "subject": "cfm-xiii-congresso-direito-medico-2026",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.474Z"
+  },
+  {
+    "agent": "risk_analyst",
+    "subject": "saudebusiness-abraidi-ia-trabalho-regulatorio-tres-regras",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.474Z"
+  },
+  {
+    "agent": "opportunity_analyst",
+    "subject": "saudebusiness-abraidi-ia-trabalho-regulatorio-tres-regras",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.474Z"
+  },
+  {
+    "agent": "clinic_strategy_analyst",
+    "subject": "cfm-crm-pr-divulga-cfm-auditoria-medica-resolucao-2448-2025-curitiba",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.474Z"
+  },
+  {
+    "agent": "clinic_strategy_analyst",
+    "subject": "salux-telepatia-parceria-ia-clinica-initia",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.474Z"
+  },
+  {
+    "agent": "clinic_strategy_analyst",
+    "subject": "cfm-xiii-congresso-direito-medico-2026",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.474Z"
+  },
+  {
+    "agent": "clinic_strategy_analyst",
+    "subject": "saudebusiness-abraidi-ia-trabalho-regulatorio-tres-regras",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.474Z"
+  },
+  {
+    "agent": "risk_analyst",
+    "subject": "stat-opiniao-bolha-ia-risco-fornecedores-ia-medica",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.474Z"
+  },
+  {
+    "agent": "opportunity_analyst",
+    "subject": "stat-opiniao-bolha-ia-risco-fornecedores-ia-medica",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.474Z"
+  },
+  {
+    "agent": "risk_analyst",
+    "subject": "microsoft-entra-connect-health-falha-metadados-tenants-2026-11",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.474Z"
+  },
+  {
+    "agent": "opportunity_analyst",
+    "subject": "microsoft-entra-connect-health-falha-metadados-tenants-2026-11",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.474Z"
+  },
+  {
+    "agent": "risk_analyst",
+    "subject": "skedia-primeira-rodada-captacao-2026-11",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.475Z"
+  },
+  {
+    "agent": "opportunity_analyst",
+    "subject": "skedia-primeira-rodada-captacao-2026-11",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.475Z"
+  },
+  {
+    "agent": "clinic_strategy_analyst",
+    "subject": "stat-opiniao-bolha-ia-risco-fornecedores-ia-medica",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.475Z"
+  },
+  {
+    "agent": "clinic_strategy_analyst",
+    "subject": "microsoft-entra-connect-health-falha-metadados-tenants-2026-11",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.475Z"
+  },
+  {
+    "agent": "clinic_strategy_analyst",
+    "subject": "skedia-primeira-rodada-captacao-2026-11",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.475Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "abramge-prioridades-proximo-governo-2026",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.476Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.476Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "cfm-crm-pr-divulga-cfm-auditoria-medica-resolucao-2448-2025-curitiba",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.476Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "salux-telepatia-parceria-ia-clinica-initia",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.476Z"
+  },
+  {
+    "agent": "adversarial_reviewer",
+    "subject": "abramge-prioridades-proximo-governo-2026",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.478Z"
+  },
+  {
+    "agent": "adversarial_reviewer",
+    "subject": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.478Z"
+  },
+  {
+    "agent": "adversarial_reviewer",
+    "subject": "cfm-crm-pr-divulga-cfm-auditoria-medica-resolucao-2448-2025-curitiba",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.478Z"
+  },
+  {
+    "agent": "adversarial_reviewer",
+    "subject": "salux-telepatia-parceria-ia-clinica-initia",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.478Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos#rev1",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.478Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "cfm-crm-pr-divulga-cfm-auditoria-medica-resolucao-2448-2025-curitiba#rev1",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.478Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "cfm-xiii-congresso-direito-medico-2026",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.478Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "saudebusiness-abraidi-ia-trabalho-regulatorio-tres-regras",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.478Z"
+  },
+  {
+    "agent": "adversarial_reviewer",
+    "subject": "cfm-xiii-congresso-direito-medico-2026",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.478Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "stat-opiniao-bolha-ia-risco-fornecedores-ia-medica",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.478Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "microsoft-entra-connect-health-falha-metadados-tenants-2026-11",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.478Z"
+  },
+  {
+    "agent": "adversarial_reviewer",
+    "subject": "saudebusiness-abraidi-ia-trabalho-regulatorio-tres-regras",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.478Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "saudebusiness-abraidi-ia-trabalho-regulatorio-tres-regras#rev1",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.479Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "skedia-primeira-rodada-captacao-2026-11",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.479Z"
+  },
+  {
+    "agent": "adversarial_reviewer",
+    "subject": "stat-opiniao-bolha-ia-risco-fornecedores-ia-medica",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.479Z"
+  },
+  {
+    "agent": "adversarial_reviewer",
+    "subject": "microsoft-entra-connect-health-falha-metadados-tenants-2026-11",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.479Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "stat-opiniao-bolha-ia-risco-fornecedores-ia-medica#rev1",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.479Z"
+  },
+  {
+    "agent": "adversarial_reviewer",
+    "subject": "skedia-primeira-rodada-captacao-2026-11",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.479Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "abramge-prioridades-proximo-governo-2026",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.481Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.481Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "cfm-crm-pr-divulga-cfm-auditoria-medica-resolucao-2448-2025-curitiba",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.481Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "salux-telepatia-parceria-ia-clinica-initia",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.481Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "abramge-prioridades-proximo-governo-2026#rev1",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.482Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos#rev2",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.482Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "salux-telepatia-parceria-ia-clinica-initia#rev1",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.482Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "cfm-xiii-congresso-direito-medico-2026",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.482Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "abramge-prioridades-proximo-governo-2026#rev1",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.482Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos#rev1",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.482Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "salux-telepatia-parceria-ia-clinica-initia#rev1",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.483Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "saudebusiness-abraidi-ia-trabalho-regulatorio-tres-regras",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.483Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "stat-opiniao-bolha-ia-risco-fornecedores-ia-medica",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.484Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "microsoft-entra-connect-health-falha-metadados-tenants-2026-11",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.484Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "saudebusiness-abraidi-ia-trabalho-regulatorio-tres-regras#rev2",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.484Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "skedia-primeira-rodada-captacao-2026-11",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.484Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "microsoft-entra-connect-health-falha-metadados-tenants-2026-11#rev1",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.484Z"
+  },
+  {
+    "agent": "editor",
+    "subject": "skedia-primeira-rodada-captacao-2026-11#rev1",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.484Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "saudebusiness-abraidi-ia-trabalho-regulatorio-tres-regras#rev1",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.484Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "microsoft-entra-connect-health-falha-metadados-tenants-2026-11#rev1",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.484Z"
+  },
+  {
+    "agent": "final_auditor",
+    "subject": "skedia-primeira-rodada-captacao-2026-11#rev1",
+    "ok": true,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.484Z"
+  },
+  {
+    "agent": "competitive_intelligence_analyst",
+    "subject": "semana",
+    "ok": false,
+    "error": "Entrada de outputs/competitive_intelligence_analyst/semana.json mudou após a checagem de fontes; resposta descartada",
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.485Z"
+  },
+  {
+    "agent": "weak_signal_analyst",
+    "subject": "semana",
+    "ok": false,
+    "error": "Entrada de outputs/weak_signal_analyst/semana.json mudou após a checagem de fontes; resposta descartada",
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.485Z"
+  },
+  {
+    "agent": "summary",
+    "subject": "resumo",
+    "ok": false,
+    "error": "Entrada de outputs/summary/resumo.json mudou após a checagem de fontes; resposta descartada",
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "web_search_requests": 0,
+      "web_fetch_requests": 0,
+      "cost_usd": 0
+    },
+    "at": "2026-11-24T22:52:57.485Z"
+  }
+]

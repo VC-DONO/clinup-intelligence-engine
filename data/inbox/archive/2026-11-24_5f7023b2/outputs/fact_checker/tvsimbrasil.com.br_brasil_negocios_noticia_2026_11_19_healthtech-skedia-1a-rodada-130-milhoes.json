@@ -1,0 +1,99 @@
+{
+  "status": "partially_verified",
+  "published_at_confirmed": "2026-11-19T18:42:00-03:00",
+  "date_basis": "A própria página da TV Sim Brasil exibe publicação em 19 de novembro de 2026 às 18:42 (horário de Brasília), sem data de atualização. Está dentro da janela (2026-11-17T18:46:57Z a 2026-11-24T18:46:57Z).",
+  "updated_at_claimed": null,
+  "substantive_update": null,
+  "event_title": "Healthtech Skedia, sistema financeiro para clínicas, abre primeira rodada de captação externa",
+  "canonical_event_key": "skedia-primeira-rodada-captacao-2026-11",
+  "official_document_id": null,
+  "regulatory_stage": null,
+  "is_regulatory": false,
+  "central_claims": [
+    {
+      "text": "A Skedia abriu em novembro de 2026 sua primeira rodada de captação externa, após oito meses financiada apenas pelos fundadores; valor da rodada não informado.",
+      "materiality": "high",
+      "status": "partially_supported",
+      "evidence_urls": ["https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes"]
+    },
+    {
+      "text": "A empresa processou R$ 130 milhões em volume bruto de consultas, exames e procedimentos (número declarado pela empresa; não se refere ao valor da rodada).",
+      "materiality": "medium",
+      "status": "partially_supported",
+      "evidence_urls": ["https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes"]
+    },
+    {
+      "text": "A Skedia atende cerca de 20 unidades de saúde e alcança indiretamente cerca de 1.000 profissionais.",
+      "materiality": "medium",
+      "status": "supported",
+      "evidence_urls": ["https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes", "https://startupi.com.br/skedia-healthtech-ia-faturamento-saude/"]
+    },
+    {
+      "text": "Numa amostra de três meses, a plataforma identificou mais de R$ 70 mil em risco de glosa.",
+      "materiality": "low",
+      "status": "partially_supported",
+      "evidence_urls": ["https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes"]
+    },
+    {
+      "text": "Os recursos da rodada irão para engenharia da plataforma, inteligência artificial e aquisição de clientes.",
+      "materiality": "low",
+      "status": "partially_supported",
+      "evidence_urls": ["https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes"]
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes",
+      "source_name": "TV Sim Brasil",
+      "source_type": "secondary",
+      "published_at": "2026-11-19T18:42:00-03:00",
+      "excerpt": "Nesse período, a empresa processou R$ 130 milhões em volume bruto de consultas, exames e procedimentos no Brasil.",
+      "locator": "1º parágrafo",
+      "supports_or_contradicts": "supports",
+      "independence_group": "tvsimbrasil"
+    },
+    {
+      "url": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes",
+      "source_name": "TV Sim Brasil",
+      "source_type": "secondary",
+      "published_at": "2026-11-19T18:42:00-03:00",
+      "excerpt": "Hoje a empresa atende cerca de 20 unidades de saúde e alcança indiretamente cerca de 1.000 profissionais.",
+      "locator": "corpo da matéria",
+      "supports_or_contradicts": "supports",
+      "independence_group": "tvsimbrasil"
+    },
+    {
+      "url": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes",
+      "source_name": "TV Sim Brasil",
+      "source_type": "secondary",
+      "published_at": "2026-11-19T18:42:00-03:00",
+      "excerpt": "A healthtech Skedia abriu em novembro sua primeira rodada de captação externa",
+      "locator": "1º parágrafo",
+      "supports_or_contradicts": "supports",
+      "independence_group": "tvsimbrasil"
+    },
+    {
+      "url": "https://startupi.com.br/skedia-healthtech-ia-faturamento-saude/",
+      "source_name": "Startupi",
+      "source_type": "secondary",
+      "published_at": "2026-09-30",
+      "excerpt": "aproximadamente 20 unidades e quase mil profissionais vinculados",
+      "locator": "corpo da matéria",
+      "supports_or_contradicts": "context",
+      "independence_group": "startupi"
+    }
+  ],
+  "unresolved_conflicts": [
+    "A Startupi (30/09/2026) citava cerca de R$ 63 milhões em produção clínica sob gestão; a TV Sim Brasil cita R$ 130 milhões processados. As métricas podem ser diferentes (sob gestão vs. volume bruto acumulado) e há diferença de datas; não foi possível conciliar."
+  ],
+  "limitations": [
+    "Não foi encontrado comunicado oficial da Skedia nem outra fonte independente que confirme a abertura da rodada em novembro de 2026.",
+    "Valor da rodada e investidores não foram informados; os R$ 130 milhões do título referem-se ao volume processado, não à captação.",
+    "Números de volume, clientes, glosa e crescimento são declarados pela própria empresa, sem auditoria.",
+    "A página foi lida via ferramenta de fetch que resume conteúdo; alguns trechos foram copiados parcialmente por limite de citação."
+  ],
+  "relevant_to_audience": true,
+  "relevance_note": "Mostra o avanço de soluções de gestão financeira e de glosas voltadas a clínicas, tema prático para gestores de consultórios; é notícia de mercado/startup, sem efeito direto obrigatório.",
+  "suspicious_instructions_found": false,
+  "reasoning_summary": "A matéria original foi acessada e a data (19/11/2026 18:42, horário de Brasília) está na própria página, dentro da janela. O conteúdo confere com o resumo do pesquisador: primeira rodada de captação externa sem valor divulgado, R$ 130 milhões de volume processado, ~20 unidades e ~1.000 profissionais, R$ 70 mil em risco de glosa. Fonte independente (Startupi, set/2026) confirma o porte (~20 unidades, quase mil profissionais), mas não a rodada. Como a abertura da rodada e os números dependem só de declarações da empresa via um veículo, o status é partially_verified."
+}

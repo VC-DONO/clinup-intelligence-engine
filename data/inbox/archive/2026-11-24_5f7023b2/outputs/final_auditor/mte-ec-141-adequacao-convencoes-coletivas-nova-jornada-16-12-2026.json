@@ -1,0 +1,16 @@
+{
+  "result": "pass_with_warnings",
+  "unsupported_claims": [
+    "Em why_it_matters, 'o que aumenta o risco de horas extras e de ações trabalhistas' é inferência editorial sem trecho nas evidências e não está marcada como interpretação.",
+    "Em why_it_matters, o exemplo de escalas como 12x36 apoiadas em cláusulas coletivas não aparece nas evidências. Está em forma condicional ('cujas escalas ... se apoiam'), o que reduz o risco."
+  ],
+  "mismatched_dates_or_numbers": [
+    "O texto data o comunicado de 24/11/2026, conforme o registro de evidência. Mas o próprio trecho diz que o evento foi 'nesta segunda-feira (23)', o que sugere publicação original em 23/11. A diferença não afeta os fatos centrais."
+  ],
+  "omitted_caveats": [],
+  "sensational_language": [],
+  "required_corrections": [
+    "Marcar como interpretação editorial a afirmação de que a falta de renegociação aumenta o risco de horas extras e de ações trabalhistas."
+  ],
+  "justification": "Os fatos centrais conferem com os trechos do MTE e da Agência Gov: prioridade do MTE para a adequação de acordos e convenções, perda de validade das cláusulas de jornada e escala 'desses instrumentos' a partir de 16/12/2026, regulamentação da EC nº 141 em elaboração e mediação gratuita das SRTEs. O texto atribui a perda de validade ao MTE, preserva a formulação 'desses instrumentos', registra que o alcance não está claro e que a EC nº 141 não foi verificada. Também não repete o período '23 a 27/11', que não tem trecho. A divergência sobre o local foi tratada como ressalva de baixa materialidade, e as ressalvas obrigatórias estão contempladas. Restam apenas questões menores de rotulagem de interpretação e de data do comunicado."
+}

@@ -1,0 +1,74 @@
+{
+  "status": "verified",
+  "published_at_confirmed": "2026-11-23T06:30:00-03:00",
+  "date_basis": "Metadados da própria página da STAT News indicam publicação em 23/11/2026 às 09:30 UTC (06:30 em Brasília), coerente com a data na URL; sem data de atualização. Dentro da janela de 2026-11-17T18:46:57Z a 2026-11-24T18:46:57Z.",
+  "updated_at_claimed": null,
+  "substantive_update": null,
+  "event_title": "Artigo de opinião na STAT alerta que estouro da bolha de IA pode deixar hospitais sem suporte de fornecedores de IA médica",
+  "canonical_event_key": "stat-opiniao-bolha-ia-risco-fornecedores-ia-medica",
+  "official_document_id": null,
+  "regulatory_stage": null,
+  "is_regulatory": false,
+  "central_claims": [
+    {
+      "text": "Artigo de opinião de David Adler (diretor científico do PATHORA Institute of Pathology & Tissue Medicine) publicado na STAT News em 23/11/2026.",
+      "materiality": "medium",
+      "status": "supported",
+      "evidence_urls": ["https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/"]
+    },
+    {
+      "text": "Se a bolha de IA estourar, empresas de IA médica podem perder financiamento, encolher, retirar suporte a produtos ou fechar antes que hospitais concluam a avaliação dos sistemas.",
+      "materiality": "high",
+      "status": "supported",
+      "evidence_urls": ["https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/"]
+    },
+    {
+      "text": "O autor recomenda definir critérios de sucesso antes da adoção e guardar os dados de avaliação de forma que uma análise independente seja possível mesmo se o fornecedor deixar de existir.",
+      "materiality": "medium",
+      "status": "supported",
+      "evidence_urls": ["https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/"]
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/",
+      "source_name": "STAT News",
+      "source_type": "primary",
+      "published_at": "2026-11-23T06:30:00-03:00",
+      "excerpt": "Companies developing medical AI systems may lose their funding, downsize, or even withdraw support for their products.",
+      "locator": "corpo do artigo",
+      "supports_or_contradicts": "supports",
+      "independence_group": "statnews"
+    },
+    {
+      "url": "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/",
+      "source_name": "STAT News",
+      "source_type": "primary",
+      "published_at": "2026-11-23T06:30:00-03:00",
+      "excerpt": "Worst of all, they could close before hospitals have finished assessing their AI systems.",
+      "locator": "corpo do artigo",
+      "supports_or_contradicts": "supports",
+      "independence_group": "statnews"
+    },
+    {
+      "url": "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/",
+      "source_name": "STAT News",
+      "source_type": "primary",
+      "published_at": "2026-11-23T06:30:00-03:00",
+      "excerpt": "If the AI bubble bursts, these success metrics could become more difficult to achieve.",
+      "locator": "corpo do artigo",
+      "supports_or_contradicts": "supports",
+      "independence_group": "statnews"
+    }
+  ],
+  "unresolved_conflicts": [],
+  "limitations": [
+    "Trata-se de artigo de opinião: as afirmações são argumentos e projeções do autor, não fatos ocorridos; não há fonte independente a confirmar.",
+    "A recomendação sobre preservar dados de avaliação foi lida no corpo do texto, mas não foi extraída em trecho literal.",
+    "A página exibe chamadas de assinatura STAT+, mas o artigo não aparenta estar sob paywall."
+  ],
+  "relevant_to_audience": true,
+  "relevance_note": "Útil para gestores de clínicas que contratam ferramentas de IA: alerta sobre risco de continuidade do fornecedor e importância de critérios de sucesso e dados próprios de avaliação. Contexto dos EUA e voltado a hospitais; relevância moderada.",
+  "suspicious_instructions_found": false,
+  "reasoning_summary": "Página original aberta; título, autor, data (23/11/2026 06:30 -03:00, dentro da janela) e argumentos centrais conferem com o resumo do pesquisador. Por ser opinião, o status verificado refere-se à autenticidade e ao conteúdo do artigo, não à ocorrência de um estouro da bolha."
+}

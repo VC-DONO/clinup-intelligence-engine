@@ -1,0 +1,9 @@
+{
+  "result": "pass",
+  "unsupported_claims": [],
+  "mismatched_dates_or_numbers": [],
+  "omitted_caveats": [],
+  "sensational_language": [],
+  "required_corrections": [],
+  "justification": "Todas as afirmações factuais do texto final reproduzem as afirmações verificadas como 'supported' e são coerentes com os trechos do BleepingComputer: exploração da API do Entra Connect Health com acesso a metadados de tenants e e-mails de administradores; não exposição de senhas, hashes, tokens e chaves válidas; correção no lado do servidor em 19 de novembro; recomendações de MFA resistente a phishing e revisão de logs do Entra. A data da matéria (21/11/2026) confere. As três ressalvas obrigatórias (fonte primária não pública, fonte jornalística única, ausência de dados sobre número de tenants, autoria e início dos ataques) foram incluídas na íntegra, e o texto atribui as informações à reportagem. A relevância para clínicas é apresentada como risco indireto, com a indicação de que não se sabe se há clínicas brasileiras afetadas, sem linguagem sensacionalista."
+}

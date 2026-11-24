@@ -1,0 +1,16 @@
+{
+  "result": "pass_with_warnings",
+  "unsupported_claims": [
+    "Dois repousos semanais de 24h, etapa de 40h e divisor 200 em 16/12/2027, 'sem redução salarial', regra da 12x36, perda de efeitos de cláusulas coletivas incompatíveis, atualização do PGR (NR-01) e portarias futuras não aparecem em nenhum trecho dos registros de evidência; constam apenas como afirmações verificadas ligadas à notícia do MTE. O texto já os atribui ao comunicado do MTE e informa que o DOU não foi verificado.",
+    "Em why_it_matters, 'empregados CLT que trabalham seis dias por semana ... precisam ter a escala ajustada até 16/12/2026' depende dos dois repousos semanais, ponto sem trecho citado e não atribuído ao comunicado nesse trecho.",
+    "Em why_it_matters, 'O limite vale por empregado, não pelo horário de abertura da clínica' e 'A espera pelas portarias sobre profissões regulamentadas não adia a adequação ... para os demais empregados CLT' são interpretações editoriais sem trecho nas evidências e não estão marcadas como interpretação."
+  ],
+  "mismatched_dates_or_numbers": [],
+  "omitted_caveats": [],
+  "sensational_language": [],
+  "required_corrections": [
+    "Marcar em why_it_matters como interpretação editorial (ou atribuir ao comunicado do MTE) a frase de que o limite vale por empregado e a de que as portarias futuras não adiam a adequação dos demais empregados CLT.",
+    "Atribuir ao comunicado do MTE a necessidade de ajustar escalas de seis dias, por depender dos dois repousos semanais sem trecho citado."
+  ],
+  "justification": "Os fatos centrais (publicação da Portaria nº 2.041 em 23/11/2026 em edição especial do DOU, limite de 8h/42h a partir de 16/12/2026, divisor 210, banco de horas até 15/12/2026 e art. 64 da Portaria MTP nº 671/2021) coincidem com os trechos da notícia oficial do MTE, sem datas ou números divergentes. Os demais pontos normativos não têm trecho citado, mas estão marcados como 'supported' na mesma fonte oficial e o texto os atribui explicitamente ao comunicado do MTE, com a ressalva de que o DOU não foi verificado. As três ressalvas obrigatórias estão presentes, e a interpretação sobre o divisor está identificada como tal. Restam problemas menores: interpretações em why_it_matters não marcadas como tais. Eles não mudam a decisão do leitor."
+}

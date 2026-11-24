@@ -1,0 +1,106 @@
+{
+  "status": "rejected_date",
+  "published_at_confirmed": null,
+  "date_basis": "A página oficial do CFM (pauta atualizada da 11ª Sessão Plenária Ordinária) foi aberta e não exibe data de publicação nem de atualização; não há data em metadados (og/JSON-LD) e a listagem de Sessões Plenárias também não mostra datas. As datas 24 a 27/11/2026 referem-se à realização da sessão, não à publicação. A ordem na listagem e o fato de ser uma pauta de sessão iminente sugerem publicação recente, mas isso é inferência e não data verificável.",
+  "updated_at_claimed": null,
+  "substantive_update": null,
+  "event_title": "Pauta atualizada da 11ª Sessão Plenária Ordinária do CFM (24 a 27/11/2026) com propostas de resolução sobre MMP, procedimentos endoscópicos, documentos médicos e relatórios de fiscalização",
+  "canonical_event_key": "cfm-11a-sessao-plenaria-2026-11-pauta-minutas-resolucao",
+  "official_document_id": null,
+  "regulatory_stage": "pauta de sessão plenária com propostas de resolução (minutas em deliberação; nada aprovado ou publicado)",
+  "is_regulatory": true,
+  "central_claims": [
+    {
+      "text": "A 11ª Sessão Plenária Ordinária do CFM (Gestão 2024/2029) ocorre de 24 a 27 de novembro de 2026, presencial e por videoconferência.",
+      "materiality": "medium",
+      "status": "supported",
+      "evidence_urls": ["https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/"]
+    },
+    {
+      "text": "A pauta inclui proposta de resolução sobre Microinfusão de Medicamentos na Pele (MMP).",
+      "materiality": "high",
+      "status": "supported",
+      "evidence_urls": ["https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/"]
+    },
+    {
+      "text": "A pauta inclui proposta de resolução sobre procedimentos endoscópicos e proposta que revoga a Resolução CFM nº 2.418/2024, que altera a Resolução CFM nº 2.381/2024 sobre emissão de documentos médicos.",
+      "materiality": "high",
+      "status": "supported",
+      "evidence_urls": ["https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/"]
+    },
+    {
+      "text": "A pauta inclui proposta de resolução sobre publicação dos relatórios de fiscalização e processo-consulta sobre soroterapia parenteral e terapias hormonais e efeitos sobre o registro de pessoas jurídicas nos CRMs.",
+      "materiality": "high",
+      "status": "supported",
+      "evidence_urls": ["https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/"]
+    },
+    {
+      "text": "A pauta inclui apresentação de opções metodológicas para consulta pública sobre regulamentação ética da docência.",
+      "materiality": "low",
+      "status": "supported",
+      "evidence_urls": ["https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/"]
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/",
+      "source_name": "Conselho Federal de Medicina (Portal Médico)",
+      "source_type": "primary",
+      "published_at": null,
+      "excerpt": "Encaminhamos anexa pauta atualizada da 11ª Sessão Plenária Ordinária do CFM – Gestão 2024/2029, referente aos dias 24, 25, 26 e 27 de novembro de 2026, a partir das 09h, presencial e por videoconferência (plataforma Zoom):",
+      "locator": "abertura do texto",
+      "supports_or_contradicts": "supports",
+      "independence_group": "cfm"
+    },
+    {
+      "url": "https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/",
+      "source_name": "Conselho Federal de Medicina (Portal Médico)",
+      "source_type": "primary",
+      "published_at": null,
+      "excerpt": "– Proposta de Resolução – Microinfusão de Medicamentos na Pele (MMP) – (Dra. Yáscara Pinto).",
+      "locator": "DIA 25.11.26, 9h às 12h",
+      "supports_or_contradicts": "supports",
+      "independence_group": "cfm"
+    },
+    {
+      "url": "https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/",
+      "source_name": "Conselho Federal de Medicina (Portal Médico)",
+      "source_type": "primary",
+      "published_at": null,
+      "excerpt": "– Proposta de Resolução – Revoga a Resolução CFM nº 2.418/2024, que altera a Resolução CFM n°2.381/2024, a qual normatiza a emissão de documentos médicos e dá outras providências.",
+      "locator": "DIA 26.11.26, 9h às 12h",
+      "supports_or_contradicts": "supports",
+      "independence_group": "cfm"
+    },
+    {
+      "url": "https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/",
+      "source_name": "Conselho Federal de Medicina (Portal Médico)",
+      "source_type": "primary",
+      "published_at": null,
+      "excerpt": "– Proposta de Resolução – Resolução que normatiza a publicação dos relatórios de fiscalização.",
+      "locator": "DIA 27.11.26, 14h às 16h",
+      "supports_or_contradicts": "supports",
+      "independence_group": "cfm"
+    },
+    {
+      "url": "https://portal.cfm.org.br/sessoes-plenarias/",
+      "source_name": "Conselho Federal de Medicina (Portal Médico) – listagem de Sessões Plenárias",
+      "source_type": "primary",
+      "published_at": null,
+      "excerpt": "Pauta atualizada – 11ª Sessão Plenária Ordinária do CFM – Gestão 2024/2029 – 24, 25, 26 e 27 de novembro de 2026.",
+      "locator": "listagem Sessões Plenárias (primeiro item)",
+      "supports_or_contradicts": "context",
+      "independence_group": "cfm"
+    }
+  ],
+  "unresolved_conflicts": [],
+  "limitations": [
+    "A página e a listagem do CFM não exibem data de publicação ou atualização; a consulta à API pública do WordPress do portal não retornou o item.",
+    "Não foi localizada fonte independente; a única fonte é o próprio CFM (primária).",
+    "Itens são propostas de resolução em pauta; não há texto das minutas nem resultado das deliberações."
+  ],
+  "relevant_to_audience": true,
+  "relevance_note": "Propostas de resolução do CFM sobre microinfusão de medicamentos na pele, procedimentos endoscópicos, documentos médicos, publicação de relatórios de fiscalização e consulta sobre soroterapia/terapias hormonais e registro de pessoas jurídicas afetam diretamente clínicas médicas, especialmente de estética e nutrologia.",
+  "suspicious_instructions_found": false,
+  "reasoning_summary": "Conteúdo da página oficial do CFM acessado e itens centrais da pauta confirmados literalmente. Porém a página não mostra data de publicação ou atualização (nem em metadados ou na listagem), e as datas citadas são da realização da sessão. Sem data de publicação verificável, aplica-se rejeição por data. Os itens são propostas em deliberação, não normas aprovadas."
+}

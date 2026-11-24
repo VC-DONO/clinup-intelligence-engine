@@ -1,0 +1,45 @@
+{
+  "no_material_risk": false,
+  "risks": [
+    {
+      "risk": "Aumento do custo de pessoal por redução da jornada sem redução salarial.",
+      "supporting_fact": "O Decreto nº 13.173/2026 regulamenta a EC nº 141/2026: a partir de 16/12/2026 a jornada máxima cai de 44h para 42h semanais e em dezembro de 2027 para 40h, sem redução salarial; o divisor passa de 220 para 210 e depois 200, afetando horas extras e adicional noturno.",
+      "mechanism": "Para manter o mesmo horário de atendimento com menos horas por empregado, a clínica precisa de horas extras (mais caras com o novo divisor) ou de mais pessoas.",
+      "conditions": "Afeta clínicas com empregados CLT em jornada acima de 42h; o impacto depende do horário de funcionamento e do quadro atual.",
+      "exposed_profiles": [
+        "clínicas e consultórios com empregados CLT (recepção, enfermagem, técnicos, administrativo)"
+      ],
+      "severity": "high",
+      "mitigation": "Simular a escala e a folha para 42h e 40h; avaliar revezamento, ajuste de horário de atendimento ou contratação parcial antes de 16/12/2026."
+    },
+    {
+      "risk": "Escalas de seis dias deixam de ser compatíveis com os dois dias de repouso.",
+      "supporting_fact": "Trabalhadores que já cumprem até 40h semanais em seis dias também passam a ter dois dias de repouso remunerado.",
+      "mechanism": "Mesmo sem exceder as horas, a escala de seis dias precisa ser reorganizada, o que pode desfalcar o atendimento aos sábados.",
+      "conditions": "Afeta clínicas que funcionam seis dias com os mesmos empregados.",
+      "exposed_profiles": [
+        "clínicas que abrem aos sábados com equipe CLT",
+        "consultórios com secretária em escala de seis dias"
+      ],
+      "severity": "medium",
+      "mitigation": "Reorganizar folgas em revezamento e verificar na negociação coletiva as regras de distribuição de folgas."
+    },
+    {
+      "risk": "Insegurança jurídica por questão pendente no STF.",
+      "supporting_fact": "O Povo e Gazeta do Povo mencionam uma 'reviravolta no STF' ou pontos que 'ainda dependem do STF' sobre a escala 5x2; o conteúdo não foi verificado.",
+      "mechanism": "Uma decisão judicial pode alterar a aplicação das regras depois que a clínica já reorganizou escalas e contratos.",
+      "conditions": "Depende do conteúdo e do desfecho da questão no STF, desconhecidos.",
+      "exposed_profiles": [
+        "clínicas e consultórios com empregados CLT (recepção, enfermagem, técnicos, administrativo)"
+      ],
+      "severity": "low",
+      "mitigation": "Fazer os ajustes exigidos pela regra vigente e acompanhar a questão no STF com a assessoria jurídica."
+    }
+  ],
+  "cannot_conclude": [
+    "O texto do Decreto nº 13.173/2026 não foi aberto; a análise usa comunicados do Governo Federal e O Povo.",
+    "Não é possível concluir o conteúdo nem o efeito da questão mencionada no STF.",
+    "A publicação da portaria complementar do MTE não foi verificada neste dossiê.",
+    "Não é possível concluir como as regras se aplicam a profissões de saúde com jornada própria em lei."
+  ]
+}

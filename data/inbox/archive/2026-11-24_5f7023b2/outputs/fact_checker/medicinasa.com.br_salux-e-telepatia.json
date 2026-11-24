@@ -1,0 +1,81 @@
+{
+  "status": "partially_verified",
+  "published_at_confirmed": "2026-11-24T05:02:56-03:00",
+  "date_basis": "Metadados de publicação da própria página da Medicina S/A: publicado em 2026-11-24T08:02:56+00:00 (05:02:56 em Brasília), atualizado em 2026-11-24T11:22:47+00:00. Data dentro da janela de 2026-11-17T18:46:57Z a 2026-11-24T18:46:57Z.",
+  "updated_at_claimed": "2026-11-24T08:22:47-03:00",
+  "substantive_update": null,
+  "event_title": "Salux e Telepatia firmam parceria para levar IA clínica ao prontuário da plataforma INITIA",
+  "canonical_event_key": "salux-telepatia-parceria-ia-clinica-initia",
+  "official_document_id": null,
+  "regulatory_stage": null,
+  "is_regulatory": false,
+  "central_claims": [
+    {
+      "text": "A Salux, integrante do Grupo Bringel, firmou parceria com a Telepatia, desenvolvedora de IA clínica, para incorporar a tecnologia ao prontuário da plataforma INITIA.",
+      "materiality": "high",
+      "status": "supported",
+      "evidence_urls": ["https://medicinasa.com.br/salux-e-telepatia/"]
+    },
+    {
+      "text": "O objetivo é reduzir a carga de documentação médica e dar às lideranças informações sobre a qualidade da assistência.",
+      "materiality": "medium",
+      "status": "partially_supported",
+      "evidence_urls": ["https://medicinasa.com.br/salux-e-telepatia/"]
+    },
+    {
+      "text": "O médico segue responsável por avaliar recomendações, tomar decisões clínicas e revisar e assinar os registros.",
+      "materiality": "medium",
+      "status": "partially_supported",
+      "evidence_urls": ["https://medicinasa.com.br/salux-e-telepatia/"]
+    },
+    {
+      "text": "É o primeiro acordo do novo Programa de Parceiros do Ecossistema Salux, segundo o diretor de Operações e Ecossistema, Walter Moreira.",
+      "materiality": "low",
+      "status": "partially_supported",
+      "evidence_urls": ["https://medicinasa.com.br/salux-e-telepatia/"]
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://medicinasa.com.br/salux-e-telepatia/",
+      "source_name": "Medicina S/A",
+      "source_type": "secondary",
+      "published_at": "2026-11-24T05:02:56-03:00",
+      "excerpt": "Integrante do Grupo Bringel, a Salux desenvolve e integra tecnologias e serviços para apoiar a gestão em saúde.",
+      "locator": "corpo da matéria",
+      "supports_or_contradicts": "supports",
+      "independence_group": "medicinasa-salux-telepatia"
+    },
+    {
+      "url": "https://medicinasa.com.br/salux-e-telepatia/",
+      "source_name": "Medicina S/A",
+      "source_type": "secondary",
+      "published_at": "2026-11-24T05:02:56-03:00",
+      "excerpt": "As instituições poderão utilizar a inteligência clínica no próprio INITIA.",
+      "locator": "corpo da matéria",
+      "supports_or_contradicts": "supports",
+      "independence_group": "medicinasa-salux-telepatia"
+    },
+    {
+      "url": "https://medicinasa.com.br/salux-e-telepatia/",
+      "source_name": "Medicina S/A",
+      "source_type": "secondary",
+      "published_at": "2026-11-24T05:02:56-03:00",
+      "excerpt": "Com a Telepatia, ampliamos os recursos do prontuário do INITIA.",
+      "locator": "citação de executivo da Salux no corpo da matéria",
+      "supports_or_contradicts": "supports",
+      "independence_group": "medicinasa-salux-telepatia"
+    }
+  ],
+  "unresolved_conflicts": [],
+  "limitations": [
+    "Única fonte acessada é a matéria da Medicina S/A, aparentemente baseada em comunicado das empresas; não foi localizado comunicado oficial da Salux ou da Telepatia nem cobertura independente.",
+    "Afirmações sobre redução de documentação, responsabilidade médica e Programa de Parceiros são declarações das empresas, não verificadas de forma independente.",
+    "Leitura da página feita por ferramenta que resume o conteúdo; alguns trechos longos não puderam ser copiados literalmente.",
+    "Não há informação sobre preços, disponibilidade comercial ou alcance para clínicas de pequeno porte."
+  ],
+  "relevant_to_audience": true,
+  "relevance_note": "Mostra o avanço de IA clínica para documentação integrada a prontuário eletrônico de sistema de gestão, tema útil para gestores de clínicas avaliando ferramentas que reduzem tempo de registro, com o médico mantendo a revisão e a responsabilidade.",
+  "suspicious_instructions_found": false,
+  "reasoning_summary": "A página foi aberta e a data de publicação (24/11/2026, 05:02 de Brasília) foi confirmada nos metadados, dentro da janela. O texto confirma a parceria Salux–Telepatia, a integração ao prontuário do INITIA, o vínculo com o Grupo Bringel, o objetivo de reduzir documentação e o fato de ser o primeiro acordo do Programa de Parceiros. Como só há uma fonte (trade press baseada em anúncio corporativo) e nenhuma fonte primária ou independente foi encontrada, o status é parcialmente verificado."
+}

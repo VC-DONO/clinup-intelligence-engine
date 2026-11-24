@@ -1,0 +1,32 @@
+{
+  "headline": "ANS informou em 19/11/2026 que estavam abertas as Consultas Públicas 179, sobre o Monitoramento da Garantia de Atendimento, e 180, sobre duas tecnologias oncológicas no Rol",
+  "what_happened": "A Agência Nacional de Saúde Suplementar (ANS) informou, em nota de 19/11/2026, que estavam abertas duas consultas públicas para contribuições da sociedade; a nota é um aviso consolidado de participações em andamento, e não um ato novo, pois as consultas foram abertas antes (CP 179 em 23/10 e CP 180 em 6/11). A CP 179 trata de alterações nos critérios do Monitoramento da Garantia de Atendimento, medida da ANS para verificar o acesso dos beneficiários às coberturas contratadas, com contribuições de 23/10 a 7/12. A CP 180 trata da atualização do Rol para lenvatinibe em combinação com pembrolizumabe, para adultos com carcinoma de células claras de rim avançado ou metastático, em primeira linha, e para ivosidenibe (colangiocarcinoma com mutação IDH1 R132), com contribuições de 6/11 até 25/11/2026.",
+  "why_it_matters": "Para clínicas credenciadas a operadoras, a CP 179 é uma oportunidade de levar à ANS a experiência do prestador sobre o acesso dos beneficiários às coberturas contratadas, diretamente ou via entidade de classe, até 7/12. Interpretação: mudanças nesses critérios podem, em hipótese não verificada, gerar pressão indireta de operadoras sobre prazos de atendimento; as minutas não foram lidas, então o efeito concreto não pode ser avaliado. Para clínicas de oncologia, a CP 180 encerra em 25/11/2026, o que deixa pouco tempo para contribuir; o mais prático é acompanhar a decisão da ANS sobre a incorporação, que não está definida. Ambas são consultas públicas, não normas vigentes.",
+  "summary": "A ANS informou em 19/11/2026 que estavam abertas a CP 179, sobre critérios do Monitoramento da Garantia de Atendimento (até 7/12), e a CP 180, sobre duas tecnologias oncológicas no Rol (até 25/11/2026).",
+  "caveats": [
+    "A nota da ANS de 19/11/2026 é um resumo recorrente de participações sociais em andamento; as consultas foram abertas antes (CP 179 em 23/10 e CP 180 em 6/11). O fato novo é apenas a divulgação consolidada.",
+    "As páginas específicas de cada consulta pública (minutas e documentos técnicos) não foram abertas pela equipe editorial.",
+    "Os prazos com ano e a descrição do ivosidenibe (colangiocarcinoma com mutação IDH1 R132) não constam dos trechos transcritos da fonte e não foram confirmados pela equipe editorial nas páginas oficiais de cada consulta.",
+    "A única fonte é a nota oficial da ANS, sem confirmação independente, o que é adequado para este tipo de aviso.",
+    "O prazo da CP 180 termina em 25/11/2026, o que limita a utilidade prática dessa parte.",
+    "São consultas públicas, não normas vigentes; o texto final e as datas de vigência não são conhecidos."
+  ],
+  "claim_sources": [
+    {
+      "claim": "A ANS informou em 19/11/2026 que estavam abertas duas consultas públicas para contribuições da sociedade (CP 179 e CP 180).",
+      "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/sociedade/participacoes-sociais-em-andamento-11"
+    },
+    {
+      "claim": "A CP 179 trata de alterações nos critérios do Monitoramento da Garantia de Atendimento, medida da ANS para verificar o acesso dos beneficiários às coberturas contratadas, com contribuições de 23/10 a 7/12.",
+      "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/sociedade/participacoes-sociais-em-andamento-11"
+    },
+    {
+      "claim": "A CP 180 trata da atualização do Rol para lenvatinibe em combinação com pembrolizumabe, para adultos com carcinoma de células claras de rim avançado ou metastático, em primeira linha.",
+      "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/sociedade/participacoes-sociais-em-andamento-11"
+    },
+    {
+      "claim": "A CP 180 também trata do ivosidenibe (colangiocarcinoma com mutação IDH1 R132), com contribuições de 6/11 a 25/11.",
+      "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/sociedade/participacoes-sociais-em-andamento-11"
+    }
+  ]
+}

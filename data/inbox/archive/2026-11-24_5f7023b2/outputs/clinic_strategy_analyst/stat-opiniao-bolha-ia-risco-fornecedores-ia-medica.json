@@ -1,0 +1,55 @@
+{
+  "category": "Tecnologia e IA",
+  "management_areas": [
+    "Contratação de fornecedores de tecnologia",
+    "Gestão de contratos",
+    "Continuidade operacional",
+    "Governança de dados"
+  ],
+  "audience_profiles": [
+    "Clínica com equipe",
+    "Clínica em expansão",
+    "Rede/grupo",
+    "Clínica médica",
+    "Clínica multiprofissional"
+  ],
+  "specialties": [
+    "Todas as especialidades"
+  ],
+  "regions": [
+    "Estados Unidos"
+  ],
+  "decision": "monitor",
+  "justification": "Fato: artigo de opinião de David Adler na STAT News (23/11/2026) argumenta que, se a bolha de IA estourar, empresas de IA médica podem perder financiamento, encolher, retirar suporte a produtos ou fechar antes que hospitais concluam a avaliação dos sistemas, e recomenda definir critérios de sucesso antes da adoção e guardar os dados de avaliação de forma que permita análise independente. Interpretação: é projeção do autor sobre o mercado dos Estados Unidos e hospitais; não há fato ocorrido nem dado sobre fornecedores usados por clínicas brasileiras. Recomendação: não há ação urgente; acompanhar o tema e incorporar, em cada nova contratação ou renovação de ferramenta de IA, práticas de baixo custo (critérios de sucesso, exportação de dados, plano de saída).",
+  "actions": [
+    "7 dias: listar as ferramentas de IA em uso ou em avaliação na clínica, o fornecedor de cada uma e se os dados gerados podem ser exportados.",
+    "Na próxima contratação ou renovação: definir por escrito, antes da adoção, os critérios de sucesso da ferramenta.",
+    "Na próxima contratação ou renovação: pedir cláusula de exportação de dados em formato aberto, prazo de aviso em caso de descontinuidade e plano de saída.",
+    "30 dias: manter, para funções críticas apoiadas por IA, um processo alternativo que funcione sem a ferramenta.",
+    "Guardar sob controle da clínica os dados usados para avaliar cada ferramenta."
+  ],
+  "indicators": [
+    "Proporção de contratos de IA com cláusula de exportação de dados (contratos com cláusula ÷ total de contratos de IA).",
+    "Proporção de ferramentas de IA com critérios de sucesso definidos por escrito antes da adoção.",
+    "Existência de processo alternativo documentado para cada função crítica apoiada por IA (sim/não)."
+  ],
+  "data_needed": [
+    "Lista de fornecedores de IA usados pela clínica e seu porte ou estágio de financiamento.",
+    "Cláusulas atuais de contrato sobre dados, exportação e descontinuidade.",
+    "Grau de dependência operacional de cada ferramenta (quais processos param sem ela)."
+  ],
+  "assumptions": [
+    "Hipótese do autor, não verificada: retração de financiamento para empresas de IA médica.",
+    "Hipótese: um eventual cenário de retração nos EUA teria reflexo em fornecedores usados por clínicas brasileiras; isso não está demonstrado.",
+    "As práticas recomendadas são úteis independentemente de o cenário se concretizar."
+  ],
+  "uncertainty": "high",
+  "scores": {
+    "management_impact": 2,
+    "urgency": 1,
+    "audience_relevance": 2,
+    "evidence_strength": 1,
+    "practical_utility": 3,
+    "strategic_novelty": 2
+  }
+}

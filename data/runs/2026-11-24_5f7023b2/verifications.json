@@ -1,0 +1,2644 @@
+[
+  {
+    "candidate_id": "8ac58b11-a6a0-4a8c-83f9-9511bf0c5ae2",
+    "event_key": "plp-299-2026-lucro-presumido-presuncao-senado-aprova",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-20T08:05:00-03:00",
+      "date_basis": "Metadado published_time da própria página (2026-11-20T11:05:00+00:00, equivalente a 08:05 em Brasília), assinada por Gabriel Benevides; sem data de atualização. Dentro da janela de 168 horas até T0 (2026-11-24T18:46:57Z).",
+      "updated_at_claimed": null,
+      "substantive_update": null,
+      "event_title": "Senado conclui votação do PLP 299/2026, que eleva a presunção de IRPJ e CSLL no Lucro Presumido acima de R$ 5 milhões, e envia o texto à Câmara",
+      "canonical_event_key": "plp-299-2026-lucro-presumido-presuncao-senado-aprova",
+      "official_document_id": "PLP 299/2026",
+      "regulatory_stage": "Aprovado no Senado em 18/11/2026 e remetido à Câmara dos Deputados em 19/11/2026 para revisão; não é norma vigente.",
+      "is_regulatory": true,
+      "central_claims": [
+        {
+          "text": "O Senado concluiu em 18/11/2026 a votação do PLP 299/2026, que segue para a Câmara dos Deputados.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.reformatributaria.com/governo/lucro-presumido-lula-e-congresso-podem-elevar-custo-com-irpj-e-csll-a-ate-13/",
+            "https://www.congressonacional.leg.br/web/atividade/materias/-/materia/176328"
+          ]
+        },
+        {
+          "text": "O texto eleva em 20% sobre 2025 os percentuais de presunção de IRPJ e CSLL do Lucro Presumido, apenas sobre a parcela da receita bruta anual acima de R$ 5 milhões (o acréscimo vigente em 2026 é de 10%).",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.reformatributaria.com/governo/lucro-presumido-lula-e-congresso-podem-elevar-custo-com-irpj-e-csll-a-ate-13/",
+            "https://jornalcontabil.com.br/noticia/lucro-presumido-senado-aprova-aumento-da-tributacao-para-empresas-com-receita-acima-de-r-5-milhoes/"
+          ]
+        },
+        {
+          "text": "Para serviços, a presunção passaria de 32% (2025) para 38,4% em 2027 sobre o excedente.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.reformatributaria.com/governo/lucro-presumido-lula-e-congresso-podem-elevar-custo-com-irpj-e-csll-a-ate-13/"
+          ]
+        },
+        {
+          "text": "Estimativa da ROIT encomendada pelo portal: carga de IRPJ/CSLL em serviços passaria de 11,97% (2026) para 13,06% a partir de 2027, com exemplo de empresa com receita de R$ 50 milhões.",
+          "materiality": "medium",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://www.reformatributaria.com/governo/lucro-presumido-lula-e-congresso-podem-elevar-custo-com-irpj-e-csll-a-ate-13/"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.reformatributaria.com/governo/lucro-presumido-lula-e-congresso-podem-elevar-custo-com-irpj-e-csll-a-ate-13/",
+          "source_name": "Portal da Reforma Tributária",
+          "source_type": "secondary",
+          "published_at": "2026-11-20T08:05:00-03:00",
+          "excerpt": "O Senado concluiu a votação do projeto em 18 de novembro de 2026.",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "reformatributaria"
+        },
+        {
+          "url": "https://www.reformatributaria.com/governo/lucro-presumido-lula-e-congresso-podem-elevar-custo-com-irpj-e-csll-a-ate-13/",
+          "source_name": "Portal da Reforma Tributária",
+          "source_type": "secondary",
+          "published_at": "2026-11-20T08:05:00-03:00",
+          "excerpt": "o aumento no custo do Lucro Presumido vale somente para a parcela da receita que ultrapasse R$ 5 milhões ao ano.",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "reformatributaria"
+        },
+        {
+          "url": "https://www.reformatributaria.com/governo/lucro-presumido-lula-e-congresso-podem-elevar-custo-com-irpj-e-csll-a-ate-13/",
+          "source_name": "Portal da Reforma Tributária",
+          "source_type": "secondary",
+          "published_at": "2026-11-20T08:05:00-03:00",
+          "excerpt": "os percentuais de presunção de IRPJ e CSLL do setor de serviços terão passado de 32% em 2025 para 38,4% em 2027.",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "reformatributaria"
+        },
+        {
+          "url": "https://www.reformatributaria.com/governo/lucro-presumido-lula-e-congresso-podem-elevar-custo-com-irpj-e-csll-a-ate-13/",
+          "source_name": "Portal da Reforma Tributária",
+          "source_type": "secondary",
+          "published_at": "2026-11-20T08:05:00-03:00",
+          "excerpt": "passaria de 11,97% em 2026 para 13,06% a partir de 2027;",
+          "locator": "corpo da matéria, cálculo da ROIT",
+          "supports_or_contradicts": "supports",
+          "independence_group": "reformatributaria"
+        },
+        {
+          "url": "https://www.congressonacional.leg.br/web/atividade/materias/-/materia/176328",
+          "source_name": "Congresso Nacional – ficha de tramitação do PLP 299/2026",
+          "source_type": "primary",
+          "published_at": null,
+          "excerpt": "Remetido Ofício SF nº 1503, de 2026, ao Primeiro-Secretário da Câmara dos Deputados, encaminhando autógrafo do projeto para revisão, nos termos do art. 65 da Constituição Federal.",
+          "locator": "tramitação, 19/11/2026",
+          "supports_or_contradicts": "supports",
+          "independence_group": "congresso-nacional"
+        },
+        {
+          "url": "https://jornalcontabil.com.br/noticia/lucro-presumido-senado-aprova-aumento-da-tributacao-para-empresas-com-receita-acima-de-r-5-milhoes/",
+          "source_name": "Jornal Contábil",
+          "source_type": "secondary",
+          "published_at": "2026-11-13T16:16:00-03:00",
+          "excerpt": "que prevê aumentar de 10% para 20% o acréscimo aplicado aos percentuais de presunção",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "jornalcontabil"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "A ficha do Congresso confirma sessões em 18/11/2026, situação 'Aprovada pelo Plenário' e remessa à Câmara em 19/11/2026, mas o texto da ação de 18/11 aparecia truncado; a data de conclusão da votação vem da matéria e é coerente com a tramitação.",
+        "O texto integral aprovado (redação final) não foi aberto; os percentuais de presunção (32% para 38,4%) foram confirmados apenas pela matéria e, quanto ao acréscimo de 10% para 20%, pelo Jornal Contábil.",
+        "Os números de carga efetiva (11,97% para 13,06%) e o exemplo de R$ 50 milhões são estimativa da ROIT encomendada pelo portal, supondo aplicação ao ano inteiro; não há verificação independente.",
+        "O projeto ainda depende da Câmara e de sanção; não é obrigação vigente."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Clínicas e consultórios em Lucro Presumido usam presunção de 32% para serviços; as que faturam acima de R$ 5 milhões por ano teriam aumento de IRPJ/CSLL sobre o excedente a partir de 2027, se a Câmara aprovar. A matéria não cita o setor de saúde especificamente.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "A página foi aberta e a data de publicação (20/11/2026 08:05 BRT) está no metadado, dentro da janela. A ficha oficial do Congresso confirma o PLP 299/2026 aprovado pelo Plenário do Senado e remetido à Câmara em 19/11/2026. O Jornal Contábil, fonte independente, confirma o acréscimo de 10% para 20% sobre a receita acima de R$ 5 milhões. As estimativas de carga são da ROIT e estão atribuídas como tal. Trata-se de projeto em tramitação, não de norma vigente."
+    }
+  },
+  {
+    "candidate_id": "b9ab31da-0d33-4a0d-9c4d-7b71371d6a76",
+    "event_key": "senado-plp-299-2026-ajuste-fiscal-aprovado-enviado-camara",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-18",
+      "date_basis": "A página de tramitação não tem data de publicação própria (a matéria foi apresentada em 11/11/2026, fora da janela). O acontecimento noticiável é a conclusão da votação no Plenário do Senado, registrada na tramitação oficial em 18/11/2026 (Emenda nº 40 destacada e rejeitada; pareceres 222, 223 e 224/2026), seguida da remessa à Câmara em 19/11/2026 (Ofício SF nº 1503). A data de 18/11/2026 é corroborada por matéria independente publicada em 18/11/2026 às 21h03. Ambas as datas estão dentro da janela.",
+      "updated_at_claimed": null,
+      "substantive_update": null,
+      "event_title": "Senado conclui votação do PLP 299/2026 (ajuste fiscal, altera a LC 200/2023) e envia o texto à Câmara",
+      "canonical_event_key": "senado-plp-299-2026-ajuste-fiscal-aprovado-enviado-camara",
+      "official_document_id": "PLP 299/2026",
+      "regulatory_stage": "aprovado no Senado; remetido à Câmara dos Deputados para revisão (não é norma vigente)",
+      "is_regulatory": true,
+      "central_claims": [
+        {
+          "text": "O PLP 299/2026, de autoria do Sen. Jaques Wagner, altera a LC 200/2023 para conferir ao Executivo federal novos instrumentos de gestão fiscal.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.congressonacional.leg.br/web/atividade/materias/-/materia/176328"
+          ]
+        },
+        {
+          "text": "Em 18/11/2026 o Plenário do Senado concluiu a votação, com a Emenda nº 40 destacada e rejeitada por 30 x 47.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.congressonacional.leg.br/web/atividade/materias/-/materia/176328",
+            "https://viva.com.br/noticias/senado-conclui-votacao-do-pacote-de-ajuste-fiscal-e-texto-vai-a-camara.html"
+          ]
+        },
+        {
+          "text": "Em 19/11/2026 o projeto foi remetido à Câmara dos Deputados (Ofício SF nº 1503/2026) para revisão.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.congressonacional.leg.br/web/atividade/materias/-/materia/176328",
+            "https://viva.com.br/noticias/senado-conclui-votacao-do-pacote-de-ajuste-fiscal-e-texto-vai-a-camara.html"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.congressonacional.leg.br/web/atividade/materias/-/materia/176328",
+          "source_name": "Congresso Nacional - tramitação do PLP 299/2026",
+          "source_type": "primary",
+          "published_at": "2026-11-19",
+          "excerpt": "Remetido Ofício SF nº 1503, de 2026, ao Primeiro-Secretário da Câmara dos Deputados, encaminhando autógrafo do projeto para revisão, nos termos do art. 65 da Constituição Federal.",
+          "locator": "Tramitação, registro de 19/11/2026",
+          "supports_or_contradicts": "supports",
+          "independence_group": "congresso-nacional"
+        },
+        {
+          "url": "https://www.congressonacional.leg.br/web/atividade/materias/-/materia/176328",
+          "source_name": "Congresso Nacional - tramitação do PLP 299/2026",
+          "source_type": "primary",
+          "published_at": null,
+          "excerpt": "com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico",
+          "locator": "Ementa",
+          "supports_or_contradicts": "supports",
+          "independence_group": "congresso-nacional"
+        },
+        {
+          "url": "https://viva.com.br/noticias/senado-conclui-votacao-do-pacote-de-ajuste-fiscal-e-texto-vai-a-camara.html",
+          "source_name": "Viva",
+          "source_type": "secondary",
+          "published_at": "2026-11-18T21:03:00-03:00",
+          "excerpt": "O plenário do Senado Federal concluiu nesta quarta-feira, 18, a votação do Projeto de Lei Complementar (PLP) nº 299/2026",
+          "locator": "Primeiro parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "viva"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "A página oficial foi lida por ferramenta que truncou parte dos registros de tramitação; o placar da Emenda nº 40 (30 x 47) foi lido apenas parcialmente no registro.",
+        "A seção 'Entenda a proposta' da página é gerada por IA com revisão humana e não foi usada como evidência.",
+        "O texto ainda depende de revisão da Câmara dos Deputados; não é norma em vigor.",
+        "Não foi aberto o texto integral do substitutivo (Emenda nº 75) para avaliar efeitos específicos sobre o setor de saúde."
+      ],
+      "relevant_to_audience": false,
+      "relevance_note": "Projeto de ajuste do arcabouço fiscal federal (bloqueio de despesas, limites a benefícios e compensações tributárias). Impacto apenas indireto e não específico para gestores de clínicas e consultórios; nenhuma das fontes abertas menciona saúde, clínicas ou planos de saúde.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "Página oficial aberta: confirma autoria, ementa (altera a LC 200/2023), conclusão da votação em 18/11/2026 com Emenda nº 40 rejeitada e remessa à Câmara em 19/11/2026. Fonte jornalística independente de 18/11/2026 confirma a conclusão da votação e o envio à Câmara. Fatos verificados e dentro da janela, mas o tema é macrofiscal, sem utilidade direta para o público de clínicas."
+    }
+  },
+  {
+    "candidate_id": "81840628-3e92-45be-9eff-871be7cbaab6",
+    "event_key": "senado-cae-aliquota-referencia-cbs-2027-tcu-11-3",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-18T15:44:12-03:00",
+      "date_basis": "Metadado de publicação da própria página (2026-11-18T18:44:12+00:00, modificado 2 segundos depois, sem alteração material) e data 18/11/2026 no corpo do texto. Dentro da janela (após 2026-11-17T15:46:57-03:00).",
+      "updated_at_claimed": null,
+      "substantive_update": null,
+      "event_title": "Relator Eduardo Braga aponta hiato de conformidade como ponto central para o Senado fixar a alíquota de referência da CBS de 2027 (TCU propôs 11,3%)",
+      "canonical_event_key": "senado-cae-aliquota-referencia-cbs-2027-tcu-11-3",
+      "official_document_id": null,
+      "regulatory_stage": "Em discussão: alíquota de referência da CBS para 2027 calculada pelo TCU (11,3%) aguardando fixação por resolução do Senado (prazo 15/12/2026); ainda não aprovada.",
+      "is_regulatory": true,
+      "central_claims": [
+        {
+          "text": "O relator da resolução da CBS no Senado, Eduardo Braga (MDB-AM), disse que o hiato de conformidade é o ponto central da definição da alíquota de referência pela CAE.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/"
+          ]
+        },
+        {
+          "text": "O TCU propôs alíquota de referência de 11,3% para a CBS e o Senado tem até 15 de dezembro para fixá-la.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/",
+            "https://www.opovo.com.br/noticias/economia/2026/11/18/senado-pede-explicacoes-a-tcu-sobre-aliquota-de-113-da-cbs.html"
+          ]
+        },
+        {
+          "text": "O TCU partiu de hiato médio de 22,6% do PIS/Cofins (2016–2019), reduzido para 15,9% sob a hipótese de efeito da reforma.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/"
+          ]
+        },
+        {
+          "text": "O presidente do TCU, Vital do Rêgo, disse que o tribunal foi conservador ao estimar o hiato.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/"
+          ]
+        },
+        {
+          "text": "A CAE aprovou requerimento de Braga pedindo ao TCU estudos e metodologia do cálculo.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.opovo.com.br/noticias/economia/2026/11/18/senado-pede-explicacoes-a-tcu-sobre-aliquota-de-113-da-cbs.html"
+          ]
+        },
+        {
+          "text": "O prazo pode ser prorrogado até 22 de dezembro.",
+          "materiality": "low",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/",
+          "source_name": "Portal da Reforma Tributária",
+          "source_type": "secondary",
+          "published_at": "2026-11-18T15:44:12-03:00",
+          "excerpt": "É o ponto fulcral da definição que esta comissão [CAE] vai ter pela frente até o dia 15 de dezembro",
+          "locator": "corpo da matéria, citação de Eduardo Braga",
+          "supports_or_contradicts": "supports",
+          "independence_group": "reformatributaria"
+        },
+        {
+          "url": "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/",
+          "source_name": "Portal da Reforma Tributária",
+          "source_type": "secondary",
+          "published_at": "2026-11-18T15:44:12-03:00",
+          "excerpt": "Com base em estudo da Receita Federal, o TCU partiu de um hiato médio de 22,6% para o PIS/Cofins, observado entre 2016",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "reformatributaria"
+        },
+        {
+          "url": "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/",
+          "source_name": "Portal da Reforma Tributária",
+          "source_type": "secondary",
+          "published_at": "2026-11-18T15:44:12-03:00",
+          "excerpt": "O presidente do TCU, ministro Vital do Rêgo, disse na 3ª feira (17.nov) que o tribunal foi “conservador” ao estimar um h",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "reformatributaria"
+        },
+        {
+          "url": "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/",
+          "source_name": "Portal da Reforma Tributária",
+          "source_type": "secondary",
+          "published_at": "2026-11-18T15:44:12-03:00",
+          "excerpt": "O Senado precisa fixar a alíquota de 11,3% proposta pelo TCU (Tribunal de Contas da União) até 15 de dezembro",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "reformatributaria"
+        },
+        {
+          "url": "https://www.opovo.com.br/noticias/economia/2026/11/18/senado-pede-explicacoes-a-tcu-sobre-aliquota-de-113-da-cbs.html",
+          "source_name": "O Povo (Agência Brasil)",
+          "source_type": "secondary",
+          "published_at": "2026-11-18T17:56:00-03:00",
+          "excerpt": "O Senado tem até 15 de dezembro para definir a alíquota de referência.",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "agencia-brasil"
+        },
+        {
+          "url": "https://www.opovo.com.br/noticias/economia/2026/11/18/senado-pede-explicacoes-a-tcu-sobre-aliquota-de-113-da-cbs.html",
+          "source_name": "O Povo (Agência Brasil)",
+          "source_type": "secondary",
+          "published_at": "2026-11-18T17:56:00-03:00",
+          "excerpt": "Os parlamentares querem acesso a estudos, metodologias e atas das reuniões técnicas",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "agencia-brasil"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "Não foi aberta fonte primária oficial (notas taquigráficas da CAE ou acórdão do TCU); fatos confirmados por duas fontes jornalísticas independentes.",
+        "A possibilidade de prorrogação até 22/12 consta apenas na matéria candidata.",
+        "A ferramenta de leitura limitou trechos longos; alguns excerpts são o início literal de frases maiores."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "A alíquota de referência da CBS de 2027 afeta diretamente a tributação de serviços de clínicas e consultórios (inclusive com redução para saúde); ainda é decisão em discussão no Senado, não obrigação vigente.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "Página aberta, data de 18/11/2026 15:44 (BRT) confirmada por metadado e corpo, dentro da janela. Citação de Braga, números do TCU (11,3%, 22,6%, 15,9%) e fala de Vital do Rêgo constam do texto; Agência Brasil (via O Povo) confirma de forma independente o pedido da CAE ao TCU e o prazo de 15/12. Trata-se de etapa de discussão, não de norma aprovada."
+    }
+  },
+  {
+    "candidate_id": "bd6762e8-a6f5-4fcd-88b2-31fa482faf07",
+    "event_key": "rfb-piloto-cbs-producao-restrita-aberto-todas-empresas-dere",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-23T16:16:38-03:00",
+      "date_basis": "Metadado de publicação da própria página (2026-11-23T19:16:38+00:00, equivalente a 16:16:38 -03:00) e data visível 23/11/2026; modificação em 2026-11-23T19:16:41+00:00 (3 segundos depois, não substantiva). Fonte primária (comunicado da Receita Federal) publicada em 20/11/2026, 11h05, também dentro da janela.",
+      "updated_at_claimed": null,
+      "substantive_update": null,
+      "event_title": "Receita Federal abre a todas as empresas o ambiente de produção restrita do piloto da CBS, com inclusão da DeRE",
+      "canonical_event_key": "rfb-piloto-cbs-producao-restrita-aberto-todas-empresas-dere",
+      "official_document_id": "Comunicado Receita Federal de 20/11/2026: Receita Federal amplia acesso ao ambiente de produção restrita do piloto da CBS",
+      "regulatory_stage": "em vigor (ambiente de testes aberto; cobrança plena da CBS a partir de 01/01/2027 segundo a matéria)",
+      "is_regulatory": true,
+      "central_claims": [
+        {
+          "text": "Em 20/11/2026 a Receita Federal ampliou o acesso ao ambiente de produção restrita do piloto da CBS para empresas de todo o Brasil testarem os serviços.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-amplia-acesso-ao-ambiente-de-producao-restrita-do-piloto-da-cbs",
+            "https://www.reformatributaria.com/iva/receita-libera-para-todas-as-empresas-ambiente-piloto-da-cbs-com-inclusao-da-dere-acesse/"
+          ]
+        },
+        {
+          "text": "Deixa de ser necessária a indicação por entidades representativas ou pedido prévio; basta cumprir requisitos operacionais.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-amplia-acesso-ao-ambiente-de-producao-restrita-do-piloto-da-cbs"
+          ]
+        },
+        {
+          "text": "O ambiente inclui a Declaração de Regimes Específicos (DeRE), ainda não disponível no Ambiente de Produção Beta.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-amplia-acesso-ao-ambiente-de-producao-restrita-do-piloto-da-cbs"
+          ]
+        },
+        {
+          "text": "O acesso exige que a pessoa jurídica outorgue procuração digital a seus representantes; API e DeRE exigem poderes específicos.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-amplia-acesso-ao-ambiente-de-producao-restrita-do-piloto-da-cbs",
+            "https://www.reformatributaria.com/iva/receita-libera-para-todas-as-empresas-ambiente-piloto-da-cbs-com-inclusao-da-dere-acesse/"
+          ]
+        },
+        {
+          "text": "A cobrança plena da CBS começa em 1º/01/2027.",
+          "materiality": "medium",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://www.reformatributaria.com/iva/receita-libera-para-todas-as-empresas-ambiente-piloto-da-cbs-com-inclusao-da-dere-acesse/"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.reformatributaria.com/iva/receita-libera-para-todas-as-empresas-ambiente-piloto-da-cbs-com-inclusao-da-dere-acesse/",
+          "source_name": "Portal da Reforma Tributária",
+          "source_type": "secondary",
+          "published_at": "2026-11-23T16:16:38-03:00",
+          "excerpt": "A Receita Federal anunciou em 20 de novembro que irá ampliar o acesso",
+          "locator": "primeiro parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "reformatributaria-com"
+        },
+        {
+          "url": "https://www.reformatributaria.com/iva/receita-libera-para-todas-as-empresas-ambiente-piloto-da-cbs-com-inclusao-da-dere-acesse/",
+          "source_name": "Portal da Reforma Tributária",
+          "source_type": "secondary",
+          "published_at": "2026-11-23T16:16:38-03:00",
+          "excerpt": "A pessoa jurídica deverá outorgar procuração digital a seus representantes",
+          "locator": "quinto parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "reformatributaria-com"
+        },
+        {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-amplia-acesso-ao-ambiente-de-producao-restrita-do-piloto-da-cbs",
+          "source_name": "Receita Federal (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-20T11:05:00-03:00",
+          "excerpt": "permitindo que empresas de todo o Brasil possam utilizar os serviços disponibilizados para testes",
+          "locator": "corpo do comunicado",
+          "supports_or_contradicts": "supports",
+          "independence_group": "receita-federal"
+        },
+        {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-amplia-acesso-ao-ambiente-de-producao-restrita-do-piloto-da-cbs",
+          "source_name": "Receita Federal (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-20T11:05:00-03:00",
+          "excerpt": "não será mais necessária a indicação por entidades representativas",
+          "locator": "corpo do comunicado",
+          "supports_or_contradicts": "supports",
+          "independence_group": "receita-federal"
+        },
+        {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-amplia-acesso-ao-ambiente-de-producao-restrita-do-piloto-da-cbs",
+          "source_name": "Receita Federal (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-20T11:05:00-03:00",
+          "excerpt": "contém funcionalidades ainda não disponíveis no Ambiente de Produção Beta, como a Declaração de Regimes Específicos",
+          "locator": "corpo do comunicado",
+          "supports_or_contradicts": "supports",
+          "independence_group": "receita-federal"
+        }
+      ],
+      "unresolved_conflicts": [
+        "Autoria divergente na matéria: metadado indica Gabriel Benevides, assinatura visível 'Por Redação' (não afeta os fatos)."
+      ],
+      "limitations": [
+        "Trechos obtidos por ferramenta de leitura que limita citações a fragmentos curtos; excertos são fragmentos literais de frases.",
+        "A data de início da cobrança plena da CBS (01/01/2027) foi lida apenas na matéria secundária; não foi conferida na legislação nesta verificação.",
+        "Não foi consultada fonte jornalística independente adicional; a confirmação vem da fonte primária oficial."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Clínicas e consultórios (pessoas jurídicas) passam a poder testar a emissão/apuração da CBS antes da cobrança em 2027, sem depender de entidade representativa; útil para preparar contabilidade e sistemas de faturamento.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "A matéria foi aberta e sua data de publicação (23/11/2026 16:16 -03:00) está na janela. Os fatos centrais (abertura do ambiente de produção restrita do piloto da CBS a todas as empresas, fim da indicação por entidades, inclusão da DeRE, procuração digital) foram confirmados no comunicado oficial da Receita Federal de 20/11/2026. Apenas a data de cobrança plena da CBS não foi conferida em fonte primária, por isso essa afirmação ficou como parcialmente sustentada."
+    }
+  },
+  {
+    "candidate_id": "b8c5d7f8-9eb2-419a-8ec7-f8297b6fa777",
+    "event_key": "ans-damous-brasilcon-2026-planos-coletivos-reajuste-expulsivo",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-23T16:37:00-03:00",
+      "date_basis": "A própria página da ANS (gov.br) exibe 'Publicado em 23/11/2026 16h37' e 'Atualizado em 23/11/2026 17h09'. A publicação está dentro da janela (17/11 a 24/11/2026). O evento relatado (fala no Brasilcon) ocorreu em 19/11/2026, também dentro da janela.",
+      "updated_at_claimed": "2026-11-23T17:09:00-03:00",
+      "substantive_update": null,
+      "event_title": "No Brasilcon, diretor-presidente da ANS, Wadih Damous, defende atenção regulatória a reajustes e rescisões em planos coletivos de pequeno porte e critica o 'reajuste expulsivo'",
+      "canonical_event_key": "ans-damous-brasilcon-2026-planos-coletivos-reajuste-expulsivo",
+      "official_document_id": null,
+      "regulatory_stage": null,
+      "is_regulatory": false,
+      "central_claims": [
+        {
+          "text": "O diretor-presidente da ANS, Wadih Damous, participou do XVIII Congresso Brasileiro de Direito do Consumidor (Brasilcon), em Fortaleza (CE), em 19/11/2026, em debate sobre rescisão unilateral, seleção de risco, reajustes, regulação e judicialização.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/ans/pt-br/assuntos/noticias/beneficiario/no-brasilcon-diretor-presidente-da-ans-destaca-desafios-da-regulacao-dos-planos-coletivos-e-a-importancia-da-protecao-ao-consumidor"
+          ]
+        },
+        {
+          "text": "Damous afirmou que cabe à regulação impedir que a operadora devolva ao beneficiário o risco de adoecer quando a doença aparece.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/ans/pt-br/assuntos/noticias/beneficiario/no-brasilcon-diretor-presidente-da-ans-destaca-desafios-da-regulacao-dos-planos-coletivos-e-a-importancia-da-protecao-ao-consumidor"
+          ]
+        },
+        {
+          "text": "Defendeu que o equilíbrio econômico-financeiro das operadoras seja considerado junto com o equilíbrio no bolso do consumidor.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/ans/pt-br/assuntos/noticias/beneficiario/no-brasilcon-diretor-presidente-da-ans-destaca-desafios-da-regulacao-dos-planos-coletivos-e-a-importancia-da-protecao-ao-consumidor"
+          ]
+        },
+        {
+          "text": "Apontou que contratos coletivos empresariais de pequeno porte (poucas vidas) merecem atenção nas discussões sobre reajuste e rescisão e criticou o que chamou de 'reajuste expulsivo'. Trata-se de declaração, não de norma ou proposta formal.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/ans/pt-br/assuntos/noticias/beneficiario/no-brasilcon-diretor-presidente-da-ans-destaca-desafios-da-regulacao-dos-planos-coletivos-e-a-importancia-da-protecao-ao-consumidor"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/beneficiario/no-brasilcon-diretor-presidente-da-ans-destaca-desafios-da-regulacao-dos-planos-coletivos-e-a-importancia-da-protecao-ao-consumidor",
+          "source_name": "Agência Nacional de Saúde Suplementar (ANS) - gov.br",
+          "source_type": "primary",
+          "published_at": "2026-11-23T16:37:00-03:00",
+          "excerpt": "Durante participação no XVIII Congresso Brasileiro de Direito do Consumidor (Brasilcon), em Fortaleza (CE), nesta quinta-feira (19/11), o diretor-presidente da Agência Nacional de Saúde Suplementar (ANS), Wadih Damous, apresentou reflexões sobre os desafios da regulação da saúde suplementar.",
+          "locator": "1º parágrafo do corpo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "ans-oficial"
+        },
+        {
+          "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/beneficiario/no-brasilcon-diretor-presidente-da-ans-destaca-desafios-da-regulacao-dos-planos-coletivos-e-a-importancia-da-protecao-ao-consumidor",
+          "source_name": "Agência Nacional de Saúde Suplementar (ANS) - gov.br",
+          "source_type": "primary",
+          "published_at": "2026-11-23T16:37:00-03:00",
+          "excerpt": "Cabe à regulação impedir que o risco seja devolvido",
+          "locator": "3º parágrafo do corpo (citação de Damous)",
+          "supports_or_contradicts": "supports",
+          "independence_group": "ans-oficial"
+        },
+        {
+          "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/beneficiario/no-brasilcon-diretor-presidente-da-ans-destaca-desafios-da-regulacao-dos-planos-coletivos-e-a-importancia-da-protecao-ao-consumidor",
+          "source_name": "Agência Nacional de Saúde Suplementar (ANS) - gov.br",
+          "source_type": "primary",
+          "published_at": "2026-11-23T16:37:00-03:00",
+          "excerpt": "Agora, isso é uma via de mão dupla, tem que haver também a preocupação com o equilíbrio econômico-financeiro no bolso do consumidor.",
+          "locator": "Seção 'Equilíbrio econômico e proteção ao consumidor'",
+          "supports_or_contradicts": "supports",
+          "independence_group": "ans-oficial"
+        },
+        {
+          "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/beneficiario/no-brasilcon-diretor-presidente-da-ans-destaca-desafios-da-regulacao-dos-planos-coletivos-e-a-importancia-da-protecao-ao-consumidor",
+          "source_name": "Agência Nacional de Saúde Suplementar (ANS) - gov.br",
+          "source_type": "primary",
+          "published_at": "2026-11-23T16:37:00-03:00",
+          "excerpt": "Não podemos admitir o que chamo de reajuste expulsivo, que impõe aumentos desmedidos para forçar a saída de quem adoeceu",
+          "locator": "Seção 'Equilíbrio econômico e proteção ao consumidor', parágrafo sobre contratos de pequeno porte",
+          "supports_or_contradicts": "supports",
+          "independence_group": "ans-oficial"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "Única fonte é o comunicado oficial da própria ANS; busca por cobertura independente (imprensa ou Brasilcon) não retornou resultados relevantes.",
+        "A notícia relata declarações em evento; não há resolução normativa, consulta pública ou minuta associada. Não deve ser tratada como mudança regulatória."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Relevância moderada: muitas clínicas e consultórios contratam planos coletivos empresariais de pequeno porte para sócios e equipe, e a fala sinaliza a atenção do presidente da ANS a reajustes e rescisões nesses contratos. É posicionamento, sem efeito normativo imediato.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "Página oficial da ANS aberta e lida integralmente; data de publicação 23/11/2026 16h37 (atualizada 17h09) dentro da janela. Todas as afirmações centrais do resumo do pesquisador (evento em 19/11 em Fortaleza, temas do debate, citações sobre transferência de risco, equilíbrio no bolso do consumidor, contratos de poucas vidas e 'reajuste expulsivo') constam literalmente no texto. Sem documento regulatório associado; trata-se de declaração institucional."
+    }
+  },
+  {
+    "candidate_id": "55acf014-d664-4bbb-aa1c-efc83bca0dd3",
+    "event_key": "abramge-prioridades-proximo-governo-2026",
+    "verification": {
+      "status": "partially_verified",
+      "published_at_confirmed": "2026-11-21T04:55:00-03:00",
+      "date_basis": "A página do Plantão Brasil exibe publicação em 21/11/2026 às 04:55 (metadados 07:55 UTC), sem atualização distinta. A matéria de origem creditada (Brasil 247, 'Planos de saúde apresentam três prioridades ao próximo governo Lula') mostra '21/11/2026 04h53' (metadados 2026-11-21T07:53:04+00:00). Ambas estão dentro da janela (17/11 a 24/11/2026).",
+      "updated_at_claimed": null,
+      "substantive_update": null,
+      "event_title": "Abramge apresenta três prioridades para o próximo governo: judicialização, incorporação de tecnologias e combate a fraudes",
+      "canonical_event_key": "abramge-prioridades-proximo-governo-2026",
+      "official_document_id": null,
+      "regulatory_stage": null,
+      "is_regulatory": false,
+      "central_claims": [
+        {
+          "text": "A Abramge definiu três prioridades para o diálogo com o próximo governo: enfrentar a judicialização, aprimorar critérios de incorporação de novas tecnologias e combater fraudes, conforme entrevista de Gustavo Ribeiro ao Saúde Insider.",
+          "materiality": "high",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://www.plantaobrasil.net/noticias/164734-setor-de-planos-de-saude-define-agenda-de-prioridades-para-o-proximo-governo",
+            "https://www.brasil247.com/saude/planos-de-saude-apresentam-tres-prioridades-ao-proximo-governo-lula/"
+          ]
+        },
+        {
+          "text": "Segundo dados do CNJ, havia 439.060 ações pendentes contra operadoras em agosto de 2026, alta de 14,3% em um ano.",
+          "materiality": "medium",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://www.plantaobrasil.net/noticias/164734-setor-de-planos-de-saude-define-agenda-de-prioridades-para-o-proximo-governo",
+            "https://www.brasil247.com/saude/planos-de-saude-apresentam-tres-prioridades-ao-proximo-governo-lula/"
+          ]
+        },
+        {
+          "text": "A Abramge propõe fortalecer os NatJus e criar varas judiciais especializadas em saúde.",
+          "materiality": "medium",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://www.plantaobrasil.net/noticias/164734-setor-de-planos-de-saude-define-agenda-de-prioridades-para-o-proximo-governo",
+            "https://www.brasil247.com/saude/planos-de-saude-apresentam-tres-prioridades-ao-proximo-governo-lula/"
+          ]
+        },
+        {
+          "text": "A entidade defende combate a fraudes com maior integração de dados, revisão da Lei 9.656/1998 e ampliação da cooperação com o SUS (programa Agora Tem Especialistas).",
+          "materiality": "medium",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://www.plantaobrasil.net/noticias/164734-setor-de-planos-de-saude-define-agenda-de-prioridades-para-o-proximo-governo",
+            "https://www.brasil247.com/saude/planos-de-saude-apresentam-tres-prioridades-ao-proximo-governo-lula/"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.plantaobrasil.net/noticias/164734-setor-de-planos-de-saude-define-agenda-de-prioridades-para-o-proximo-governo",
+          "source_name": "Plantão Brasil",
+          "source_type": "republication",
+          "published_at": "2026-11-21T04:55:00-03:00",
+          "excerpt": "Dados do Conselho Nacional de Justiça (CNJ) apontam que, até agosto de 2026, o país acumulava 439.060 ações pendentes contra operadoras, um salto de 14,3% em relação ao ano anterior.",
+          "locator": "2º parágrafo do corpo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "brasil247-saude-insider"
+        },
+        {
+          "url": "https://www.plantaobrasil.net/noticias/164734-setor-de-planos-de-saude-define-agenda-de-prioridades-para-o-proximo-governo",
+          "source_name": "Plantão Brasil",
+          "source_type": "republication",
+          "published_at": "2026-11-21T04:55:00-03:00",
+          "excerpt": "A Abramge também busca ampliar a cooperação com o SUS, sugerindo a expansão de programas como o 'Agora Tem Especialistas' para reduzir filas de atendimento.",
+          "locator": "4º parágrafo do corpo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "brasil247-saude-insider"
+        },
+        {
+          "url": "https://www.brasil247.com/saude/planos-de-saude-apresentam-tres-prioridades-ao-proximo-governo-lula/",
+          "source_name": "Brasil 247",
+          "source_type": "secondary",
+          "published_at": "2026-11-21T04:53:00-03:00",
+          "excerpt": "As propostas foram detalhadas pelo presidente da entidade, Gustavo Ribeiro, em entrevista ao Saúde Insider.",
+          "locator": "1º parágrafo do corpo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "brasil247-saude-insider"
+        },
+        {
+          "url": "https://www.brasil247.com/saude/planos-de-saude-apresentam-tres-prioridades-ao-proximo-governo-lula/",
+          "source_name": "Brasil 247",
+          "source_type": "secondary",
+          "published_at": "2026-11-21T04:53:00-03:00",
+          "excerpt": "A associação propõe fortalecer os Núcleos de Apoio Técnico do Poder Judiciário (NatJus), ampliar a utilização de pareceres especializados e estimular a criação de varas judiciais com especialização em saúde.",
+          "locator": "Seção 'Judicialização cresce e preocupa operadoras'",
+          "supports_or_contradicts": "supports",
+          "independence_group": "brasil247-saude-insider"
+        },
+        {
+          "url": "https://www.brasil247.com/saude/planos-de-saude-apresentam-tres-prioridades-ao-proximo-governo-lula/",
+          "source_name": "Brasil 247",
+          "source_type": "secondary",
+          "published_at": "2026-11-21T04:53:00-03:00",
+          "excerpt": "A terceira prioridade da associação é o enfrentamento das fraudes no setor, com maior integração de informações entre operadoras, hospitais, laboratórios e serviços públicos.",
+          "locator": "Seção 'Combate a fraudes e integração de dados'",
+          "supports_or_contradicts": "supports",
+          "independence_group": "brasil247-saude-insider"
+        },
+        {
+          "url": "https://www.brasil247.com/saude/planos-de-saude-apresentam-tres-prioridades-ao-proximo-governo-lula/",
+          "source_name": "Brasil 247",
+          "source_type": "secondary",
+          "published_at": "2026-11-21T04:53:00-03:00",
+          "excerpt": "Outro ponto apresentado pela associação é a revisão da Lei 9.656/1998, que regulamenta os planos privados de assistência à saúde no Brasil.",
+          "locator": "Seção 'Abramge também quer discutir atualização da lei dos planos de saúde'",
+          "supports_or_contradicts": "supports",
+          "independence_group": "brasil247-saude-insider"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "A entrevista original ao Saúde Insider não foi localizada nem aberta; não há comunicado da Abramge acessado.",
+        "O dado do CNJ (439.060 ações pendentes, +14,3%) não foi conferido no painel/estatística do CNJ; Brasil 247 informa que o número foi 'citado pelo Saúde Insider'.",
+        "Plantão Brasil é republicação/reescrita do Brasil 247 (crédito 'Fonte: Brasil 247'); as duas páginas pertencem à mesma cadeia de origem e não são confirmações independentes.",
+        "Trata-se de agenda de pleitos de uma entidade setorial, não de medida regulatória ou decisão de governo."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Relevância moderada: as prioridades das operadoras (judicialização, critérios de incorporação de tecnologias, combate a fraudes com integração de dados e revisão da Lei 9.656/1998) podem afetar clínicas e consultórios credenciados, sobretudo em auditoria, glosas e compartilhamento de dados. São propostas, sem efeito normativo.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "A página do Plantão Brasil foi aberta e sua data (21/11/2026 04:55) está na janela. O conteúdo coincide com a matéria do Brasil 247 de 21/11/2026 04h53, creditada como fonte, que atribui as propostas a entrevista de Gustavo Ribeiro (Abramge) ao Saúde Insider. Não foi possível abrir a entrevista original nem a fonte primária do CNJ, e as duas páginas lidas são da mesma cadeia editorial. Por isso o status é partially_verified: a atribuição e a data estão consistentes, mas falta confirmação primária ou independente dos números e das declarações."
+    }
+  },
+  {
+    "candidate_id": "d3302f75-ffa0-41ea-9d06-13fe66d374e7",
+    "event_key": "mte-portaria-2041-2026-regras-escala-5x2",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-23T17:30:00-03:00",
+      "date_basis": "A própria página oficial do MTE (gov.br) exibe 'Publicado em 23/11/2026 17h30' e 'Atualizado em 23/11/2026 18h44'; o texto informa que a Portaria nº 2.041 foi publicada 'nesta segunda-feira (23)' em edição especial do DOU. A data está dentro da janela (2026-11-17T18:46Z a 2026-11-24T18:46Z). A notícia do LegisWeb de 19/11/2026 (republicação de texto do MTE) já anunciava a portaria para segunda-feira (23), coerente com a data.",
+      "updated_at_claimed": "2026-11-23T18:44:00-03:00",
+      "substantive_update": null,
+      "event_title": "MTE publica Portaria nº 2.041/2026 com regras complementares para a escala 5x2 (EC 141/2026 e Decreto 13.173/2026)",
+      "canonical_event_key": "mte-portaria-2041-2026-regras-escala-5x2",
+      "official_document_id": "Portaria MTE nº 2.041/2026",
+      "regulatory_stage": "publicada (DOU, edição especial de 23/11/2026); obrigações exigíveis a partir de 16/12/2026 (42h) e 16/12/2027 (40h)",
+      "is_regulatory": true,
+      "central_claims": [
+        {
+          "text": "O MTE publicou a Portaria nº 2.041 em 23/11/2026, em edição especial do DOU, com regras complementares ao Decreto nº 13.173/2026 e à EC nº 141/2026.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+          ]
+        },
+        {
+          "text": "A partir de 16/12/2026 a jornada normal fica limitada a 8h diárias e 42h semanais, com dois repousos semanais de 24h; a partir de 16/12/2027, 40h semanais.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2",
+            "https://www.legisweb.com.br/noticia/?id=34902"
+          ]
+        },
+        {
+          "text": "O divisor do salário-hora passa de 220 para 210 (16/12/2026) e 200 (16/12/2027), sem redução salarial.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2",
+            "https://www.legisweb.com.br/noticia/?id=34902"
+          ]
+        },
+        {
+          "text": "Na escala 12x36, se a média mensal ultrapassar o limite semanal constitucional, deve haver compensação ou pagamento de horas extras nos termos de convenção ou acordo coletivo.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+          ]
+        },
+        {
+          "text": "O banco de horas acumulado até 15/12/2026 segue o acordo individual ou instrumento coletivo vigente; cláusulas coletivas incompatíveis com os novos limites deixam de produzir efeitos.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+          ]
+        },
+        {
+          "text": "A organização das jornadas deve considerar riscos ocupacionais e atualizar o PGR (NR-01) quando cabível; em atividades insalubres a prorrogação segue o art. 64 da Portaria MTP nº 671/2021.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+          ]
+        },
+        {
+          "text": "O MTE ainda publicará portarias sobre compensação de repousos por negociação coletiva, afastamento contínuo e profissões regulamentadas.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2",
+          "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-23T17:30:00-03:00",
+          "excerpt": "A Portaria Nº 2.041 do Ministério do Trabalho e Emprego (MTE), publicada nesta segunda-feira (23) em edição especial do Diário Oficial da União (DOU), estabelece regras complementares ao Decreto nº 13.173/2026",
+          "locator": "1º parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "mte-oficial"
+        },
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2",
+          "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-23T17:30:00-03:00",
+          "excerpt": "A duração normal do trabalho será limitada a oito horas diárias e 42 horas semanais a partir de 16 de dezembro de 2026.",
+          "locator": "4º parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "mte-oficial"
+        },
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2",
+          "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-23T17:30:00-03:00",
+          "excerpt": "Com a redução da jornada para 42 horas semanais, a partir de 16 de dezembro de 2026, será aplicado o divisor 210.",
+          "locator": "seção Hora de Trabalho",
+          "supports_or_contradicts": "supports",
+          "independence_group": "mte-oficial"
+        },
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2",
+          "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-23T17:30:00-03:00",
+          "excerpt": "O saldo do banco de horas acumulado até 15 de dezembro de 2026 será compensado ou pago conforme as condições previstas no acordo individual ou no instrumento coletivo",
+          "locator": "seção Normas Coletivas",
+          "supports_or_contradicts": "supports",
+          "independence_group": "mte-oficial"
+        },
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2",
+          "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-23T17:30:00-03:00",
+          "excerpt": "Nas atividades insalubres, a prorrogação de jornada deverá observar o disposto no art. 64 da Portaria MTP nº 671/2021.",
+          "locator": "parágrafo sobre segurança e saúde no trabalho",
+          "supports_or_contradicts": "supports",
+          "independence_group": "mte-oficial"
+        },
+        {
+          "url": "https://www.legisweb.com.br/noticia/?id=34902",
+          "source_name": "LegisWeb (republicação de conteúdo do MTE)",
+          "source_type": "republication",
+          "published_at": "2026-11-19",
+          "excerpt": "Na segunda-feira (23), o MTE publicará uma portaria com orientações complementares e regulamentações específicas para os regimes especiais de trabalho.",
+          "locator": "corpo da notícia sobre o Decreto",
+          "supports_or_contradicts": "context",
+          "independence_group": "mte-oficial"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "O texto integral da Portaria nº 2.041 no DOU não foi aberto; a verificação baseia-se na notícia oficial do próprio MTE.",
+        "Não foi aberta fonte jornalística independente (cota de busca/fetch limitada); o LegisWeb apenas republica conteúdo do MTE e serve como contexto.",
+        "Regras específicas para profissões regulamentadas (ex.: profissionais de saúde com legislação própria) ainda dependem de portarias futuras."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Clínicas e consultórios com empregados CLT (recepção, enfermagem, técnicos, plantões 12x36) precisam ajustar escalas, jornadas de 42h a partir de 16/12/2026, divisor 210 na folha, banco de horas e PGR.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "A página oficial do MTE foi acessada integralmente e confirma data (23/11/2026 17h30), número da portaria, edição especial do DOU e todos os pontos centrais do resumo do pesquisador. Notícia de 19/11 republicada pelo LegisWeb antecipa a publicação para 23/11, coerente. Fonte é o próprio órgão emissor; status verified com ressalva de que o texto do DOU não foi aberto."
+    }
+  },
+  {
+    "candidate_id": "ab4cde62-df38-48b2-84e9-4a75b5697ad1",
+    "event_key": "decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-19T11:19:00-03:00",
+      "date_basis": "A própria página do MTE (gov.br) exibe 'Publicado em 19/11/2026 11h19 Atualizado em 19/11/2026 13h22'. A data é consistente com a Agência Gov (19/11/2026 18:00) e com O Povo (publicado às 10:38 de 19/11/2026), que relatam a assinatura do decreto nesta quinta-feira, 19/11. Está dentro da janela (17/11 a 24/11/2026).",
+      "updated_at_claimed": "2026-11-19T13:22:00-03:00",
+      "substantive_update": null,
+      "event_title": "Decreto nº 13.173/2026 regulamenta a EC nº 141/2026: escala 5x2, jornada de 42h a partir de 16/12/2026 e 40h em dezembro de 2027, sem redução salarial",
+      "canonical_event_key": "decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2",
+      "official_document_id": "Decreto nº 13.173/2026 (regulamenta a Emenda Constitucional nº 141/2026)",
+      "regulatory_stage": "publicada (decreto assinado em 19/11/2026, em vigor na data de publicação; nova jornada de 42h vale a partir de 16/12/2026 e de 40h a partir de 16/12/2027; portaria complementar do MTE anunciada, não verificada)",
+      "is_regulatory": true,
+      "central_claims": [
+        {
+          "text": "O Governo Federal assinou em 19/11/2026 o decreto (nº 13.173/2026) que regulamenta a Emenda Constitucional nº 141/2026, que institui a escala 5x2.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+            "https://agenciagov.ebc.com.br/noticias/202611/estamos-humanizanso-o-mundo-do-trabalho-diz-lula-ao-regulamentar-o-fim-da-escala-6x1",
+            "https://www.opovo.com.br/noticias/economia/2026/11/19/lula-assina-decreto-de-regulamentacao-da-5x2-e-fim-da-6x1.html"
+          ]
+        },
+        {
+          "text": "A partir de 16/12/2026 a jornada máxima cai de 44h para 42h semanais, com dois dias de repouso; em dezembro de 2027 cai para 40h.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+            "https://agenciagov.ebc.com.br/noticias/202611/estamos-humanizanso-o-mundo-do-trabalho-diz-lula-ao-regulamentar-o-fim-da-escala-6x1",
+            "https://www.opovo.com.br/noticias/economia/2026/11/19/lula-assina-decreto-de-regulamentacao-da-5x2-e-fim-da-6x1.html"
+          ]
+        },
+        {
+          "text": "Não há redução salarial; o divisor do salário-hora passa de 220 para 210 (42h) e depois 200 (40h), afetando horas extras e adicional noturno.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+            "https://agenciagov.ebc.com.br/noticias/202611/estamos-humanizanso-o-mundo-do-trabalho-diz-lula-ao-regulamentar-o-fim-da-escala-6x1"
+          ]
+        },
+        {
+          "text": "Trabalhadores que já cumprem até 40h semanais em seis dias também passam a ter dois dias de repouso remunerado.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+            "https://www.opovo.com.br/noticias/economia/2026/11/19/lula-assina-decreto-de-regulamentacao-da-5x2-e-fim-da-6x1.html"
+          ]
+        },
+        {
+          "text": "A negociação coletiva segue como instrumento para regras específicas (distribuição de folgas no mês, turnos de revezamento, 12x36).",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+            "https://www.opovo.com.br/noticias/economia/2026/11/19/lula-assina-decreto-de-regulamentacao-da-5x2-e-fim-da-6x1.html"
+          ]
+        },
+        {
+          "text": "A medida alcança 14,8 milhões de trabalhadores em escala 6x1 e 21,7 milhões em 5x2 com 44h semanais.",
+          "materiality": "low",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+            "https://agenciagov.ebc.com.br/noticias/202611/estamos-humanizanso-o-mundo-do-trabalho-diz-lula-ao-regulamentar-o-fim-da-escala-6x1"
+          ]
+        },
+        {
+          "text": "O MTE publicaria em 23/11/2026 uma portaria com orientações complementares.",
+          "materiality": "medium",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+            "https://www.opovo.com.br/noticias/economia/2026/11/19/lula-assina-decreto-de-regulamentacao-da-5x2-e-fim-da-6x1.html"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+          "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-19T11:19:00-03:00",
+          "excerpt": "a partir de 16 de dezembro, a jornada será reduzida de 44 para 42 horas semanais, com direito a dois dias de repouso.",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "governo-federal"
+        },
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+          "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-19T11:19:00-03:00",
+          "excerpt": "A medida deverá alcançar 14,8 milhões de trabalhadores que atualmente cumprem jornada na escala 6x1.",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "governo-federal"
+        },
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+          "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-19T11:19:00-03:00",
+          "excerpt": "Na segunda-feira (23), o MTE publicará uma portaria com orientações complementares",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "governo-federal"
+        },
+        {
+          "url": "https://agenciagov.ebc.com.br/noticias/202611/estamos-humanizanso-o-mundo-do-trabalho-diz-lula-ao-regulamentar-o-fim-da-escala-6x1",
+          "source_name": "Agência Gov (via Planalto)",
+          "source_type": "primary",
+          "published_at": "2026-11-19T18:00:00-03:00",
+          "excerpt": "O presidente Lula assinou nesta quinta-feira (19/11), no Palácio do Planalto, o Decreto nº 13.173/2026, que regulamenta a Emenda Constitucional nº 141/2026, responsável por instituir a escala 5x2 no mercado de trabalho brasileiro e estabelecer mecanismos para a transição das jornadas.",
+          "locator": "primeiro parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "governo-federal"
+        },
+        {
+          "url": "https://agenciagov.ebc.com.br/noticias/202611/estamos-humanizanso-o-mundo-do-trabalho-diz-lula-ao-regulamentar-o-fim-da-escala-6x1",
+          "source_name": "Agência Gov (via Planalto)",
+          "source_type": "primary",
+          "published_at": "2026-11-19T18:00:00-03:00",
+          "excerpt": "Para a jornada de 42 horas semanais, o divisor será 210. Para a jornada de 40 horas, será 200.",
+          "locator": "seção Sem redução salarial",
+          "supports_or_contradicts": "supports",
+          "independence_group": "governo-federal"
+        },
+        {
+          "url": "https://www.opovo.com.br/noticias/economia/2026/11/19/lula-assina-decreto-de-regulamentacao-da-5x2-e-fim-da-6x1.html",
+          "source_name": "O Povo",
+          "source_type": "secondary",
+          "published_at": "2026-11-19T10:38:00-03:00",
+          "excerpt": "O presidente Luiz Inácio Lula da Silva (PT) assinou nesta quinta-feira, 19, o decreto que regulamenta a escala 5x2 (cinco dias trabalhados e dois de descanso) e consolida o fim da jornada 6x1.",
+          "locator": "primeiro parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "opovo"
+        },
+        {
+          "url": "https://www.opovo.com.br/noticias/economia/2026/11/19/lula-assina-decreto-de-regulamentacao-da-5x2-e-fim-da-6x1.html",
+          "source_name": "O Povo",
+          "source_type": "secondary",
+          "published_at": "2026-11-19T10:38:00-03:00",
+          "excerpt": "Já a partir de dezembro de 2027, o limite semanal será reduzido novamente, chegando a 40 horas.",
+          "locator": "seção Como vai funcionar a transição e as novas regras",
+          "supports_or_contradicts": "supports",
+          "independence_group": "opovo"
+        }
+      ],
+      "unresolved_conflicts": [
+        "O Povo e Gazeta do Povo (esta só vista em resultado de busca, não aberta) mencionam uma 'reviravolta no STF' / pontos que 'ainda dependem do STF' sobre a escala 5x2; o conteúdo dessa questão judicial não foi verificado e pode afetar a aplicação das regras."
+      ],
+      "limitations": [
+        "O texto do Decreto nº 13.173/2026 no Diário Oficial da União/Planalto não foi aberto; o número do decreto vem da Agência Gov (a página do MTE não o cita).",
+        "A publicação da portaria complementar do MTE prevista para 23/11/2026 não foi verificada; apenas o anúncio foi confirmado.",
+        "MTE e Agência Gov são ambos fontes do Governo Federal (mesma origem); a confirmação independente vem do O Povo.",
+        "O limite de WebFetch esgotou durante a verificação; as páginas da Agência Gov e do O Povo foram lidas via apify web-fetch."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Clínicas e consultórios empregam recepcionistas, técnicos e auxiliares sob CLT, frequentemente em 6x1 ou 44h; precisam reorganizar escalas para duas folgas e 42h a partir de 16/12/2026, recalcular salário-hora (divisor 210) para horas extras e adicional noturno e revisar escalas 12x36 e acordos coletivos.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "A página oficial do MTE foi aberta e mostra publicação em 19/11/2026 11h19 (dentro da janela). Os fatos centrais (regulamentação da EC 141/2026, 42h a partir de 16/12/2026 e 40h em dezembro de 2027, sem redução salarial, divisores 210/200, duas folgas para quem já cumpre até 40h em seis dias, papel da negociação coletiva, 14,8 e 21,7 milhões de trabalhadores) foram confirmados na própria página, na Agência Gov (que informa o número do Decreto nº 13.173/2026) e de forma independente no O Povo. A portaria de 23/11 consta apenas como anúncio. Ressalva: menção a questão no STF não verificada."
+    }
+  },
+  {
+    "candidate_id": "3eb6420d-eedc-46c2-8bec-e1cfef93d6b8",
+    "event_key": "mte-ec-141-adequacao-convencoes-coletivas-nova-jornada-16-12-2026",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-24T14:07:00-03:00",
+      "date_basis": "A página da Agência Gov exibe '24/11/2026 14:07' e credita 'Agência Gov | Via MTE'. A fonte primária (notícia do MTE em gov.br) exibe 'Publicado em 24/11/2026 14h07' e 'Atualizado em 24/11/2026 15h16'. Data de publicação original dentro da janela (17/11 a 24/11/2026 18:46 UTC).",
+      "updated_at_claimed": "2026-11-24T15:16:00-03:00",
+      "substantive_update": null,
+      "event_title": "MTE prioriza adequação de acordos e convenções coletivas à nova jornada da EC 141; cláusulas de jornada e escala perdem validade em 16/12/2026",
+      "canonical_event_key": "mte-ec-141-adequacao-convencoes-coletivas-nova-jornada-16-12-2026",
+      "official_document_id": "Emenda Constitucional nº 141",
+      "regulatory_stage": "Emenda constitucional já aprovada (EC nº 141); regulamentação em elaboração pelo MTE; cláusulas de jornada e escala de instrumentos coletivos perdem validade a partir de 16/12/2026",
+      "is_regulatory": true,
+      "central_claims": [
+        {
+          "text": "A adequação de acordos e convenções coletivas à nova jornada (dois dias de descanso semanal e redução gradual da carga horária) será uma das prioridades do MTE.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte",
+            "https://agenciagov.ebc.com.br/noticias/202611/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte"
+          ]
+        },
+        {
+          "text": "As cláusulas sobre jornada e escala dos instrumentos coletivos vigentes perdem a validade a partir de 16/12/2026, exigindo renegociação.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte",
+            "https://agenciagov.ebc.com.br/noticias/202611/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte"
+          ]
+        },
+        {
+          "text": "O MTE trabalha na regulamentação da Emenda Constitucional nº 141.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte"
+          ]
+        },
+        {
+          "text": "As SRTEs e o serviço de mediação coletiva do MTE oferecem atendimento público e gratuito para construção de acordos.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte"
+          ]
+        },
+        {
+          "text": "As declarações foram feitas em 23/11, na abertura da Semana Nacional de Promoção da Negociação Coletiva (23 a 27/11, em todos os estados).",
+          "materiality": "low",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte"
+          ]
+        },
+        {
+          "text": "A abertura ocorreu em Brasília.",
+          "materiality": "low",
+          "status": "contradicted",
+          "evidence_urls": [
+            "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://agenciagov.ebc.com.br/noticias/202611/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte",
+          "source_name": "Agência Gov (EBC)",
+          "source_type": "republication",
+          "published_at": "2026-11-24T14:07:00-03:00",
+          "excerpt": "As cláusulas sobre jornada e escala desses instrumentos perdem a validade a partir de 16 de dezembro de 2026, o que exige a abertura de negociações para sua atualização.",
+          "locator": "3º parágrafo do corpo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "mte-comunicado-24-11-2026"
+        },
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte",
+          "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-24T14:07:00-03:00",
+          "excerpt": "A adequação dos acordos e convenções coletivas à nova jornada de trabalho, com dois dias de descanso semanal e redução gradual da carga horária, será uma das prioridades do Ministério do Trabalho e Emprego (MTE).",
+          "locator": "1º parágrafo do corpo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "mte-comunicado-24-11-2026"
+        },
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte",
+          "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-24T14:07:00-03:00",
+          "excerpt": "Segundo Perioto, o Ministério está trabalhando na regulamentação da Emenda Constitucional nº 141 e na orientação de trabalhadores, empregadores e entidades representativas sobre os próximos passos.",
+          "locator": "3º parágrafo do corpo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "mte-comunicado-24-11-2026"
+        },
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte",
+          "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-24T14:07:00-03:00",
+          "excerpt": "As cláusulas sobre jornada e escala desses instrumentos perdem a validade a partir de 16 de dezembro de 2026, o que exige a abertura de negociações para sua atualização.",
+          "locator": "3º parágrafo do corpo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "mte-comunicado-24-11-2026"
+        },
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte",
+          "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-24T14:07:00-03:00",
+          "excerpt": "O secretário também ressaltou a atuação das Superintendências Regionais do Trabalho e Emprego (SRTEs) e do serviço de mediação coletiva do MTE, que oferece atendimento público e gratuito para auxiliar trabalhadores e empregadores na construção de acordos e na resolução de conflitos.",
+          "locator": "4º parágrafo do corpo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "mte-comunicado-24-11-2026"
+        },
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/adequacao-de-acordos-e-convencoes-a-nova-jornada-e-prioridade-do-mte",
+          "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+          "source_type": "primary",
+          "published_at": "2026-11-24T14:07:00-03:00",
+          "excerpt": "A prioridade foi destacada pelo secretário de Relações do Trabalho, Marcos Perioto, que representou o ministro Luiz Marinho na abertura nacional da Semana Nacional de Promoção da Negociação Coletiva, realizada nesta segunda-feira (23), na Fundacentro, em São Paulo.",
+          "locator": "2º parágrafo do corpo",
+          "supports_or_contradicts": "contradicts",
+          "independence_group": "mte-comunicado-24-11-2026"
+        }
+      ],
+      "unresolved_conflicts": [
+        "Local da abertura: a Agência Gov diz 'em Brasília'; o texto original do MTE diz 'na Fundacentro, em São Paulo' (participação do superintendente regional em São Paulo e da chefe de Gabinete da Fundacentro reforça a versão do MTE). Detalhe de baixa materialidade, que não afeta os fatos centrais."
+      ],
+      "limitations": [
+        "A matéria da Agência Gov é republicação do comunicado do MTE; não foi aberta fonte jornalística independente (cota de WebFetch esgotada), então a confirmação vem da fonte primária oficial.",
+        "O texto da Emenda Constitucional nº 141 não foi aberto nesta verificação; a data de 16/12/2026 e o efeito sobre as cláusulas coletivas são atribuídos ao MTE.",
+        "A regulamentação da EC 141 ainda está em elaboração; detalhes de aplicação podem mudar."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Clínicas e consultórios com empregados sob convenção ou acordo coletivo terão cláusulas de jornada e escala sem validade a partir de 16/12/2026 e precisam acompanhar a renegociação com o sindicato da categoria e ajustar escalas à nova jornada (dois dias de descanso semanal).",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "Abri a página da Agência Gov e a fonte primária do MTE em gov.br. Ambas mostram publicação em 24/11/2026 às 14h07, dentro da janela. O comunicado do MTE confirma literalmente a prioridade de adequar os instrumentos coletivos à nova jornada, a perda de validade das cláusulas de jornada e escala em 16/12/2026, a regulamentação da EC 141 em andamento, a mediação gratuita e a Semana Nacional de 23 a 27/11. A única divergência é o local da abertura (Brasília na Agência Gov; Fundacentro, São Paulo, no MTE), de baixa materialidade. Fatos centrais confirmados pela fonte primária: verified."
+    }
+  },
+  {
+    "candidate_id": "5ae143f5-793a-4e64-b303-36856e95b439",
+    "event_key": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos",
+    "verification": {
+      "status": "partially_verified",
+      "published_at_confirmed": "2026-11-19",
+      "date_basis": "Página da Medicina S/A aberta nesta verificação: metadados indicam publicação em 19/11/2026 às 08:07:41 UTC (05:07 em America/Sao_Paulo), autora Gabriele Ventura. Data dentro da janela (17/11 a 24/11/2026). Uso só o dia por a hora vir de metadado.",
+      "updated_at_claimed": null,
+      "substantive_update": null,
+      "event_title": "Levantamento do BoaConsulta: clínicas que demoram mais de 24h para responder confirmam só 22% dos pedidos de agendamento",
+      "canonical_event_key": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos",
+      "official_document_id": null,
+      "regulatory_stage": null,
+      "is_regulatory": false,
+      "central_claims": [
+        {
+          "text": "Levantamento do BoaConsulta analisou 21,9 mil pedidos de agendamento feitos em 2026.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://medicinasa.com.br/clinicas-agendamentos/"
+          ]
+        },
+        {
+          "text": "Clínicas que levam mais de 24 horas para responder confirmam apenas 22% das solicitações; as que respondem rápido convertem entre 56% e 59%.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://medicinasa.com.br/clinicas-agendamentos/"
+          ]
+        },
+        {
+          "text": "Quando a primeira resposta passa de 24 horas, 57% dos pedidos expiram sem confirmação; 8% dos pacientes cancelam antes do retorno.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://medicinasa.com.br/clinicas-agendamentos/"
+          ]
+        },
+        {
+          "text": "32% dos agendamentos online ocorrem fora do horário comercial (46% pelo aplicativo) e cerca de 8% entre 22h e 6h.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://medicinasa.com.br/clinicas-agendamentos/"
+          ]
+        },
+        {
+          "text": "Onde a origem é registrada, o WhatsApp gera 2,1 vezes mais solicitações que o telefone.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://medicinasa.com.br/clinicas-agendamentos/"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://medicinasa.com.br/clinicas-agendamentos/",
+          "source_name": "Medicina S/A",
+          "source_type": "secondary",
+          "published_at": "2026-11-19",
+          "excerpt": "conseguem confirmar apenas 22% das solicitações recebidas.",
+          "locator": "corpo da matéria, abertura",
+          "supports_or_contradicts": "supports",
+          "independence_group": "boaconsulta-levantamento"
+        },
+        {
+          "url": "https://medicinasa.com.br/clinicas-agendamentos/",
+          "source_name": "Medicina S/A",
+          "source_type": "secondary",
+          "published_at": "2026-11-19",
+          "excerpt": "Nesse grupo, 57% dos pedidos expiram sem confirmação.",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "boaconsulta-levantamento"
+        },
+        {
+          "url": "https://medicinasa.com.br/clinicas-agendamentos/",
+          "source_name": "Medicina S/A",
+          "source_type": "secondary",
+          "published_at": "2026-11-19",
+          "excerpt": "32% dos agendamentos online são realizados fora do horário comercial,",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "boaconsulta-levantamento"
+        },
+        {
+          "url": "https://medicinasa.com.br/clinicas-agendamentos/",
+          "source_name": "Medicina S/A",
+          "source_type": "secondary",
+          "published_at": "2026-11-19",
+          "excerpt": "Nos consultórios que registram a origem dos agendamentos, o WhatsApp gera 2,1 vezes mais solicitações do que o telefone.",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "boaconsulta-levantamento"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "Não foi localizada a fonte primária (relatório ou comunicado do BoaConsulta) nem cobertura independente; a busca retornou apenas a própria Medicina S/A.",
+        "Dados proprietários de uma plataforma de agendamento com interesse comercial no tema; metodologia e amostra não verificáveis de forma independente.",
+        "Hora de publicação obtida de metadados da página; registrado apenas o dia."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Útil para gestores de clínicas e consultórios: relaciona tempo de resposta a pedidos de agendamento com conversão, e mostra demanda fora do horário comercial e peso do WhatsApp. Deve ser apresentado como levantamento de empresa do setor, não como estudo independente.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "A matéria foi aberta e confirma a data (19/11/2026, dentro da janela) e todos os números do resumo do pesquisador, atribuídos ao levantamento do BoaConsulta. Não houve acesso à fonte primária nem a fonte independente, e os dados vêm de empresa com interesse comercial; por isso, parcialmente verificada (o que se confirma é que a publicação relata esses dados, não a validade da pesquisa)."
+    }
+  },
+  {
+    "candidate_id": "66375ae9-fb7d-41be-ae9b-1b22dcdda923",
+    "event_key": "ans-dicol-646-2026-11-24-pauta",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": null,
+      "date_basis": "O PDF da pauta (Versão 3) não traz data de publicação original da primeira versão; informa apenas 'Pauta atualizada em 18/11/2026' (inclusão dos itens extrapauta 4, 5 e 6) e 'Pauta atualizada em 19/11/2026' (inclusão do item 7). A notícia oficial da ANS que divulga a reunião e remete à pauta tem 'Publicado em 19/11/2026 17h33' (datePublished 2026-11-19T17:33:25-03:00). Como a data da versão original do PDF não é verificável, published_at_confirmed fica null; as atualizações materiais de 18/11 e 19/11/2026 estão dentro da janela e foram registradas em substantive_update.",
+      "updated_at_claimed": "2026-11-19",
+      "substantive_update": {
+        "date": "2026-11-18",
+        "previous_content": "Pauta da 646ª Reunião Ordinária da Diretoria Colegiada da ANS (24/11/2026) com aprovação de atas, item regimental da DIPRO, resolução administrativa da DIGES e o Blocão de processos sancionadores e de ressarcimento ao SUS.",
+        "new_fact": "Em 18/11/2026 foram incluídos itens extrapauta: aprovação do relatório da Consulta Pública nº 165 e apreciação de proposta de RN sobre transferência de carteira entre operadoras (Processo 33902.082875/2005-20); deliberação sobre tecnologias recomendadas pela CONITEC para incorporação ao Rol (Processo 33910.000122/2026-30); e aprovação da abertura de Audiência Pública sobre proposta de nova RN de contratualização entre operadoras e prestadores (Processo 33910.000171/2025-91). Em 19/11/2026 foi incluído o item 7 (alteração da RR nº 21/2022, PRESI).",
+        "why_it_matters": "A futura norma de contratualização entre operadoras e prestadores afeta diretamente clínicas e consultórios credenciados, e a inclusão de tecnologias no Rol altera a cobertura obrigatória dos planos."
+      },
+      "event_title": "Pauta da 646ª Reunião da Diretoria Colegiada da ANS (24/11/2026) inclui audiência pública sobre contratualização operadora-prestador, RN de transferência de carteira e tecnologias da CONITEC para o Rol",
+      "canonical_event_key": "ans-dicol-646-2026-11-24-pauta",
+      "official_document_id": "Pauta da 646ª Reunião Ordinária de Diretoria Colegiada da ANS (Versão 3); Processos 33910.000171/2025-91, 33902.082875/2005-20, 33910.000122/2026-30",
+      "regulatory_stage": "Itens em pauta para deliberação da Diretoria Colegiada em 24/11/2026 (proposta de abertura de audiência pública para RN de contratualização; relatório de Consulta Pública nº 165 e proposta de RN de transferência de carteira; deliberação sobre tecnologias para o Rol). Nenhuma norma aprovada ou vigente com base neste documento.",
+      "is_regulatory": true,
+      "central_claims": [
+        {
+          "text": "A 646ª Reunião Ordinária da Diretoria Colegiada da ANS foi pautada para 24/11/2026, às 10h, com transmissão ao vivo.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/ans/pt-br/arquivos/assuntos/noticias/Pauta_Dicol_646ANS24.11.2026.pdf",
+            "https://www.gov.br/ans/pt-br/assuntos/noticias/sobre-ans/646a-reuniao-da-diretoria-colegiada"
+          ]
+        },
+        {
+          "text": "A pauta inclui, como item extrapauta da DIDES, a aprovação da abertura de Audiência Pública sobre proposta de nova RN de contratualização entre operadoras e prestadores de serviços de saúde (Processo 33910.000171/2025-91).",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/ans/pt-br/arquivos/assuntos/noticias/Pauta_Dicol_646ANS24.11.2026.pdf"
+          ]
+        },
+        {
+          "text": "A pauta inclui a aprovação do relatório da Consulta Pública nº 165 e a apreciação de proposta de RN sobre transferência de carteira entre operadoras (Processo 33902.082875/2005-20).",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/ans/pt-br/arquivos/assuntos/noticias/Pauta_Dicol_646ANS24.11.2026.pdf"
+          ]
+        },
+        {
+          "text": "A pauta inclui deliberação sobre tecnologias recomendadas positivamente pela CONITEC para incorporação ao Rol de Procedimentos e Eventos em Saúde (Processo 33910.000122/2026-30).",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/ans/pt-br/arquivos/assuntos/noticias/Pauta_Dicol_646ANS24.11.2026.pdf"
+          ]
+        },
+        {
+          "text": "Os itens extrapauta foram adicionados em 18/11/2026 (itens 4, 5 e 6) e 19/11/2026 (item 7).",
+          "materiality": "low",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/ans/pt-br/arquivos/assuntos/noticias/Pauta_Dicol_646ANS24.11.2026.pdf"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.gov.br/ans/pt-br/arquivos/assuntos/noticias/Pauta_Dicol_646ANS24.11.2026.pdf",
+          "source_name": "ANS - Pauta da 646ª Reunião Ordinária de Diretoria Colegiada (PDF, Versão 3)",
+          "source_type": "primary",
+          "published_at": null,
+          "excerpt": "APROVAÇÃO da proposta de abertura de Audiência Pública visando colher subsídios relacionados à proposta de nova resolução normativa sobre a contratualização entre operadoras de planos privados de assistência à saúde e prestadores de serviços de atenção à saúde.",
+          "locator": "Página 2, item 6 (ITEM EXTRAPAUTA DIDES)",
+          "supports_or_contradicts": "supports",
+          "independence_group": "ans-oficial"
+        },
+        {
+          "url": "https://www.gov.br/ans/pt-br/arquivos/assuntos/noticias/Pauta_Dicol_646ANS24.11.2026.pdf",
+          "source_name": "ANS - Pauta da 646ª Reunião Ordinária de Diretoria Colegiada (PDF, Versão 3)",
+          "source_type": "primary",
+          "published_at": null,
+          "excerpt": "APROVAÇÃO do Relatório da Consulta Pública nº 165 e APRECIAÇÃO da proposta de Resolução Normativa que dispõe sobre a transferência de carteira de planos privados de assistência à saúde entre operadoras de planos privados de assistência à saúde.",
+          "locator": "Página 1, item 4 (ITEM EXTRAPAUTA DIPRO)",
+          "supports_or_contradicts": "supports",
+          "independence_group": "ans-oficial"
+        },
+        {
+          "url": "https://www.gov.br/ans/pt-br/arquivos/assuntos/noticias/Pauta_Dicol_646ANS24.11.2026.pdf",
+          "source_name": "ANS - Pauta da 646ª Reunião Ordinária de Diretoria Colegiada (PDF, Versão 3)",
+          "source_type": "primary",
+          "published_at": null,
+          "excerpt": "inclusão dos itens 4 (33902.082875/2005-20) e 5 (33910.000122/2026-30), da DIPRO, e do item 6 (33910.000171/2025-91), da DIDES.",
+          "locator": "Página 4, seção ATUALIZAÇÕES (Pauta atualizada em 18/11/2026)",
+          "supports_or_contradicts": "supports",
+          "independence_group": "ans-oficial"
+        },
+        {
+          "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/sobre-ans/646a-reuniao-da-diretoria-colegiada",
+          "source_name": "ANS - Notícia '646ª Reunião da Diretoria Colegiada'",
+          "source_type": "primary",
+          "published_at": "2026-11-19T17:33:00-03:00",
+          "excerpt": "A Agência Nacional de Saúde Suplementar (ANS) realiza nesta terça-feira (24/11), a partir das 10h, a 646ª Reunião da Diretoria Colegiada (DICOL).",
+          "locator": "Corpo da notícia, 1º parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "ans-oficial"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "A data de publicação da primeira versão do PDF da pauta não é informada no documento; só constam as atualizações de 18/11/2026 e 19/11/2026.",
+        "Todas as fontes são da própria ANS (mesmo grupo de independência); não foi buscada cobertura secundária independente.",
+        "O documento é uma pauta: não confirma o resultado das deliberações de 24/11/2026 nem o texto das propostas de RN.",
+        "O cabeçalho das páginas do PDF traz '64ª Reunião Ordinária', aparente erro de digitação; o título do documento indica 646ª."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "A proposta de nova RN sobre contratualização entre operadoras e prestadores (a ser levada a audiência pública) impacta diretamente contratos de clínicas e consultórios credenciados; a inclusão de tecnologias no Rol altera a cobertura dos planos. A RN de transferência de carteira tem impacto indireto.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "O PDF oficial da pauta (Versão 3) foi aberto e confirma a reunião de 24/11/2026 às 10h e os itens extrapauta descritos pelo pesquisador, com os números de processo corretos, incluídos em 18/11/2026 (itens 4 a 6) e 19/11/2026 (item 7). A notícia oficial da ANS, publicada em 19/11/2026 17h33, confirma a reunião e remete à pauta. Os fatos centrais foram confirmados na fonte primária. A data de publicação original do PDF não é verificável (null), mas as atualizações materiais ficam dentro da janela. Trata-se de pauta de deliberação, não de norma aprovada."
+    }
+  },
+  {
+    "candidate_id": "b9f2e477-6853-45c6-bd42-56f7ddf87fd2",
+    "event_key": "ans-consultas-publicas-179-180-2026",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-19T18:03:00-03:00",
+      "date_basis": "A própria página da ANS (gov.br) exibe 'Publicado em 19/11/2026 18h03' e 'Atualizado em 19/11/2026 18h08'. A data está dentro da janela (17/11 a 24/11/2026). Observação: trata-se de nota-resumo recorrente; as consultas públicas citadas foram abertas antes (CP 179 em 23/10 e CP 180 em 6/11).",
+      "updated_at_claimed": "2026-11-19T18:08:00-03:00",
+      "substantive_update": null,
+      "event_title": "ANS mantém abertas as Consultas Públicas 179 (Monitoramento da Garantia de Atendimento) e 180 (atualização do Rol com duas tecnologias oncológicas)",
+      "canonical_event_key": "ans-consultas-publicas-179-180-2026",
+      "official_document_id": "Consulta Pública ANS 179; Consulta Pública ANS 180",
+      "regulatory_stage": "consulta pública",
+      "is_regulatory": true,
+      "central_claims": [
+        {
+          "text": "A ANS está com duas consultas públicas abertas para contribuições da sociedade (CP 179 e CP 180).",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/ans/pt-br/assuntos/noticias/sociedade/participacoes-sociais-em-andamento-11"
+          ]
+        },
+        {
+          "text": "A CP 179 trata de alterações nos critérios do Monitoramento da Garantia de Atendimento, com contribuições de 23/10 a 7/12.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/ans/pt-br/assuntos/noticias/sociedade/participacoes-sociais-em-andamento-11"
+          ]
+        },
+        {
+          "text": "A CP 180 trata da atualização do Rol para lenvatinibe + pembrolizumabe (carcinoma de células claras de rim) e ivosidenibe (colangiocarcinoma com mutação IDH1 R132), com contribuições de 6 a 25/11.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.gov.br/ans/pt-br/assuntos/noticias/sociedade/participacoes-sociais-em-andamento-11"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/sociedade/participacoes-sociais-em-andamento-11",
+          "source_name": "Agência Nacional de Saúde Suplementar (ANS) – gov.br",
+          "source_type": "primary",
+          "published_at": "2026-11-19T18:03:00-03:00",
+          "excerpt": "A Agência Nacional de Saúde Suplementar (ANS) está com duas consultas públicas abertas para recebimento de contribuições de toda a sociedade.",
+          "locator": "Primeiro parágrafo do corpo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "ans-oficial"
+        },
+        {
+          "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/sociedade/participacoes-sociais-em-andamento-11",
+          "source_name": "Agência Nacional de Saúde Suplementar (ANS) – gov.br",
+          "source_type": "primary",
+          "published_at": "2026-11-19T18:03:00-03:00",
+          "excerpt": "Tem como objetivo obter contribuições sobre alterações nos critérios do Monitoramento da Garantia de Atendimento, medida da ANS para verificar o acesso dos beneficiários às coberturas contratadas.",
+          "locator": "Seção 'Consulta Pública 179'",
+          "supports_or_contradicts": "supports",
+          "independence_group": "ans-oficial"
+        },
+        {
+          "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/sociedade/participacoes-sociais-em-andamento-11",
+          "source_name": "Agência Nacional de Saúde Suplementar (ANS) – gov.br",
+          "source_type": "primary",
+          "published_at": "2026-11-19T18:03:00-03:00",
+          "excerpt": "Lenvatinibe em combinação com pembrolizumabe, para o tratamento de adultos com carcinoma de células claras de rim avançado ou metastático, em primeira linha; e",
+          "locator": "Seção 'Consulta Pública 180'",
+          "supports_or_contradicts": "supports",
+          "independence_group": "ans-oficial"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "A página é uma nota-resumo recorrente ('participações sociais em andamento'); as consultas em si foram abertas antes da janela (CP 179 em 23/10, CP 180 em 6/11). O fato novo na janela é apenas a divulgação consolidada.",
+        "As páginas específicas de cada consulta pública (documentos técnicos, minutas) não foram abertas nesta verificação.",
+        "Não há fonte independente; a única fonte é a primária oficial da ANS, o que é adequado para este tipo de aviso.",
+        "O prazo da CP 180 termina em 25/11, logo após T0, limitando a utilidade prática dessa parte."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Relevância moderada: a CP 179 altera critérios de monitoramento da garantia de atendimento pelas operadoras, com impacto indireto em prestadores credenciados (prazos de atendimento, rede); clínicas e entidades podem contribuir até 7/12. A CP 180 é de interesse sobretudo para oncologia e encerra em 25/11.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "A página oficial da ANS foi aberta e confirma data de publicação (19/11/2026 18h03, dentro da janela), as duas consultas públicas, seus temas, tecnologias e prazos, exatamente como no resumo do pesquisador. Por ser fonte primária oficial e os fatos centrais estarem confirmados, o status é verified, com a ressalva de que se trata de nota-resumo sobre consultas abertas antes da janela."
+    }
+  },
+  {
+    "candidate_id": "da9b1469-612b-4a7f-a75b-54cf96c66b84",
+    "event_key": "cfm-crm-pr-divulga-cfm-auditoria-medica-resolucao-2448-2025-curitiba",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-19T15:43:00-03:00",
+      "date_basis": "A própria página do CFM exibe '19/11/2026 | 15:43' sob o título (fuso de Brasília). Está dentro da janela (17/11 a 24/11/2026). O evento relatado ocorreu antes, na quinta-feira 12/11/2026, mas a publicação é de 19/11.",
+      "updated_at_claimed": null,
+      "substantive_update": null,
+      "event_title": "CFM e CRM-PR promovem em Curitiba debate sobre auditoria médica e a Resolução CFM nº 2.448/2025",
+      "canonical_event_key": "cfm-crm-pr-divulga-cfm-auditoria-medica-resolucao-2448-2025-curitiba",
+      "official_document_id": "Resolução CFM nº 2.448/2025",
+      "regulatory_stage": "publicada; parte dos dispositivos suspensa por liminar da 20ª Vara Federal Cível da SJ/DF (mérito pendente)",
+      "is_regulatory": true,
+      "central_claims": [
+        {
+          "text": "CFM e CRM-PR realizaram em 12/11/2026, em Curitiba, edição do projeto Divulga CFM dedicada à auditoria médica, apresentando a Resolução CFM nº 2.448/2025.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://portal.cfm.org.br/noticias/cfm-e-crm-pr-reunem-medicos-e-instituicoes-para-debater-auditoria-medica/"
+          ]
+        },
+        {
+          "text": "A resolução distingue o papel do médico auditor (análise técnica) e do médico assistente (acompanha o paciente e indica a conduta).",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://portal.cfm.org.br/noticias/cfm-e-crm-pr-reunem-medicos-e-instituicoes-para-debater-auditoria-medica/"
+          ]
+        },
+        {
+          "text": "Parte dos dispositivos da Resolução CFM nº 2.448/2025 está suspensa por decisão judicial.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://portal.cfm.org.br/noticias/cfm-e-crm-pr-reunem-medicos-e-instituicoes-para-debater-auditoria-medica/",
+            "https://www.migalhas.com.br/depeso/452019/o-que-suspensao-da-resolucao-cfm-2-448-25-significa-para-os-pacientes"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://portal.cfm.org.br/noticias/cfm-e-crm-pr-reunem-medicos-e-instituicoes-para-debater-auditoria-medica/",
+          "source_name": "Conselho Federal de Medicina (Portal Médico)",
+          "source_type": "primary",
+          "published_at": "2026-11-19T15:43:00-03:00",
+          "excerpt": "O Conselho Federal de Medicina (CFM) e o Conselho Regional de Medicina do Paraná (CRM-PR) realizaram, nesta quinta-feira (12), em Curitiba, uma edição do projeto Divulga CFM dedicada à auditoria médica.",
+          "locator": "1º parágrafo do corpo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "cfm"
+        },
+        {
+          "url": "https://portal.cfm.org.br/noticias/cfm-e-crm-pr-reunem-medicos-e-instituicoes-para-debater-auditoria-medica/",
+          "source_name": "Conselho Federal de Medicina (Portal Médico)",
+          "source_type": "primary",
+          "published_at": "2026-11-19T15:43:00-03:00",
+          "excerpt": "Rosylane apresentou o contexto em que o CFM elaborou a resolução e explicou os papéis do médico auditor, que faz a análise técnica, e do médico assistente, que acompanha o paciente e indica a conduta.",
+          "locator": "seção 'O papel da auditoria no cuidado ao paciente'",
+          "supports_or_contradicts": "supports",
+          "independence_group": "cfm"
+        },
+        {
+          "url": "https://portal.cfm.org.br/noticias/cfm-e-crm-pr-reunem-medicos-e-instituicoes-para-debater-auditoria-medica/",
+          "source_name": "Conselho Federal de Medicina (Portal Médico)",
+          "source_type": "primary",
+          "published_at": "2026-11-19T15:43:00-03:00",
+          "excerpt": "Ela também abordou a suspensão judicial de parte dos dispositivos da norma.",
+          "locator": "seção 'O papel da auditoria no cuidado ao paciente'",
+          "supports_or_contradicts": "supports",
+          "independence_group": "cfm"
+        },
+        {
+          "url": "https://www.migalhas.com.br/depeso/452019/o-que-suspensao-da-resolucao-cfm-2-448-25-significa-para-os-pacientes",
+          "source_name": "Migalhas (artigo de opinião, Sérgio Meredyk Filho)",
+          "source_type": "secondary",
+          "published_at": "2026-03-18T07:08:46-03:00",
+          "excerpt": "Em resposta a uma ação movida pelas operadoras de planos de saúde, a 20ª vara Federal Cível da SJ/DF - Seção Judiciária do Distrito Federal concedeu liminar suspendendo pontos centrais da resolução CFM 2.448/25.",
+          "locator": "1º parágrafo",
+          "supports_or_contradicts": "context",
+          "independence_group": "migalhas"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "A notícia do CFM não detalha quais dispositivos foram suspensos; o artigo do Migalhas (opinião de advogado, março de 2026) cita arts. 10 §§1º-2º, 13 e 14, mas não foi aberta a decisão judicial original nem o texto da resolução para confirmar.",
+        "Não foi verificado se a liminar continua vigente ou foi alterada após março de 2026, além da menção do próprio CFM em novembro de 2026 de que parte da norma segue suspensa.",
+        "A notícia é cobertura institucional de um evento; não traz fato regulatório novo."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Útil para clínicas e consultórios que atendem convênios: a Resolução CFM nº 2.448/2025 trata de auditoria médica e glosas, com parte suspensa judicialmente. Porém a matéria é de evento, sem mudança regulatória nova, o que limita o valor noticioso.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "Abri a página do CFM, que confirma título, data (19/11/2026 15:43) e conteúdo: evento de 12/11 em Curitiba, papéis de auditor e assistente, menção à suspensão judicial parcial. Uma fonte independente (Migalhas) confirma a liminar da 20ª Vara Federal Cível da SJ/DF suspendendo pontos da resolução. Os fatos centrais conferem; status verified, com a ressalva de ser cobertura de evento, sem novidade normativa."
+    }
+  },
+  {
+    "candidate_id": "7160d70e-b425-4266-9a30-4f1682b5c052",
+    "event_key": "cfm-11a-sessao-plenaria-2026-11-pauta-minutas-resolucao",
+    "verification": {
+      "status": "rejected_date",
+      "published_at_confirmed": null,
+      "date_basis": "A página oficial do CFM (pauta atualizada da 11ª Sessão Plenária Ordinária) foi aberta e não exibe data de publicação nem de atualização; não há data em metadados (og/JSON-LD) e a listagem de Sessões Plenárias também não mostra datas. As datas 24 a 27/11/2026 referem-se à realização da sessão, não à publicação. A ordem na listagem e o fato de ser uma pauta de sessão iminente sugerem publicação recente, mas isso é inferência e não data verificável.",
+      "updated_at_claimed": null,
+      "substantive_update": null,
+      "event_title": "Pauta atualizada da 11ª Sessão Plenária Ordinária do CFM (24 a 27/11/2026) com propostas de resolução sobre MMP, procedimentos endoscópicos, documentos médicos e relatórios de fiscalização",
+      "canonical_event_key": "cfm-11a-sessao-plenaria-2026-11-pauta-minutas-resolucao",
+      "official_document_id": null,
+      "regulatory_stage": "pauta de sessão plenária com propostas de resolução (minutas em deliberação; nada aprovado ou publicado)",
+      "is_regulatory": true,
+      "central_claims": [
+        {
+          "text": "A 11ª Sessão Plenária Ordinária do CFM (Gestão 2024/2029) ocorre de 24 a 27 de novembro de 2026, presencial e por videoconferência.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/"
+          ]
+        },
+        {
+          "text": "A pauta inclui proposta de resolução sobre Microinfusão de Medicamentos na Pele (MMP).",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/"
+          ]
+        },
+        {
+          "text": "A pauta inclui proposta de resolução sobre procedimentos endoscópicos e proposta que revoga a Resolução CFM nº 2.418/2024, que altera a Resolução CFM nº 2.381/2024 sobre emissão de documentos médicos.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/"
+          ]
+        },
+        {
+          "text": "A pauta inclui proposta de resolução sobre publicação dos relatórios de fiscalização e processo-consulta sobre soroterapia parenteral e terapias hormonais e efeitos sobre o registro de pessoas jurídicas nos CRMs.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/"
+          ]
+        },
+        {
+          "text": "A pauta inclui apresentação de opções metodológicas para consulta pública sobre regulamentação ética da docência.",
+          "materiality": "low",
+          "status": "supported",
+          "evidence_urls": [
+            "https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/",
+          "source_name": "Conselho Federal de Medicina (Portal Médico)",
+          "source_type": "primary",
+          "published_at": null,
+          "excerpt": "Encaminhamos anexa pauta atualizada da 11ª Sessão Plenária Ordinária do CFM – Gestão 2024/2029, referente aos dias 24, 25, 26 e 27 de novembro de 2026, a partir das 09h, presencial e por videoconferência (plataforma Zoom):",
+          "locator": "abertura do texto",
+          "supports_or_contradicts": "supports",
+          "independence_group": "cfm"
+        },
+        {
+          "url": "https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/",
+          "source_name": "Conselho Federal de Medicina (Portal Médico)",
+          "source_type": "primary",
+          "published_at": null,
+          "excerpt": "– Proposta de Resolução – Microinfusão de Medicamentos na Pele (MMP) – (Dra. Yáscara Pinto).",
+          "locator": "DIA 25.11.26, 9h às 12h",
+          "supports_or_contradicts": "supports",
+          "independence_group": "cfm"
+        },
+        {
+          "url": "https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/",
+          "source_name": "Conselho Federal de Medicina (Portal Médico)",
+          "source_type": "primary",
+          "published_at": null,
+          "excerpt": "– Proposta de Resolução – Revoga a Resolução CFM nº 2.418/2024, que altera a Resolução CFM n°2.381/2024, a qual normatiza a emissão de documentos médicos e dá outras providências.",
+          "locator": "DIA 26.11.26, 9h às 12h",
+          "supports_or_contradicts": "supports",
+          "independence_group": "cfm"
+        },
+        {
+          "url": "https://portal.cfm.org.br/sessoes-plenarias/11a-sessao-plenaria-ordinaria-do-cfm-gestao-2024-2029-24-25-26-e-27-de-novembro-de-2026/",
+          "source_name": "Conselho Federal de Medicina (Portal Médico)",
+          "source_type": "primary",
+          "published_at": null,
+          "excerpt": "– Proposta de Resolução – Resolução que normatiza a publicação dos relatórios de fiscalização.",
+          "locator": "DIA 27.11.26, 14h às 16h",
+          "supports_or_contradicts": "supports",
+          "independence_group": "cfm"
+        },
+        {
+          "url": "https://portal.cfm.org.br/sessoes-plenarias/",
+          "source_name": "Conselho Federal de Medicina (Portal Médico) – listagem de Sessões Plenárias",
+          "source_type": "primary",
+          "published_at": null,
+          "excerpt": "Pauta atualizada – 11ª Sessão Plenária Ordinária do CFM – Gestão 2024/2029 – 24, 25, 26 e 27 de novembro de 2026.",
+          "locator": "listagem Sessões Plenárias (primeiro item)",
+          "supports_or_contradicts": "context",
+          "independence_group": "cfm"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "A página e a listagem do CFM não exibem data de publicação ou atualização; a consulta à API pública do WordPress do portal não retornou o item.",
+        "Não foi localizada fonte independente; a única fonte é o próprio CFM (primária).",
+        "Itens são propostas de resolução em pauta; não há texto das minutas nem resultado das deliberações."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Propostas de resolução do CFM sobre microinfusão de medicamentos na pele, procedimentos endoscópicos, documentos médicos, publicação de relatórios de fiscalização e consulta sobre soroterapia/terapias hormonais e registro de pessoas jurídicas afetam diretamente clínicas médicas, especialmente de estética e nutrologia.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "Conteúdo da página oficial do CFM acessado e itens centrais da pauta confirmados literalmente. Porém a página não mostra data de publicação ou atualização (nem em metadados ou na listagem), e as datas citadas são da realização da sessão. Sem data de publicação verificável, aplica-se rejeição por data. Os itens são propostas em deliberação, não normas aprovadas."
+    }
+  },
+  {
+    "candidate_id": "e36b3591-c6ca-4d35-9bf6-07c1832a671f",
+    "event_key": "salux-telepatia-parceria-ia-clinica-initia",
+    "verification": {
+      "status": "partially_verified",
+      "published_at_confirmed": "2026-11-24T05:02:56-03:00",
+      "date_basis": "Metadados de publicação da própria página da Medicina S/A: publicado em 2026-11-24T08:02:56+00:00 (05:02:56 em Brasília), atualizado em 2026-11-24T11:22:47+00:00. Data dentro da janela de 2026-11-17T18:46:57Z a 2026-11-24T18:46:57Z.",
+      "updated_at_claimed": "2026-11-24T08:22:47-03:00",
+      "substantive_update": null,
+      "event_title": "Salux e Telepatia firmam parceria para levar IA clínica ao prontuário da plataforma INITIA",
+      "canonical_event_key": "salux-telepatia-parceria-ia-clinica-initia",
+      "official_document_id": null,
+      "regulatory_stage": null,
+      "is_regulatory": false,
+      "central_claims": [
+        {
+          "text": "A Salux, integrante do Grupo Bringel, firmou parceria com a Telepatia, desenvolvedora de IA clínica, para incorporar a tecnologia ao prontuário da plataforma INITIA.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://medicinasa.com.br/salux-e-telepatia/"
+          ]
+        },
+        {
+          "text": "O objetivo é reduzir a carga de documentação médica e dar às lideranças informações sobre a qualidade da assistência.",
+          "materiality": "medium",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://medicinasa.com.br/salux-e-telepatia/"
+          ]
+        },
+        {
+          "text": "O médico segue responsável por avaliar recomendações, tomar decisões clínicas e revisar e assinar os registros.",
+          "materiality": "medium",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://medicinasa.com.br/salux-e-telepatia/"
+          ]
+        },
+        {
+          "text": "É o primeiro acordo do novo Programa de Parceiros do Ecossistema Salux, segundo o diretor de Operações e Ecossistema, Walter Moreira.",
+          "materiality": "low",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://medicinasa.com.br/salux-e-telepatia/"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://medicinasa.com.br/salux-e-telepatia/",
+          "source_name": "Medicina S/A",
+          "source_type": "secondary",
+          "published_at": "2026-11-24T05:02:56-03:00",
+          "excerpt": "Integrante do Grupo Bringel, a Salux desenvolve e integra tecnologias e serviços para apoiar a gestão em saúde.",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "medicinasa-salux-telepatia"
+        },
+        {
+          "url": "https://medicinasa.com.br/salux-e-telepatia/",
+          "source_name": "Medicina S/A",
+          "source_type": "secondary",
+          "published_at": "2026-11-24T05:02:56-03:00",
+          "excerpt": "As instituições poderão utilizar a inteligência clínica no próprio INITIA.",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "medicinasa-salux-telepatia"
+        },
+        {
+          "url": "https://medicinasa.com.br/salux-e-telepatia/",
+          "source_name": "Medicina S/A",
+          "source_type": "secondary",
+          "published_at": "2026-11-24T05:02:56-03:00",
+          "excerpt": "Com a Telepatia, ampliamos os recursos do prontuário do INITIA.",
+          "locator": "citação de executivo da Salux no corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "medicinasa-salux-telepatia"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "Única fonte acessada é a matéria da Medicina S/A, aparentemente baseada em comunicado das empresas; não foi localizado comunicado oficial da Salux ou da Telepatia nem cobertura independente.",
+        "Afirmações sobre redução de documentação, responsabilidade médica e Programa de Parceiros são declarações das empresas, não verificadas de forma independente.",
+        "Leitura da página feita por ferramenta que resume o conteúdo; alguns trechos longos não puderam ser copiados literalmente.",
+        "Não há informação sobre preços, disponibilidade comercial ou alcance para clínicas de pequeno porte."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Mostra o avanço de IA clínica para documentação integrada a prontuário eletrônico de sistema de gestão, tema útil para gestores de clínicas avaliando ferramentas que reduzem tempo de registro, com o médico mantendo a revisão e a responsabilidade.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "A página foi aberta e a data de publicação (24/11/2026, 05:02 de Brasília) foi confirmada nos metadados, dentro da janela. O texto confirma a parceria Salux–Telepatia, a integração ao prontuário do INITIA, o vínculo com o Grupo Bringel, o objetivo de reduzir documentação e o fato de ser o primeiro acordo do Programa de Parceiros. Como só há uma fonte (trade press baseada em anúncio corporativo) e nenhuma fonte primária ou independente foi encontrada, o status é parcialmente verificado."
+    }
+  },
+  {
+    "candidate_id": "17514fde-d3d9-479f-955d-9f9f0cd8d9b6",
+    "event_key": "cfm-xiii-congresso-direito-medico-2026",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-18T16:02:00-03:00",
+      "date_basis": "A própria página do CFM (fonte primária) exibe '18/11/2026 | 16:02' abaixo do título; o texto diz que o congresso foi 'encerrado nesta quarta-feira (18)'. Horário interpretado no fuso de Brasília (-03:00). Dentro da janela de 2026-11-17T18:46:57Z a 2026-11-24T18:46:57Z.",
+      "updated_at_claimed": null,
+      "substantive_update": null,
+      "event_title": "XIII Congresso Brasileiro de Direito Médico do CFM é encerrado com debates sobre IA, ato médico, vínculos de trabalho e publicidade médica",
+      "canonical_event_key": "cfm-xiii-congresso-direito-medico-2026",
+      "official_document_id": null,
+      "regulatory_stage": null,
+      "is_regulatory": false,
+      "central_claims": [
+        {
+          "text": "O XIII Congresso Brasileiro de Direito Médico, com o tema 'Medicina em Transformação: Direito, Tecnologia e Responsabilidade', foi encerrado na quarta-feira 18/11/2026 na sede do CFM, em Brasília, após dois dias de programação.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas/"
+          ]
+        },
+        {
+          "text": "O vice-corregedor do CFM, Francisco Cardoso, afirmou que a IA será um dos grandes desafios dos próximos anos e exigirá atualização constante das normas e dos profissionais.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas/"
+          ]
+        },
+        {
+          "text": "O conselheiro Leonardo José Alcântara alertou para a precarização dos vínculos e citou queda da proporção de médicos com vínculos formais de 54% para 33% entre 2012 e 2023.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas/"
+          ]
+        },
+        {
+          "text": "A conselheira Graziela Bonin tratou da relação entre publicidade médica (imagens de 'antes e depois') e judicialização de procedimentos estéticos.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas/"
+          ]
+        },
+        {
+          "text": "O conselheiro Diogo Sampaio tratou da defesa das prerrogativas médicas e da realização de atos médicos por profissionais de outras áreas da saúde.",
+          "materiality": "low",
+          "status": "supported",
+          "evidence_urls": [
+            "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas/"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas/",
+          "source_name": "Conselho Federal de Medicina (CFM)",
+          "source_type": "primary",
+          "published_at": "2026-11-18T16:02:00-03:00",
+          "excerpt": "Para o conselheiro, a IA será um dos grandes desafios dos próximos anos, diante de um cenário de mudanças aceleradas que exigirá atualização constante das normas e dos profissionais.",
+          "locator": "Seção 'Inteligência artificial', penúltimo parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "cfm"
+        },
+        {
+          "url": "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas/",
+          "source_name": "Conselho Federal de Medicina (CFM)",
+          "source_type": "primary",
+          "published_at": "2026-11-18T16:02:00-03:00",
+          "excerpt": "Segundo dados apresentados pelo conselheiro, a proporção de médicos com vínculos formais caiu de 54% para 33% entre 2012 e 2023.",
+          "locator": "Quarto parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "cfm"
+        },
+        {
+          "url": "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas/",
+          "source_name": "Conselho Federal de Medicina (CFM)",
+          "source_type": "primary",
+          "published_at": "2026-11-18T16:02:00-03:00",
+          "excerpt": "A conselheira federal Graziela Bonin tratou sobre a relação entre publicidade médica e judicialização de procedimentos estéticos.",
+          "locator": "Quinto parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "cfm"
+        },
+        {
+          "url": "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas/",
+          "source_name": "Conselho Federal de Medicina (CFM)",
+          "source_type": "primary",
+          "published_at": "2026-11-18T16:02:00-03:00",
+          "excerpt": "Ao longo dos dois dias, a programação abordou temas como decisões do Judiciário, auditoria médica, medicina defensiva, responsabilidade civil, incorporação de novas tecnologias e defesa do ato médico.",
+          "locator": "Segundo parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "cfm"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "Única fonte consultada é a notícia institucional do próprio CFM (organizador do evento); não houve confirmação por fonte independente.",
+        "Os números sobre vínculos formais (54% para 33%) são atribuídos ao conselheiro na matéria; a fonte original dos dados não foi identificada nem verificada.",
+        "Declarações sobre IA são opinião de dirigente do CFM, não norma nem anúncio regulatório."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Relevância moderada para gestores de clínicas: sinaliza a visão do CFM sobre IA e futura atualização de normas, riscos jurídicos de publicidade com 'antes e depois' em procedimentos estéticos e a discussão sobre pejotização e vínculos médicos. Não há nova norma ou obrigação.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "A página oficial do CFM foi aberta e confirma título, data (18/11/2026 16:02), encerramento do XIII Congresso Brasileiro de Direito Médico em 18/11 na sede do CFM e as falas atribuídas a Francisco Cardoso (IA), Leonardo José Alcântara (vínculos), Graziela Bonin (publicidade) e Diogo Sampaio (ato médico). O resumo do pesquisador corresponde ao conteúdo. Trata-se de notícia institucional de evento, sem ato regulatório. Nenhuma instrução suspeita encontrada na página."
+    }
+  },
+  {
+    "candidate_id": "a8f11027-ecb7-4467-ad75-25a411811d55",
+    "event_key": "saudebusiness-abraidi-ia-trabalho-regulatorio-tres-regras",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-18T13:30:00-03:00",
+      "date_basis": "A própria página exibe 'Publicado' em 18/11/2026 13:30 e 'Atualizado' em 19/11/2026 16:21 (horário de Brasília). A data original está dentro da janela (17/11/2026 15:46 a 24/11/2026 15:46, America/Sao_Paulo).",
+      "updated_at_claimed": "2026-11-19T16:21:00-03:00",
+      "substantive_update": null,
+      "event_title": "Artigo de opinião propõe três regras para uso de IA no trabalho regulatório em saúde",
+      "canonical_event_key": "saudebusiness-abraidi-ia-trabalho-regulatorio-tres-regras",
+      "official_document_id": null,
+      "regulatory_stage": null,
+      "is_regulatory": false,
+      "central_claims": [
+        {
+          "text": "O artigo, assinado por Lisa Voronkova na coluna Conexões ABRAIDI, propõe três perguntas para equipes regulatórias que usam IA: o que entra, o que sai e quem assina.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.saudebusiness.com/gestao/legislacaoo-e-regulamentacao/ia-no-trabalho-regulatorio-tres-regras-antes-de-apertar-enter/"
+          ]
+        },
+        {
+          "text": "O texto alerta que contas pessoais de IA, mesmo pagas, não protegem dados confidenciais.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.saudebusiness.com/gestao/legislacaoo-e-regulamentacao/ia-no-trabalho-regulatorio-tres-regras-antes-de-apertar-enter/"
+          ]
+        },
+        {
+          "text": "O texto alerta que respostas erradas da IA podem soar tão convincentes quanto as corretas.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.saudebusiness.com/gestao/legislacaoo-e-regulamentacao/ia-no-trabalho-regulatorio-tres-regras-antes-de-apertar-enter/"
+          ]
+        },
+        {
+          "text": "Recomenda ferramentas aprovadas em contas corporativas e revisão humana com responsável que assina.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.saudebusiness.com/gestao/legislacaoo-e-regulamentacao/ia-no-trabalho-regulatorio-tres-regras-antes-de-apertar-enter/"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.saudebusiness.com/gestao/legislacaoo-e-regulamentacao/ia-no-trabalho-regulatorio-tres-regras-antes-de-apertar-enter/",
+          "source_name": "Saúde Business (Conexões ABRAIDI)",
+          "source_type": "primary",
+          "published_at": "2026-11-18T13:30:00-03:00",
+          "excerpt": "É sobre três perguntas que toda equipe regulatória precisa responder: o que entra, o que sai e quem assina.",
+          "locator": "corpo do artigo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "saudebusiness-abraidi"
+        },
+        {
+          "url": "https://www.saudebusiness.com/gestao/legislacaoo-e-regulamentacao/ia-no-trabalho-regulatorio-tres-regras-antes-de-apertar-enter/",
+          "source_name": "Saúde Business (Conexões ABRAIDI)",
+          "source_type": "primary",
+          "published_at": "2026-11-18T13:30:00-03:00",
+          "excerpt": "E uma conta pessoal paga continua sendo um cartão-postal, apenas mais caro.",
+          "locator": "corpo do artigo, primeira pergunta",
+          "supports_or_contradicts": "supports",
+          "independence_group": "saudebusiness-abraidi"
+        },
+        {
+          "url": "https://www.saudebusiness.com/gestao/legislacaoo-e-regulamentacao/ia-no-trabalho-regulatorio-tres-regras-antes-de-apertar-enter/",
+          "source_name": "Saúde Business (Conexões ABRAIDI)",
+          "source_type": "primary",
+          "published_at": "2026-11-18T13:30:00-03:00",
+          "excerpt": "É por isso que uma resposta errada pode soar exatamente tão convincente quanto uma resposta correta.",
+          "locator": "corpo do artigo, segunda pergunta",
+          "supports_or_contradicts": "supports",
+          "independence_group": "saudebusiness-abraidi"
+        },
+        {
+          "url": "https://www.saudebusiness.com/gestao/legislacaoo-e-regulamentacao/ia-no-trabalho-regulatorio-tres-regras-antes-de-apertar-enter/",
+          "source_name": "Saúde Business (Conexões ABRAIDI)",
+          "source_type": "primary",
+          "published_at": "2026-11-18T13:30:00-03:00",
+          "excerpt": "A segunda regra: a IA elabora a primeira versão, uma pessoa confere e o responsável assina.",
+          "locator": "corpo do artigo, regras",
+          "supports_or_contradicts": "supports",
+          "independence_group": "saudebusiness-abraidi"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "Trata-se de artigo de opinião/coluna institucional, não de notícia sobre fato ou norma; não há documento oficial a verificar.",
+        "Não foi buscada fonte independente, pois o conteúdo é opinativo e a própria página é a fonte primária.",
+        "A recomendação de registrar o uso da IA foi citada pelo pesquisador, mas não teve trecho literal extraído nesta verificação."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Relevância moderada: o texto é voltado a equipes regulatórias do setor de produtos para saúde (ABRAIDI), mas o alerta sobre colocar dados confidenciais de pacientes em contas pessoais de IA e sobre exigir revisão humana se aplica a clínicas e consultórios. Não cria obrigação regulatória.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "A página foi aberta e mostra título, autoria (Lisa Voronkova, coluna Conexões ABRAIDI) e data de publicação 18/11/2026 13:30, dentro da janela. As afirmações centrais do resumo (três perguntas, risco de contas pessoais, respostas convincentes porém erradas, ferramentas corporativas e revisão humana com responsável) estão no texto. É conteúdo opinativo, sem norma ou evento regulatório."
+    }
+  },
+  {
+    "candidate_id": "0166254e-4671-4296-be1c-1d273d43d09a",
+    "event_key": "prado-vidigal-estudo-anpd-190-processos-silencio-sancionador",
+    "verification": {
+      "status": "partially_verified",
+      "published_at_confirmed": "2026-11-23T16:41:40-03:00",
+      "date_basis": "Metadado JSON-LD da própria página (datePublished 2026-11-23T16:41:40-03:00; dateModified 2026-11-23T18:51:58-03:00) e URL com data 23/11/2026. Dentro da janela de 2026-11-17T18:46:57Z a 2026-11-24T18:46:57Z.",
+      "updated_at_claimed": "2026-11-23T18:51:58-03:00",
+      "substantive_update": null,
+      "event_title": "Estudo do Prado Vidigal Advogados sobre 190 processos da ANPD aponta falta de resposta a ofícios como principal origem de processos sancionadores",
+      "canonical_event_key": "prado-vidigal-estudo-anpd-190-processos-silencio-sancionador",
+      "official_document_id": null,
+      "regulatory_stage": null,
+      "is_regulatory": true,
+      "central_claims": [
+        {
+          "text": "Segundo o estudo, dos 39 processos sancionadores analisados, 22 (56%) nasceram de requisições de monitoramento da ANPD que não foram respondidas.",
+          "materiality": "high",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://tiinside.com.br/23/11/2026/silencio-diante-da-anpd-leva-mais-a-processo-sancionador-do-que-o-tema-investigado/"
+          ]
+        },
+        {
+          "text": "Nos 11 processos sancionadores já decididos, a mediana entre o auto de infração e a decisão de primeira instância foi de 18,5 meses.",
+          "materiality": "medium",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://tiinside.com.br/23/11/2026/silencio-diante-da-anpd-leva-mais-a-processo-sancionador-do-que-o-tema-investigado/"
+          ]
+        },
+        {
+          "text": "Em outubro de 2026, a ANPD determinou em primeira instância que um município que divulgou lista de beneficiários de passe livre com informação de saúde mantenha por 180 dias em seu site um comunicado redigido pela Agência.",
+          "materiality": "medium",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://tiinside.com.br/23/11/2026/silencio-diante-da-anpd-leva-mais-a-processo-sancionador-do-que-o-tema-investigado/"
+          ]
+        },
+        {
+          "text": "Quase metade dos órgãos públicos oficiados (49%) não respondeu à ANPD; 74% dos processos sancionadores analisados têm ente público como autuado.",
+          "materiality": "medium",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://tiinside.com.br/23/11/2026/silencio-diante-da-anpd-leva-mais-a-processo-sancionador-do-que-o-tema-investigado/"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://tiinside.com.br/23/11/2026/silencio-diante-da-anpd-leva-mais-a-processo-sancionador-do-que-o-tema-investigado/",
+          "source_name": "TI Inside",
+          "source_type": "secondary",
+          "published_at": "2026-11-23T16:41:40-03:00",
+          "excerpt": "Dos 39 processos sancionadores analisados, 22 (56%) nasceram de requisições de monitoramento que não foram respondidas.",
+          "locator": "1º parágrafo do corpo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "tiinside-prado-vidigal-estudo"
+        },
+        {
+          "url": "https://tiinside.com.br/23/11/2026/silencio-diante-da-anpd-leva-mais-a-processo-sancionador-do-que-o-tema-investigado/",
+          "source_name": "TI Inside",
+          "source_type": "secondary",
+          "published_at": "2026-11-23T16:41:40-03:00",
+          "excerpt": "Nos 11 processos sancionadores já decididos, a mediana entre o auto de infração e a decisão de primeira instância foi de 18,5 meses.",
+          "locator": "Seção 'Processos longos e intimações sem leitura'",
+          "supports_or_contradicts": "supports",
+          "independence_group": "tiinside-prado-vidigal-estudo"
+        },
+        {
+          "url": "https://tiinside.com.br/23/11/2026/silencio-diante-da-anpd-leva-mais-a-processo-sancionador-do-que-o-tema-investigado/",
+          "source_name": "TI Inside",
+          "source_type": "secondary",
+          "published_at": "2026-11-23T16:41:40-03:00",
+          "excerpt": "Em outubro de 2026, saiu a primeira sanção de publicização da infração identificada pelo estudo.",
+          "locator": "Seção 'Órgãos públicos concentram o silêncio'",
+          "supports_or_contradicts": "supports",
+          "independence_group": "tiinside-prado-vidigal-estudo"
+        },
+        {
+          "url": "https://tiinside.com.br/23/11/2026/silencio-diante-da-anpd-leva-mais-a-processo-sancionador-do-que-o-tema-investigado/",
+          "source_name": "TI Inside",
+          "source_type": "secondary",
+          "published_at": "2026-11-23T16:41:40-03:00",
+          "excerpt": "Quase metade dos órgãos e entidades públicas oficiados (49%) não respondeu à Agência.",
+          "locator": "Seção 'Órgãos públicos concentram o silêncio'",
+          "supports_or_contradicts": "supports",
+          "independence_group": "tiinside-prado-vidigal-estudo"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "O estudo original ('Como a ANPD fiscaliza e sanciona: um raio-x de 190 processos') não é linkado na matéria e não foi localizado; os números não puderam ser conferidos na fonte primária.",
+        "Não foi encontrada cobertura independente do estudo na busca realizada; a matéria aparenta derivar de material de divulgação do próprio escritório.",
+        "A decisão da ANPD sobre o município não é identificada (número de processo/município) e não foi conferida no SEI da ANPD.",
+        "Decisões de primeira instância citadas podem ser revistas em recurso, como a própria matéria ressalva."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Clínicas e consultórios tratam dados sensíveis de saúde e estão sujeitos à fiscalização da ANPD; o achado de que ignorar ofícios da ANPD é o principal gatilho de processo sancionador é orientação prática de conformidade. O caso do município envolve exposição de dado de saúde. Trata-se de análise de escritório sobre decisões, não de nova norma.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "Página aberta e lida integralmente; data de publicação 23/11/2026 confirmada por metadado, dentro da janela. O conteúdo da matéria corresponde ao resumo do pesquisador (22 de 39, mediana de 18,5 meses, comunicado por 180 dias). Porém os fatos derivam de um estudo privado não acessado e sem cobertura independente encontrada, e a decisão da ANPD citada não foi conferida em fonte oficial; por isso partially_verified em vez de verified."
+    }
+  },
+  {
+    "candidate_id": "320097a3-e5c4-4bee-8bbb-5a22848289c1",
+    "event_key": "hhs-ocr-hipaa-privacy-rule-final-2026-acesso-paciente",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-17T16:44:14-03:00",
+      "date_basis": "A página da STAT exibe a data 'Nov. 17, 2026' e os metadados indicam publicação em 2026-11-17T19:44:14 UTC (16:44:14 em Brasília), dentro da janela (início 2026-11-17T18:46:57Z). Metadados também indicam modificação em 2026-11-19T14:57:54 UTC, sem data de atualização visível no corpo. A fonte primária (HHS) confirma que a regra final foi emitida em 16/11/2026, coerente com 'On Monday' da matéria.",
+      "updated_at_claimed": "2026-11-19T11:57:54-03:00",
+      "substantive_update": null,
+      "event_title": "HHS/OCR emite regra final que atualiza a HIPAA Privacy Rule (acesso do paciente a prontuários e apps pessoais de saúde)",
+      "canonical_event_key": "hhs-ocr-hipaa-privacy-rule-final-2026-acesso-paciente",
+      "official_document_id": "Federal Register document 2026-23429 (public inspection)",
+      "regulatory_stage": "regra final emitida (16/11/2026) e em inspeção pública no Federal Register; vigência 60 dias após a publicação, ainda não em vigor",
+      "is_regulatory": true,
+      "central_claims": [
+        {
+          "text": "O HHS, via Office for Civil Rights, emitiu em 16/11/2026 uma regra final atualizando a HIPAA Privacy Rule.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.hhs.gov/hipaa/for-professionals/privacy/2026-privacy-final-rule/index.html",
+            "https://www.statnews.com/2026/11/17/hipaa-privacy-rule-update-aims-to-improve-patient-access-to-records/"
+          ]
+        },
+        {
+          "text": "A regra reduz de 30 para 15 dias o prazo máximo para entidades cobertas responderem a pedidos de acesso do paciente.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.statnews.com/2026/11/17/hipaa-privacy-rule-update-aims-to-improve-patient-access-to-records/",
+            "https://www.hhs.gov/hipaa/for-professionals/privacy/2026-privacy-final-rule/index.html"
+          ]
+        },
+        {
+          "text": "A regra proíbe exigências de verificação de identidade irrazoáveis e cria padrões de acesso por 'personal health applications'.",
+          "materiality": "medium",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://www.statnews.com/2026/11/17/hipaa-privacy-rule-update-aims-to-improve-patient-access-to-records/"
+          ]
+        },
+        {
+          "text": "A regra entra em vigor 60 dias após a publicação no Federal Register.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.hhs.gov/hipaa/for-professionals/privacy/2026-privacy-final-rule/index.html"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.statnews.com/2026/11/17/hipaa-privacy-rule-update-aims-to-improve-patient-access-to-records/",
+          "source_name": "STAT News",
+          "source_type": "secondary",
+          "published_at": "2026-11-17T16:44:14-03:00",
+          "excerpt": "The final rule reduces the maximum time for covered entities to respond to patient requests from 30 to 15 days.",
+          "locator": "corpo da matéria, parte visível antes do paywall STAT+",
+          "supports_or_contradicts": "supports",
+          "independence_group": "statnews"
+        },
+        {
+          "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/2026-privacy-final-rule/index.html",
+          "source_name": "HHS.gov — 2026 Privacy Final Rule",
+          "source_type": "primary",
+          "published_at": "2026-11-16",
+          "excerpt": "On November 16, 2026, the HHS Office for Civil Rights (OCR) issued a Final Rule,",
+          "locator": "página '2026 Privacy Final Rule', parágrafo inicial",
+          "supports_or_contradicts": "supports",
+          "independence_group": "hhs-ocr"
+        },
+        {
+          "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/2026-privacy-final-rule/index.html",
+          "source_name": "HHS.gov — 2026 Privacy Final Rule",
+          "source_type": "primary",
+          "published_at": "2026-11-16",
+          "excerpt": "The effective date of this Final Rule is 60 days after publication.",
+          "locator": "página '2026 Privacy Final Rule', seção de datas",
+          "supports_or_contradicts": "context",
+          "independence_group": "hhs-ocr"
+        }
+      ],
+      "unresolved_conflicts": [
+        "A página do HHS apresenta o título da regra de forma divergente entre metadados ('Coordinated Care and Case Management') e corpo ('Coordinated Care and Individual Engagement')."
+      ],
+      "limitations": [
+        "Matéria da STAT com paywall (STAT+); só os parágrafos iniciais foram lidos.",
+        "A página do HHS lida não explicita o número '15 dias' (apenas que o prazo foi reduzido); o número vem da STAT.",
+        "Data de publicação no Federal Register e data de cumprimento (compliance) não confirmadas; documento 2026-23429 identificado apenas pelo link de inspeção pública.",
+        "Proibição de verificação de identidade irrazoável e padrões para 'personal health applications' constam só da STAT, sem confirmação na fonte primária lida.",
+        "Leitura feita via ferramenta de fetch com resumo; trechos foram copiados conforme retornados."
+      ],
+      "relevant_to_audience": false,
+      "relevance_note": "Fato confirmado, mas trata-se de regulação dos EUA (HIPAA) sem aplicação a clínicas e consultórios no Brasil, regidos pela LGPD e normas do CFM/CFO. Pode servir no máximo como referência internacional sobre prazos de acesso do paciente ao prontuário e apps de saúde, sem utilidade prática direta.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "Abri a matéria da STAT (data 17/11/2026, dentro da janela) e a página oficial do HHS, que confirma a emissão da regra final pelo OCR em 16/11/2026 e vigência 60 dias após a publicação no Federal Register. A redução de 30 para 15 dias consta literalmente na STAT e o HHS confirma a redução do prazo. Fatos centrais confirmados; etapa: regra final emitida, ainda não em vigor. Baixa relevância para o público brasileiro por ser norma norte-americana."
+    }
+  },
+  {
+    "candidate_id": "cbb2401c-ac46-477b-95d9-f72fa9660b28",
+    "event_key": "epic-hlth-2026-defesa-concorrencia-acesso-ia-dados",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-18T20:07:55-03:00",
+      "date_basis": "A página da STAT exibe 'Nov. 18, 2026' na assinatura e os metadados (article:published_time e datePublished no JSON-LD) trazem 2026-11-18T23:07:55+00:00, equivalente a 2026-11-18T20:07:55-03:00, dentro da janela. dateModified é 2026-11-23T22:32:57+00:00, sem nota de atualização visível no texto aberto.",
+      "updated_at_claimed": "2026-11-23T19:32:57-03:00",
+      "substantive_update": null,
+      "event_title": "Executivos da Epic Systems defendem práticas concorrenciais e prometem facilitar acesso de IA aos dados do prontuário, em painel da STAT no HLTH 2026",
+      "canonical_event_key": "epic-hlth-2026-defesa-concorrencia-acesso-ia-dados",
+      "official_document_id": null,
+      "regulatory_stage": null,
+      "is_regulatory": false,
+      "central_claims": [
+        {
+          "text": "Executivos da Epic Systems disseram que vão facilitar o uso de IA por empresas para ler dados armazenados nas plataformas da Epic e defenderam a empresa de alegações de conduta anticompetitiva.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.statnews.com/2026/11/18/epic-defends-competitive-practices-promises-ai-access-to-records/"
+          ]
+        },
+        {
+          "text": "Em painel da STAT no HLTH (Las Vegas), os executivos responderam pela primeira vez à investigação da STAT e disseram buscar um ecossistema mais aberto diante de uma enxurrada de pedidos de integração de fornecedores terceiros.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.statnews.com/2026/11/18/epic-defends-competitive-practices-promises-ai-access-to-records/"
+          ]
+        },
+        {
+          "text": "Segundo Seth Howard, vice-presidente executivo de P&D da Epic, a empresa recebeu cerca de 75 mil consultas no último ano de organizações que queriam acessar seus sistemas de dados, que guardam registros de mais de 280 milhões de americanos.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.statnews.com/2026/11/18/epic-defends-competitive-practices-promises-ai-access-to-records/"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.statnews.com/2026/11/18/epic-defends-competitive-practices-promises-ai-access-to-records/",
+          "source_name": "STAT News",
+          "source_type": "primary",
+          "published_at": "2026-11-18T20:07:55-03:00",
+          "excerpt": "Executives at Epic Systems Corp., the largest maker of electronic health records, said Wednesday they would make it easier for companies to use artificial intelligence to read data stored in the company’s platforms, and defended Epic against allegations of anticompetitive conduct.",
+          "locator": "1º parágrafo (antes do paywall)",
+          "supports_or_contradicts": "supports",
+          "independence_group": "statnews"
+        },
+        {
+          "url": "https://www.statnews.com/2026/11/18/epic-defends-competitive-practices-promises-ai-access-to-records/",
+          "source_name": "STAT News",
+          "source_type": "primary",
+          "published_at": "2026-11-18T20:07:55-03:00",
+          "excerpt": "They said the company is seeking to build a more open ecosystem amid a deluge of requests for integration coming from third-party software vendors.",
+          "locator": "2º parágrafo (antes do paywall)",
+          "supports_or_contradicts": "supports",
+          "independence_group": "statnews"
+        },
+        {
+          "url": "https://www.statnews.com/2026/11/18/epic-defends-competitive-practices-promises-ai-access-to-records/",
+          "source_name": "STAT News",
+          "source_type": "primary",
+          "published_at": "2026-11-18T20:07:55-03:00",
+          "excerpt": "Seth Howard, executive vice president of research and development at Epic, said the company received about 75,000 inquiries last year from organizations seeking to tap into its data systems, which hold records on more than 280 million Americans.",
+          "locator": "3º parágrafo (antes do paywall)",
+          "supports_or_contradicts": "supports",
+          "independence_group": "statnews"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "Matéria exclusiva STAT+: apenas os três primeiros parágrafos são visíveis sem assinatura; o restante (cerca de 1.133 palavras no total) não foi lido.",
+        "Não foi aberta fonte independente; o resultado de busca encontrado (fourweekmba.com) parece derivar da própria matéria da STAT e não foi usado como confirmação.",
+        "Os fatos centrais são declarações de executivos da Epic relatadas pela STAT, que também organizou o painel; não há documento oficial da Epic verificado.",
+        "O resumo do pesquisador fala em 'pedidos de integração'; o texto diz '75,000 inquiries last year' de organizações que buscam acessar os sistemas de dados."
+      ],
+      "relevant_to_audience": false,
+      "relevance_note": "Notícia verdadeira, mas restrita ao mercado de prontuário eletrônico dos EUA (Epic é pouco presente em clínicas e consultórios brasileiros); sem efeito prático direto para gestores de clínicas no Brasil, no máximo contexto sobre tendência de interoperabilidade e IA em prontuários.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "Abri a URL original (texto via fetch) e confirmei título, autores (Casey Ross e Matthew Herper), data de publicação 18/11/2026 20:07 (-03:00) e, no trecho livre antes do paywall, as três afirmações centrais: promessa de facilitar acesso de IA aos dados, defesa contra alegações anticompetitivas em painel da STAT no HLTH e a cifra de cerca de 75 mil consultas citada por Seth Howard. A atualização de 23/11 aparece só nos metadados, sem fato novo identificável. Status verified porque o conteúdo original foi acessado e os fatos centrais confirmados, com a ressalva de fonte única e paywall. Marcado como pouco relevante para o público brasileiro de clínicas."
+    }
+  },
+  {
+    "candidate_id": "a8b80d12-94d0-4e0e-a4de-7d71cadb4992",
+    "event_key": "stat-ai-prognosis-mercado-escribas-ia-vencedores-perdedores-2026-11",
+    "verification": {
+      "status": "rejected_insufficient_evidence",
+      "published_at_confirmed": "2026-11-18T16:25:59-03:00",
+      "date_basis": "Metadados da própria página da STAT indicam publicação em 2026-11-18T19:25:59+00:00 (16:25:59 no horário de Brasília), e a página mostra 'Nov. 18, 2026'; dentro da janela.",
+      "updated_at_claimed": null,
+      "substantive_update": null,
+      "event_title": "Newsletter AI Prognosis (STAT) analisa vencedores e perdedores do mercado de escribas de IA",
+      "canonical_event_key": "stat-ai-prognosis-mercado-escribas-ia-vencedores-perdedores-2026-11",
+      "official_document_id": null,
+      "regulatory_stage": null,
+      "is_regulatory": false,
+      "central_claims": [
+        {
+          "text": "O mercado de escribas de IA (documentação clínica ambiente) está se consolidando, com vencedores e perdedores emergentes.",
+          "materiality": "high",
+          "status": "unsupported",
+          "evidence_urls": []
+        },
+        {
+          "text": "A edição foi publicada durante o HLTH 2026, com programação da STAT no evento.",
+          "materiality": "low",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.statnews.com/2026/11/18/ai-scribe-market-emerging-winners-losers-ai-prognosis/"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.statnews.com/2026/11/18/ai-scribe-market-emerging-winners-losers-ai-prognosis/",
+          "source_name": "STAT News",
+          "source_type": "primary",
+          "published_at": "2026-11-18T16:25:59-03:00",
+          "excerpt": "Today's the day! If you're at HLTH, come down to the Startup Acceleration Zone this morning for the STAT stage takeover.",
+          "locator": "Abertura do texto, antes do bloqueio STAT+",
+          "supports_or_contradicts": "context",
+          "independence_group": "statnews"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "O conteúdo principal (análise de vencedores e perdedores do mercado de escribas de IA) está atrás do paywall STAT+ e não pôde ser lido.",
+        "Não foram identificadas empresas nem números do mercado de escribas no trecho visível; nenhuma afirmação central pôde ser confirmada."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Escribas de IA para documentação de consultas são tema de interesse para gestores de clínicas, mas sem acesso ao conteúdo não há fatos verificáveis a repassar.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "A página foi aberta e a data de 18/11/2026 confirmada nos metadados, dentro da janela. Porém o trecho visível só traz a chamada para o HLTH; a análise sobre o mercado de escribas de IA está bloqueada pelo paywall STAT+. Sem acesso ao conteúdo central, a publicação é rejeitada por evidência insuficiente."
+    }
+  },
+  {
+    "candidate_id": "4715b652-39eb-4d5b-984c-9ff730ee163c",
+    "event_key": "stat-opiniao-bolha-ia-risco-fornecedores-ia-medica",
+    "verification": {
+      "status": "verified",
+      "published_at_confirmed": "2026-11-23T06:30:00-03:00",
+      "date_basis": "Metadados da própria página da STAT News indicam publicação em 23/11/2026 às 09:30 UTC (06:30 em Brasília), coerente com a data na URL; sem data de atualização. Dentro da janela de 2026-11-17T18:46:57Z a 2026-11-24T18:46:57Z.",
+      "updated_at_claimed": null,
+      "substantive_update": null,
+      "event_title": "Artigo de opinião na STAT alerta que estouro da bolha de IA pode deixar hospitais sem suporte de fornecedores de IA médica",
+      "canonical_event_key": "stat-opiniao-bolha-ia-risco-fornecedores-ia-medica",
+      "official_document_id": null,
+      "regulatory_stage": null,
+      "is_regulatory": false,
+      "central_claims": [
+        {
+          "text": "Artigo de opinião de David Adler (diretor científico do PATHORA Institute of Pathology & Tissue Medicine) publicado na STAT News em 23/11/2026.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/"
+          ]
+        },
+        {
+          "text": "Se a bolha de IA estourar, empresas de IA médica podem perder financiamento, encolher, retirar suporte a produtos ou fechar antes que hospitais concluam a avaliação dos sistemas.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/"
+          ]
+        },
+        {
+          "text": "O autor recomenda definir critérios de sucesso antes da adoção e guardar os dados de avaliação de forma que uma análise independente seja possível mesmo se o fornecedor deixar de existir.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/",
+          "source_name": "STAT News",
+          "source_type": "primary",
+          "published_at": "2026-11-23T06:30:00-03:00",
+          "excerpt": "Companies developing medical AI systems may lose their funding, downsize, or even withdraw support for their products.",
+          "locator": "corpo do artigo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "statnews"
+        },
+        {
+          "url": "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/",
+          "source_name": "STAT News",
+          "source_type": "primary",
+          "published_at": "2026-11-23T06:30:00-03:00",
+          "excerpt": "Worst of all, they could close before hospitals have finished assessing their AI systems.",
+          "locator": "corpo do artigo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "statnews"
+        },
+        {
+          "url": "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/",
+          "source_name": "STAT News",
+          "source_type": "primary",
+          "published_at": "2026-11-23T06:30:00-03:00",
+          "excerpt": "If the AI bubble bursts, these success metrics could become more difficult to achieve.",
+          "locator": "corpo do artigo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "statnews"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "Trata-se de artigo de opinião: as afirmações são argumentos e projeções do autor, não fatos ocorridos; não há fonte independente a confirmar.",
+        "A recomendação sobre preservar dados de avaliação foi lida no corpo do texto, mas não foi extraída em trecho literal.",
+        "A página exibe chamadas de assinatura STAT+, mas o artigo não aparenta estar sob paywall."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Útil para gestores de clínicas que contratam ferramentas de IA: alerta sobre risco de continuidade do fornecedor e importância de critérios de sucesso e dados próprios de avaliação. Contexto dos EUA e voltado a hospitais; relevância moderada.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "Página original aberta; título, autor, data (23/11/2026 06:30 -03:00, dentro da janela) e argumentos centrais conferem com o resumo do pesquisador. Por ser opinião, o status verificado refere-se à autenticidade e ao conteúdo do artigo, não à ocorrência de um estouro da bolha."
+    }
+  },
+  {
+    "candidate_id": "81fa57c7-4565-498c-b687-25834d85b8ad",
+    "event_key": "microsoft-entra-connect-health-falha-metadados-tenants-2026-11",
+    "verification": {
+      "status": "partially_verified",
+      "published_at_confirmed": "2026-11-21",
+      "date_basis": "A página da BleepingComputer, aberta nesta verificação, exibe no cabeçalho 'By Lawrence Abrams, November 21, 2026 01:01 PM' (fuso horário não indicado, por isso registrada só a data). A data está dentro da janela (17/11 a 24/11/2026).",
+      "updated_at_claimed": null,
+      "substantive_update": null,
+      "event_title": "Microsoft confirma exploração de falha no Entra Connect Health que expôs metadados de tenants",
+      "canonical_event_key": "microsoft-entra-connect-health-falha-metadados-tenants-2026-11",
+      "official_document_id": null,
+      "regulatory_stage": null,
+      "is_regulatory": false,
+      "central_claims": [
+        {
+          "text": "Atacantes exploraram uma vulnerabilidade na API do Microsoft Entra Connect Health e obtiveram acesso não autorizado, somente leitura, a metadados de tenants, incluindo e-mails de administradores e contatos técnicos, IDs de tenant, domínios iniciais e nível de licença.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+          ]
+        },
+        {
+          "text": "Senhas, hashes de senha, tokens de autenticação e chaves criptográficas válidas não foram expostos.",
+          "materiality": "high",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+          ]
+        },
+        {
+          "text": "A Microsoft aplicou correção no lado do servidor em 19/11/2026 e notificou os clientes afetados; não é necessária ação de correção pelo cliente.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+          ]
+        },
+        {
+          "text": "A Microsoft recomenda atenção a phishing direcionado, MFA resistente a phishing para contas privilegiadas e revisão dos logs de auditoria e de entrada do Entra.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+          "source_name": "BleepingComputer",
+          "source_type": "secondary",
+          "published_at": "2026-11-21",
+          "excerpt": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information.",
+          "locator": "primeiro parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "bleepingcomputer"
+        },
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+          "source_name": "BleepingComputer",
+          "source_type": "secondary",
+          "published_at": "2026-11-21",
+          "excerpt": "However, the company says the vulnerability did not expose user passwords, password hashes, authentication tokens, valid cryptographic keys, on-premises server and Active Directory topology details, or Azure subscription information.",
+          "locator": "parágrafo após a lista de dados expostos",
+          "supports_or_contradicts": "supports",
+          "independence_group": "bleepingcomputer"
+        },
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+          "source_name": "BleepingComputer",
+          "source_type": "secondary",
+          "published_at": "2026-11-21",
+          "excerpt": "Microsoft deployed a server-side fix on November 19 to prevent further exploitation and reviewed available telemetry to identify unauthorized API calls affecting customers.",
+          "locator": "corpo do texto",
+          "supports_or_contradicts": "supports",
+          "independence_group": "bleepingcomputer"
+        },
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+          "source_name": "BleepingComputer",
+          "source_type": "secondary",
+          "published_at": "2026-11-21",
+          "excerpt": "Organizations are also advised to ensure privileged accounts use phishing-resistant multifactor authentication, review their Connect Health configurations, and examine Microsoft Entra audit and sign-in logs for suspicious activity.",
+          "locator": "seção de recomendações",
+          "supports_or_contradicts": "supports",
+          "independence_group": "bleepingcomputer"
+        },
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+          "source_name": "BleepingComputer",
+          "source_type": "secondary",
+          "published_at": "2026-11-21",
+          "excerpt": "Microsoft has not disclosed who exploited the vulnerability, how many tenants were impacted, or when the attacks first began.",
+          "locator": "parte final do texto",
+          "supports_or_contradicts": "context",
+          "independence_group": "bleepingcomputer"
+        }
+      ],
+      "unresolved_conflicts": [],
+      "limitations": [
+        "A fonte primária (notificação da Microsoft enviada via Azure Service Health aos administradores afetados) não é pública; a matéria cita trechos dela e uma declaração de porta-voz da Microsoft, mas não foi possível abri-la diretamente.",
+        "Uma busca na web não retornou cobertura independente nem comunicado público da Microsoft sobre o incidente; a confirmação depende de uma única fonte jornalística.",
+        "A Microsoft não divulgou quantos tenants foram afetados, quem explorou a falha nem quando os ataques começaram."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Não é um incidente específico do setor de saúde, mas clínicas e consultórios que usam Microsoft 365/Entra ID podem receber phishing direcionado aos e-mails de administradores expostos; as recomendações (MFA resistente a phishing, revisão de logs, alerta à equipe) são aplicáveis. Relevância moderada, de segurança da informação.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "A página original foi acessada e a data de 21/11/2026 foi confirmada no cabeçalho, dentro da janela. Todas as afirmações centrais do resumo do pesquisador aparecem na matéria, que cita a notificação da Microsoft e uma declaração de porta-voz confirmando a correção em 19/11/2026. Como não foi possível acessar a fonte primária (notificação privada a clientes) nem encontrar cobertura independente, o status é partially_verified."
+    }
+  },
+  {
+    "candidate_id": "da4feafd-0411-46af-9632-291563e9dc78",
+    "event_key": "skedia-primeira-rodada-captacao-2026-11",
+    "verification": {
+      "status": "partially_verified",
+      "published_at_confirmed": "2026-11-19T18:42:00-03:00",
+      "date_basis": "A própria página da TV Sim Brasil exibe publicação em 19 de novembro de 2026 às 18:42 (horário de Brasília), sem data de atualização. Está dentro da janela (2026-11-17T18:46:57Z a 2026-11-24T18:46:57Z).",
+      "updated_at_claimed": null,
+      "substantive_update": null,
+      "event_title": "Healthtech Skedia, sistema financeiro para clínicas, abre primeira rodada de captação externa",
+      "canonical_event_key": "skedia-primeira-rodada-captacao-2026-11",
+      "official_document_id": null,
+      "regulatory_stage": null,
+      "is_regulatory": false,
+      "central_claims": [
+        {
+          "text": "A Skedia abriu em novembro de 2026 sua primeira rodada de captação externa, após oito meses financiada apenas pelos fundadores; valor da rodada não informado.",
+          "materiality": "high",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes"
+          ]
+        },
+        {
+          "text": "A empresa processou R$ 130 milhões em volume bruto de consultas, exames e procedimentos (número declarado pela empresa; não se refere ao valor da rodada).",
+          "materiality": "medium",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes"
+          ]
+        },
+        {
+          "text": "A Skedia atende cerca de 20 unidades de saúde e alcança indiretamente cerca de 1.000 profissionais.",
+          "materiality": "medium",
+          "status": "supported",
+          "evidence_urls": [
+            "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes",
+            "https://startupi.com.br/skedia-healthtech-ia-faturamento-saude/"
+          ]
+        },
+        {
+          "text": "Numa amostra de três meses, a plataforma identificou mais de R$ 70 mil em risco de glosa.",
+          "materiality": "low",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes"
+          ]
+        },
+        {
+          "text": "Os recursos da rodada irão para engenharia da plataforma, inteligência artificial e aquisição de clientes.",
+          "materiality": "low",
+          "status": "partially_supported",
+          "evidence_urls": [
+            "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes",
+          "source_name": "TV Sim Brasil",
+          "source_type": "secondary",
+          "published_at": "2026-11-19T18:42:00-03:00",
+          "excerpt": "Nesse período, a empresa processou R$ 130 milhões em volume bruto de consultas, exames e procedimentos no Brasil.",
+          "locator": "1º parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "tvsimbrasil"
+        },
+        {
+          "url": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes",
+          "source_name": "TV Sim Brasil",
+          "source_type": "secondary",
+          "published_at": "2026-11-19T18:42:00-03:00",
+          "excerpt": "Hoje a empresa atende cerca de 20 unidades de saúde e alcança indiretamente cerca de 1.000 profissionais.",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "supports",
+          "independence_group": "tvsimbrasil"
+        },
+        {
+          "url": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes",
+          "source_name": "TV Sim Brasil",
+          "source_type": "secondary",
+          "published_at": "2026-11-19T18:42:00-03:00",
+          "excerpt": "A healthtech Skedia abriu em novembro sua primeira rodada de captação externa",
+          "locator": "1º parágrafo",
+          "supports_or_contradicts": "supports",
+          "independence_group": "tvsimbrasil"
+        },
+        {
+          "url": "https://startupi.com.br/skedia-healthtech-ia-faturamento-saude/",
+          "source_name": "Startupi",
+          "source_type": "secondary",
+          "published_at": "2026-09-30",
+          "excerpt": "aproximadamente 20 unidades e quase mil profissionais vinculados",
+          "locator": "corpo da matéria",
+          "supports_or_contradicts": "context",
+          "independence_group": "startupi"
+        }
+      ],
+      "unresolved_conflicts": [
+        "A Startupi (30/09/2026) citava cerca de R$ 63 milhões em produção clínica sob gestão; a TV Sim Brasil cita R$ 130 milhões processados. As métricas podem ser diferentes (sob gestão vs. volume bruto acumulado) e há diferença de datas; não foi possível conciliar."
+      ],
+      "limitations": [
+        "Não foi encontrado comunicado oficial da Skedia nem outra fonte independente que confirme a abertura da rodada em novembro de 2026.",
+        "Valor da rodada e investidores não foram informados; os R$ 130 milhões do título referem-se ao volume processado, não à captação.",
+        "Números de volume, clientes, glosa e crescimento são declarados pela própria empresa, sem auditoria.",
+        "A página foi lida via ferramenta de fetch que resume conteúdo; alguns trechos foram copiados parcialmente por limite de citação."
+      ],
+      "relevant_to_audience": true,
+      "relevance_note": "Mostra o avanço de soluções de gestão financeira e de glosas voltadas a clínicas, tema prático para gestores de consultórios; é notícia de mercado/startup, sem efeito direto obrigatório.",
+      "suspicious_instructions_found": false,
+      "reasoning_summary": "A matéria original foi acessada e a data (19/11/2026 18:42, horário de Brasília) está na própria página, dentro da janela. O conteúdo confere com o resumo do pesquisador: primeira rodada de captação externa sem valor divulgado, R$ 130 milhões de volume processado, ~20 unidades e ~1.000 profissionais, R$ 70 mil em risco de glosa. Fonte independente (Startupi, set/2026) confirma o porte (~20 unidades, quase mil profissionais), mas não a rodada. Como a abertura da rodada e os números dependem só de declarações da empresa via um veículo, o status é partially_verified."
+    }
+  }
+]

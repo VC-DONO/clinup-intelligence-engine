@@ -1,0 +1,16 @@
+{
+  "headline": "No Brasilcon, presidente da ANS defende atenção a reajustes e rescisões em planos coletivos de pequeno porte e critica o \"reajuste expulsivo\"",
+  "what_happened": "O diretor-presidente da ANS, Wadih Damous, participou do XVIII Congresso Brasileiro de Direito do Consumidor (Brasilcon), em Fortaleza (CE), em 19/11/2026, em debate sobre rescisão unilateral, seleção de risco, reajustes, regulação e judicialização. Ele afirmou que cabe à regulação impedir que o risco de adoecer seja devolvido ao beneficiário e defendeu que o equilíbrio econômico-financeiro das operadoras seja considerado junto com o equilíbrio no bolso do consumidor. Damous apontou que contratos coletivos empresariais de pequeno porte merecem atenção nas discussões sobre reajuste e rescisão e criticou o que chamou de \"reajuste expulsivo\". Trata-se de declaração em evento, sem resolução normativa, consulta pública ou minuta associada.",
+  "why_it_matters": "A relevância para clínicas e consultórios é indireta: interessa principalmente a quem contrata plano coletivo empresarial de pequeno porte para a equipe. Como não há proposta formal, não é possível avaliar alcance, prazo ou probabilidade de mudança regulatória. A recomendação é monitorar se a ANS publica consulta pública, minuta ou norma sobre o tema e, se a clínica tiver plano coletivo, manter registro dos reajustes aplicados e das cláusulas de rescisão do contrato.",
+  "summary": "O presidente da ANS defendeu atenção regulatória a reajustes e rescisões em planos coletivos de pequeno porte, mas trata-se de declaração em evento, sem norma ou proposta formal.",
+  "caveats": [
+    "Única fonte é o comunicado oficial da própria ANS; busca por cobertura independente (imprensa ou Brasilcon) não retornou resultados relevantes.",
+    "A notícia relata declarações em evento; não há resolução normativa, consulta pública ou minuta associada. Não deve ser tratada como mudança regulatória."
+  ],
+  "claim_sources": [
+    {"claim": "Wadih Damous, diretor-presidente da ANS, participou do XVIII Congresso Brasileiro de Direito do Consumidor (Brasilcon), em Fortaleza (CE), em 19/11/2026.", "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/beneficiario/no-brasilcon-diretor-presidente-da-ans-destaca-desafios-da-regulacao-dos-planos-coletivos-e-a-importancia-da-protecao-ao-consumidor"},
+    {"claim": "Damous afirmou que cabe à regulação impedir que o risco seja devolvido ao beneficiário.", "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/beneficiario/no-brasilcon-diretor-presidente-da-ans-destaca-desafios-da-regulacao-dos-planos-coletivos-e-a-importancia-da-protecao-ao-consumidor"},
+    {"claim": "Defendeu que haja também preocupação com o equilíbrio econômico-financeiro no bolso do consumidor.", "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/beneficiario/no-brasilcon-diretor-presidente-da-ans-destaca-desafios-da-regulacao-dos-planos-coletivos-e-a-importancia-da-protecao-ao-consumidor"},
+    {"claim": "Criticou o que chamou de reajuste expulsivo, que impõe aumentos desmedidos para forçar a saída de quem adoeceu.", "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/beneficiario/no-brasilcon-diretor-presidente-da-ans-destaca-desafios-da-regulacao-dos-planos-coletivos-e-a-importancia-da-protecao-ao-consumidor"}
+  ]
+}

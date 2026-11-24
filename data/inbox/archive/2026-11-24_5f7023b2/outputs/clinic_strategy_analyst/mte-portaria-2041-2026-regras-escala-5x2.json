@@ -1,0 +1,62 @@
+{
+  "category": "Pessoas",
+  "management_areas": [
+    "Gestão de pessoas e escalas",
+    "Folha de pagamento e custos de pessoal",
+    "Conformidade trabalhista",
+    "Segurança e saúde no trabalho (PGR/NR-01)"
+  ],
+  "audience_profiles": [
+    "Consultório pequeno",
+    "Clínica com equipe",
+    "Clínica em expansão",
+    "Rede/grupo",
+    "Clínica médica",
+    "Clínica odontológica",
+    "Clínica multiprofissional"
+  ],
+  "specialties": [],
+  "regions": [
+    "Brasil"
+  ],
+  "decision": "act_now",
+  "justification": "Fato: a Portaria MTE nº 2.041, publicada em 23/11/2026 (DOU, edição especial), detalha regras que valem a partir de 16/12/2026: jornada normal de até 8h diárias e 42h semanais, dois repousos semanais de 24h, divisor do salário-hora de 210 (200 a partir de 16/12/2027, com 40h), regra de compensação ou horas extras na 12x36 quando a média mensal passar do limite semanal, banco de horas acumulado até 15/12/2026 regido pelo acordo vigente e cláusulas coletivas incompatíveis sem efeito, além de PGR (NR-01) quando cabível e art. 64 da Portaria MTP nº 671/2021 para atividades insalubres. Interpretação: há prazo concreto (cerca de três semanas) e risco de passivo trabalhista e de aumento do custo da hora para qualquer clínica com empregados CLT, o que justifica agir agora. Limitação: o texto integral no DOU não foi aberto (base é a notícia oficial do MTE) e regras para profissões regulamentadas ainda dependem de portarias futuras.",
+  "actions": [
+    "Imediato: levantar, por empregado CLT, a jornada semanal atual, os dias trabalhados, uso de 12x36, horas extras, trabalho noturno e banco de horas.",
+    "Imediato: pedir ao contador ou ao departamento pessoal que recalcule a folha com divisor 210 a partir de 16/12/2026 (e simule o divisor 200 de 16/12/2027) para horas extras e adicional noturno.",
+    "7 dias: redesenhar as escalas para até 8h diárias, 42h semanais e dois repousos de 24h a partir de 16/12/2026, avaliando revezamento, ajuste do horário de atendimento ou contratação parcial.",
+    "7 dias: para escalas 12x36, calcular a média mensal sob o novo limite e confirmar com assessoria jurídica ou sindicato a regra de compensação ou pagamento prevista no instrumento coletivo.",
+    "Até 15/12/2026: fechar e documentar o saldo do banco de horas acumulado até essa data e definir sua compensação ou pagamento conforme o acordo vigente; identificar cláusulas coletivas de jornada incompatíveis com os novos limites.",
+    "Até 16/12/2026: pedir ao responsável por segurança do trabalho que avalie se o PGR (NR-01) precisa ser atualizado com as novas escalas e verificar as regras de prorrogação de jornada em funções caracterizadas como insalubres.",
+    "30 dias: acompanhar as próximas portarias do MTE (profissões regulamentadas, compensação de repousos por negociação coletiva, afastamento contínuo) e evitar compromissos de escala de longo prazo antes delas; iniciar o planejamento da etapa de 40h de 16/12/2027."
+  ],
+  "indicators": [
+    "Percentual de empregados CLT com escala adequada a 42h e dois repousos semanais até 16/12/2026",
+    "Horas extras mensais e custo de horas extras antes e depois de 16/12/2026",
+    "Média mensal de horas das escalas 12x36 frente ao limite semanal",
+    "Saldo do banco de horas em 15/12/2026 e prazo de quitação",
+    "Data de revisão do PGR, quando cabível"
+  ],
+  "data_needed": [
+    "Texto integral da Portaria MTE nº 2.041/2026 no DOU",
+    "Convenção ou acordo coletivo aplicável a cada categoria de empregados da clínica",
+    "Jornada, escala, horas extras e adicional noturno atuais por empregado",
+    "Lista de funções com jornada própria em lei (profissões regulamentadas) e de atividades caracterizadas como insalubres",
+    "Conteúdo das portarias futuras do MTE sobre profissões regulamentadas e compensação de repousos",
+    "Fórmula para estimar o efeito do divisor: valor da hora = salário mensal / divisor (220 → 210 → 200); custo de horas extras = valor da hora × (1 + adicional) × horas extras. Exemplo hipotético: salário de R$ 2.100 passa de cerca de R$ 9,55/h (divisor 220) para R$ 10,00/h (divisor 210)."
+  ],
+  "assumptions": [
+    "A notícia oficial do MTE reflete corretamente o texto da portaria publicada no DOU.",
+    "A clínica tem empregados regidos pela CLT; profissionais autônomos ou PJ não são afetados diretamente por estas regras.",
+    "Não há suspensão ou alteração das regras antes de 16/12/2026."
+  ],
+  "uncertainty": "medium",
+  "scores": {
+    "management_impact": 4,
+    "urgency": 5,
+    "audience_relevance": 4,
+    "evidence_strength": 4,
+    "practical_utility": 4,
+    "strategic_novelty": 3
+  }
+}

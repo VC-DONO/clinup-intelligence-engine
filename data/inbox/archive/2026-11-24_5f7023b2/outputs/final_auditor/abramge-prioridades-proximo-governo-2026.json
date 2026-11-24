@@ -1,0 +1,16 @@
+{
+  "result": "fail",
+  "unsupported_claims": [
+    "Que uma das três prioridades da Abramge seja 'aprimorar critérios de incorporação de novas tecnologias': nenhum trecho dos registros de evidência menciona incorporação de tecnologias, e não há claim_source para essa afirmação. Ela aparece como fato na manchete, em what_happened e no summary.",
+    "A lista completa das três prioridades (judicialização, incorporação de tecnologias, fraudes) atribuída ao Brasil 247 não tem trecho que a sustente; os trechos registrados cobrem apenas propostas sobre judicialização (NatJus, pareceres, varas especializadas) e a 'terceira prioridade', o combate a fraudes."
+  ],
+  "mismatched_dates_or_numbers": [],
+  "omitted_caveats": [],
+  "sensational_language": [],
+  "required_corrections": [
+    "Retirar 'incorporação de tecnologias' da manchete, de what_happened e do summary, ou obter trecho de evidência que a sustente e incluí-lo em claim_sources.",
+    "Reescrever a descrição das prioridades limitando-se ao que os trechos sustentam: propostas sobre judicialização (fortalecer NatJus, ampliar pareceres especializados, estimular varas especializadas em saúde), combate a fraudes com integração de informações, revisão da Lei 9.656/1998 e cooperação com o SUS.",
+    "Se mantida a menção a 'três prioridades', atribuí-la explicitamente às matérias, com a ressalva de que nem todas as prioridades foram confirmadas por trecho."
+  ],
+  "justification": "A maior parte do texto confere com os trechos: entrevista de Gustavo Ribeiro ao Saúde Insider, propostas sobre NatJus e varas especializadas, combate a fraudes com integração de dados, revisão da Lei 9.656/1998 e cooperação com o SUS via 'Agora Tem Especialistas'. O dado do CNJ (439.060 ações, +14,3%) foi corretamente tratado como não conferido, e todas as ressalvas obrigatórias estão presentes, inclusive a de que Plantão Brasil e Brasil 247 não são fontes independentes. Não há linguagem sensacionalista. Porém, a prioridade 'aprimorar critérios de incorporação de novas tecnologias' é afirmação factual material, presente na manchete, sem qualquer trecho de evidência que a sustente; a ressalva genérica de 'parcialmente confirmado' não informa ao leitor qual parte não foi confirmada. Pela regra, afirmação material sem evidência leva a fail."
+}

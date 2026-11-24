@@ -1,0 +1,29 @@
+{
+  "decision": "correct",
+  "problems": [
+    "A única fonte é uma matéria da Medicina S/A sobre dados proprietários do BoaConsulta, plataforma de agendamento com interesse comercial em vender resposta rápida e agendamento online. Não há fonte primária, metodologia nem cobertura independente, e há conflito de interesse da origem dos dados.",
+    "Vários números marcados como 'supported' não aparecem em nenhum trecho citado: 21,9 mil pedidos, a faixa de 56% a 59%, os 8% de pacientes que cancelam, os 46% pelo aplicativo e os cerca de 8% entre 22h e 6h. Os trechos cobrem só 22%, 57%, 32% e 2,1 vezes.",
+    "'As que respondem rápido' não tem limiar definido. O texto compara 22% com 56%–59% sem dizer qual tempo de resposta corresponde a essa faixa, o que torna a comparação pouco interpretável.",
+    "Métricas de bases diferentes aparecem lado a lado sem aviso: taxa de confirmação de pedidos, percentual de 'agendamentos online' fora do horário comercial e volume por canal só 'nos consultórios que registram a origem'. Este último é um subconjunto selecionado, e a comparação com o telefone pode estar enviesada por quem registra a origem.",
+    "A amostra é de clínicas e pacientes que usam a plataforma, não do conjunto de clínicas brasileiras. O texto não diz isso explicitamente no what_happened.",
+    "A caveat 'Hora de publicação obtida de metadados da página; registrado apenas o dia' é nota de processo interno e não ajuda o leitor."
+  ],
+  "contrary_evidence": [
+    "O próprio dossiê registra que a busca não encontrou relatório primário nem cobertura independente. Não existe confirmação dos números fora da Medicina S/A.",
+    "A estratégia reconhece que clínicas que respondem rápido podem diferir em outros fatores (porte, equipe, especialidade). Isso enfraquece qualquer leitura causal da diferença entre 22% e 56%–59%."
+  ],
+  "fragile_assumptions": [
+    "Que a Medicina S/A reproduza corretamente os números e as definições do BoaConsulta.",
+    "Que os dados de uma plataforma de agendamento representem clínicas que não a usam ou que recebem pedidos por outros canais.",
+    "Que 'confirmação' e 'expiração' de pedidos tenham, na plataforma, definição comparável ao fluxo de agendamento da clínica do leitor.",
+    "Que a vantagem do WhatsApp sobre o telefone (2,1 vezes) se mantenha em consultórios que não registram a origem dos pedidos."
+  ],
+  "required_corrections": [
+    "Dizer no what_happened que os dados são proprietários de uma plataforma com interesse comercial no tema, divulgados por veículo secundário, sem relatório primário nem metodologia disponível.",
+    "Marcar como não confirmados por trecho citado os números 21,9 mil, 56%–59%, 8% de cancelamento, 46% pelo aplicativo e 8% entre 22h e 6h, ou retirá-los.",
+    "Informar que o levantamento, na forma divulgada, não define o que é 'responder rápido', e evitar apresentar a faixa de 56%–59% como comparação direta com os 22%.",
+    "Explicitar que o dado do WhatsApp vale só para consultórios que registram a origem dos pedidos e que os 32% se referem a agendamentos online, não ao total de pedidos.",
+    "Retirar das caveats a nota sobre metadados de hora de publicação."
+  ],
+  "violated_rule": null
+}

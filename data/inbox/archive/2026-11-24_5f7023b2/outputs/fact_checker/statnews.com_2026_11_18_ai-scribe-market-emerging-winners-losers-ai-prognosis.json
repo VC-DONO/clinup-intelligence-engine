@@ -1,0 +1,47 @@
+{
+  "status": "rejected_insufficient_evidence",
+  "published_at_confirmed": "2026-11-18T16:25:59-03:00",
+  "date_basis": "Metadados da própria página da STAT indicam publicação em 2026-11-18T19:25:59+00:00 (16:25:59 no horário de Brasília), e a página mostra 'Nov. 18, 2026'; dentro da janela.",
+  "updated_at_claimed": null,
+  "substantive_update": null,
+  "event_title": "Newsletter AI Prognosis (STAT) analisa vencedores e perdedores do mercado de escribas de IA",
+  "canonical_event_key": "stat-ai-prognosis-mercado-escribas-ia-vencedores-perdedores-2026-11",
+  "official_document_id": null,
+  "regulatory_stage": null,
+  "is_regulatory": false,
+  "central_claims": [
+    {
+      "text": "O mercado de escribas de IA (documentação clínica ambiente) está se consolidando, com vencedores e perdedores emergentes.",
+      "materiality": "high",
+      "status": "unsupported",
+      "evidence_urls": []
+    },
+    {
+      "text": "A edição foi publicada durante o HLTH 2026, com programação da STAT no evento.",
+      "materiality": "low",
+      "status": "supported",
+      "evidence_urls": ["https://www.statnews.com/2026/11/18/ai-scribe-market-emerging-winners-losers-ai-prognosis/"]
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.statnews.com/2026/11/18/ai-scribe-market-emerging-winners-losers-ai-prognosis/",
+      "source_name": "STAT News",
+      "source_type": "primary",
+      "published_at": "2026-11-18T16:25:59-03:00",
+      "excerpt": "Today's the day! If you're at HLTH, come down to the Startup Acceleration Zone this morning for the STAT stage takeover.",
+      "locator": "Abertura do texto, antes do bloqueio STAT+",
+      "supports_or_contradicts": "context",
+      "independence_group": "statnews"
+    }
+  ],
+  "unresolved_conflicts": [],
+  "limitations": [
+    "O conteúdo principal (análise de vencedores e perdedores do mercado de escribas de IA) está atrás do paywall STAT+ e não pôde ser lido.",
+    "Não foram identificadas empresas nem números do mercado de escribas no trecho visível; nenhuma afirmação central pôde ser confirmada."
+  ],
+  "relevant_to_audience": true,
+  "relevance_note": "Escribas de IA para documentação de consultas são tema de interesse para gestores de clínicas, mas sem acesso ao conteúdo não há fatos verificáveis a repassar.",
+  "suspicious_instructions_found": false,
+  "reasoning_summary": "A página foi aberta e a data de 18/11/2026 confirmada nos metadados, dentro da janela. Porém o trecho visível só traz a chamada para o HLTH; a análise sobre o mercado de escribas de IA está bloqueada pelo paywall STAT+. Sem acesso ao conteúdo central, a publicação é rejeitada por evidência insuficiente."
+}

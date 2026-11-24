@@ -1,0 +1,22 @@
+{
+  "no_material_risk": false,
+  "risks": [
+    {
+      "risk": "Phishing direcionado a administradores de TI de clínicas que usam Microsoft Entra.",
+      "supporting_fact": "Segundo o BleepingComputer (21/11/2026), atacantes exploraram falha na API do Microsoft Entra Connect Health e obtiveram acesso somente leitura a metadados de tenants, incluindo e-mails de administradores e contatos técnicos, IDs de tenant, domínios iniciais e nível de licença; a Microsoft recomenda atenção a phishing direcionado.",
+      "mechanism": "Com e-mails de administradores e dados do ambiente, atacantes podem enviar mensagens falsas convincentes para obter credenciais privilegiadas; uma conta administrativa comprometida pode dar acesso a e-mails e arquivos com dados de pacientes.",
+      "conditions": "Clínica usa Microsoft 365/Entra e teve tenant afetado (notificação via Azure Service Health); contas privilegiadas não usam MFA resistente a phishing; administrador (interno ou terceirizado) não está alerta.",
+      "exposed_profiles": [
+        "clínicas que usam Microsoft 365/Entra, especialmente com Entra Connect Health",
+        "prestadores de TI terceirizados que administram ambientes de clínicas"
+      ],
+      "severity": "medium",
+      "mitigation": "Verificar se houve notificação no Azure Service Health; ativar MFA resistente a phishing nas contas privilegiadas; revisar logs de auditoria e de entrada do Entra e a configuração do Connect Health; alertar administradores sobre e-mails suspeitos."
+    }
+  ],
+  "cannot_conclude": [
+    "A Microsoft não divulgou quantos tenants foram afetados, quem explorou a falha nem quando os ataques começaram; não é possível saber se clínicas brasileiras foram atingidas.",
+    "A confirmação depende de uma única fonte jornalística; a notificação original da Microsoft não é pública.",
+    "Segundo a fonte, senhas, hashes, tokens e chaves válidas não foram expostos e a correção foi aplicada no servidor em 19/11/2026, sem ação de correção exigida do cliente; o risco remanescente é indireto (uso dos metadados para engenharia social)."
+  ]
+}

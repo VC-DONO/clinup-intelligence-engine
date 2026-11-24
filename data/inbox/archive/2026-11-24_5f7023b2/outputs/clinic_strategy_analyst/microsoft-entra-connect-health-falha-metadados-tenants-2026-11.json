@@ -1,0 +1,57 @@
+{
+  "category": "Tecnologia e IA",
+  "management_areas": [
+    "Segurança da informação",
+    "Gestão de TI e de prestadores",
+    "Proteção de dados de pacientes"
+  ],
+  "audience_profiles": [
+    "Clínica com equipe",
+    "Clínica em expansão",
+    "Rede/grupo",
+    "Clínica médica",
+    "Clínica odontológica",
+    "Clínica multiprofissional"
+  ],
+  "specialties": [
+    "Todas as especialidades"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "decision": "act_now",
+  "justification": "Fato (fonte única, BleepingComputer, 21/11/2026): atacantes exploraram falha na API do Microsoft Entra Connect Health e obtiveram acesso somente leitura a metadados de tenants, incluindo e-mails de administradores e contatos técnicos, IDs de tenant, domínios iniciais e nível de licença; senhas, hashes, tokens e chaves válidas não foram expostos; a Microsoft aplicou correção no servidor em 19/11/2026, notificou os afetados e recomenda atenção a phishing direcionado, MFA resistente a phishing para contas privilegiadas e revisão dos logs de auditoria e de entrada do Entra. Interpretação: não é exigida correção pelo cliente, mas o risco remanescente de phishing direcionado a administradores é concreto e mais provável nos próximos dias. Recomendação: para clínicas com ambiente Microsoft 365/Entra, fazer verificações rápidas e de baixo custo agora; clínicas sem ambiente Microsoft não precisam agir. Não se sabe quantos tenants foram afetados nem se há clínicas brasileiras entre eles.",
+  "actions": [
+    "Imediato: pedir ao responsável de TI (interno ou terceirizado) que verifique se a clínica recebeu notificação da Microsoft no Azure Service Health.",
+    "Imediato: alertar administradores e equipe sobre e-mails suspeitos que se passem pela Microsoft ou pedem credenciais.",
+    "7 dias: confirmar que todas as contas administrativas usam MFA resistente a phishing.",
+    "7 dias: revisar os logs de auditoria e de entrada do Microsoft Entra em busca de atividade suspeita e revisar a configuração do Connect Health.",
+    "30 dias: revisar quantas contas têm privilégio administrativo e quem as controla, incluindo prestadores de TI."
+  ],
+  "indicators": [
+    "Notificação no Azure Service Health verificada (sim/não).",
+    "Percentual de contas administrativas com MFA resistente a phishing (contas com MFA resistente ÷ total de contas administrativas).",
+    "Revisão de logs de auditoria e de entrada concluída (sim/não).",
+    "Número de tentativas de phishing reportadas pela equipe no período."
+  ],
+  "data_needed": [
+    "Se a clínica usa Microsoft 365/Entra e, em especial, Entra Connect Health.",
+    "Se o tenant da clínica foi notificado como afetado.",
+    "Lista de contas administrativas e método de MFA de cada uma.",
+    "Comunicado público da Microsoft ou confirmação independente sobre o incidente."
+  ],
+  "assumptions": [
+    "A confirmação depende de uma única fonte jornalística; a notificação original da Microsoft não é pública.",
+    "Hipótese: parte das clínicas usa ambiente Microsoft 365/Entra administrado por terceiros.",
+    "O risco remanescente é indireto (engenharia social com os metadados expostos)."
+  ],
+  "uncertainty": "medium",
+  "scores": {
+    "management_impact": 3,
+    "urgency": 4,
+    "audience_relevance": 2,
+    "evidence_strength": 3,
+    "practical_utility": 4,
+    "strategic_novelty": 2
+  }
+}

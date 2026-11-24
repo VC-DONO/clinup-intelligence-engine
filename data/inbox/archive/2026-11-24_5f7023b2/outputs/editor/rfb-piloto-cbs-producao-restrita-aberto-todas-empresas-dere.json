@@ -1,0 +1,22 @@
+{
+  "headline": "Receita Federal abre a empresas de todo o país o ambiente de testes do piloto da CBS, com inclusão da DeRE",
+  "what_happened": "Em 20/11/2026, a Receita Federal ampliou o acesso ao ambiente de produção restrita do piloto da CBS, permitindo que empresas de todo o Brasil utilizem os serviços disponibilizados para testes. Deixa de ser necessária a indicação por entidades representativas; basta cumprir requisitos operacionais. O ambiente contém funcionalidades ainda não disponíveis no Ambiente de Produção Beta, como a Declaração de Regimes Específicos (DeRE). Para acessar, a pessoa jurídica deve outorgar procuração digital a seus representantes, e o uso da API e da DeRE exige poderes específicos.",
+  "why_it_matters": "Para clínicas e consultórios pessoa jurídica, é uma oportunidade de testar com antecedência os serviços da CBS e reduzir o risco de falhas operacionais; não se trata de uma obrigação nova. Segundo a matéria do Portal da Reforma Tributária, a cobrança plena da CBS começa em 1º/01/2027, data que não foi conferida na legislação. Vale perguntar ao contador e ao fornecedor do sistema de gestão se já testaram no ambiente e revisar as procurações digitais com os poderes necessários. Não é possível concluir, com os fatos disponíveis, se clínicas estarão sujeitas à DeRE.",
+  "summary": "A Receita Federal abriu a todas as empresas o ambiente de produção restrita do piloto da CBS, incluindo a DeRE, mediante procuração digital, o que permite a clínicas testar os serviços antes da cobrança.",
+  "caveats": [
+    "Trechos obtidos por ferramenta de leitura que limita citações a fragmentos curtos; excertos são fragmentos literais de frases.",
+    "A data de início da cobrança plena da CBS (01/01/2027) foi lida apenas na matéria secundária; não foi conferida na legislação nesta verificação.",
+    "Não foi consultada fonte jornalística independente adicional; a confirmação vem da fonte primária oficial.",
+    "Parcialmente confirmado: A cobrança plena da CBS começa em 1º/01/2027.",
+    "Autoria divergente na matéria: metadado indica Gabriel Benevides, assinatura visível 'Por Redação' (não afeta os fatos).",
+    "Não é possível concluir, com os fatos disponíveis, se clínicas e consultórios estarão obrigados à Declaração de Regimes Específicos (DeRE)."
+  ],
+  "claim_sources": [
+    {"claim": "Em 20/11/2026 a Receita Federal anunciou a ampliação do acesso ao ambiente de produção restrita do piloto da CBS.", "url": "https://www.reformatributaria.com/iva/receita-libera-para-todas-as-empresas-ambiente-piloto-da-cbs-com-inclusao-da-dere-acesse/"},
+    {"claim": "Empresas de todo o Brasil podem utilizar os serviços disponibilizados para testes.", "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-amplia-acesso-ao-ambiente-de-producao-restrita-do-piloto-da-cbs"},
+    {"claim": "Não é mais necessária a indicação por entidades representativas.", "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-amplia-acesso-ao-ambiente-de-producao-restrita-do-piloto-da-cbs"},
+    {"claim": "O ambiente contém funcionalidades ainda não disponíveis no Ambiente de Produção Beta, como a Declaração de Regimes Específicos (DeRE).", "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-amplia-acesso-ao-ambiente-de-producao-restrita-do-piloto-da-cbs"},
+    {"claim": "A pessoa jurídica deve outorgar procuração digital a seus representantes; API e DeRE exigem poderes específicos.", "url": "https://www.reformatributaria.com/iva/receita-libera-para-todas-as-empresas-ambiente-piloto-da-cbs-com-inclusao-da-dere-acesse/"},
+    {"claim": "Segundo a matéria, a cobrança plena da CBS começa em 1º/01/2027.", "url": "https://www.reformatributaria.com/iva/receita-libera-para-todas-as-empresas-ambiente-piloto-da-cbs-com-inclusao-da-dere-acesse/"}
+  ]
+}

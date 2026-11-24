@@ -1,0 +1,26 @@
+{
+  "headline": "ANS mantém abertas as Consultas Públicas 179, sobre o Monitoramento da Garantia de Atendimento, e 180, sobre atualização do Rol",
+  "what_happened": "A Agência Nacional de Saúde Suplementar (ANS) informou que está com duas consultas públicas abertas para contribuições da sociedade. A CP 179 trata de alterações nos critérios do Monitoramento da Garantia de Atendimento, medida da ANS para verificar o acesso dos beneficiários às coberturas contratadas, com contribuições de 23/10 a 7/12. A CP 180 trata da atualização do Rol para lenvatinibe em combinação com pembrolizumabe (carcinoma de células claras de rim avançado ou metastático, em primeira linha) e ivosidenibe (colangiocarcinoma com mutação IDH1 R132), com contribuições de 6 a 25/11.",
+  "why_it_matters": "São consultas públicas, não normas vigentes, e as minutas e documentos técnicos não foram abertos nesta verificação, por isso o efeito sobre clínicas credenciadas não pode ser medido. Clínicas credenciadas a operadoras que queiram levar sua experiência sobre prazos de agendamento e acesso de beneficiários podem ler a minuta da CP 179 e decidir se contribuem diretamente ou via entidade de classe antes de 7/12. Para clínicas de oncologia, a CP 180 interessa sobretudo como tema a monitorar, já que o prazo de contribuição termina em 25/11 e a incorporação das tecnologias não está decidida.",
+  "summary": "A ANS mantém abertas a CP 179, sobre critérios do Monitoramento da Garantia de Atendimento (contribuições até 7/12), e a CP 180, sobre atualização do Rol com duas tecnologias oncológicas (até 25/11).",
+  "caveats": [
+    "A página é uma nota-resumo recorrente ('participações sociais em andamento'); as consultas em si foram abertas antes da janela (CP 179 em 23/10, CP 180 em 6/11). O fato novo na janela é apenas a divulgação consolidada.",
+    "As páginas específicas de cada consulta pública (documentos técnicos, minutas) não foram abertas nesta verificação.",
+    "Não há fonte independente; a única fonte é a primária oficial da ANS, o que é adequado para este tipo de aviso.",
+    "O prazo da CP 180 termina em 25/11, logo após T0, limitando a utilidade prática dessa parte."
+  ],
+  "claim_sources": [
+    {
+      "claim": "A ANS está com duas consultas públicas abertas para recebimento de contribuições de toda a sociedade.",
+      "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/sociedade/participacoes-sociais-em-andamento-11"
+    },
+    {
+      "claim": "A CP 179 trata de alterações nos critérios do Monitoramento da Garantia de Atendimento, medida da ANS para verificar o acesso dos beneficiários às coberturas contratadas, com contribuições de 23/10 a 7/12.",
+      "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/sociedade/participacoes-sociais-em-andamento-11"
+    },
+    {
+      "claim": "A CP 180 trata da atualização do Rol para lenvatinibe em combinação com pembrolizumabe para adultos com carcinoma de células claras de rim avançado ou metastático, em primeira linha, e para ivosidenibe, com contribuições de 6 a 25/11.",
+      "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/sociedade/participacoes-sociais-em-andamento-11"
+    }
+  ]
+}

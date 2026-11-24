@@ -1,0 +1,29 @@
+{
+  "headline": "Artigo de opinião na STAT argumenta que, caso a bolha de IA estoure, fornecedores de IA médica podem deixar hospitais sem suporte",
+  "what_happened": "Em artigo de opinião publicado na STAT News em 23/11/2026, David Adler, diretor científico do PATHORA Institute of Pathology & Tissue Medicine, argumenta que, se a bolha de IA estourar, empresas que desenvolvem sistemas de IA médica podem perder financiamento, encolher ou até retirar o suporte a seus produtos. Segundo o autor, essas empresas poderiam fechar antes que hospitais concluam a avaliação dos sistemas, e as métricas de sucesso se tornariam mais difíceis de alcançar. O autor defende, em linhas gerais, definir critérios de sucesso antes da adoção e preservar os dados de avaliação, recomendação lida no corpo do texto sem trecho literal transcrito.",
+  "why_it_matters": "O texto é projeção do autor sobre o mercado dos Estados Unidos e hospitais, não fato ocorrido, e não há dado sobre fornecedores usados por clínicas brasileiras; não há ação urgente. A sugestão do autor (definir critérios de sucesso antes de adotar uma ferramenta de IA e preservar os dados de avaliação) é de baixo custo e útil independentemente de o cenário se concretizar. Como recomendação do CLIN-UP, e não do artigo, na próxima contratação ou revisão de contratos e fornecedores de IA vale pedir cláusula de exportação de dados em formato aberto, prazo de aviso em caso de descontinuidade, plano de saída e processo alternativo para funções críticas apoiadas por IA.",
+  "summary": "Artigo de opinião na STAT argumenta que, caso a bolha de IA estoure, empresas de IA médica podem perder financiamento ou fechar antes que hospitais concluam a avaliação de seus sistemas.",
+  "caveats": [
+    "Trata-se de artigo de opinião: as afirmações são argumentos e projeções do autor, não fatos ocorridos, sem fonte independente que as confirme.",
+    "O artigo trata do contexto dos Estados Unidos e de hospitais; o reflexo sobre fornecedores usados por clínicas brasileiras é hipótese não demonstrada.",
+    "A recomendação do autor sobre critérios de sucesso e preservação dos dados de avaliação foi lida no corpo do texto, mas não há trecho literal transcrito que a confirme em detalhe."
+  ],
+  "claim_sources": [
+    {
+      "claim": "David Adler argumenta em artigo de opinião na STAT News, publicado em 23/11/2026, que empresas de IA médica podem perder financiamento, encolher ou retirar suporte a seus produtos.",
+      "url": "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/"
+    },
+    {
+      "claim": "Segundo o autor, essas empresas poderiam fechar antes que hospitais concluam a avaliação dos sistemas de IA.",
+      "url": "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/"
+    },
+    {
+      "claim": "Segundo o autor, se a bolha de IA estourar, as métricas de sucesso podem se tornar mais difíceis de alcançar.",
+      "url": "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/"
+    },
+    {
+      "claim": "O autor defende, em linhas gerais, definir critérios de sucesso antes da adoção e preservar os dados de avaliação.",
+      "url": "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/"
+    }
+  ]
+}

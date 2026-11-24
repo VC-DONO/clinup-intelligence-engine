@@ -1,0 +1,31 @@
+{
+  "decision": "correct",
+  "problems": [
+    "O texto afirma em tom de fato que 'a medida alcança 14,8 milhões de trabalhadores em escala 6x1'. A evidência diz 'deverá alcançar', ou seja, é uma estimativa do governo. O número de 21,7 milhões em 5x2 com 44h não aparece em nenhum trecho citado.",
+    "O efeito sobre o adicional noturno e o direito a dois dias de repouso remunerado para quem já cumpre até 40h em seis dias estão marcados como 'supported', mas não aparecem nos trechos citados.",
+    "O what_happened atribui ao MTE ('Segundo o Ministério do Trabalho e Emprego') também a etapa de 40h em dezembro de 2027 e o divisor. Nas evidências, esses pontos vêm do O Povo e da Agência Gov. A atribuição está imprecisa.",
+    "O número do decreto vem só da Agência Gov, e a página do MTE não o cita. O texto do decreto não foi aberto. Mesmo assim, o conteúdo é descrito como disposição do decreto, quando vem de comunicados.",
+    "Há um conflito não resolvido sobre questão no STF ('reviravolta no STF', pontos que 'ainda dependem do STF'), de conteúdo não verificado. O texto o menciona só no fim do why_it_matters, embora o próprio dossiê diga que ele pode afetar a aplicação das regras.",
+    "As caveats trazem notas de processo interno sem valor para o leitor ('O limite de WebFetch esgotou... via apify web-fetch'). Também repetem a informação sobre a portaria complementar em duas caveats.",
+    "'o que pode afetar o atendimento aos sábados' generaliza a partir do horário de abertura da clínica. O limite vale por empregado e pode ser cumprido com revezamento."
+  ],
+  "contrary_evidence": [
+    "O Povo e Gazeta do Povo (esta vista só em resultado de busca) indicam que pontos da escala 5x2 'ainda dependem do STF'. Isso pode alterar ou suspender parte do que o texto apresenta como certo.",
+    "MTE e Agência Gov são a mesma origem (Governo Federal). A única confirmação de fora do governo é o O Povo, que não cita o número do decreto nos trechos apresentados."
+  ],
+  "fragile_assumptions": [
+    "Que os comunicados oficiais e o O Povo reproduzam fielmente o texto do Decreto nº 13.173/2026, que não foi aberto.",
+    "Que a questão no STF não suspenda nem modifique as regras antes de 16/12/2026.",
+    "Que 'dezembro de 2027' corresponda a uma data específica. O dossiê não traz o dia exato para a etapa de 40h a partir de fonte aberta.",
+    "Que as regras valham do mesmo modo para profissionais de saúde com jornada própria em lei. O dossiê não trata disso."
+  ],
+  "required_corrections": [
+    "Trocar 'a medida alcança 14,8 milhões' por 'segundo estimativa do MTE, a medida deverá alcançar 14,8 milhões de trabalhadores em escala 6x1'. Remover o dado de 21,7 milhões ou marcá-lo como não confirmado por trecho citado.",
+    "Corrigir a atribuição: a etapa de 40h em dezembro de 2027 vem do O Povo, e o divisor 210/200 vem da Agência Gov. Deixar claro que o texto do decreto não foi consultado.",
+    "Apresentar o efeito sobre o adicional noturno e o repouso remunerado para quem cumpre até 40h em seis dias como informação de comunicado oficial, sem trecho verificado no dossiê.",
+    "Levar a ressalva do STF para o what_happened ou o summary, com redação neutra: 'há menção, não verificada, a questão no STF que pode afetar a aplicação'.",
+    "Retirar das caveats a nota sobre o limite de WebFetch/apify e a caveat duplicada sobre a portaria complementar.",
+    "Trocar 'pode afetar o atendimento aos sábados' por redação que vincule o limite ao empregado, como 'pode exigir revezamento ou reforço de equipe para manter o horário de funcionamento'."
+  ],
+  "violated_rule": null
+}

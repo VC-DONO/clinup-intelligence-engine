@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "5f7023b2-b6d7-4d61-bf1b-d07cbc5ab7be",
+  "run_state": "completed_with_warnings",
+  "generated_at": "2026-11-24T22:52:57.485Z",
+  "window": {
+    "start": "2026-11-17T18:46:57.176Z",
+    "end": "2026-11-24T18:46:57.176Z",
+    "hours": 168,
+    "timezone": "America/Sao_Paulo"
+  },
+  "coverage": {
+    "categories_searched": [
+      "Estratégia, finanças, tributos e economia",
+      "Comercial, marketing, operações e pessoas",
+      "Regulamentação, ética, LGPD e obrigações",
+      "Tecnologia, IA, automação e cibersegurança",
+      "Internacional, competitivo, sinais fracos e evidência clínica com impacto de negócio"
+    ],
+    "categories_not_searched": [],
+    "queries": 0
+  },
+  "limitations": [
+    "Lacuna em \"Estratégia, finanças, tributos e economia\": Juros e crédito: não houve reunião do Copom na janela; o Boletim Focus mais recente encontrado com data verificada (09/11/2026) está fora da janela, e não foi localizado o Focus de 23/11/2026 com página aberta.",
+    "Lacuna em \"Estratégia, finanças, tributos e economia\": Inflação de insumos/IPCA-15 de novembro de 2026: não foi localizada publicação do IBGE com data verificada dentro da janela.",
+    "Lacuna em \"Estratégia, finanças, tributos e economia\": Glosas e relação prestador-operadora: não foi possível abrir as páginas do Futuro da Saúde (erro de acesso); nenhum dado novo de glosas (Anahp/FBH) com data na janela foi confirmado.",
+    "Lacuna em \"Estratégia, finanças, tributos e economia\": Regulamento IBS/CBS versão 2.0: até 13/11 a publicação era esperada para 16-17/11, mas não foi encontrada página confirmando a publicação dentro da janela.",
+    "Lacuna em \"Estratégia, finanças, tributos e economia\": Alíquota de referência da CBS de 11,3% (TCU) e fala do ministro da Fazenda na CAE: matérias encontradas publicadas em 17/11/2026 antes do início da janela (antes de 15:46 BRT), por isso não incluídas.",
+    "Lacuna em \"Estratégia, finanças, tributos e economia\": ANS: atualização do painel PM-QUALISS Hospitalar publicada em 17/11/2026 12h40, antes do início da janela; pauta da 646ª Reunião da Diretoria Colegiada (24/11) não teve conteúdo detalhado acessível; dados de beneficiários/econômico-financeiros do 3º trimestre não localizados na janela.",
+    "Lacuna em \"Estratégia, finanças, tributos e economia\": Comportamento de consumo de saúde privada, precificação e rentabilidade de clínicas (Medicina S/A, Saúde Business, Valor, Folha, Estadão): nenhuma matéria específica com data na janela foi localizada.",
+    "Lacuna em \"Estratégia, finanças, tributos e economia\": Fontes internacionais (EUA, UE, Reino Unido, América Latina) sobre finanças de consultórios: não foram encontradas publicações com data verificada na janela e relevância direta para clínicas brasileiras.",
+    "Lacuna em \"Comercial, marketing, operações e pessoas\": Marketing e publicidade em saúde: nenhuma norma ou notícia nova do CFM/CFO sobre publicidade com data verificada na janela; resultados encontrados eram guias evergreen sem data.",
+    "Lacuna em \"Comercial, marketing, operações e pessoas\": No-show e retenção de pacientes: apenas dados antigos encontrados (ex.: MGMA Stat de 12/08/2026, fora da janela); nada novo e datado na janela além do levantamento BoaConsulta sobre tempo de resposta.",
+    "Lacuna em \"Comercial, marketing, operações e pessoas\": Pejotização: a sinalização do ministro Gilmar Mendes sobre competência da Justiça do Trabalho (Tema 1.389) foi noticiada em 13/11/2026, fora da janela; não foi localizada decisão ou pauta nova na janela no site do STF/TST.",
+    "Lacuna em \"Comercial, marketing, operações e pessoas\": Piso salarial da enfermagem: não foi possível abrir páginas do TST/Cofen com datas na janela (erro de acesso); situação de negociações no setor privado não verificada nesta semana.",
+    "Lacuna em \"Comercial, marketing, operações e pessoas\": Saúde Business, Exame e MIT Sloan Review Brasil: não foi encontrado conteúdo com data verificável dentro da janela sobre os subtemas do grupo (as listagens consultadas não exibiam datas).",
+    "Lacuna em \"Comercial, marketing, operações e pessoas\": Impacto específico da escala 5x2 no setor saúde (análises de entidades como CNSaúde, FBH ou sindicatos patronais): página do Futuro da Saúde não pôde ser aberta; não verificado.",
+    "Lacuna em \"Comercial, marketing, operações e pessoas\": Regiões União Europeia, Reino Unido e América Latina (fora do Brasil): sem itens relevantes verificados na janela.",
+    "Lacuna em \"Regulamentação, ética, LGPD e obrigações\": ANVISA: a página de notícias (gov.br/anvisa) carrega a lista via JavaScript e não pôde ser lida; não foram encontradas RDCs ou consultas públicas sobre serviços de saúde publicadas dentro da janela (a única CP encontrada no período, nº 1.437 de 18/11, trata de agrotóxicos e foi descartada por irrelevância). Situação da prorrogação do prazo da RDC nº 1.002/2025 (serviços odontológicos, prazo em dezembro de 2026) não foi confirmada dentro da janela.",
+    "Lacuna em \"Regulamentação, ética, LGPD e obrigações\": Diário Oficial da União (in.gov.br): acesso automatizado bloqueado (robots.txt); a Portaria GM/MS nº 12.511/2026 foi verificada apenas por fonte secundária (Atlas Público) e o horário de publicação da edição extra não foi confirmado.",
+    "Lacuna em \"Regulamentação, ética, LGPD e obrigações\": ANPD / LGPD em saúde: nenhuma publicação da ANPD datada dentro da janela foi localizada.",
+    "Lacuna em \"Regulamentação, ética, LGPD e obrigações\": CFO: a notícia mais recente encontrada (indeferimento de liminar do CFM contra as Resoluções CFO 283 a 286/2026 sobre Cirurgia Estética Orofacial) é de 16/11/2026, fora da janela; demais notícias do CFO sem data visível.",
+    "Lacuna em \"Regulamentação, ética, LGPD e obrigações\": CFP: notícias da janela (23/11, 20/11, 19/11) tratam de SUS, antirracismo e processos éticos internos, sem norma nova relevante para consultórios; não incluídas.",
+    "Lacuna em \"Regulamentação, ética, LGPD e obrigações\": Telessaúde e publicidade médica/odontológica: nenhuma norma ou consulta nova encontrada dentro da janela.",
+    "Lacuna em \"Regulamentação, ética, LGPD e obrigações\": Resultado da 646ª Reunião da Diretoria Colegiada da ANS (24/11/2026) e da 11ª Sessão Plenária do CFM (24 a 27/11) ainda não publicados no momento da coleta.",
+    "Lacuna em \"Regulamentação, ética, LGPD e obrigações\": Veículos especializados (Futuro da Saúde, Medicina S/A) retornaram erro ao abrir páginas; não foi possível conferir notícias deles na janela.",
+    "Lacuna em \"Regulamentação, ética, LGPD e obrigações\": Internacional (EUA, UE, Reino Unido, América Latina): HHS/OCR sem acordos HIPAA dentro da janela (mais recente listado em 09/10/2026); demais regiões não foram pesquisadas em profundidade.",
+    "Lacuna em \"Tecnologia, IA, automação e cibersegurança\": Não encontrei, dentro da janela, nota oficial da ANPD sobre dados de saúde: a página de notícias da ANPD não carregou a listagem.",
+    "Lacuna em \"Tecnologia, IA, automação e cibersegurança\": Não encontrei nova norma ou resolução do CFM sobre IA publicada na janela; a Resolução CFM 2.454/2026 é anterior.",
+    "Lacuna em \"Tecnologia, IA, automação e cibersegurança\": Incidentes de segurança em clínicas brasileiras na janela: não encontrei reportagem com data verificável; os casos achados (Einstein, 08/10/2026; artigo do Correio Braziliense, 09/11/2026) estão fora da janela.",
+    "Lacuna em \"Tecnologia, IA, automação e cibersegurança\": Agregadores de ransomware (ex.: breachsense.com) listam alegações de grupos criminosos contra clínicas e hospitais entre 18 e 23/11/2026, inclusive na América Latina (Colômbia), mas são alegações não confirmadas e não foram incluídas.",
+    "Lacuna em \"Tecnologia, IA, automação e cibersegurança\": Telessaúde: nenhuma notícia com data verificável na janela.",
+    "Lacuna em \"Tecnologia, IA, automação e cibersegurança\": Automação de atendimento/agendamento (WhatsApp, chatbots) para clínicas: só encontrei conteúdo de marketing de fornecedores sem data dentro da janela.",
+    "Lacuna em \"Tecnologia, IA, automação e cibersegurança\": Futuro da Saúde: a página inicial e artigo de IA não puderam ser lidos (erro do site).",
+    "Lacuna em \"Tecnologia, IA, automação e cibersegurança\": Fierce Healthcare: a página de health tech retornou apenas itens de janeiro de 2026.",
+    "Lacuna em \"Tecnologia, IA, automação e cibersegurança\": União Europeia e Reino Unido: não cobertos.",
+    "Lacuna em \"Internacional, competitivo, sinais fracos e evidência clínica com impacto de negócio\": O limite de leituras de páginas (web fetch) da sessão se esgotou no meio da pesquisa; várias páginas promissoras não puderam ser abertas para conferir a data e por isso não foram incluídas.",
+    "Lacuna em \"Internacional, competitivo, sinais fracos e evidência clínica com impacto de negócio\": Aquisições, fusões e parcerias de redes de clínicas no Brasil dentro da janela: não encontrei itens com data conferida entre 17 e 24/11/2026 (Fleury/Bradsaúde FleuryOnco é de 11/11/2026, fora da janela).",
+    "Lacuna em \"Internacional, competitivo, sinais fracos e evidência clínica com impacto de negócio\": Aquisições de clínicas e healthtechs nos EUA dentro da janela: as páginas abertas (Fierce Healthcare Dealmakers, rastreador da Modern Healthcare, Healthcare Dive sobre HCA/Texas MedClinic) eram anteriores à janela ou não tinham data; Parkview/Ovation e XRHealth/PursueCare (Healthcare IT Today) foram publicados em 16/11/2026, antes do início da janela.",
+    "Lacuna em \"Internacional, competitivo, sinais fracos e evidência clínica com impacto de negócio\": Novos modelos de negócio (assinatura, cartão de desconto, clínica popular): o debate sobre a regulação de cartões de desconto pela ANS teve publicação em 12/11/2026, fora da janela; não foi possível abrir a página oficial da ANS para conferir novidades.",
+    "Lacuna em \"Internacional, competitivo, sinais fracos e evidência clínica com impacto de negócio\": Regra final do Medicare Physician Fee Schedule 2027 (CMS): as fontes encontradas indicam publicação por volta de 13/11/2026, fora da janela; não aberta para confirmação.",
+    "Lacuna em \"Internacional, competitivo, sinais fracos e evidência clínica com impacto de negócio\": Reino Unido (NHS England), União Europeia e América Latina fora do Brasil: sem itens com data conferida dentro da janela.",
+    "Lacuna em \"Internacional, competitivo, sinais fracos e evidência clínica com impacto de negócio\": Outros estudos sobre GLP-1 e carga de trabalho da atenção primária (Medscape, US News, Medical Xpress) não puderam ser abertos (erro do site) e não foram incluídos.",
+    "7 candidatos não foram verificados por limite operacional.",
+    "Agente risk_analyst falhou em \"plp-299-2026-lucro-presumido-presuncao-senado-aprova\": Entrada de outputs/risk_analyst/plp-299-2026-lucro-presumido-presuncao-senado-aprova.json mudou após a checagem de fontes; resposta descartada",
+    "Agente opportunity_analyst falhou em \"plp-299-2026-lucro-presumido-presuncao-senado-aprova\": Entrada de outputs/opportunity_analyst/plp-299-2026-lucro-presumido-presuncao-senado-aprova.json mudou após a checagem de fontes; resposta descartada",
+    "Agente risk_analyst falhou em \"decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2\": Entrada de outputs/risk_analyst/decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2.json mudou após a checagem de fontes; resposta descartada",
+    "Agente opportunity_analyst falhou em \"decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2\": Entrada de outputs/opportunity_analyst/decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2.json mudou após a checagem de fontes; resposta descartada",
+    "Agente competitive_intelligence_analyst falhou em \"semana\": Entrada de outputs/competitive_intelligence_analyst/semana.json mudou após a checagem de fontes; resposta descartada",
+    "Agente weak_signal_analyst falhou em \"semana\": Entrada de outputs/weak_signal_analyst/semana.json mudou após a checagem de fontes; resposta descartada",
+    "Agente summary falhou em \"resumo\": Entrada de outputs/summary/resumo.json mudou após a checagem de fontes; resposta descartada"
+  ],
+  "executive_summary": "Atacantes exploraram falha no Microsoft Entra Connect Health e acessaram e-mails de administradores e configurações de tenants, sem exposição de senhas, segundo o BleepingComputer. Segundo levantamento do BoaConsulta, clínicas que demoram mais de 24h para responder confirmam só 22% dos pedidos de agendamento; os dados são de uma plataforma e devem ser conferidos com os números da própria clínica.",
+  "news": [
+    {
+      "event_id": "microsoft-entra-connect-health-falha-metadados-tenants-2026-11",
+      "title": "Microsoft relata violação de dados após exploração de falha no Entra Connect Health",
+      "priority": "moderada",
+      "score": 62,
+      "category": "Tecnologia e IA",
+      "published_at": "2026-11-21",
+      "event_date": null,
+      "temporal_category": "new_publication",
+      "history_status": "NEW",
+      "regions": [
+        "Global"
+      ],
+      "specialties": [
+        "Todas as especialidades"
+      ],
+      "audience_profiles": [
+        "Clínica com equipe",
+        "Clínica em expansão",
+        "Rede/grupo",
+        "Clínica médica",
+        "Clínica odontológica",
+        "Clínica multiprofissional"
+      ],
+      "verification_status": "partially_verified",
+      "main_source": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+      },
+      "independent_confirmations": [],
+      "what_happened": "Segundo o BleepingComputer, a Microsoft alertou organizações de que sofreu uma violação de dados depois que atacantes exploraram uma vulnerabilidade no serviço Entra Connect Health e obtiveram acesso não autorizado a endereços de e-mail de administradores e a informações de configuração de tenants. A empresa afirma que não foram expostos senhas, hashes de senha, tokens de autenticação, chaves criptográficas válidas, detalhes de topologia de servidores locais e do Active Directory nem informações de assinaturas Azure. A Microsoft aplicou uma correção no lado do servidor em 19 de novembro para impedir novas explorações. A empresa não divulgou quem explorou a falha, quantos tenants foram afetados nem quando os ataques começaram.",
+      "why_it_matters": "Interpretação: para clínicas que usam Microsoft 365 ou Entra, o risco remanescente é indireto, como o uso dos e-mails de administradores em tentativas de engenharia social contra contas com acesso a e-mails e arquivos com dados de pacientes. Recomendação: pedir ao responsável de TI, interno ou terceirizado, que confirme que as contas privilegiadas usam autenticação multifator resistente a phishing, revise a configuração do Connect Health e examine os logs de auditoria e de entrada do Microsoft Entra. Clínicas sem ambiente Microsoft não precisam agir, e não se sabe se há clínicas brasileiras entre as afetadas.",
+      "risks": [
+        "Phishing direcionado a administradores de TI de clínicas que usam Microsoft Entra. (média gravidade): Verificar se houve notificação no Azure Service Health; ativar MFA resistente a phishing nas contas privilegiadas; revisar logs de auditoria e de entrada do Entra e a configuração do Connect Health; alertar administradores sobre e-mails suspeitos."
+      ],
+      "opportunities": [
+        "Usar o incidente como gatilho para revisar a segurança de contas administrativas Microsoft (MFA resistente a phishing, revisão de logs) e alertar a equipe sobre phishing direcionado.. Primeiro passo: Pedir ao responsável de TI que verifique se a clínica recebeu notificação no Azure Service Health, confirme MFA resistente a phishing nas contas administrativas e revise os logs de auditoria e de entrada do Entra."
+      ],
+      "recommended_decision": "prepare",
+      "actions": [
+        "Imediato: pedir ao responsável de TI (interno ou terceirizado) que verifique se a clínica recebeu notificação da Microsoft no Azure Service Health.",
+        "Imediato: alertar administradores e equipe sobre e-mails suspeitos que se passem pela Microsoft ou pedem credenciais.",
+        "7 dias: confirmar que todas as contas administrativas usam MFA resistente a phishing.",
+        "7 dias: revisar os logs de auditoria e de entrada do Microsoft Entra em busca de atividade suspeita e revisar a configuração do Connect Health.",
+        "30 dias: revisar quantas contas têm privilégio administrativo e quem as controla, incluindo prestadores de TI."
+      ],
+      "indicators": [
+        "Notificação no Azure Service Health verificada (sim/não).",
+        "Percentual de contas administrativas com MFA resistente a phishing (contas com MFA resistente ÷ total de contas administrativas).",
+        "Revisão de logs de auditoria e de entrada concluída (sim/não).",
+        "Número de tentativas de phishing reportadas pela equipe no período."
+      ],
+      "clinup_fit": {
+        "fit": "none",
+        "note": "Catálogo de serviços do CLIN-UP ainda não aprovado; sem CTA comercial.",
+        "cta": null
+      },
+      "editorial": {
+        "headline": "Microsoft relata violação de dados após exploração de falha no Entra Connect Health",
+        "summary": "Atacantes exploraram falha no Microsoft Entra Connect Health e acessaram e-mails de administradores e configurações de tenants, sem exposição de senhas, segundo o BleepingComputer.",
+        "caveats": [
+          "A fonte primária (notificação da Microsoft enviada via Azure Service Health aos administradores afetados) não é pública; a matéria cita trechos dela e uma declaração de porta-voz da Microsoft, mas não foi possível abri-la diretamente.",
+          "Uma busca na web não retornou cobertura independente nem comunicado público da Microsoft sobre o incidente; a confirmação depende de uma única fonte jornalística.",
+          "A Microsoft não divulgou quantos tenants foram afetados, quem explorou a falha nem quando os ataques começaram."
+        ]
+      },
+      "sources": [
+        {
+          "claim": "A Microsoft alertou organizações de que sofreu violação de dados após atacantes explorarem vulnerabilidade no Entra Connect Health e obterem acesso não autorizado a e-mails de administradores e informações de configuração de tenants.",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+        },
+        {
+          "claim": "Não foram expostos senhas, hashes de senha, tokens de autenticação, chaves criptográficas válidas, detalhes de topologia de servidores locais e do Active Directory nem informações de assinaturas Azure.",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+        },
+        {
+          "claim": "A Microsoft aplicou correção no lado do servidor em 19 de novembro para impedir novas explorações.",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+        },
+        {
+          "claim": "Organizações são orientadas a usar MFA resistente a phishing em contas privilegiadas, revisar configurações do Connect Health e examinar logs de auditoria e de entrada do Microsoft Entra.",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+        },
+        {
+          "claim": "A Microsoft não divulgou quem explorou a falha, quantos tenants foram afetados nem quando os ataques começaram.",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+        }
+      ]
+    },
+    {
+      "event_id": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos",
+      "title": "Levantamento do BoaConsulta: clínicas que demoram mais de 24h para responder confirmam só 22% dos pedidos de agendamento",
+      "priority": "moderada",
+      "score": 59,
+      "category": "Comercial",
+      "published_at": "2026-11-19",
+      "event_date": null,
+      "temporal_category": "new_publication",
+      "history_status": "NEW",
+      "regions": [
+        "Brasil"
+      ],
+      "specialties": [],
+      "audience_profiles": [
+        "Profissional autônomo",
+        "Consultório pequeno",
+        "Clínica com equipe",
+        "Clínica em expansão",
+        "Clínica médica",
+        "Clínica odontológica",
+        "Consultório de psicologia",
+        "Consultório de nutrição",
+        "Clínica multiprofissional"
+      ],
+      "verification_status": "partially_verified",
+      "main_source": {
+        "name": "Medicina S/A",
+        "url": "https://medicinasa.com.br/clinicas-agendamentos/"
+      },
+      "independent_confirmations": [],
+      "what_happened": "Levantamento da plataforma BoaConsulta, divulgado pela Medicina S/A, indica que clínicas que levam mais de 24 horas para responder pedidos de agendamento conseguem confirmar apenas 22% das solicitações recebidas. Nesse grupo, 57% dos pedidos expiram sem confirmação. Segundo o levantamento, 32% dos agendamentos online são feitos fora do horário comercial e, nos consultórios que registram a origem dos agendamentos, o WhatsApp gera 2,1 vezes mais solicitações do que o telefone.",
+      "why_it_matters": "Interpretação: os números sugerem que a demora na primeira resposta está associada à perda de pacientes, mas são dados de uma única plataforma com interesse comercial no tema, sem metodologia verificada, e não provam relação de causa. Para o gestor, a recomendação é medir na própria clínica o tempo entre a chegada de cada pedido e a primeira resposta, o canal e o horário dos pedidos, e definir uma meta interna de retorno abaixo de 24 horas, com responsável e cobertura em folgas. Investimentos em ferramentas ou pessoal devem ser decididos só depois de testar mudanças em pequena escala e comparar a taxa de confirmação antes e depois.",
+      "risks": [
+        "Perda de pacientes por demora na primeira resposta a pedidos de agendamento. (média gravidade): Medir o tempo da primeira resposta na própria clínica e definir uma meta de resposta em até 24h, com responsável e cobertura nos dias de folga.",
+        "Demanda fora do horário comercial sem atendimento. (baixa gravidade): Avaliar canais de agendamento com resposta fora do horário e organizar o atendimento por WhatsApp, sem tratar os números da plataforma como regra.",
+        "Decisões de investimento baseadas em dados proprietários com interesse comercial. (baixa gravidade): Testar mudanças em pequena escala e medir os resultados com os dados da própria clínica."
+      ],
+      "opportunities": [
+        "Reduzir o tempo de primeira resposta a pedidos de agendamento para menos de 24 horas, com potencial de aumentar a taxa de confirmação.. Primeiro passo: Medir por duas a quatro semanas o tempo entre a chegada de cada pedido e a primeira resposta, e definir uma meta interna de retorno abaixo de 24 horas.",
+        "Atender pedidos feitos fora do horário comercial e priorizar o WhatsApp como canal de agendamento.. Primeiro passo: Registrar por algumas semanas a origem (WhatsApp, telefone, online) e o horário de cada pedido de agendamento para verificar se o padrão se repete na clínica."
+      ],
+      "recommended_decision": "evaluate_opportunity",
+      "actions": [
+        "Imediato: começar a registrar, para cada pedido de agendamento, data e hora de chegada, canal (WhatsApp, telefone, online), hora da primeira resposta e se foi confirmado.",
+        "7 dias: definir um responsável e uma meta interna de primeira resposta abaixo de 24h, com cobertura em folgas e fins de semana.",
+        "30 dias: com duas a quatro semanas de registro, calcular tempo médio de primeira resposta, percentual de pedidos fora do horário comercial e taxa de confirmação por faixa de tempo de resposta.",
+        "30 dias: se houver volume relevante fora do horário, testar em pequena escala uma solução (resposta automática, agendamento online ou rotina de retorno no início do expediente), observando os cuidados com dados de pacientes nesses canais.",
+        "Após o teste: comparar a taxa de confirmação antes e depois e só então decidir sobre investimento em ferramenta ou pessoal."
+      ],
+      "indicators": [
+        "Tempo médio de primeira resposta a pedidos de agendamento",
+        "Percentual de pedidos respondidos em até 24h",
+        "Taxa de confirmação de pedidos antes e depois da mudança",
+        "Percentual de pedidos recebidos fora do horário comercial",
+        "Distribuição de pedidos por canal (WhatsApp, telefone, online)"
+      ],
+      "clinup_fit": {
+        "fit": "none",
+        "note": "Catálogo de serviços do CLIN-UP ainda não aprovado; sem CTA comercial.",
+        "cta": null
+      },
+      "editorial": {
+        "headline": "Levantamento do BoaConsulta: clínicas que demoram mais de 24h para responder confirmam só 22% dos pedidos de agendamento",
+        "summary": "Segundo levantamento do BoaConsulta, clínicas que demoram mais de 24h para responder confirmam só 22% dos pedidos de agendamento; os dados são de uma plataforma e devem ser conferidos com os números da própria clínica.",
+        "caveats": [
+          "Não foi localizada a fonte primária (relatório ou comunicado do BoaConsulta) nem cobertura independente; a busca retornou apenas a própria Medicina S/A.",
+          "Dados proprietários de uma plataforma de agendamento com interesse comercial no tema; metodologia e amostra não verificáveis de forma independente.",
+          "Hora de publicação obtida de metadados da página; registrado apenas o dia.",
+          "A relação entre tempo de resposta e confirmação é uma associação observada nos dados da plataforma, não prova de causa."
+        ]
+      },
+      "sources": [
+        {
+          "claim": "Clínicas que levam mais de 24 horas para responder conseguem confirmar apenas 22% das solicitações recebidas.",
+          "name": "Medicina S/A",
+          "url": "https://medicinasa.com.br/clinicas-agendamentos/"
+        },
+        {
+          "claim": "Nesse grupo, 57% dos pedidos expiram sem confirmação.",
+          "name": "Medicina S/A",
+          "url": "https://medicinasa.com.br/clinicas-agendamentos/"
+        },
+        {
+          "claim": "32% dos agendamentos online são realizados fora do horário comercial.",
+          "name": "Medicina S/A",
+          "url": "https://medicinasa.com.br/clinicas-agendamentos/"
+        },
+        {
+          "claim": "Nos consultórios que registram a origem dos agendamentos, o WhatsApp gera 2,1 vezes mais solicitações do que o telefone.",
+          "name": "Medicina S/A",
+          "url": "https://medicinasa.com.br/clinicas-agendamentos/"
+        }
+      ]
+    }
+  ],
+  "weak_signals": [],
+  "competitive_moves": [],
+  "follow_up": [],
+  "exclusions": {
+    "total_candidates": 32,
+    "by_veto": {
+      "V009_LOW_AUDIENCE_RELEVANCE": 3,
+      "V010_REGULATORY_STATUS_UNCLEAR": 8,
+      "V005_UNSUPPORTED_CENTRAL_CLAIM": 9,
+      "V004_SOURCE_INACCESSIBLE": 5,
+      "V002_DATE_UNVERIFIED": 2,
+      "V008_DUPLICATE_NO_NEW_DEVELOPMENT": 1
+    }
+  }
+}

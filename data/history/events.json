@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-11-24T22:52:57.501Z",
+  "events": {
+    "microsoft-entra-connect-health-falha-metadados-tenants-2026-11": {
+      "event_id": "microsoft-entra-connect-health-falha-metadados-tenants-2026-11",
+      "canonical_event_key": "microsoft-entra-connect-health-falha-metadados-tenants-2026-11",
+      "event_title": "Microsoft relata violação de dados após exploração de falha no Entra Connect Health",
+      "first_known_date": "2026-11-21",
+      "latest_development_date": "2026-11-21",
+      "status": "reported",
+      "reported_in_runs": [
+        "5f7023b2-b6d7-4d61-bf1b-d07cbc5ab7be"
+      ]
+    },
+    "boaconsulta-levantamento-2026-tempo-resposta-agendamentos": {
+      "event_id": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos",
+      "canonical_event_key": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos",
+      "event_title": "Levantamento do BoaConsulta: clínicas que demoram mais de 24h para responder confirmam só 22% dos pedidos de agendamento",
+      "first_known_date": "2026-11-19",
+      "latest_development_date": "2026-11-19",
+      "status": "reported",
+      "reported_in_runs": [
+        "5f7023b2-b6d7-4d61-bf1b-d07cbc5ab7be"
+      ]
+    }
+  }
+}

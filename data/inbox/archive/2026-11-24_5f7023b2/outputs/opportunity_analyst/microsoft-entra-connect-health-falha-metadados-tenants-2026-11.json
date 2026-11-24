@@ -1,0 +1,21 @@
+{
+  "no_material_opportunity": false,
+  "opportunities": [
+    {
+      "opportunity": "Usar o incidente como gatilho para revisar a segurança de contas administrativas Microsoft (MFA resistente a phishing, revisão de logs) e alertar a equipe sobre phishing direcionado.",
+      "evidence": "Fato (fonte única, BleepingComputer, 21/11/2026): atacantes exploraram falha na API do Microsoft Entra Connect Health e obtiveram acesso somente leitura a metadados de tenants, incluindo e-mails de administradores; senhas, hashes e tokens não foram expostos; a Microsoft aplicou correção em 19/11/2026 e recomenda atenção a phishing direcionado, MFA resistente a phishing para contas privilegiadas e revisão dos logs de auditoria e de entrada do Entra.",
+      "beneficiaries": [
+        "Clínicas que usam Microsoft 365 / Entra ID",
+        "Prestadores de TI que administram ambientes Microsoft de clínicas"
+      ],
+      "capture_conditions": "Interpretação: o benefício é de prevenção, não ganho financeiro. Só se aplica a clínicas com ambiente Microsoft; a Microsoft diz não ser necessária ação de correção pelo cliente e notificou os afetados. Não se sabe quantos tenants foram atingidos.",
+      "first_step": "Pedir ao responsável de TI que verifique se a clínica recebeu notificação no Azure Service Health, confirme MFA resistente a phishing nas contas administrativas e revise os logs de auditoria e de entrada do Entra.",
+      "metric": "Percentual de contas administrativas com MFA resistente a phishing; revisão de logs concluída (sim/não).",
+      "horizon": "Imediato: próximos dias, enquanto o risco de phishing direcionado é mais provável."
+    }
+  ],
+  "cannot_conclude": [
+    "Não se sabe quantos tenants foram afetados, quem explorou a falha nem quando os ataques começaram.",
+    "A confirmação depende de uma única fonte jornalística; a notificação original da Microsoft não é pública."
+  ]
+}

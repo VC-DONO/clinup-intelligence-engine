@@ -1,0 +1,33 @@
+{
+  "no_material_risk": false,
+  "risks": [
+    {
+      "risk": "Dependência de fornecedor em estágio inicial para gestão financeira e de faturamento.",
+      "supporting_fact": "A Skedia, sistema financeiro para clínicas, abriu em novembro de 2026 sua primeira rodada de captação externa após oito meses financiada pelos fundadores, atende cerca de 20 unidades de saúde e não informou valor da rodada nem investidores.",
+      "mechanism": "Empresas em estágio inicial podem mudar produto, preço ou continuidade conforme o resultado da captação; se a clínica concentrar faturamento e controle financeiro na plataforma, mudanças ou interrupções afetam diretamente o fluxo de caixa e o histórico de dados.",
+      "conditions": "Clínica adota a plataforma como sistema principal de faturamento; contrato não garante exportação de dados e plano de transição; captação não se concretiza ou o produto muda (não verificado).",
+      "exposed_profiles": [
+        "clínicas e unidades de saúde que avaliam ou usam a Skedia",
+        "gestores financeiros de clínicas"
+      ],
+      "severity": "low",
+      "mitigation": "Exigir em contrato exportação periódica de dados em formato aberto, manter cópias dos dados financeiros sob controle da clínica e avaliar a solidez do fornecedor antes de migrar processos críticos."
+    },
+    {
+      "risk": "Decisão de compra baseada em números declarados pela própria empresa.",
+      "supporting_fact": "Volume processado de R$ 130 milhões, mais de R$ 70 mil em risco de glosa identificados em amostra de três meses e demais métricas são declarados pela empresa, sem auditoria; há divergência com outra fonte (R$ 63 milhões sob gestão, em 30/09/2026) que não pôde ser conciliada.",
+      "mechanism": "Métricas de marketing não auditadas podem superestimar o ganho esperado (por exemplo, redução de glosas), levando a expectativas de retorno que não se confirmam na clínica.",
+      "conditions": "Gestor usa os números divulgados como base da decisão sem teste próprio ou referência de outros clientes.",
+      "exposed_profiles": [
+        "gestores de clínicas que avaliam sistemas financeiros e de faturamento"
+      ],
+      "severity": "low",
+      "mitigation": "Fazer período de teste com indicadores próprios definidos antes (glosas, prazo de recebimento), pedir referências de clientes de porte semelhante e não tomar os números divulgados como garantia."
+    }
+  ],
+  "cannot_conclude": [
+    "Não há comunicado oficial da Skedia nem fonte independente confirmando a abertura da rodada.",
+    "Valor da rodada, investidores e condições comerciais para clínicas não foram informados.",
+    "A divergência entre R$ 130 milhões (volume bruto processado) e R$ 63 milhões (produção sob gestão) não pôde ser conciliada."
+  ]
+}
