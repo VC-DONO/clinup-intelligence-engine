@@ -1,0 +1,29 @@
+{
+  "decision": "downgrade",
+  "problems": [
+    "Base de evidência frágil: todas as quatro afirmações estão como 'partially_supported', não há fonte primária (nem a entrevista ao Saúde Insider nem comunicado da Abramge foram abertos), e as duas páginas usadas pertencem à mesma cadeia de origem (Plantão Brasil republica o Brasil 247). Na prática há uma única fonte secundária.",
+    "A segunda das 'três prioridades' (aprimorar critérios de incorporação de novas tecnologias) não tem nenhum trecho de evidência nem claim_source, mas aparece na manchete como fato.",
+    "A manchete afirma 'Abramge apresenta agenda...' sem atribuição, quando o fato só é conhecido por relato de terceiros sobre uma entrevista não localizada. Deveria ser atribuído ('segundo o Brasil 247').",
+    "Conflito de interesse da fonte não explicitado: a Abramge é uma entidade que representa operadoras de planos de saúde. A agenda sobre judicialização, incorporação de tecnologias, fraudes e revisão da Lei 9.656/1998 reflete interesses das operadoras e pode ir contra os interesses de prestadores e beneficiários. O texto não diz quem a Abramge representa.",
+    "O 'why_it_matters' parte de uma hipótese não sustentada por evidência (a agenda antifraude aumentar checagens e contestações de cobranças de clínicas). Ela está corretamente rotulada como hipótese, mas é a única ponte com o público e tem severidade e probabilidade desconhecidas.",
+    "Utilidade prática baixa (scores de impacto 1, urgência 1 e utilidade 2) e nenhuma ação dependente do evento: a recomendação de manter a documentação rastreável é, como o próprio texto admite, 'independente desta agenda'.",
+    "Excesso de caveats redundantes: os quatro 'Parcialmente confirmado' repetem o corpo do texto e diluem os avisos relevantes."
+  ],
+  "contrary_evidence": [
+    "Nenhum trecho de evidência sustenta a prioridade 'incorporação de novas tecnologias'.",
+    "O dado do CNJ (439.060 ações, +14,3%) é de segunda mão (o Brasil 247 atribui o número ao Saúde Insider) e não foi conferido no CNJ."
+  ],
+  "fragile_assumptions": [
+    "Que o Brasil 247 reproduza fielmente a entrevista ao Saúde Insider, que não foi localizada.",
+    "Que a agenda de uma entidade de operadoras tenha chance relevante de virar norma, contrato ou prática a ponto de afetar clínicas.",
+    "Que só clínicas credenciadas seriam afetadas e que o efeito seria mais auditoria, e não outros efeitos (por exemplo, sobre cobertura ou rede); nada disso tem evidência."
+  ],
+  "required_corrections": [
+    "Rebaixar a prioridade editorial: publicar, se for o caso, só como nota breve de monitoramento, não como pauta principal.",
+    "Atribuir a manchete e o resumo à fonte ('segundo o Brasil 247, com base em entrevista ao Saúde Insider').",
+    "Identificar a Abramge como entidade representativa de operadoras de planos de saúde e dizer que se trata de pleitos de parte interessada.",
+    "Retirar 'incorporação de tecnologias' da manchete ou informar que essa prioridade não foi verificada em trecho de evidência.",
+    "Consolidar os caveats: remover os quatro 'Parcialmente confirmado' repetitivos e manter um aviso único de que todas as afirmações vêm de uma única cadeia secundária, sem fonte primária."
+  ],
+  "violated_rule": null
+}

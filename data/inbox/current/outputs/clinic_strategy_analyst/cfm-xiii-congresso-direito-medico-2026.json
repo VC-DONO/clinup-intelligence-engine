@@ -1,0 +1,55 @@
+{
+  "category": "Regulação",
+  "management_areas": [
+    "Marketing e publicidade",
+    "Jurídico e compliance",
+    "Pessoas",
+    "Tecnologia"
+  ],
+  "audience_profiles": [
+    "Clínica médica",
+    "Clínica multiprofissional",
+    "Clínica odontológica",
+    "Consultório pequeno"
+  ],
+  "specialties": [
+    "Dermatologia",
+    "Cirurgia plástica",
+    "Estética",
+    "Odontologia (harmonização e estética)"
+  ],
+  "regions": [
+    "Brasil"
+  ],
+  "decision": "monitor",
+  "justification": "Fato: segundo notícia do próprio CFM, o XIII Congresso Brasileiro de Direito Médico foi encerrado em 18/11/2026 em Brasília, com falas de conselheiros sobre IA, vínculos de trabalho, publicidade médica ('antes e depois') e judicialização de procedimentos estéticos, e ato médico por outras categorias. Interpretação: são declarações em evento, não normas nem anúncios regulatórios; não há prazo nem mudança concreta. O ponto de atenção prático é o uso de imagens de 'antes e depois' em procedimentos estéticos, que pode favorecer judicialização; isso justifica uma revisão preventiva do material de divulgação, mas não ação imediata.",
+  "actions": [
+    "7 dias (clínicas com procedimentos estéticos): revisar o material publicado em redes sociais e site com base nas regras vigentes do respectivo conselho profissional, retirando promessas de resultado.",
+    "30 dias: garantir que termo de consentimento e registro de expectativas do paciente estejam em prontuário e separar registro fotográfico clínico do publicitário.",
+    "30 dias (clínicas multiprofissionais): mapear quais procedimentos são executados por cada categoria e conferir o respaldo nas normas do conselho de cada profissional.",
+    "Contínuo: acompanhar posicionamentos oficiais do CFM sobre IA, publicidade e ato médico, sem mudar rotinas com base apenas em falas de evento."
+  ],
+  "indicators": [
+    "Publicação de norma ou orientação oficial do CFM sobre publicidade, ato médico ou uso de IA",
+    "Número de reclamações ou notificações de pacientes ligadas a expectativa de resultado estético",
+    "Percentual de peças de divulgação revisadas frente às regras do conselho"
+  ],
+  "data_needed": [
+    "Fonte original dos dados sobre vínculos formais (54% para 33% entre 2012 e 2023)",
+    "Conteúdo integral das palestras e eventuais documentos do congresso",
+    "Inventário do material publicitário da clínica com imagens de pacientes"
+  ],
+  "assumptions": [
+    "Hipótese: o CFM pode intensificar a atuação sobre publicidade e ato médico; não há anúncio verificado nesse sentido.",
+    "Os números sobre vínculos formais não foram usados como base de decisão por falta de fonte original verificada."
+  ],
+  "uncertainty": "high",
+  "scores": {
+    "management_impact": 2,
+    "urgency": 1,
+    "audience_relevance": 3,
+    "evidence_strength": 2,
+    "practical_utility": 2,
+    "strategic_novelty": 1
+  }
+}

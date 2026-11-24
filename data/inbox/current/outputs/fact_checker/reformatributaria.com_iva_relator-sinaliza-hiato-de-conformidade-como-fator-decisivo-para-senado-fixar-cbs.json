@@ -1,0 +1,135 @@
+{
+  "status": "verified",
+  "published_at_confirmed": "2026-11-18T15:44:12-03:00",
+  "date_basis": "Metadado de publicação da própria página (2026-11-18T18:44:12+00:00, modificado 2 segundos depois, sem alteração material) e data 18/11/2026 no corpo do texto. Dentro da janela (após 2026-11-17T15:46:57-03:00).",
+  "updated_at_claimed": null,
+  "substantive_update": null,
+  "event_title": "Relator Eduardo Braga aponta hiato de conformidade como ponto central para o Senado fixar a alíquota de referência da CBS de 2027 (TCU propôs 11,3%)",
+  "canonical_event_key": "senado-cae-aliquota-referencia-cbs-2027-tcu-11-3",
+  "official_document_id": null,
+  "regulatory_stage": "Em discussão: alíquota de referência da CBS para 2027 calculada pelo TCU (11,3%) aguardando fixação por resolução do Senado (prazo 15/12/2026); ainda não aprovada.",
+  "is_regulatory": true,
+  "central_claims": [
+    {
+      "text": "O relator da resolução da CBS no Senado, Eduardo Braga (MDB-AM), disse que o hiato de conformidade é o ponto central da definição da alíquota de referência pela CAE.",
+      "materiality": "high",
+      "status": "supported",
+      "evidence_urls": [
+        "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/"
+      ]
+    },
+    {
+      "text": "O TCU propôs alíquota de referência de 11,3% para a CBS e o Senado tem até 15 de dezembro para fixá-la.",
+      "materiality": "high",
+      "status": "supported",
+      "evidence_urls": [
+        "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/",
+        "https://www.opovo.com.br/noticias/economia/2026/11/18/senado-pede-explicacoes-a-tcu-sobre-aliquota-de-113-da-cbs.html"
+      ]
+    },
+    {
+      "text": "O TCU partiu de hiato médio de 22,6% do PIS/Cofins (2016–2019), reduzido para 15,9% sob a hipótese de efeito da reforma.",
+      "materiality": "medium",
+      "status": "supported",
+      "evidence_urls": [
+        "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/"
+      ]
+    },
+    {
+      "text": "O presidente do TCU, Vital do Rêgo, disse que o tribunal foi conservador ao estimar o hiato.",
+      "materiality": "medium",
+      "status": "supported",
+      "evidence_urls": [
+        "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/"
+      ]
+    },
+    {
+      "text": "A CAE aprovou requerimento de Braga pedindo ao TCU estudos e metodologia do cálculo.",
+      "materiality": "medium",
+      "status": "supported",
+      "evidence_urls": [
+        "https://www.opovo.com.br/noticias/economia/2026/11/18/senado-pede-explicacoes-a-tcu-sobre-aliquota-de-113-da-cbs.html"
+      ]
+    },
+    {
+      "text": "O prazo pode ser prorrogado até 22 de dezembro.",
+      "materiality": "low",
+      "status": "partially_supported",
+      "evidence_urls": [
+        "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/",
+      "source_name": "Portal da Reforma Tributária",
+      "source_type": "secondary",
+      "published_at": "2026-11-18T15:44:12-03:00",
+      "excerpt": "É o ponto fulcral da definição que esta comissão [CAE] vai ter pela frente até o dia 15 de dezembro",
+      "locator": "corpo da matéria, citação de Eduardo Braga",
+      "supports_or_contradicts": "supports",
+      "independence_group": "reformatributaria"
+    },
+    {
+      "url": "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/",
+      "source_name": "Portal da Reforma Tributária",
+      "source_type": "secondary",
+      "published_at": "2026-11-18T15:44:12-03:00",
+      "excerpt": "Com base em estudo da Receita Federal, o TCU partiu de um hiato médio de 22,6% para o PIS/Cofins, observado entre 2016",
+      "locator": "corpo da matéria",
+      "supports_or_contradicts": "supports",
+      "independence_group": "reformatributaria"
+    },
+    {
+      "url": "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/",
+      "source_name": "Portal da Reforma Tributária",
+      "source_type": "secondary",
+      "published_at": "2026-11-18T15:44:12-03:00",
+      "excerpt": "O presidente do TCU, ministro Vital do Rêgo, disse na 3ª feira (17.nov) que o tribunal foi “conservador” ao estimar um h",
+      "locator": "corpo da matéria",
+      "supports_or_contradicts": "supports",
+      "independence_group": "reformatributaria"
+    },
+    {
+      "url": "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/",
+      "source_name": "Portal da Reforma Tributária",
+      "source_type": "secondary",
+      "published_at": "2026-11-18T15:44:12-03:00",
+      "excerpt": "O Senado precisa fixar a alíquota de 11,3% proposta pelo TCU (Tribunal de Contas da União) até 15 de dezembro",
+      "locator": "corpo da matéria",
+      "supports_or_contradicts": "supports",
+      "independence_group": "reformatributaria"
+    },
+    {
+      "url": "https://www.opovo.com.br/noticias/economia/2026/11/18/senado-pede-explicacoes-a-tcu-sobre-aliquota-de-113-da-cbs.html",
+      "source_name": "O Povo (Agência Brasil)",
+      "source_type": "secondary",
+      "published_at": "2026-11-18T17:56:00-03:00",
+      "excerpt": "O Senado tem até 15 de dezembro para definir a alíquota de referência.",
+      "locator": "corpo da matéria",
+      "supports_or_contradicts": "supports",
+      "independence_group": "agencia-brasil"
+    },
+    {
+      "url": "https://www.opovo.com.br/noticias/economia/2026/11/18/senado-pede-explicacoes-a-tcu-sobre-aliquota-de-113-da-cbs.html",
+      "source_name": "O Povo (Agência Brasil)",
+      "source_type": "secondary",
+      "published_at": "2026-11-18T17:56:00-03:00",
+      "excerpt": "Os parlamentares querem acesso a estudos, metodologias e atas das reuniões técnicas",
+      "locator": "corpo da matéria",
+      "supports_or_contradicts": "supports",
+      "independence_group": "agencia-brasil"
+    }
+  ],
+  "unresolved_conflicts": [],
+  "limitations": [
+    "Não foi aberta fonte primária oficial (notas taquigráficas da CAE ou acórdão do TCU); fatos confirmados por duas fontes jornalísticas independentes.",
+    "A possibilidade de prorrogação até 22/12 consta apenas na matéria candidata.",
+    "A ferramenta de leitura limitou trechos longos; alguns excerpts são o início literal de frases maiores."
+  ],
+  "relevant_to_audience": true,
+  "relevance_note": "A alíquota de referência da CBS de 2027 afeta diretamente a tributação de serviços de clínicas e consultórios (inclusive com redução para saúde); ainda é decisão em discussão no Senado, não obrigação vigente.",
+  "suspicious_instructions_found": false,
+  "reasoning_summary": "Página aberta, data de 18/11/2026 15:44 (BRT) confirmada por metadado e corpo, dentro da janela. Citação de Braga, números do TCU (11,3%, 22,6%, 15,9%) e fala de Vital do Rêgo constam do texto; Agência Brasil (via O Povo) confirma de forma independente o pedido da CAE ao TCU e o prazo de 15/12. Trata-se de etapa de discussão, não de norma aprovada."
+}

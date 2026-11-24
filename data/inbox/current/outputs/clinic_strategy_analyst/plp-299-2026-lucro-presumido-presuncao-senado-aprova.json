@@ -1,0 +1,56 @@
+{
+  "category": "Tributos",
+  "management_areas": [
+    "Planejamento tributário",
+    "Finanças",
+    "Precificação"
+  ],
+  "audience_profiles": [
+    "Clínica em expansão",
+    "Rede/grupo",
+    "Clínica multiprofissional",
+    "Clínica médica",
+    "Clínica odontológica"
+  ],
+  "specialties": [],
+  "regions": [
+    "Brasil"
+  ],
+  "decision": "prepare",
+  "justification": "Fato: o Senado aprovou o PLP 299/2026 em 18/11/2026 e o remeteu à Câmara em 19/11/2026; o texto eleva a presunção de IRPJ e CSLL no Lucro Presumido apenas sobre a parcela da receita bruta anual acima de R$ 5 milhões (para serviços, de 32% em 2025 para 38,4% em 2027 sobre o excedente). Interpretação: não é norma vigente e depende da Câmara e de sanção, por isso não há prazo concreto que justifique ação imediata; mas atinge clínicas PJ no Lucro Presumido acima de R$ 5 milhões e coincide com o planejamento tributário de 2027, o que justifica preparar uma simulação. Clínicas abaixo desse faturamento ou em outros regimes não são alcançadas por esta regra. A estimativa de carga efetiva (11,97% para 13,06%) é da ROIT, para uma empresa de R$ 50 milhões, e não deve ser usada como referência direta.",
+  "actions": [
+    "Imediato: verificar o regime tributário da clínica e se a receita bruta anual (realizada em 2026 e projetada para 2027) ultrapassa R$ 5 milhões; se não ultrapassar, registrar que esta regra não altera a carga e apenas monitorar.",
+    "7 dias: pedir ao contador uma simulação do IRPJ/CSLL adicional sobre o excedente, confirmando qual percentual de presunção se aplica aos serviços da clínica (o enquadramento de serviços hospitalares não foi esclarecido pelas fontes).",
+    "Fórmula de referência para a simulação: base adicional = (receita bruta anual − R$ 5 milhões) × (presunção nova − presunção atual); imposto adicional = base adicional × alíquotas de IRPJ (incluindo adicional, se aplicável) e CSLL. Exemplo hipotético, apenas ilustrativo: excedente de R$ 1 milhão × (38,4% − 35,2%) = R$ 32 mil de base adicional, sobre a qual incidiriam as alíquotas.",
+    "30 dias: comparar Lucro Presumido e Lucro Real com os números da clínica antes do fechamento do planejamento de 2027, e avaliar se o efeito justifica revisão de preços de particulares ou de contratos.",
+    "Contínuo: acompanhar a tramitação do PLP 299/2026 na Câmara (redação final, alterações, data de vigência e sanção) e refazer a simulação com o texto final."
+  ],
+  "indicators": [
+    "Receita bruta anual acumulada e projetada em relação ao limite de R$ 5 milhões",
+    "Situação do PLP 299/2026 na Câmara dos Deputados (aprovação, alterações, sanção)",
+    "Carga efetiva de IRPJ/CSLL sobre a receita bruta, calculada com os números da clínica",
+    "Margem líquida após tributos"
+  ],
+  "data_needed": [
+    "Texto integral aprovado (redação final) do PLP 299/2026",
+    "Receita bruta anual da clínica e parcela acima de R$ 5 milhões",
+    "Percentual de presunção aplicável aos serviços da clínica (serviços em geral x serviços hospitalares)",
+    "Regime tributário atual e simulação comparativa com Lucro Real",
+    "Data de vigência caso o projeto seja sancionado"
+  ],
+  "assumptions": [
+    "A Câmara aprova o texto sem alteração relevante e ele é sancionado com vigência em 2027 (não confirmado).",
+    "A clínica está no Lucro Presumido e enquadrada na presunção de serviços de 32%.",
+    "Os percentuais de presunção citados, confirmados apenas por fontes secundárias, correspondem ao texto aprovado.",
+    "No exemplo hipotético, 35,2% representa a presunção sobre o excedente com o acréscimo de 10% vigente em 2026 (32% × 1,10), conforme descrito nas fontes; deve ser conferido pelo contador."
+  ],
+  "uncertainty": "medium",
+  "scores": {
+    "management_impact": 3,
+    "urgency": 2,
+    "audience_relevance": 3,
+    "evidence_strength": 3,
+    "practical_utility": 4,
+    "strategic_novelty": 2
+  }
+}

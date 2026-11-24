@@ -1,0 +1,32 @@
+{
+  "headline": "Levantamento do BoaConsulta associa resposta acima de 24h a confirmação de 22% dos pedidos de agendamento",
+  "what_happened": "Segundo a Medicina S/A, em matéria de 19/11/2026, levantamento da plataforma de agendamento BoaConsulta indica que clínicas que levam mais de 24 horas para responder conseguem confirmar apenas 22% das solicitações recebidas, e que nesse grupo 57% dos pedidos expiram sem confirmação. Os dados são proprietários de uma plataforma com interesse comercial no tema, divulgados por veículo secundário, sem relatório primário nem metodologia disponível; na forma divulgada, o levantamento não define o que é responder rápido. O mesmo levantamento aponta que 32% dos agendamentos online são feitos fora do horário comercial e que, nos consultórios que registram a origem dos agendamentos, o WhatsApp gera 2,1 vezes mais solicitações do que o telefone.",
+  "why_it_matters": "Os números sugerem que a demora na primeira resposta está associada a menos agendamentos confirmados, mas não provam que responder mais rápido cause maior conversão, nem que o padrão se repita em cada especialidade, região ou porte. Para o gestor, o passo de baixo custo é medir na própria clínica o tempo entre a chegada de cada pedido e a primeira resposta, o canal e o horário, e comparar com a taxa de confirmação. Se houver volume relevante fora do horário ou por WhatsApp, vale testar em pequena escala uma rotina ou ferramenta de resposta, com cuidado com os dados de pacientes, antes de investir.",
+  "summary": "Levantamento da plataforma BoaConsulta, divulgado pela Medicina S/A sem relatório primário nem metodologia, associa resposta acima de 24h a apenas 22% de pedidos de agendamento confirmados.",
+  "caveats": [
+    "Não foi localizada a fonte primária (relatório ou comunicado do BoaConsulta) nem cobertura independente; a busca retornou apenas a própria Medicina S/A.",
+    "Dados proprietários de uma plataforma de agendamento com interesse comercial no tema; metodologia e amostra não verificáveis de forma independente.",
+    "Na forma divulgada, o levantamento não define o que é 'responder rápido'; por isso a taxa de confirmação desse grupo não foi usada como comparação direta com os 22%.",
+    "Os números de 21,9 mil pedidos, 56% a 59% de conversão, 8% de cancelamento, 46% pelo aplicativo e 8% entre 22h e 6h não foram confirmados por trecho citado e foram retirados do texto.",
+    "Os 32% referem-se a agendamentos online, não ao total de pedidos; o dado do WhatsApp vale só para consultórios que registram a origem dos pedidos.",
+    "A relação entre tempo de resposta e confirmação é associação observada nos dados da plataforma, não prova de causa."
+  ],
+  "claim_sources": [
+    {
+      "claim": "Clínicas que levam mais de 24 horas para responder conseguem confirmar apenas 22% das solicitações recebidas.",
+      "url": "https://medicinasa.com.br/clinicas-agendamentos/"
+    },
+    {
+      "claim": "Nesse grupo, 57% dos pedidos expiram sem confirmação.",
+      "url": "https://medicinasa.com.br/clinicas-agendamentos/"
+    },
+    {
+      "claim": "32% dos agendamentos online são realizados fora do horário comercial.",
+      "url": "https://medicinasa.com.br/clinicas-agendamentos/"
+    },
+    {
+      "claim": "Nos consultórios que registram a origem dos agendamentos, o WhatsApp gera 2,1 vezes mais solicitações do que o telefone.",
+      "url": "https://medicinasa.com.br/clinicas-agendamentos/"
+    }
+  ]
+}

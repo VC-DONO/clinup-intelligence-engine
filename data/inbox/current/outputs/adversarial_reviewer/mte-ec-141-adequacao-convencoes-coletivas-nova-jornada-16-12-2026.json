@@ -1,0 +1,28 @@
+{
+  "decision": "correct",
+  "problems": [
+    "A afirmação central, de que as cláusulas de jornada e escala perdem validade em 16/12/2026, vem de declaração de um secretário do MTE em evento, reproduzida em comunicado do próprio ministério. Não vem de texto normativo: a EC nº 141 não foi aberta. O efeito jurídico é tratado como certo no why_it_matters ('podem ficar sem base válida'), apoiado em uma única fonte (confirmacoes_independentes = 1, e a Agência Gov apenas republica).",
+    "O trecho do MTE fala em cláusulas 'desses instrumentos', sem que o dossiê mostre a que conjunto de instrumentos o antecedente se refere. O texto amplia para 'dos instrumentos coletivos vigentes' em geral. Não está demonstrado se a perda de validade atinge todas as cláusulas de jornada e escala ou só as incompatíveis com os novos limites.",
+    "O período da Semana Nacional de Promoção da Negociação Coletiva ('23 a 27/11, em todos os estados') não aparece em nenhum trecho citado. O trecho confirma só a abertura em 23/11, na Fundacentro, em São Paulo.",
+    "O texto afirma, no presente, que 'a regulamentação da EC nº 141 ainda está em elaboração'. Isso reflete uma declaração de 23/11, e o dossiê não verifica se já há normas regulamentadoras publicadas. Pode ficar desatualizado ou ser incompleto.",
+    "As caveats trazem nota de processo interno ('cota de WebFetch esgotada') e uma divergência sobre o local do evento que o próprio dossiê considera de baixa materialidade e que não aparece no texto. Nenhuma das duas ajuda o leitor."
+  ],
+  "contrary_evidence": [
+    "A Agência Gov diverge do MTE sobre o local da abertura (Brasília x Fundacentro, em São Paulo). A divergência é pequena, mas mostra que a republicação não é cópia fiel e não serve como confirmação independente.",
+    "O dossiê não traz manifestação de sindicato, de entidade patronal ou de fonte jurídica independente sobre o alcance da perda de validade das cláusulas."
+  ],
+  "fragile_assumptions": [
+    "Que a declaração do MTE sobre a perda de validade das cláusulas em 16/12/2026 corresponda ao que a EC nº 141 e sua regulamentação efetivamente estabelecem.",
+    "Que a perda de validade alcance todas as cláusulas de jornada e escala, e não só as incompatíveis com os novos limites.",
+    "Que escalas como a 12x36 dependam exclusivamente de cláusula coletiva em todas as clínicas. O dossiê não traz base para isso.",
+    "Que a mediação das SRTEs tenha capacidade e prazo compatíveis com 16/12/2026. O dossiê não traz dados sobre isso."
+  ],
+  "required_corrections": [
+    "Atribuir de forma explícita a perda de validade das cláusulas à declaração do MTE, por exemplo: 'segundo o secretário de Relações do Trabalho, em evento de 23/11; o texto da EC nº 141 não foi verificado'. Acrescentar que o alcance exato (todas as cláusulas ou só as incompatíveis) não está claro no comunicado.",
+    "Trocar 'cláusulas sobre jornada e escala dos instrumentos coletivos vigentes' por redação fiel ao trecho, sem ampliar o universo de instrumentos atingidos.",
+    "Retirar '23 a 27/11, em todos os estados' ou marcar como não confirmado por trecho citado. Manter apenas a abertura em 23/11.",
+    "Atribuir à data da declaração (23/11) a afirmação de que a regulamentação está em elaboração, em vez de apresentá-la como situação atual verificada.",
+    "Retirar das caveats a nota sobre a cota de WebFetch e a divergência sobre o local do evento, ou reduzir esta última a uma linha sem detalhes internos."
+  ],
+  "violated_rule": null
+}

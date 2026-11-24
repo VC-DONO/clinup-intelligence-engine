@@ -1,0 +1,31 @@
+{
+  "decision": "correct",
+  "problems": [
+    "A manchete e o resumo dizem que a ANS 'mantém abertas' as duas consultas, mas a CP 180 encerra em 25/11; se a peça for lida no dia 25 ou depois, a afirmação fica falsa para a CP 180. O texto não ancora o 'abertas' na data da nota (19/11/2026).",
+    "Os trechos de evidência transcritos não contêm as datas dos prazos (23/10 a 7/12 e 6 a 25/11), nem a menção ao ivosidenibe e à mutação IDH1 R132; essas afirmações aparecem como 'supported' no dossiê, mas não há trecho literal no dossiê que as sustente.",
+    "As datas dos prazos aparecem sem ano (23/10, 7/12, 6/11, 25/11); o ano de 2026 é inferido do contexto, não está nos trechos.",
+    "A descrição da indicação do lenvatinibe + pembrolizumabe omite qualificadores presentes no trecho primário ('adultos', 'avançado ou metastático', 'em primeira linha'), o que amplia indevidamente o escopo da tecnologia em consulta.",
+    "Em why_it_matters, a CP 179 é descrita como tratando de 'acesso de beneficiários a consultas e procedimentos'; a fonte fala em 'acesso dos beneficiários às coberturas contratadas'. A especificação 'consultas e procedimentos' é interpretação não marcada como tal.",
+    "O fato novo na janela é apenas uma nota-resumo recorrente; as consultas foram abertas antes da janela. A categoria 'new_publication' e a manchete podem dar ao leitor a impressão de novidade regulatória que não existe.",
+    "Ressalvas usam jargão interno ('logo após T0', 'nesta verificação'), incompreensível para o leitor final."
+  ],
+  "contrary_evidence": [
+    "A própria limitação do dossiê informa que a CP 179 foi aberta em 23/10 e a CP 180 em 6/11, ou seja, antes da janela; a nota de 19/11 apenas consolida avisos já existentes.",
+    "O trecho primário qualifica a indicação do lenvatinibe + pembrolizumabe como 'adultos com carcinoma de células claras de rim avançado ou metastático, em primeira linha', mais restrito do que o texto proposto."
+  ],
+  "fragile_assumptions": [
+    "Que os prazos 23/10 a 7/12 e 6 a 25/11 estão corretos e são de 2026, sem trecho literal no dossiê nem abertura das páginas específicas de cada consulta.",
+    "Que a CP 179 tem efeito relevante para clínicas credenciadas: as minutas não foram lidas, e a pressão de operadoras sobre prazos é hipótese não verificada.",
+    "Que clínicas de oncologia ainda conseguem agir na CP 180 com prazo encerrando em 25/11, antes ou logo depois da provável data de leitura.",
+    "Que a estratégia 'prepare' com urgência 3 se sustenta quando a única ação com prazo útil é a contribuição opcional na CP 179."
+  ],
+  "required_corrections": [
+    "Ancorar a situação na data da fonte: trocar 'mantém abertas' por 'informou em 19/11/2026 que estavam abertas' na manchete, no what_happened e no resumo, e indicar explicitamente que a CP 180 encerra em 25/11/2026.",
+    "Incluir os qualificadores da indicação do lenvatinibe + pembrolizumabe conforme o trecho primário: adultos, doença avançada ou metastática, primeira linha.",
+    "Substituir 'acesso de beneficiários a consultas e procedimentos' por 'acesso dos beneficiários às coberturas contratadas', como na fonte, ou marcar a especificação como interpretação.",
+    "Deixar claro no texto que as consultas foram abertas antes (CP 179 em 23/10 e CP 180 em 6/11) e que a nota de 19/11 é um aviso consolidado, não um ato novo.",
+    "Antes de publicar, confirmar na página oficial de cada consulta (ou registrar como não verificado) os prazos com ano e a descrição do ivosidenibe, que não constam dos trechos transcritos.",
+    "Reescrever as ressalvas sem jargão interno: substituir 'logo após T0' por 'em 25/11/2026' e 'nesta verificação' por 'pela equipe editorial'."
+  ],
+  "violated_rule": null
+}

@@ -1,0 +1,49 @@
+{
+  "category": "Mercado",
+  "management_areas": [
+    "Relação com operadoras",
+    "Faturamento",
+    "Compliance"
+  ],
+  "audience_profiles": [
+    "Clínica com equipe",
+    "Clínica médica",
+    "Clínica multiprofissional",
+    "Rede/grupo"
+  ],
+  "specialties": [],
+  "regions": [
+    "Brasil"
+  ],
+  "decision": "monitor",
+  "justification": "Fato (parcialmente confirmado, fontes da mesma cadeia de origem): a Abramge apresentou três prioridades para o próximo governo — judicialização, critérios de incorporação de tecnologias e combate a fraudes com maior integração de dados, além de revisão da Lei 9.656/1998 e cooperação com o SUS. Interpretação: é agenda de pleitos de entidade setorial, não medida de governo ou norma. O único risco identificado é hipotético e de baixa severidade: maior escrutínio sobre faturamento de prestadores credenciados, se a agenda antifraude avançar. Não há oportunidade material identificada; o dado do CNJ (439.060 ações, +14,3%) não foi conferido e não deve ser usado como fato consolidado.",
+  "actions": [
+    "Imediato: nenhuma mudança necessária; registrar o tema para acompanhamento.",
+    "30 dias: revisar se a documentação clínica e de faturamento enviada às operadoras está completa e rastreável, como boa prática independente desta agenda.",
+    "Contínuo: acompanhar se propostas de integração de dados antifraude ou revisão da Lei 9.656/1998 chegam a normas da ANS, projetos de lei ou mudanças contratuais das operadoras."
+  ],
+  "indicators": [
+    "Taxa de glosa por operadora",
+    "Volume de pedidos de documentação adicional ou contestações de cobrança pelas operadoras",
+    "Surgimento de projeto de lei ou norma derivado da agenda da Abramge"
+  ],
+  "data_needed": [
+    "Entrevista original ou comunicado oficial da Abramge",
+    "Conteúdo da revisão proposta da Lei 9.656/1998",
+    "Dado do CNJ conferido na fonte",
+    "Histórico de glosas e contestações da própria clínica"
+  ],
+  "assumptions": [
+    "As propostas são pleitos e podem não ser adotadas pelo governo.",
+    "Só clínicas credenciadas a operadoras seriam afetadas por eventual aumento de auditoria."
+  ],
+  "uncertainty": "high",
+  "scores": {
+    "management_impact": 1,
+    "urgency": 1,
+    "audience_relevance": 2,
+    "evidence_strength": 2,
+    "practical_utility": 2,
+    "strategic_novelty": 2
+  }
+}

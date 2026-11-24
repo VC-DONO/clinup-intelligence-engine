@@ -1,0 +1,14 @@
+{
+  "result": "pass_with_warnings",
+  "unsupported_claims": [],
+  "mismatched_dates_or_numbers": [],
+  "omitted_caveats": [
+    "A ressalva de que não foi buscada fonte independente (a própria página é a fonte primária) não aparece explicitamente nas ressalvas do texto; é parcialmente coberta pela indicação de que se trata de artigo de opinião."
+  ],
+  "sensational_language": [],
+  "required_corrections": [
+    "Opcional: acrescentar às ressalvas que a própria página do Saúde Business é a única fonte, por se tratar de conteúdo opinativo.",
+    "Opcional: deixar claro que 'não garante a confidencialidade de dados' é leitura da metáfora do cartão-postal usada pela autora, e não frase literal do artigo."
+  ],
+  "justification": "A data (18/11/2026), a coluna, as três perguntas, a comparação da conta pessoal paga com um cartão-postal, o alerta sobre respostas erradas convincentes e a regra 'a IA elabora, uma pessoa confere, o responsável assina' batem com os trechos dos registros de evidência e com as afirmações verificadas. O texto trata o conteúdo como opinião sem força normativa e atribui ao CLIN-UP, e não ao artigo, a sugestão de registrar o uso da IA, o que respeita a ressalva sobre a falta de trecho literal. Não há número ou data divergente nem linguagem sensacionalista. Restam apenas observações menores, que não mudam a decisão do leitor."
+}

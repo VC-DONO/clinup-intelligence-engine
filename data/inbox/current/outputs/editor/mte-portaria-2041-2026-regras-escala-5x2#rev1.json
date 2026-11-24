@@ -1,0 +1,54 @@
+{
+  "headline": "MTE publica Portaria nº 2.041/2026 com regras complementares para a escala 5x2; limite de 42h semanais vale a partir de 16/12/2026",
+  "what_happened": "O Ministério do Trabalho e Emprego publicou em 23/11/2026, em edição especial do DOU, a Portaria nº 2.041, com regras complementares ao Decreto nº 13.173/2026; a partir de 16/12/2026, a duração normal do trabalho fica limitada a 8 horas diárias e 42 horas semanais, com divisor 210 para o salário-hora e saldo de banco de horas acumulado até 15/12/2026 compensado ou pago conforme o acordo individual ou instrumento coletivo, e a prorrogação de jornada em atividades insalubres deve observar o art. 64 da Portaria MTP nº 671/2021. Segundo o comunicado do MTE (texto do DOU não verificado), a portaria também prevê dois repousos semanais de 24 horas, limite de 40 horas semanais e divisor 200 a partir de 16/12/2027, sem redução salarial. Ainda segundo o comunicado, na escala 12x36 a média mensal acima do limite semanal exige compensação ou pagamento de horas extras nos termos de convenção ou acordo coletivo, cláusulas coletivas incompatíveis com os novos limites deixam de produzir efeitos e a organização das jornadas deve considerar riscos ocupacionais, com atualização do PGR (NR-01) quando cabível. O comunicado informa que o MTE ainda publicará portarias sobre compensação de repousos por negociação coletiva, afastamento contínuo e profissões regulamentadas.",
+  "why_it_matters": "O limite vale por empregado, não pelo horário de abertura da clínica: empregados CLT que trabalham seis dias por semana ou mais de 42h precisam ter a escala ajustada até 16/12/2026, e escalas 12x36 devem ter a média mensal recalculada. Interpretação, não conteúdo da portaria: com o divisor menor, o valor da hora sobe, o que tende a encarecer horas extras, adicional noturno e outras parcelas calculadas sobre a hora. A espera pelas portarias sobre profissões regulamentadas não adia a adequação a 8h/42h e dois repousos em 16/12/2026 para os demais empregados CLT. Vale levantar as jornadas atuais, fechar o saldo do banco de horas em 15/12/2026 e revisar a folha com o contador.",
+  "summary": "A Portaria MTE nº 2.041/2026 detalha a transição para jornada de até 42h semanais a partir de 16/12/2026, o que exige que clínicas com empregados CLT revisem escalas, banco de horas e folha nas próximas semanas.",
+  "caveats": [
+    "O texto integral da Portaria nº 2.041 no DOU não foi aberto; a verificação baseia-se na notícia oficial do próprio MTE.",
+    "Não há confirmação jornalística independente; o LegisWeb apenas republica conteúdo do MTE e serve como contexto.",
+    "Regras específicas para profissões regulamentadas (ex.: profissionais de saúde com legislação própria) ainda dependem de portarias futuras.",
+    "O efeito do divisor menor sobre adicional noturno e outras parcelas calculadas sobre a hora é interpretação editorial, não conteúdo da portaria."
+  ],
+  "claim_sources": [
+    {
+      "claim": "A Portaria nº 2.041 do MTE foi publicada em 23/11/2026 em edição especial do DOU, com regras complementares ao Decreto nº 13.173/2026.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+    },
+    {
+      "claim": "A duração normal do trabalho fica limitada a 8 horas diárias e 42 horas semanais a partir de 16/12/2026.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+    },
+    {
+      "claim": "Com a jornada de 42 horas, a partir de 16/12/2026 será aplicado o divisor 210.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+    },
+    {
+      "claim": "O saldo do banco de horas acumulado até 15/12/2026 será compensado ou pago conforme o acordo individual ou instrumento coletivo.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+    },
+    {
+      "claim": "Nas atividades insalubres, a prorrogação de jornada deve observar o art. 64 da Portaria MTP nº 671/2021.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+    },
+    {
+      "claim": "Segundo o comunicado do MTE, a portaria prevê dois repousos semanais de 24 horas, 40 horas semanais e divisor 200 a partir de 16/12/2027, sem redução salarial.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+    },
+    {
+      "claim": "Segundo o comunicado do MTE, na escala 12x36 a média mensal acima do limite semanal exige compensação ou pagamento de horas extras nos termos de convenção ou acordo coletivo.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+    },
+    {
+      "claim": "Segundo o comunicado do MTE, cláusulas coletivas incompatíveis com os novos limites deixam de produzir efeitos.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+    },
+    {
+      "claim": "Segundo o comunicado do MTE, a organização das jornadas deve considerar riscos ocupacionais, com atualização do PGR (NR-01) quando cabível.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+    },
+    {
+      "claim": "Segundo o comunicado do MTE, ainda serão publicadas portarias sobre compensação de repousos por negociação coletiva, afastamento contínuo e profissões regulamentadas.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-federal-publica-portaria-com-regras-complementares-para-aplicacao-da-escala-5x2"
+    }
+  ]
+}

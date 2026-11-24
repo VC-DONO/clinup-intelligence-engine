@@ -1,0 +1,22 @@
+{
+  "no_material_opportunity": false,
+  "opportunities": [
+    {
+      "opportunity": "Usar o serviço público e gratuito de mediação coletiva do MTE e das SRTEs para adequar acordos coletivos de jornada e escala antes de 16/12/2026, reduzindo custo de negociação e risco de ficar com cláusulas sem validade.",
+      "evidence": "Fato (MTE, 24/11/2026): as cláusulas sobre jornada e escala dos instrumentos coletivos vigentes perdem a validade a partir de 16/12/2026, exigindo renegociação; as SRTEs e o serviço de mediação coletiva do MTE oferecem atendimento público e gratuito para auxiliar trabalhadores e empregadores na construção de acordos. A Semana Nacional de Promoção da Negociação Coletiva ocorre de 23 a 27/11/2026.",
+      "beneficiaries": [
+        "Clínicas e consultórios com empregados cobertos por acordo coletivo de trabalho ou convenção coletiva com cláusulas de jornada e escala",
+        "Clínicas que usam escalas como 12x36 ou turnos de revezamento definidos em instrumento coletivo"
+      ],
+      "capture_conditions": "A clínica precisa ter empregados regidos por instrumento coletivo com cláusulas de jornada ou escala e iniciar a negociação a tempo. No caso de convenção coletiva, a renegociação depende do sindicato patronal e do sindicato laboral, não apenas da clínica. A mediação é apoio, não garante acordo nem resultado.",
+      "first_step": "Identificar qual acordo ou convenção coletiva se aplica aos funcionários da clínica, verificar se contém cláusulas de jornada e escala e procurar o sindicato patronal ou a SRTE do estado para saber como acessar a mediação.",
+      "metric": "Instrumento coletivo com cláusulas de jornada e escala adequadas assinado antes de 16/12/2026; custo com assessoria externa na renegociação.",
+      "horizon": "Imediato: de 24/11/2026 até 16/12/2026."
+    }
+  ],
+  "cannot_conclude": [
+    "A regulamentação da EC 141 ainda está em elaboração; detalhes de aplicação podem mudar.",
+    "Os fatos não informam prazos de atendimento, capacidade nem procedimento de acesso ao serviço de mediação do MTE.",
+    "O texto da EC 141 não foi aberto; a data de 16/12/2026 e a perda de validade das cláusulas coletivas são atribuídas ao MTE."
+  ]
+}

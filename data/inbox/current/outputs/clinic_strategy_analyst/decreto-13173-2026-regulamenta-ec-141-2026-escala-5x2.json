@@ -1,0 +1,60 @@
+{
+  "category": "Pessoas",
+  "management_areas": [
+    "Gestão de pessoas e escalas",
+    "Folha de pagamento e custos de pessoal",
+    "Conformidade trabalhista",
+    "Horário de funcionamento e capacidade de atendimento"
+  ],
+  "audience_profiles": [
+    "Consultório pequeno",
+    "Clínica com equipe",
+    "Clínica em expansão",
+    "Rede/grupo",
+    "Clínica médica",
+    "Clínica odontológica",
+    "Clínica multiprofissional"
+  ],
+  "specialties": [],
+  "regions": [
+    "Brasil"
+  ],
+  "decision": "act_now",
+  "justification": "Fato: o Decreto nº 13.173/2026, assinado em 19/11/2026, regulamenta a EC nº 141/2026 (escala 5x2): a partir de 16/12/2026 a jornada máxima cai de 44h para 42h semanais com dois dias de repouso, e em dezembro de 2027 para 40h, sem redução salarial; o divisor do salário-hora passa de 220 para 210 e depois 200, afetando horas extras e adicional noturno; quem já cumpre até 40h em seis dias também passa a ter dois dias de repouso. Interpretação: o prazo é concreto e curto, e clínicas que abrem aos sábados ou operam com 44h precisam reorganizar escalas e rever custos agora. Limitações: o texto do decreto não foi aberto (fontes: MTE, Agência Gov e O Povo) e há menção não verificada a questão no STF que pode afetar a aplicação; isso não justifica esperar, mas recomenda acompanhar.",
+  "actions": [
+    "Imediato: mapear quais empregados CLT trabalham mais de 42h semanais ou em seis dias por semana, inclusive os que já cumprem até 40h em seis dias.",
+    "Imediato: simular a folha com divisor 210 (a partir de 16/12/2026) e 200 (a partir de dezembro de 2027) com o contador, incluindo horas extras e adicional noturno.",
+    "7 dias: redesenhar a escala para dois dias de repouso e 42h semanais, avaliando revezamento aos sábados, ajuste do horário de atendimento ou contratação parcial; comparar o custo de cada alternativa.",
+    "7 dias: verificar na convenção ou acordo coletivo da categoria as regras de distribuição de folgas, turnos de revezamento e 12x36.",
+    "Até 16/12/2026: comunicar as novas escalas à equipe e ajustar a agenda de atendimento aos pacientes conforme a nova cobertura.",
+    "30 dias: acompanhar com a assessoria jurídica a questão mencionada no STF e as normas complementares do MTE; planejar a etapa de 40h de dezembro de 2027."
+  ],
+  "indicators": [
+    "Número de empregados em escala de seis dias ou acima de 42h semanais",
+    "Custo mensal da folha e de horas extras antes e depois de 16/12/2026",
+    "Horas de cobertura de atendimento por dia da semana (especialmente sábados)",
+    "Taxa de ocupação da agenda após a mudança de escala"
+  ],
+  "data_needed": [
+    "Texto do Decreto nº 13.173/2026 e da EC nº 141/2026",
+    "Conteúdo e situação da questão mencionada no STF sobre a escala 5x2",
+    "Convenção ou acordo coletivo aplicável aos empregados da clínica",
+    "Jornada, dias trabalhados, horas extras e adicional noturno atuais por empregado",
+    "Regras aplicáveis a profissões de saúde com jornada própria em lei",
+    "Fórmula para estimar horas a repor: horas a cobrir por semana = soma por empregado de (jornada atual − 42); custo de cobrir com horas extras = horas a cobrir × (salário / 210) × (1 + adicional de horas extras). Exemplo hipotético: 3 empregados com 44h geram 6h semanais a cobrir."
+  ],
+  "assumptions": [
+    "As informações dos comunicados oficiais e do O Povo correspondem ao texto do decreto.",
+    "A clínica tem empregados regidos pela CLT.",
+    "A questão no STF não suspende a aplicação das regras antes de 16/12/2026."
+  ],
+  "uncertainty": "medium",
+  "scores": {
+    "management_impact": 4,
+    "urgency": 5,
+    "audience_relevance": 4,
+    "evidence_strength": 4,
+    "practical_utility": 4,
+    "strategic_novelty": 3
+  }
+}

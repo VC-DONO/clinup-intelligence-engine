@@ -1,0 +1,56 @@
+{
+  "category": "Pessoas",
+  "management_areas": [
+    "Relações sindicais e negociação coletiva",
+    "Gestão de pessoas e escalas",
+    "Conformidade trabalhista"
+  ],
+  "audience_profiles": [
+    "Clínica com equipe",
+    "Clínica em expansão",
+    "Rede/grupo",
+    "Clínica médica",
+    "Clínica odontológica",
+    "Clínica multiprofissional"
+  ],
+  "specialties": [],
+  "regions": [
+    "Brasil"
+  ],
+  "decision": "act_now",
+  "justification": "Fato: segundo o MTE (comunicado de 24/11/2026, declarações de 23/11), as cláusulas sobre jornada e escala de acordos e convenções coletivas vigentes perdem a validade a partir de 16/12/2026, o que exige renegociação; a adequação é prioridade do ministério, e as SRTEs e o serviço de mediação coletiva do MTE oferecem atendimento público e gratuito. Interpretação: clínicas cujas escalas (12x36, compensações, distribuição de folgas) dependem de cláusula coletiva correm risco de ficar sem base válida a partir de 16/12/2026; o prazo é concreto e curto. Limitações: o texto da EC nº 141 não foi aberto, o efeito sobre as cláusulas é atribuído ao MTE e a regulamentação ainda está em elaboração; não há dados sobre prazos ou capacidade da mediação.",
+  "actions": [
+    "Imediato: identificar o acordo ou convenção coletiva aplicável a cada categoria de empregados da clínica e listar as cláusulas de jornada e escala (12x36, compensação, banco de horas, folgas).",
+    "Imediato: listar quais escalas da clínica dependem dessas cláusulas e quais ficariam sem base a partir de 16/12/2026.",
+    "7 dias: contatar o sindicato patronal da categoria para saber o andamento da renegociação da convenção; se a clínica tiver acordo coletivo próprio, iniciar a negociação com o sindicato laboral.",
+    "7 dias: consultar a SRTE do estado sobre como acessar a mediação coletiva gratuita do MTE, se houver acordo próprio a renegociar.",
+    "Até 16/12/2026: preparar escala alternativa que respeite a lei sem depender de cláusula coletiva, para uso se a renegociação não terminar a tempo.",
+    "30 dias: revisar as escalas a cada nova norma do MTE sobre a EC nº 141 e documentar as decisões tomadas."
+  ],
+  "indicators": [
+    "Número de escalas da clínica que dependem de cláusula coletiva de jornada ou escala",
+    "Status da renegociação do instrumento coletivo aplicável (não iniciada, em curso, assinada)",
+    "Data de assinatura do instrumento adequado frente a 16/12/2026",
+    "Custo com assessoria externa na renegociação"
+  ],
+  "data_needed": [
+    "Texto da EC nº 141/2026 e da regulamentação do MTE",
+    "Instrumento coletivo vigente aplicável aos empregados da clínica e suas cláusulas de jornada e escala",
+    "Andamento da negociação coletiva da categoria na região da clínica",
+    "Procedimento, prazos e capacidade do serviço de mediação do MTE e das SRTEs"
+  ],
+  "assumptions": [
+    "A informação do MTE sobre a perda de validade das cláusulas em 16/12/2026 está correta.",
+    "A clínica tem empregados CLT cobertos por instrumento coletivo com cláusulas de jornada ou escala; consultórios sem empregados ou sem essas cláusulas são pouco afetados.",
+    "A renegociação de convenção coletiva depende dos sindicatos patronal e laboral, não apenas da clínica."
+  ],
+  "uncertainty": "medium",
+  "scores": {
+    "management_impact": 4,
+    "urgency": 5,
+    "audience_relevance": 3,
+    "evidence_strength": 3,
+    "practical_utility": 4,
+    "strategic_novelty": 3
+  }
+}

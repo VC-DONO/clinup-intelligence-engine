@@ -1,0 +1,44 @@
+{
+  "headline": "Senado aprova PLP 299/2026, que eleva a presunção de IRPJ e CSLL no Lucro Presumido sobre receita acima de R$ 5 milhões; texto segue para a Câmara",
+  "what_happened": "O Senado concluiu em 18/11/2026 a votação do PLP 299/2026, segundo o Portal da Reforma Tributária, e a ficha de tramitação do Congresso registra a remessa do texto à Câmara dos Deputados para revisão. O projeto eleva os percentuais de presunção de IRPJ e CSLL do Lucro Presumido apenas sobre a parcela da receita bruta anual que ultrapassar R$ 5 milhões; segundo o Jornal Contábil, o acréscimo aplicado a esses percentuais passaria de 10% para 20% (a redação final aprovada não foi consultada). Para serviços em geral, a presunção sobre o excedente poderia chegar a 38,4% em 2027, se o texto for aprovado pela Câmara e sancionado nesses termos, segundo o Portal da Reforma Tributária. O texto não é norma vigente.",
+  "why_it_matters": "Clínicas e consultórios pessoa jurídica no Lucro Presumido com receita bruta anual acima de R$ 5 milhões podem ter aumento de IRPJ e CSLL sobre o excedente, caso o projeto avance; abaixo desse limite, esta regra não altera a carga. O percentual de 38,4% refere-se à presunção de serviços em geral, e cada clínica deve confirmar com o contador qual presunção se aplica aos seus serviços. A estimativa de carga de IRPJ/CSLL em serviços de 11,97% em 2026 para 13,06% a partir de 2027 é da ROIT, encomendada pelo portal, supõe aplicação ao ano inteiro e usa como exemplo uma empresa com receita de R$ 50 milhões, por isso serve apenas como indicação de direção. Vale pedir uma simulação com os números da clínica e comparar regimes antes de fechar o planejamento de 2027.",
+  "summary": "O PLP 299/2026, aprovado no Senado e enviado à Câmara, pode elevar o IRPJ e a CSLL de clínicas no Lucro Presumido sobre a receita anual acima de R$ 5 milhões, mas ainda não é norma vigente.",
+  "caveats": [
+    "A ficha do Congresso confirma sessões em 18/11/2026, situação 'Aprovada pelo Plenário' e remessa à Câmara em 19/11/2026, mas o texto da ação de 18/11 aparecia truncado; a data de conclusão da votação vem da matéria e é coerente com a tramitação.",
+    "Há divergência de datas entre as fontes: matéria do Jornal Contábil de 13/11/2026 já noticiava aprovação no Senado, enquanto este texto adota 18/11/2026 como conclusão da votação com base no Portal da Reforma Tributária, fonte secundária.",
+    "O texto integral aprovado (redação final) não foi aberto; os percentuais de presunção (32% para 38,4%) foram confirmados apenas pela matéria e, quanto ao acréscimo de 10% para 20%, pelo Jornal Contábil.",
+    "Os números de carga efetiva (11,97% para 13,06%) e o exemplo de R$ 50 milhões são estimativa da ROIT encomendada pelo portal, supondo aplicação ao ano inteiro; não há verificação independente.",
+    "O percentual de 38,4% refere-se à presunção de serviços em geral; as fontes não esclarecem o enquadramento de outros serviços de saúde, como serviços hospitalares.",
+    "O projeto ainda depende da Câmara e de sanção; não é obrigação vigente."
+  ],
+  "claim_sources": [
+    {
+      "claim": "O Senado concluiu em 18/11/2026 a votação do PLP 299/2026.",
+      "url": "https://www.reformatributaria.com/governo/lucro-presumido-lula-e-congresso-podem-elevar-custo-com-irpj-e-csll-a-ate-13/"
+    },
+    {
+      "claim": "O texto foi remetido à Câmara dos Deputados para revisão.",
+      "url": "https://www.congressonacional.leg.br/web/atividade/materias/-/materia/176328"
+    },
+    {
+      "claim": "O aumento da presunção vale somente para a parcela da receita que ultrapasse R$ 5 milhões ao ano.",
+      "url": "https://www.reformatributaria.com/governo/lucro-presumido-lula-e-congresso-podem-elevar-custo-com-irpj-e-csll-a-ate-13/"
+    },
+    {
+      "claim": "O acréscimo aplicado aos percentuais de presunção passaria de 10% para 20%.",
+      "url": "https://jornalcontabil.com.br/noticia/lucro-presumido-senado-aprova-aumento-da-tributacao-para-empresas-com-receita-acima-de-r-5-milhoes/"
+    },
+    {
+      "claim": "A presunção de IRPJ e CSLL de serviços poderia chegar a 38,4% em 2027, ante 32% em 2025.",
+      "url": "https://www.reformatributaria.com/governo/lucro-presumido-lula-e-congresso-podem-elevar-custo-com-irpj-e-csll-a-ate-13/"
+    },
+    {
+      "claim": "Estimativa da ROIT: carga de IRPJ/CSLL em serviços passaria de 11,97% em 2026 para 13,06% a partir de 2027.",
+      "url": "https://www.reformatributaria.com/governo/lucro-presumido-lula-e-congresso-podem-elevar-custo-com-irpj-e-csll-a-ate-13/"
+    },
+    {
+      "claim": "Matéria do Jornal Contábil de 13/11/2026 noticiou aprovação no Senado.",
+      "url": "https://jornalcontabil.com.br/noticia/lucro-presumido-senado-aprova-aumento-da-tributacao-para-empresas-com-receita-acima-de-r-5-milhoes/"
+    }
+  ]
+}

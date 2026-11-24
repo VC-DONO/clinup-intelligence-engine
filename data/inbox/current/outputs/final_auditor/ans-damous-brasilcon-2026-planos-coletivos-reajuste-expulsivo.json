@@ -1,0 +1,14 @@
+{
+  "result": "pass_with_warnings",
+  "unsupported_claims": [
+    "A afirmação de que Damous apontou que contratos coletivos empresariais de pequeno porte merecem atenção nas discussões sobre reajuste e rescisão (base também da expressão 'defende atenção regulatória aos planos coletivos' na manchete) não tem trecho literal nos registros de evidência; o próprio texto declara isso e a atribui ao comunicado da ANS.",
+    "O summary associa a crítica ao 'reajuste expulsivo' a 'planos coletivos'; o trecho registrado da fala não menciona planos coletivos."
+  ],
+  "mismatched_dates_or_numbers": [],
+  "omitted_caveats": [],
+  "sensational_language": [],
+  "required_corrections": [
+    "Ajustar o summary para não vincular literalmente a crítica ao 'reajuste expulsivo' a planos coletivos (por exemplo, 'criticando o reajuste expulsivo, em evento em que tratou da regulação dos planos coletivos, segundo a ANS'), ou obter trecho que sustente essa ligação."
+  ],
+  "justification": "Data (19/11/2026), local, evento e cargo de Wadih Damous conferem com o comunicado da ANS, e as citações sobre o risco devolvido, o equilíbrio no bolso do consumidor e o 'reajuste expulsivo' reproduzem fielmente os trechos registrados. As duas ressalvas obrigatórias (fonte única institucional e ausência de norma, consulta ou minuta) estão presentes, e o texto trata o fato como declaração, sem efeito regulatório. A menção a contratos de pequeno porte não tem trecho literal, mas está transparentemente ressalvada e atribuída. Não há linguagem sensacionalista. Os problemas são menores e não mudam a decisão do leitor, por isso pass_with_warnings."
+}

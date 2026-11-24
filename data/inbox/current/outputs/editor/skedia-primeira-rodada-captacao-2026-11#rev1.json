@@ -1,0 +1,33 @@
+{
+  "headline": "Healthtech Skedia abre primeira rodada de captação externa",
+  "what_happened": "A healthtech Skedia abriu em novembro sua primeira rodada de captação externa, segundo a TV Sim Brasil; valor da rodada e investidores não foram informados. A empresa declara ter processado R$ 130 milhões em volume bruto de consultas, exames e procedimentos no Brasil, número que se refere ao volume processado, e não à captação. Segundo a mesma fonte, a Skedia atende cerca de 20 unidades de saúde e alcança indiretamente cerca de 1.000 profissionais.",
+  "why_it_matters": "Interpretação: trata-se de fato do mercado de fornecedores, sem benefício direto e verificável para clínicas, e os números são declarados pela própria empresa, sem auditoria, com divergência não conciliada em relação a outra fonte. Recomendação: nenhuma ação imediata; quem usa ou avalia a ferramenta deve garantir em contrato a exportação dos dados financeiros e testar a solução com indicadores próprios antes de tomar os números divulgados como garantia de resultado.",
+  "summary": "A Skedia abriu sua primeira rodada de captação externa, sem valor nem investidores divulgados, segundo fonte jornalística única.",
+  "caveats": [
+    "Não foi encontrado comunicado oficial da Skedia nem outra fonte independente que confirme a abertura da rodada em novembro de 2026.",
+    "Valor da rodada e investidores não foram informados; os R$ 130 milhões do título referem-se ao volume processado, não à captação.",
+    "Números de volume, clientes, glosa e crescimento são declarados pela própria empresa, sem auditoria.",
+    "A página foi lida via ferramenta de fetch que resume conteúdo; alguns trechos foram copiados parcialmente por limite de citação.",
+    "Parcialmente confirmado: A Skedia abriu em novembro de 2026 sua primeira rodada de captação externa, após oito meses financiada apenas pelos fundadores; valor da rodada não informado.",
+    "Parcialmente confirmado: A empresa processou R$ 130 milhões em volume bruto de consultas, exames e procedimentos (número declarado pela empresa; não se refere ao valor da rodada).",
+    "A Startupi (30/09/2026) citava cerca de R$ 63 milhões em produção clínica sob gestão; a TV Sim Brasil cita R$ 130 milhões processados. As métricas podem ser diferentes (sob gestão vs. volume bruto acumulado) e há diferença de datas; não foi possível conciliar."
+  ],
+  "claim_sources": [
+    {
+      "claim": "A healthtech Skedia abriu em novembro sua primeira rodada de captação externa.",
+      "url": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes"
+    },
+    {
+      "claim": "A empresa processou R$ 130 milhões em volume bruto de consultas, exames e procedimentos no Brasil.",
+      "url": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes"
+    },
+    {
+      "claim": "A Skedia atende cerca de 20 unidades de saúde e alcança indiretamente cerca de 1.000 profissionais.",
+      "url": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/19/healthtech-skedia-1a-rodada-130-milhoes"
+    },
+    {
+      "claim": "A Skedia tinha aproximadamente 20 unidades e quase mil profissionais vinculados.",
+      "url": "https://startupi.com.br/skedia-healthtech-ia-faturamento-saude/"
+    }
+  ]
+}

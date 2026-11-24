@@ -1,0 +1,33 @@
+{
+  "no_material_risk": false,
+  "risks": [
+    {
+      "risk": "Vácuo normativo em escalas apoiadas em convenção ou acordo coletivo a partir de 16/12/2026.",
+      "supporting_fact": "Segundo o MTE, as cláusulas sobre jornada e escala dos instrumentos coletivos vigentes perdem a validade a partir de 16/12/2026, exigindo renegociação.",
+      "mechanism": "Se a renegociação não terminar a tempo, escalas como 12x36, compensações e distribuição de folgas ficam sem base coletiva válida, aumentando o risco de horas extras e de ações trabalhistas.",
+      "conditions": "Afeta clínicas cujas escalas dependem de cláusulas coletivas; o prazo até 16/12/2026 é curto e o andamento depende do sindicato patronal e laboral da categoria e da região.",
+      "exposed_profiles": [
+        "clínicas com escala 12x36 ou compensação prevista em convenção coletiva",
+        "clínicas com acordo coletivo próprio"
+      ],
+      "severity": "high",
+      "mitigation": "Verificar quais escalas da clínica dependem de cláusula coletiva; acompanhar o sindicato da categoria e, se houver acordo próprio, iniciar a renegociação; considerar a mediação gratuita das SRTEs e do MTE."
+    },
+    {
+      "risk": "Mudanças de regra durante a transição por regulamentação ainda em elaboração.",
+      "supporting_fact": "O MTE trabalha na regulamentação da Emenda Constitucional nº 141.",
+      "mechanism": "Ajustes feitos agora podem precisar ser refeitos quando a regulamentação for completada.",
+      "conditions": "Depende do conteúdo das normas futuras.",
+      "exposed_profiles": [
+        "clínicas e consultórios com empregados CLT (recepção, enfermagem, técnicos, administrativo)"
+      ],
+      "severity": "medium",
+      "mitigation": "Fazer ajustes em etapas e documentar as decisões, revisando-as a cada nova norma do MTE."
+    }
+  ],
+  "cannot_conclude": [
+    "O texto da EC nº 141 não foi aberto; a data de 16/12/2026 e o efeito sobre as cláusulas coletivas são atribuídos ao MTE.",
+    "Não é possível concluir o andamento das negociações coletivas das categorias que atuam em clínicas.",
+    "Não há fonte jornalística independente verificada; a Agência Gov republica o comunicado do MTE."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "headline": "Congresso de Direito Médico do CFM debate IA, vínculos de trabalho, publicidade de procedimentos estéticos e ato médico",
+  "what_happened": "O XIII Congresso Brasileiro de Direito Médico, com o tema 'Medicina em Transformação: Direito, Tecnologia e Responsabilidade', foi encerrado em 18/11/2026 na sede do CFM, em Brasília, após dois dias de programação, segundo notícia do próprio CFM. O vice-corregedor do CFM, Francisco Cardoso, afirmou que a IA será um dos grandes desafios dos próximos anos e exigirá atualização constante das normas e dos profissionais. O conselheiro Leonardo José Alcântara alertou para a precarização dos vínculos e citou queda da proporção de médicos com vínculos formais de 54% para 33% entre 2012 e 2023, dado cuja fonte original não foi identificada. A conselheira Graziela Bonin tratou da relação entre publicidade médica, como imagens de 'antes e depois', e judicialização de procedimentos estéticos, e o conselheiro Diogo Sampaio abordou a realização de atos médicos por profissionais de outras áreas da saúde.",
+  "why_it_matters": "As falas do congresso são declarações em evento, não normas nem anúncios regulatórios, e não criam prazo nem obrigação nova. O ponto de atenção prático é para clínicas que divulgam resultados de procedimentos estéticos: a relação entre imagens de 'antes e depois' e judicialização justifica revisar o material de divulgação com base nas regras vigentes do respectivo conselho profissional e documentar consentimento e expectativas do paciente em prontuário. Clínicas multiprofissionais podem mapear quais procedimentos cada categoria executa e conferir o respaldo nas normas de cada conselho, acompanhando posicionamentos oficiais sem mudar rotinas com base apenas em falas de evento.",
+  "summary": "O XIII Congresso Brasileiro de Direito Médico do CFM trouxe falas de conselheiros sobre IA, vínculos de trabalho, publicidade de procedimentos estéticos e ato médico, sem anúncio de norma nova.",
+  "caveats": [
+    "Única fonte consultada é a notícia institucional do próprio CFM (organizador do evento); não houve confirmação por fonte independente.",
+    "Os números sobre vínculos formais (54% para 33%) são atribuídos ao conselheiro na matéria; a fonte original dos dados não foi identificada nem verificada.",
+    "Declarações sobre IA são opinião de dirigente do CFM, não norma nem anúncio regulatório.",
+    "Não houve anúncio de norma nova sobre publicidade ou ato médico no evento, segundo a fonte disponível."
+  ],
+  "claim_sources": [
+    {
+      "claim": "O XIII Congresso Brasileiro de Direito Médico, com o tema 'Medicina em Transformação: Direito, Tecnologia e Responsabilidade', foi encerrado em 18/11/2026 na sede do CFM, em Brasília, após dois dias de programação.",
+      "url": "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas/"
+    },
+    {
+      "claim": "O vice-corregedor do CFM, Francisco Cardoso, afirmou que a IA será um dos grandes desafios dos próximos anos e exigirá atualização constante das normas e dos profissionais.",
+      "url": "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas/"
+    },
+    {
+      "claim": "O conselheiro Leonardo José Alcântara citou queda da proporção de médicos com vínculos formais de 54% para 33% entre 2012 e 2023.",
+      "url": "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas/"
+    },
+    {
+      "claim": "A conselheira Graziela Bonin tratou da relação entre publicidade médica (imagens de 'antes e depois') e judicialização de procedimentos estéticos.",
+      "url": "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas/"
+    },
+    {
+      "claim": "O conselheiro Diogo Sampaio tratou da defesa das prerrogativas médicas e da realização de atos médicos por profissionais de outras áreas da saúde.",
+      "url": "https://portal.cfm.org.br/noticias/cfm-debate-desafios-da-medicina-diante-das-transformacoes-tecnologicas-e-juridicas/"
+    }
+  ]
+}

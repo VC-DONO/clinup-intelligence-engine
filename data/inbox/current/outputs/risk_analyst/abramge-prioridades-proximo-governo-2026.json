@@ -1,0 +1,23 @@
+{
+  "no_material_risk": false,
+  "risks": [
+    {
+      "risk": "Maior escrutínio e auditoria sobre faturamento de prestadores credenciados, caso a agenda de combate a fraudes da Abramge avance.",
+      "supporting_fact": "A Abramge defende o combate a fraudes com maior integração de informações entre operadoras, hospitais, laboratórios e serviços públicos (afirmação parcialmente confirmada). É uma agenda de pleitos, não medida de governo.",
+      "mechanism": "Hipótese: mais integração de dados para detectar fraude tende a aumentar checagens, exigências documentais e contestações de cobranças, elevando custo administrativo e risco de glosa para prestadores, inclusive os que não cometem irregularidades.",
+      "conditions": "Depende de as propostas virarem norma, contrato ou prática das operadoras; afeta só clínicas credenciadas a planos de saúde, com intensidade variável por operadora e especialidade.",
+      "exposed_profiles": [
+        "clínicas e consultórios credenciados a operadoras de planos de saúde",
+        "laboratórios e serviços de diagnóstico conveniados"
+      ],
+      "severity": "low",
+      "mitigation": "Manter documentação clínica e de faturamento completa e rastreável; acompanhar se as propostas chegam a normas da ANS ou a mudanças contratuais das operadoras."
+    }
+  ],
+  "cannot_conclude": [
+    "Não é possível concluir o conteúdo da revisão da Lei 9.656/1998 defendida pela Abramge nem seus efeitos sobre prestadores.",
+    "O dado de 439.060 ações pendentes contra operadoras (+14,3%) não foi conferido no CNJ; não é possível usá-lo como fato consolidado.",
+    "A entrevista original e qualquer comunicado da Abramge não foram acessados; as fontes pertencem à mesma cadeia de origem.",
+    "Não é possível concluir se o próximo governo adotará alguma das prioridades."
+  ]
+}

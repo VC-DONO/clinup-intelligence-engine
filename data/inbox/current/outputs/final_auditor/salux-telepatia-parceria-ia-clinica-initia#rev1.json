@@ -1,0 +1,12 @@
+{
+  "result": "pass_with_warnings",
+  "unsupported_claims": [],
+  "mismatched_dates_or_numbers": [],
+  "omitted_caveats": [],
+  "sensational_language": [],
+  "required_corrections": [
+    "Opcional: as ressalvas 'Parcialmente confirmado' sobre redução de documentação e responsabilidade do médico tratam de afirmações que não aparecem no texto final; considerar reformular para não confundir o leitor ou manter apenas como contexto.",
+    "Opcional: 'anunciou a ampliação' depende de citação atribuída à empresa na matéria; manter a atribuição 'segundo a Medicina S/A' (já presente)."
+  ],
+  "justification": "O texto final se limita ao que os registros de evidência sustentam: Salux integrante do Grupo Bringel, ampliação dos recursos do prontuário do INITIA com a Telepatia e uso da inteligência clínica no próprio INITIA. Não há números nem datas no texto; todas as ressalvas obrigatórias constam; a interpretação e a recomendação estão rotuladas. Avisos menores: algumas ressalvas se referem a afirmações omitidas do texto, o que não muda a decisão do leitor."
+}

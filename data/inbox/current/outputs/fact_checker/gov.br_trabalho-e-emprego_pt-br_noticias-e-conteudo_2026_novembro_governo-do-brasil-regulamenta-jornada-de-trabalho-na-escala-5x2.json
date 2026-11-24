@@ -1,0 +1,164 @@
+{
+  "status": "verified",
+  "published_at_confirmed": "2026-11-19T11:19:00-03:00",
+  "date_basis": "A própria página do MTE (gov.br) exibe 'Publicado em 19/11/2026 11h19 Atualizado em 19/11/2026 13h22'. A data é consistente com a Agência Gov (19/11/2026 18:00) e com O Povo (publicado às 10:38 de 19/11/2026), que relatam a assinatura do decreto nesta quinta-feira, 19/11. Está dentro da janela (17/11 a 24/11/2026).",
+  "updated_at_claimed": "2026-11-19T13:22:00-03:00",
+  "substantive_update": null,
+  "event_title": "Decreto nº 13.173/2026 regulamenta a EC nº 141/2026: escala 5x2, jornada de 42h a partir de 16/12/2026 e 40h em dezembro de 2027, sem redução salarial",
+  "canonical_event_key": "decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2",
+  "official_document_id": "Decreto nº 13.173/2026 (regulamenta a Emenda Constitucional nº 141/2026)",
+  "regulatory_stage": "publicada (decreto assinado em 19/11/2026, em vigor na data de publicação; nova jornada de 42h vale a partir de 16/12/2026 e de 40h a partir de 16/12/2027; portaria complementar do MTE anunciada, não verificada)",
+  "is_regulatory": true,
+  "central_claims": [
+    {
+      "text": "O Governo Federal assinou em 19/11/2026 o decreto (nº 13.173/2026) que regulamenta a Emenda Constitucional nº 141/2026, que institui a escala 5x2.",
+      "materiality": "high",
+      "status": "supported",
+      "evidence_urls": [
+        "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+        "https://agenciagov.ebc.com.br/noticias/202611/estamos-humanizanso-o-mundo-do-trabalho-diz-lula-ao-regulamentar-o-fim-da-escala-6x1",
+        "https://www.opovo.com.br/noticias/economia/2026/11/19/lula-assina-decreto-de-regulamentacao-da-5x2-e-fim-da-6x1.html"
+      ]
+    },
+    {
+      "text": "A partir de 16/12/2026 a jornada máxima cai de 44h para 42h semanais, com dois dias de repouso; em dezembro de 2027 cai para 40h.",
+      "materiality": "high",
+      "status": "supported",
+      "evidence_urls": [
+        "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+        "https://agenciagov.ebc.com.br/noticias/202611/estamos-humanizanso-o-mundo-do-trabalho-diz-lula-ao-regulamentar-o-fim-da-escala-6x1",
+        "https://www.opovo.com.br/noticias/economia/2026/11/19/lula-assina-decreto-de-regulamentacao-da-5x2-e-fim-da-6x1.html"
+      ]
+    },
+    {
+      "text": "Não há redução salarial; o divisor do salário-hora passa de 220 para 210 (42h) e depois 200 (40h), afetando horas extras e adicional noturno.",
+      "materiality": "high",
+      "status": "supported",
+      "evidence_urls": [
+        "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+        "https://agenciagov.ebc.com.br/noticias/202611/estamos-humanizanso-o-mundo-do-trabalho-diz-lula-ao-regulamentar-o-fim-da-escala-6x1"
+      ]
+    },
+    {
+      "text": "Trabalhadores que já cumprem até 40h semanais em seis dias também passam a ter dois dias de repouso remunerado.",
+      "materiality": "medium",
+      "status": "supported",
+      "evidence_urls": [
+        "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+        "https://www.opovo.com.br/noticias/economia/2026/11/19/lula-assina-decreto-de-regulamentacao-da-5x2-e-fim-da-6x1.html"
+      ]
+    },
+    {
+      "text": "A negociação coletiva segue como instrumento para regras específicas (distribuição de folgas no mês, turnos de revezamento, 12x36).",
+      "materiality": "medium",
+      "status": "supported",
+      "evidence_urls": [
+        "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+        "https://www.opovo.com.br/noticias/economia/2026/11/19/lula-assina-decreto-de-regulamentacao-da-5x2-e-fim-da-6x1.html"
+      ]
+    },
+    {
+      "text": "A medida alcança 14,8 milhões de trabalhadores em escala 6x1 e 21,7 milhões em 5x2 com 44h semanais.",
+      "materiality": "low",
+      "status": "supported",
+      "evidence_urls": [
+        "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+        "https://agenciagov.ebc.com.br/noticias/202611/estamos-humanizanso-o-mundo-do-trabalho-diz-lula-ao-regulamentar-o-fim-da-escala-6x1"
+      ]
+    },
+    {
+      "text": "O MTE publicaria em 23/11/2026 uma portaria com orientações complementares.",
+      "materiality": "medium",
+      "status": "partially_supported",
+      "evidence_urls": [
+        "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+        "https://www.opovo.com.br/noticias/economia/2026/11/19/lula-assina-decreto-de-regulamentacao-da-5x2-e-fim-da-6x1.html"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+      "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+      "source_type": "primary",
+      "published_at": "2026-11-19T11:19:00-03:00",
+      "excerpt": "a partir de 16 de dezembro, a jornada será reduzida de 44 para 42 horas semanais, com direito a dois dias de repouso.",
+      "locator": "corpo da matéria",
+      "supports_or_contradicts": "supports",
+      "independence_group": "governo-federal"
+    },
+    {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+      "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+      "source_type": "primary",
+      "published_at": "2026-11-19T11:19:00-03:00",
+      "excerpt": "A medida deverá alcançar 14,8 milhões de trabalhadores que atualmente cumprem jornada na escala 6x1.",
+      "locator": "corpo da matéria",
+      "supports_or_contradicts": "supports",
+      "independence_group": "governo-federal"
+    },
+    {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2",
+      "source_name": "Ministério do Trabalho e Emprego (gov.br)",
+      "source_type": "primary",
+      "published_at": "2026-11-19T11:19:00-03:00",
+      "excerpt": "Na segunda-feira (23), o MTE publicará uma portaria com orientações complementares",
+      "locator": "corpo da matéria",
+      "supports_or_contradicts": "supports",
+      "independence_group": "governo-federal"
+    },
+    {
+      "url": "https://agenciagov.ebc.com.br/noticias/202611/estamos-humanizanso-o-mundo-do-trabalho-diz-lula-ao-regulamentar-o-fim-da-escala-6x1",
+      "source_name": "Agência Gov (via Planalto)",
+      "source_type": "primary",
+      "published_at": "2026-11-19T18:00:00-03:00",
+      "excerpt": "O presidente Lula assinou nesta quinta-feira (19/11), no Palácio do Planalto, o Decreto nº 13.173/2026, que regulamenta a Emenda Constitucional nº 141/2026, responsável por instituir a escala 5x2 no mercado de trabalho brasileiro e estabelecer mecanismos para a transição das jornadas.",
+      "locator": "primeiro parágrafo",
+      "supports_or_contradicts": "supports",
+      "independence_group": "governo-federal"
+    },
+    {
+      "url": "https://agenciagov.ebc.com.br/noticias/202611/estamos-humanizanso-o-mundo-do-trabalho-diz-lula-ao-regulamentar-o-fim-da-escala-6x1",
+      "source_name": "Agência Gov (via Planalto)",
+      "source_type": "primary",
+      "published_at": "2026-11-19T18:00:00-03:00",
+      "excerpt": "Para a jornada de 42 horas semanais, o divisor será 210. Para a jornada de 40 horas, será 200.",
+      "locator": "seção Sem redução salarial",
+      "supports_or_contradicts": "supports",
+      "independence_group": "governo-federal"
+    },
+    {
+      "url": "https://www.opovo.com.br/noticias/economia/2026/11/19/lula-assina-decreto-de-regulamentacao-da-5x2-e-fim-da-6x1.html",
+      "source_name": "O Povo",
+      "source_type": "secondary",
+      "published_at": "2026-11-19T10:38:00-03:00",
+      "excerpt": "O presidente Luiz Inácio Lula da Silva (PT) assinou nesta quinta-feira, 19, o decreto que regulamenta a escala 5x2 (cinco dias trabalhados e dois de descanso) e consolida o fim da jornada 6x1.",
+      "locator": "primeiro parágrafo",
+      "supports_or_contradicts": "supports",
+      "independence_group": "opovo"
+    },
+    {
+      "url": "https://www.opovo.com.br/noticias/economia/2026/11/19/lula-assina-decreto-de-regulamentacao-da-5x2-e-fim-da-6x1.html",
+      "source_name": "O Povo",
+      "source_type": "secondary",
+      "published_at": "2026-11-19T10:38:00-03:00",
+      "excerpt": "Já a partir de dezembro de 2027, o limite semanal será reduzido novamente, chegando a 40 horas.",
+      "locator": "seção Como vai funcionar a transição e as novas regras",
+      "supports_or_contradicts": "supports",
+      "independence_group": "opovo"
+    }
+  ],
+  "unresolved_conflicts": [
+    "O Povo e Gazeta do Povo (esta só vista em resultado de busca, não aberta) mencionam uma 'reviravolta no STF' / pontos que 'ainda dependem do STF' sobre a escala 5x2; o conteúdo dessa questão judicial não foi verificado e pode afetar a aplicação das regras."
+  ],
+  "limitations": [
+    "O texto do Decreto nº 13.173/2026 no Diário Oficial da União/Planalto não foi aberto; o número do decreto vem da Agência Gov (a página do MTE não o cita).",
+    "A publicação da portaria complementar do MTE prevista para 23/11/2026 não foi verificada; apenas o anúncio foi confirmado.",
+    "MTE e Agência Gov são ambos fontes do Governo Federal (mesma origem); a confirmação independente vem do O Povo.",
+    "O limite de WebFetch esgotou durante a verificação; as páginas da Agência Gov e do O Povo foram lidas via apify web-fetch."
+  ],
+  "relevant_to_audience": true,
+  "relevance_note": "Clínicas e consultórios empregam recepcionistas, técnicos e auxiliares sob CLT, frequentemente em 6x1 ou 44h; precisam reorganizar escalas para duas folgas e 42h a partir de 16/12/2026, recalcular salário-hora (divisor 210) para horas extras e adicional noturno e revisar escalas 12x36 e acordos coletivos.",
+  "suspicious_instructions_found": false,
+  "reasoning_summary": "A página oficial do MTE foi aberta e mostra publicação em 19/11/2026 11h19 (dentro da janela). Os fatos centrais (regulamentação da EC 141/2026, 42h a partir de 16/12/2026 e 40h em dezembro de 2027, sem redução salarial, divisores 210/200, duas folgas para quem já cumpre até 40h em seis dias, papel da negociação coletiva, 14,8 e 21,7 milhões de trabalhadores) foram confirmados na própria página, na Agência Gov (que informa o número do Decreto nº 13.173/2026) e de forma independente no O Povo. A portaria de 23/11 consta apenas como anúncio. Ressalva: menção a questão no STF não verificada."
+}

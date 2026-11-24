@@ -1,0 +1,28 @@
+{
+  "headline": "Artigo de opinião sugere três perguntas para o uso de IA no trabalho regulatório em saúde: o que entra, o que sai e quem assina",
+  "what_happened": "Em artigo de opinião publicado em 18/11/2026 no Saúde Business, na coluna Conexões ABRAIDI, Lisa Voronkova propõe três perguntas que toda equipe regulatória que usa IA precisa responder: o que entra, o que sai e quem assina; o texto também trata esses pontos como regras. A autora compara uma conta pessoal paga de IA a um cartão-postal, 'apenas mais caro', para argumentar que ela não garante a confidencialidade de dados, e recomenda ferramentas aprovadas em contas corporativas. Ela também alerta que uma resposta errada da IA pode soar tão convincente quanto uma correta e defende, como uma das regras, que a IA elabore a primeira versão, uma pessoa confira e o responsável assine.",
+  "why_it_matters": "O artigo é opinião, sem força normativa, e é dirigido a equipes regulatórias; a aplicação a clínicas é interpretação do CLIN-UP. Se a equipe da clínica já usa ferramentas de IA por conta própria, dados de pacientes ou documentos internos podem estar sendo inseridos em contas pessoais, fora do controle da clínica. As três perguntas oferecem um roteiro de baixo custo para uma política interna: definir ferramentas aprovadas, quais dados podem ser inseridos e quem revisa e assina cada tipo de documento. Como recomendação do CLIN-UP, e não do artigo, vale também registrar quando a IA foi usada em documentos relevantes e buscar orientação jurídica sobre proteção de dados antes de liberar ferramentas que processem dados de pacientes.",
+  "summary": "Artigo de opinião na coluna Conexões ABRAIDI propõe três perguntas, também tratadas como regras, para o uso de IA no trabalho regulatório: o que entra, o que sai e quem assina.",
+  "caveats": [
+    "Trata-se de artigo de opinião em coluna institucional de associação setorial, sem força normativa; não cria obrigação nova.",
+    "O texto é dirigido a equipes regulatórias; a aplicação das recomendações a clínicas e consultórios é interpretação do CLIN-UP."
+  ],
+  "claim_sources": [
+    {
+      "claim": "O artigo, assinado por Lisa Voronkova na coluna Conexões ABRAIDI do Saúde Business, propõe três perguntas para equipes regulatórias que usam IA: o que entra, o que sai e quem assina.",
+      "url": "https://www.saudebusiness.com/gestao/legislacaoo-e-regulamentacao/ia-no-trabalho-regulatorio-tres-regras-antes-de-apertar-enter/"
+    },
+    {
+      "claim": "A autora compara uma conta pessoal paga de IA a um cartão-postal, apenas mais caro, para argumentar que ela não garante confidencialidade.",
+      "url": "https://www.saudebusiness.com/gestao/legislacaoo-e-regulamentacao/ia-no-trabalho-regulatorio-tres-regras-antes-de-apertar-enter/"
+    },
+    {
+      "claim": "A autora alerta que uma resposta errada da IA pode soar tão convincente quanto uma resposta correta.",
+      "url": "https://www.saudebusiness.com/gestao/legislacaoo-e-regulamentacao/ia-no-trabalho-regulatorio-tres-regras-antes-de-apertar-enter/"
+    },
+    {
+      "claim": "O artigo recomenda ferramentas aprovadas em contas corporativas e defende, como regra, que a IA elabore a primeira versão, uma pessoa confira e o responsável assine.",
+      "url": "https://www.saudebusiness.com/gestao/legislacaoo-e-regulamentacao/ia-no-trabalho-regulatorio-tres-regras-antes-de-apertar-enter/"
+    }
+  ]
+}

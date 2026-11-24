@@ -1,0 +1,13 @@
+{
+  "signals": [
+    {
+      "organization": "BoaConsulta",
+      "move": "Fato: a plataforma de agendamento BoaConsulta divulgou, via Medicina S/A, levantamento segundo o qual clínicas que levam mais de 24 horas para responder pedidos de agendamento confirmam apenas 22% das solicitações (57% expiram sem confirmação), 32% dos agendamentos online ocorrem fora do horário comercial e, nos consultórios que registram a origem, o WhatsApp gera 2,1 vezes mais solicitações do que o telefone.",
+      "source_url": "https://medicinasa.com.br/clinicas-agendamentos/",
+      "event_id": "boaconsulta-levantamento-2026-tempo-resposta-agendamentos",
+      "competition": "trend",
+      "confirmation": "Fonte única: levantamento do próprio fornecedor de agendamento, divulgado pela Medicina S/A em 2026-11-19. Metodologia, amostra e período não foram informados no material fornecido; trata-se de conteúdo de fornecedor, não de prova independente de desempenho. Nenhum lançamento de produto, preço, aquisição ou parceria foi identificado nas notícias aprovadas.",
+      "implication": "Interpretação: plataformas de agendamento usam o tempo de resposta e o atendimento fora do horário comercial como argumento de venda, o que tende a elevar a expectativa dos pacientes por resposta rápida, inclusive pelo WhatsApp. Recomendação: a clínica pode medir o próprio tempo de resposta e a taxa de confirmação por canal antes de contratar qualquer ferramenta, sem tomar os números do levantamento como referência garantida."
+    }
+  ]
+}

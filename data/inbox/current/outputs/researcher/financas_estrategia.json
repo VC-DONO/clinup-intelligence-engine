@@ -1,0 +1,98 @@
+{
+  "candidates": [
+    {
+      "title": "Lucro Presumido: Lula e Congresso podem elevar custo com IRPJ e CSLL a até 13%",
+      "url": "https://www.reformatributaria.com/governo/lucro-presumido-lula-e-congresso-podem-elevar-custo-com-irpj-e-csll-a-ate-13/",
+      "publisher": "Portal da Reforma Tributária",
+      "publisher_type": "trade_press",
+      "language": "pt-BR",
+      "region": "Brazil",
+      "published_at_claimed": "2026-11-20T08:05:00-03:00",
+      "updated_at_claimed": null,
+      "summary": "O Senado concluiu em 18/11/2026 a votação do PLP 299/2026 (pacote de ajuste fiscal), que segue para a Câmara. O texto eleva em 20% sobre os níveis de 2025 os percentuais de presunção de IRPJ e CSLL no Lucro Presumido, apenas sobre a parcela da receita bruta anual acima de R$ 5 milhões (após aumento de 10% já vigente em 2026 pela LC 224/2025). Para serviços, a presunção iria de 32% (2025) a 38,4% em 2027 sobre o excedente. Cálculo da ROIT encomendado pelo portal estima a carga de IRPJ/CSLL em serviços passando de 11,97% (2026) para 13,06% (2027), supondo aplicação ao ano todo; exemplo com receita de R$ 50 milhões: alta de cerca de R$ 1 milhão (~18%). A matéria não menciona especificamente o setor de saúde.",
+      "topic_categories": ["tributos", "lucro presumido", "IRPJ/CSLL", "legislação"],
+      "relevance_rationale": "Grande parte das clínicas e consultórios constituídos como pessoa jurídica de serviços opera no Lucro Presumido; as de receita acima de R$ 5 milhões/ano teriam aumento de carga de IRPJ/CSLL a partir de 2027, o que afeta precificação, margem e escolha de regime tributário no planejamento de fim de ano.",
+      "republication_of_url": null
+    },
+    {
+      "title": "Projeto de Lei Complementar n° 299, de 2026 (tramitação)",
+      "url": "https://www.congressonacional.leg.br/web/atividade/materias/-/materia/176328",
+      "publisher": "Congresso Nacional",
+      "publisher_type": "official",
+      "language": "pt-BR",
+      "region": "Brazil",
+      "published_at_claimed": null,
+      "updated_at_claimed": null,
+      "summary": "Página oficial de tramitação do PLP 299/2026 (autor: Sen. Jaques Wagner), que altera a LC 200/2023 e dá outras providências. Registros: 18/11/2026, continuação da votação em Plenário, Emenda nº 40 destacada e rejeitada (30 x 47), publicação dos pareceres de redação final; 19/11/2026, remessa à Câmara dos Deputados (Ofício SF nº 1503) para revisão; tramitação encerrada no Senado com aprovação pelo Plenário. A página não exibe data de publicação própria; as datas citadas são dos registros de tramitação.",
+      "topic_categories": ["tributos", "lucro presumido", "legislação", "fonte primária"],
+      "relevance_rationale": "Fonte primária que confirma o estágio do projeto que pode elevar a tributação de clínicas no Lucro Presumido com receita acima de R$ 5 milhões; permite acompanhar a votação na Câmara antes de decisões de regime tributário para 2027.",
+      "republication_of_url": null
+    },
+    {
+      "title": "Relator sinaliza hiato de conformidade como fator decisivo para Senado fixar CBS",
+      "url": "https://www.reformatributaria.com/iva/relator-sinaliza-hiato-de-conformidade-como-fator-decisivo-para-senado-fixar-cbs/",
+      "publisher": "Portal da Reforma Tributária",
+      "publisher_type": "trade_press",
+      "language": "pt-BR",
+      "region": "Brazil",
+      "published_at_claimed": "2026-11-18T15:44:12-03:00",
+      "updated_at_claimed": null,
+      "summary": "O relator da resolução da CBS no Senado, Eduardo Braga (MDB-AM), afirmou em audiência na CAE que o hiato de conformidade será o ponto central para fixar a alíquota de referência da CBS para 2027. O TCU propôs 11,3%, com base em hiato de PIS/Cofins de 22,6% (2016–2019) reduzido para 15,9% com a reforma; o presidente do TCU chamou a estimativa de conservadora. Um hiato menor permitiria alíquota menor. O Senado precisa fixar a alíquota até 15/12, com possível prorrogação até 22/12.",
+      "topic_categories": ["reforma tributária", "CBS", "alíquota de referência"],
+      "relevance_rationale": "Serviços de saúde terão redução de 60% sobre a alíquota de referência da CBS (conforme regras da LC 214/2025, quando cumpridos os requisitos); o valor final da alíquota definido pelo Senado determina o custo tributário e o repasse de preços das clínicas a partir de janeiro de 2027.",
+      "republication_of_url": null
+    },
+    {
+      "title": "Receita libera para todas as empresas ambiente piloto da CBS com inclusão da DeRE; acesse",
+      "url": "https://www.reformatributaria.com/iva/receita-libera-para-todas-as-empresas-ambiente-piloto-da-cbs-com-inclusao-da-dere-acesse/",
+      "publisher": "Portal da Reforma Tributária",
+      "publisher_type": "trade_press",
+      "language": "pt-BR",
+      "region": "Brazil",
+      "published_at_claimed": "2026-11-23T16:16:38-03:00",
+      "updated_at_claimed": null,
+      "summary": "A Receita Federal anunciou em 20/11 a ampliação do acesso ao ambiente de produção restrita do piloto da CBS: qualquer empresa pode testar sem indicação de entidade representativa ou pedido prévio, desde que cumpra requisitos operacionais. Foi incluída a DeRE (Declaração de Regimes Específicos), documento para apuração de setores com regimes específicos. Acesso via link do governo, com procuração digital para representantes; API e DeRE exigem permissões adicionais. A cobrança plena da CBS começa em 1º/01/2027.",
+      "topic_categories": ["reforma tributária", "CBS", "obrigações acessórias", "Receita Federal"],
+      "relevance_rationale": "Clínicas e seus contadores podem testar desde já a apuração da CBS antes do início em janeiro de 2027, reduzindo risco de erro operacional e de impacto no fluxo de caixa na transição.",
+      "republication_of_url": null
+    },
+    {
+      "title": "No Brasilcon, diretor-presidente da ANS destaca desafios da regulação dos planos coletivos e a importância da proteção ao consumidor",
+      "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/beneficiario/no-brasilcon-diretor-presidente-da-ans-destaca-desafios-da-regulacao-dos-planos-coletivos-e-a-importancia-da-protecao-ao-consumidor",
+      "publisher": "Agência Nacional de Saúde Suplementar (ANS)",
+      "publisher_type": "official",
+      "language": "pt-BR",
+      "region": "Brazil",
+      "published_at_claimed": "2026-11-23T16:37:00-03:00",
+      "updated_at_claimed": "2026-11-23T17:09:00-03:00",
+      "summary": "No XVIII Congresso Brasileiro de Direito do Consumidor (19/11, Fortaleza), o diretor-presidente da ANS, Wadih Damous, debateu rescisão unilateral, seleção de risco, reajustes e judicialização. Defendeu que a regulação impeça a transferência do risco de adoecer ao beneficiário, que o equilíbrio econômico-financeiro das operadoras considere o bolso do consumidor e que contratos coletivos de pequeno porte recebam atenção especial em reajustes e rescisões, criticando o que chamou de 'reajuste expulsivo'.",
+      "topic_categories": ["planos de saúde", "regulação ANS", "planos coletivos"],
+      "relevance_rationale": "Sinaliza a orientação regulatória da ANS sobre reajustes e rescisões de planos coletivos de pequeno porte, o que afeta (a) clínicas que contratam plano PME para a equipe e (b) a base de pacientes conveniados e a estabilidade da demanda via saúde suplementar. É declaração, não norma.",
+      "republication_of_url": null
+    },
+    {
+      "title": "Setor de planos de saúde define agenda de prioridades para o próximo governo",
+      "url": "https://www.plantaobrasil.net/noticias/164734-setor-de-planos-de-saude-define-agenda-de-prioridades-para-o-proximo-governo",
+      "publisher": "Plantão Brasil",
+      "publisher_type": "news_outlet",
+      "language": "pt-BR",
+      "region": "Brazil",
+      "published_at_claimed": "2026-11-21T04:55:00-03:00",
+      "updated_at_claimed": null,
+      "summary": "A Abramge definiu três prioridades para o diálogo com o próximo governo: judicialização (CNJ registrou 439.060 ações pendentes contra operadoras em agosto de 2026, alta de 14,3% em um ano; propõe fortalecer NatJus e criar varas especializadas), critérios para incorporação de novas tecnologias e combate a fraudes com maior integração de dados. Defende também atualização da Lei 9.656/1998 e cooperação com o SUS (programa 'Agora Tem Especialistas'). A página credita o texto ao Brasil 247, com entrevista concedida ao Saúde Insider.",
+      "topic_categories": ["planos de saúde", "judicialização", "fraudes", "política setorial"],
+      "relevance_rationale": "A agenda das operadoras (antifraude, integração de dados, revisão da lei dos planos) tende a se refletir em auditoria de contas, glosas e exigências documentais para prestadores credenciados, afetando faturamento e prazos de recebimento de clínicas conveniadas.",
+      "republication_of_url": null
+    }
+  ],
+  "coverage_gaps": [
+    "Juros e crédito: não houve reunião do Copom na janela; o Boletim Focus mais recente encontrado com data verificada (09/11/2026) está fora da janela, e não foi localizado o Focus de 23/11/2026 com página aberta.",
+    "Inflação de insumos/IPCA-15 de novembro de 2026: não foi localizada publicação do IBGE com data verificada dentro da janela.",
+    "Glosas e relação prestador-operadora: não foi possível abrir as páginas do Futuro da Saúde (erro de acesso); nenhum dado novo de glosas (Anahp/FBH) com data na janela foi confirmado.",
+    "Regulamento IBS/CBS versão 2.0: até 13/11 a publicação era esperada para 16-17/11, mas não foi encontrada página confirmando a publicação dentro da janela.",
+    "Alíquota de referência da CBS de 11,3% (TCU) e fala do ministro da Fazenda na CAE: matérias encontradas publicadas em 17/11/2026 antes do início da janela (antes de 15:46 BRT), por isso não incluídas.",
+    "ANS: atualização do painel PM-QUALISS Hospitalar publicada em 17/11/2026 12h40, antes do início da janela; pauta da 646ª Reunião da Diretoria Colegiada (24/11) não teve conteúdo detalhado acessível; dados de beneficiários/econômico-financeiros do 3º trimestre não localizados na janela.",
+    "Comportamento de consumo de saúde privada, precificação e rentabilidade de clínicas (Medicina S/A, Saúde Business, Valor, Folha, Estadão): nenhuma matéria específica com data na janela foi localizada.",
+    "Fontes internacionais (EUA, UE, Reino Unido, América Latina) sobre finanças de consultórios: não foram encontradas publicações com data verificada na janela e relevância direta para clínicas brasileiras."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "decision": "correct",
+  "problems": [
+    "As afirmações 'basta cumprir requisitos operacionais' e 'API e DeRE exigem poderes específicos' não aparecem em nenhum trecho de evidência do dossiê. Os trechos citados cobrem apenas a outorga de procuração digital a representantes e o fim da indicação por entidades. Os requisitos operacionais também não são descritos (estão listados em 'data_needed').",
+    "A claim_source da data do anúncio (20/11/2026) aponta para a matéria secundária, embora exista fonte primária da Receita Federal datada de 2026-11-20T11:05:00-03:00. A fonte primária deveria ser a referência.",
+    "O 'summary' diz que o ambiente 'permite a clínicas testar os serviços antes da cobrança', o que pressupõe que toda clínica será contribuinte da CBS no regime regular. O público inclui 'Consultório pequeno', que pode atuar como pessoa física ou estar em outro regime; o dossiê não traz evidência sobre quem, entre clínicas, usará esses serviços.",
+    "A data de 01/01/2027 é tratada no resumo como marco ('antes da cobrança') sem a ressalva que o próprio corpo faz: veio só da matéria secundária e não foi conferida na legislação. Além disso, o termo 'cobrança plena' não foi verificado e pode induzir o leitor a supor alíquotas e obrigações integrais desde essa data.",
+    "A etapa regulatória do dossiê ('em vigor') mistura a abertura do ambiente de testes, que está em vigor, com a cobrança da CBS, que é só parcialmente confirmada; o texto não deve herdar essa mistura.",
+    "Caveats redundantes e de processo interno: o segundo e o quarto repetem a mesma limitação sobre 01/01/2027; o primeiro (ferramenta de leitura) e o quinto (autoria divergente) não ajudam o leitor."
+  ],
+  "contrary_evidence": [
+    "Nenhum trecho da fonte primária da Receita Federal presente no dossiê menciona 01/01/2027 nem 'cobrança plena'.",
+    "Nenhum trecho de evidência sustenta literalmente 'basta cumprir requisitos operacionais' ou 'poderes específicos para API e DeRE'."
+  ],
+  "fragile_assumptions": [
+    "Que a clínica seja pessoa jurídica contribuinte da CBS e que os serviços testáveis no piloto sejam relevantes para a sua operação.",
+    "Que a cobrança da CBS comece em 01/01/2027 nos termos descritos pela matéria secundária.",
+    "Que o uso do ambiente de produção restrita não gere efeito fiscal (o dossiê não informa).",
+    "Que clínicas tenham algo a ver com a DeRE; o próprio texto admite que não é possível concluir isso, mas a manchete destaca a DeRE como novidade central."
+  ],
+  "required_corrections": [
+    "Trocar a claim_source da data do anúncio (20/11/2026) para a página da Receita Federal (gov.br).",
+    "Atribuir 'basta cumprir requisitos operacionais' e 'poderes específicos para API e DeRE' à fonte de onde foram extraídas, ou remover/abrandar essas afirmações, já que nenhum trecho de evidência as sustenta literalmente.",
+    "Ajustar o 'summary' para 'permite que empresas, incluindo clínicas pessoa jurídica contribuintes da CBS, testem os serviços' e retirar 'antes da cobrança', ou acrescentar 'prevista para 01/01/2027 segundo a matéria, data não conferida na legislação'.",
+    "No 'why_it_matters', trocar 'cobrança plena' por 'início da cobrança da CBS', atribuído à matéria, ou explicar que o termo não foi verificado.",
+    "Remover o caveat duplicado ('Parcialmente confirmado: A cobrança plena da CBS começa em 1º/01/2027.') e os caveats de processo interno (ferramenta de leitura e autoria divergente), que não afetam os fatos."
+  ],
+  "violated_rule": null
+}

@@ -1,0 +1,29 @@
+{
+  "decision": "correct",
+  "problems": [
+    "Os trechos citados do MTE cobrem apenas a publicação da portaria, o limite de 8h/42h a partir de 16/12/2026, o divisor 210, o banco de horas acumulado até 15/12/2026 e o art. 64 da Portaria MTP nº 671/2021. Não aparecem em nenhum trecho do dossiê: os dois repousos semanais de 24h, a etapa de 40h em 16/12/2027, o divisor 200, a expressão 'sem redução salarial', a regra da 12x36, a perda de efeitos de cláusulas coletivas incompatíveis, a atualização do PGR (NR-01) e as portarias futuras. Estão marcados como 'supported', mas o texto não mostra a passagem que os sustenta.",
+    "Só há uma fonte de origem: notícia do próprio MTE. O LegisWeb é republicação anterior (19/11) e apenas anuncia a portaria. O texto integral no DOU não foi aberto e, mesmo assim, o what_happened descreve o conteúdo normativo em detalhe, como se ele tivesse sido lido na portaria.",
+    "Em 'why_it_matters', a ligação entre a redução do divisor e o aumento do adicional noturno é inferência do redator e não está nas evidências. Precisa ser apresentada como interpretação.",
+    "'tende a afetar quem funciona seis dias por semana' confunde o horário de funcionamento da clínica com a escala de cada empregado. Uma clínica aberta seis dias pode cumprir a regra com revezamento, e o limite se aplica ao empregado.",
+    "A recomendação de 'evitar compromissos de escala de longo prazo' antes das portarias futuras pode ser lida como motivo para adiar a adequação. Isso conflita com a exigibilidade em 16/12/2026 para os empregados em geral.",
+    "A caveat sobre a 'cota de busca/fetch limitada' descreve o processo interno de verificação e não ajuda o leitor."
+  ],
+  "contrary_evidence": [
+    "O próprio dossiê registra que regras para profissões regulamentadas, que podem incluir profissionais de saúde com jornada própria em lei, ainda dependem de portarias futuras. Para parte das equipes de clínicas, a aplicação concreta continua indefinida.",
+    "Nenhuma fonte jornalística ou jurídica independente confirma a leitura do MTE sobre o conteúdo da portaria (confirmacoes_independentes = 1)."
+  ],
+  "fragile_assumptions": [
+    "Que a notícia oficial do MTE reflita com fidelidade o texto publicado no DOU, inclusive nos pontos que não aparecem em nenhum trecho citado.",
+    "Que os 'dois repousos semanais de 24h' tenham a forma descrita (consecutivos ou não, compensáveis ou não). O dossiê não traz o texto e menciona portaria futura sobre compensação de repousos por negociação coletiva.",
+    "Que as regras não sejam alteradas ou suspensas antes de 16/12/2026.",
+    "Que a portaria se aplique a todos os empregados CLT de clínicas, quando parte deles pode ter jornada definida em lei própria."
+  ],
+  "required_corrections": [
+    "Atribuir explicitamente ao comunicado do MTE os pontos sem trecho citado: repousos de 24h, 40h e divisor 200 em 16/12/2027, 12x36, cláusulas coletivas incompatíveis, PGR e portarias futuras. Por exemplo: 'segundo o comunicado do MTE; texto do DOU não verificado'.",
+    "Marcar como interpretação, e não como conteúdo da portaria, o efeito do divisor menor sobre o adicional noturno e outras parcelas calculadas sobre a hora.",
+    "Trocar 'quem funciona seis dias por semana' por 'empregados que trabalham seis dias por semana ou mais de 42h', deixando claro que o limite vale por empregado e não pelo horário de abertura da clínica.",
+    "Esclarecer que a espera por portarias sobre profissões regulamentadas não adia a adequação a 8h/42h e dois repousos em 16/12/2026 para os demais empregados CLT.",
+    "Retirar das caveats a menção à cota de busca/fetch e manter apenas a limitação substantiva: texto do DOU não aberto e ausência de confirmação independente."
+  ],
+  "violated_rule": null
+}

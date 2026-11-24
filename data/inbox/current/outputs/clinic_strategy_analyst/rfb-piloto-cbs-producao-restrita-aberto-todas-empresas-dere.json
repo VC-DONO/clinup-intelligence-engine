@@ -1,0 +1,53 @@
+{
+  "category": "Tributos",
+  "management_areas": [
+    "Operações fiscais",
+    "Tecnologia",
+    "Contabilidade"
+  ],
+  "audience_profiles": [
+    "Consultório pequeno",
+    "Clínica com equipe",
+    "Clínica em expansão",
+    "Rede/grupo",
+    "Clínica multiprofissional"
+  ],
+  "specialties": [],
+  "regions": [
+    "Brasil"
+  ],
+  "decision": "prepare",
+  "justification": "Fato (Receita Federal, 20/11/2026): o ambiente de produção restrita do piloto da CBS foi aberto a empresas de todo o Brasil, sem indicação por entidades, incluindo a DeRE; o acesso exige procuração digital com poderes específicos para API e DeRE. A matéria secundária informa cobrança plena da CBS a partir de 01/01/2027, dado não conferido na legislação. Interpretação: é uma janela de testes de baixo custo para reduzir risco operacional antes da cobrança, não uma obrigação nova; por isso a decisão é preparar, com ação prática coordenada com contador e fornecedor de sistema. Não é possível concluir se clínicas estarão sujeitas à DeRE.",
+  "actions": [
+    "Imediato: perguntar ao contador e ao fornecedor do sistema de gestão/faturamento se já testaram os serviços no ambiente de produção restrita do piloto da CBS.",
+    "7 dias: revisar as procurações digitais da pessoa jurídica e outorgar, a quem fará os testes, os poderes exigidos (incluindo os específicos para API e DeRE, se forem usados).",
+    "7 dias: pedir ao contador que confirme se a clínica estará sujeita à DeRE e qual a data de início da cobrança da CBS na legislação.",
+    "30 dias: registrar os testes realizados, os erros encontrados e as correções feitas, buscando concluí-los antes do início da cobrança previsto."
+  ],
+  "indicators": [
+    "Testes de emissão/envio concluídos no ambiente restrito sem erros pendentes",
+    "Número de inconsistências identificadas e corrigidas",
+    "Procurações digitais vigentes com os poderes necessários",
+    "Confirmação, pelo fornecedor de sistema, de compatibilidade com a CBS"
+  ],
+  "data_needed": [
+    "Data de início da cobrança plena da CBS conferida na legislação",
+    "Se clínicas e consultórios estão sujeitos à Declaração de Regimes Específicos (DeRE)",
+    "Requisitos operacionais exigidos pela Receita para acesso ao ambiente",
+    "Lista de serviços disponíveis para teste além da API e da DeRE"
+  ],
+  "assumptions": [
+    "A clínica é pessoa jurídica e será contribuinte da CBS.",
+    "A cobrança plena da CBS começa em 01/01/2027, conforme a matéria (parcialmente confirmado).",
+    "O uso do ambiente de testes não gera obrigação ou efeito fiscal (os fatos não informam)."
+  ],
+  "uncertainty": "medium",
+  "scores": {
+    "management_impact": 3,
+    "urgency": 3,
+    "audience_relevance": 3,
+    "evidence_strength": 4,
+    "practical_utility": 4,
+    "strategic_novelty": 2
+  }
+}

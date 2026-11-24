@@ -1,0 +1,33 @@
+{
+  "no_material_risk": false,
+  "risks": [
+    {
+      "risk": "Exposição de dados confidenciais ao usar contas pessoais de IA no trabalho.",
+      "supporting_fact": "Artigo de opinião na coluna Conexões ABRAIDI (Saúde Business, 18/11/2026) alerta que contas pessoais de IA, mesmo pagas, não protegem dados confidenciais e recomenda ferramentas aprovadas em contas corporativas.",
+      "mechanism": "Interpretação: se colaboradores da clínica inserirem dados de pacientes ou documentos internos em contas pessoais de IA, esses dados saem do controle da clínica, sem garantias contratuais sobre uso e retenção.",
+      "conditions": "Equipe usa ferramentas de IA por iniciativa própria, sem política interna nem ferramenta corporativa aprovada; dados identificáveis de pacientes são inseridos nas ferramentas.",
+      "exposed_profiles": [
+        "clínicas e consultórios de qualquer porte com equipe administrativa",
+        "profissionais que usam IA para redigir documentos"
+      ],
+      "severity": "medium",
+      "mitigation": "Criar política simples de uso de IA: definir quais ferramentas são aprovadas, proibir inserção de dados identificáveis de pacientes em contas pessoais e orientar a equipe."
+    },
+    {
+      "risk": "Erros convincentes da IA incorporados a documentos sem revisão.",
+      "supporting_fact": "O artigo alerta que respostas erradas da IA podem soar tão convincentes quanto as corretas e recomenda que uma pessoa confira e o responsável assine.",
+      "mechanism": "Textos gerados por IA com informação incorreta (por exemplo, sobre exigências regulatórias ou orientações) podem ser usados sem conferência, levando a decisões ou comunicações erradas.",
+      "conditions": "Clínica usa IA para redigir documentos regulatórios, administrativos ou orientações; não há etapa de revisão humana com responsável identificado.",
+      "exposed_profiles": [
+        "gestores e equipes administrativas de clínicas",
+        "responsáveis técnicos"
+      ],
+      "severity": "low",
+      "mitigation": "Adotar a regra de que a IA faz apenas a primeira versão, uma pessoa confere e um responsável assina; registrar quando a IA foi usada em documentos relevantes."
+    }
+  ],
+  "cannot_conclude": [
+    "O texto é opinativo e voltado a equipes regulatórias do setor representado pela ABRAIDI; a aplicação a clínicas é interpretação, não conclusão do artigo.",
+    "Não há norma nova nem fato regulatório associado ao artigo."
+  ]
+}
