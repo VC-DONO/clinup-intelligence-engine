@@ -18,6 +18,12 @@ jobs:
           for u in https://www.gov.br/ans/pt-br https://www.gov.br/trabalho-e-emprego/pt-br https://www.congressonacional.leg.br/ https://portal.cfm.org.br/ https://www.in.gov.br/; do
             echo "== $u"; curl -sS -o /dev/null -w "%{http_code} %{remote_ip} %{time_total}s\n" --max-time 25 -A "Mozilla/5.0" "$u" || true
           done
+      - name: Internet Archive
+        run: |
+          U="https://www.gov.br/ans/pt-br/assuntos/noticias"
+          echo "== available"; curl -sS --max-time 30 "https://archive.org/wayback/available?url=$U" ; echo
+          echo "== save"; curl -sS -o /dev/null -D - --max-time 90 -A "Mozilla/5.0" "https://web.archive.org/save/$U" | grep -iE "^(HTTP|location|content-location)" || true
+          echo "== latest snapshot"; curl -sS -L -o /tmp/s.html -w "%{http_code} %{size_download}\n" --max-time 60 "https://web.archive.org/web/2026id_/$U"; grep -o "<title>[^<]*" /tmp/s.html | head -2
       - name: node fetch
         run: |
           node -e '
