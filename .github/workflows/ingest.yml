@@ -3,6 +3,11 @@ name: Conferir fontes e publicar
 # Disparado quando a tarefa semanal do Claude envia a coleta (data/inbox/current/READY.json),
 # na main ou no branch de trabalho da sessão (claude/...). Do branch só é aproveitada a pasta
 # data/inbox/current: todo o código, configuração e testes vêm da main.
+#
+# A conferência das fontes roda no computador do Pedro (executor self-hosted com o rótulo clinup-br),
+# porque os sites gov.br recusam conexões dos servidores do GitHub, que ficam fora do Brasil.
+# Se o computador estiver desligado, o job espera na fila (até 24 h) e roda quando ele ligar.
+# Segurança: este workflow só dispara por push ou manualmente, nunca por pull request.
 on:
   push:
     branches: [main, "claude/**"]
@@ -21,12 +26,31 @@ concurrency:
   group: ingest
   cancel-in-progress: false
 
+env:
+  SOURCE_BRANCH: ${{ github.event.inputs.branch || github.ref_name }}
+
 jobs:
-  ingest:
+  test:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-    env:
-      SOURCE_BRANCH: ${{ github.event.inputs.branch || github.ref_name }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Testes determinísticos (bloqueiam a publicação se falharem)
+        run: npm run typecheck && npm test
+
+  ingest:
+    needs: test
+    runs-on: [self-hosted, clinup-br]
+    timeout-minutes: 60
+    defaults:
+      run:
+        shell: bash
     steps:
       - uses: actions/checkout@v5
         with:
@@ -43,11 +67,8 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 22
-          cache: npm
       - run: npm ci
-      - name: Testes determinísticos (bloqueiam a publicação se falharem)
-        run: npm run typecheck && npm test
-      - name: Conferir cada fonte abrindo a página, aplicar portões e montar a edição
+      - name: Conferir cada fonte abrindo a página (IP brasileiro), aplicar portões e montar a edição
         run: npx tsx src/cli/index.ts INGERIR
       - name: Guardar histórico, auditoria e edição na main
         if: always()

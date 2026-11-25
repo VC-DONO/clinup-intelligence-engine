@@ -1,16 +1,4 @@
 {
-  "run_id": "5f7023b2-b6d7-4d61-bf1b-d07cbc5ab7be",
-  "state": "completed_with_warnings",
-  "finished_at": "2026-11-24T22:52:57.503Z",
-  "published": 2,
-  "warnings": [
-    "Agente risk_analyst falhou em \"plp-299-2026-lucro-presumido-presuncao-senado-aprova\": Entrada de outputs/risk_analyst/plp-299-2026-lucro-presumido-presuncao-senado-aprova.json mudou após a checagem de fontes; resposta descartada",
-    "Agente opportunity_analyst falhou em \"plp-299-2026-lucro-presumido-presuncao-senado-aprova\": Entrada de outputs/opportunity_analyst/plp-299-2026-lucro-presumido-presuncao-senado-aprova.json mudou após a checagem de fontes; resposta descartada",
-    "Agente risk_analyst falhou em \"decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2\": Entrada de outputs/risk_analyst/decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2.json mudou após a checagem de fontes; resposta descartada",
-    "Agente opportunity_analyst falhou em \"decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2\": Entrada de outputs/opportunity_analyst/decreto-13173-2026-regulamenta-ec-141-2026-escala-5x2.json mudou após a checagem de fontes; resposta descartada",
-    "Agente competitive_intelligence_analyst falhou em \"semana\": Entrada de outputs/competitive_intelligence_analyst/semana.json mudou após a checagem de fontes; resposta descartada",
-    "Agente weak_signal_analyst falhou em \"semana\": Entrada de outputs/weak_signal_analyst/semana.json mudou após a checagem de fontes; resposta descartada",
-    "Agente summary falhou em \"resumo\": Entrada de outputs/summary/resumo.json mudou após a checagem de fontes; resposta descartada"
-  ],
-  "note": "Relatório publicado."
+  "state": "pending_first_run",
+  "note": "O primeiro REFRESH ainda não foi executado. latest.json aparece após a primeira execução bem-sucedida."
 }

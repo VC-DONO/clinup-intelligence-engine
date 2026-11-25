@@ -1,6 +1,6 @@
 import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
+import { join, posix } from "node:path";
 import { z } from "zod";
 import { canonicalizeUrl } from "../deduplication/url.js";
 import { type AgentRequest, type AgentResult, emptyTrace, emptyUsage, type LlmPort, type ToolTrace } from "./port.js";
@@ -34,7 +34,8 @@ const PROMPT_FILE: Record<string, string> = {
 
 export function subjectFile(agent: string, subject: string): string {
   const safe = subject.replace(/^https?:\/\//, "").replace(/[^a-zA-Z0-9#._-]+/g, "_").slice(0, 150);
-  return join("outputs", agent, `${safe}.json`);
+  // Sempre com "/" para que a chave seja igual no Linux (coleta) e no Windows (conferência).
+  return posix.join("outputs", agent, `${safe}.json`);
 }
 
 export type PageChecker = (url: string, excerpt: string | null) => Promise<PageCheck>;

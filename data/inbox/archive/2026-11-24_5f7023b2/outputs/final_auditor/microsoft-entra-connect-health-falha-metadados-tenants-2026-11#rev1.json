@@ -1,9 +1,0 @@
-{
-  "result": "pass",
-  "unsupported_claims": [],
-  "mismatched_dates_or_numbers": [],
-  "omitted_caveats": [],
-  "sensational_language": [],
-  "required_corrections": [],
-  "justification": "Cada afirmação factual do texto final corresponde a trecho literal do BleepingComputer: violação após exploração do Entra Connect Health com acesso a e-mails de administradores e configuração de tenants; lista de dados não expostos; correção no servidor em 19 de novembro; orientações de MFA resistente a phishing, revisão do Connect Health e dos logs; e ausência de informação sobre autoria, número de tenants e início dos ataques. A data confere com a evidência. As três ressalvas obrigatórias constam, a interpretação e a recomendação estão rotuladas, e a linguagem é sóbria. A omissão do caráter 'somente leitura' do acesso não altera a decisão do leitor."
-}

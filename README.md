@@ -40,7 +40,7 @@ O formato do JSON é o contrato `PublishedReport` em [`src/schemas/contracts.ts`
 Não usa a API paga do Claude. O trabalho é dividido entre duas peças gratuitas:
 
 1. **Tarefa agendada do Claude, toda segunda-feira às 05:40 (São Paulo).** Usa o plano do Claude que você já tem. A sessão segue [`docs/RUNBOOK-sessao.md`](docs/RUNBOOK-sessao.md): roda `npm run coletar`, o código diz quais agentes precisam responder, a sessão responde cada tarefa num subagente separado (pesquisador, verificador independente, riscos, oportunidades, estrategista, aderência CLIN-UP, redator, advogado do diabo, auditor final, competitivo, sinais fracos, resumo) e repete até o código dizer que está pronto. Depois faz commit da coleta.
-2. **GitHub Actions ([`ingest.yml`](.github/workflows/ingest.yml)), grátis em repositório público.** O commit da coleta dispara o workflow, que roda os testes, **abre por conta própria cada página citada** e confere se o trecho citado está lá e se a data dos metadados bate com a janela. Só depois aplica os portões, publica no GitHub Pages e grava o histórico em `data/`.
+2. **GitHub Actions ([`ingest.yml`](.github/workflows/ingest.yml)), grátis.** O commit da coleta dispara o workflow. Os testes rodam no GitHub; a conferência roda no computador do Pedro (executor self-hosted com rótulo `clinup-br`), porque os sites gov.br recusam conexões de servidores fora do Brasil. Se o computador estiver desligado, a conferência espera na fila por até 24 h. Ela **abre por conta própria cada página citada** e confere se o trecho citado está lá e se a data dos metadados bate com a janela. Só depois aplica os portões, publica no GitHub Pages e grava o histórico em `data/`.
 
 O orquestrador ([`src/orchestration/refresh.ts`](src/orchestration/refresh.ts)) é o mesmo nos dois passos: no primeiro ele lê as respostas da sessão sem publicar nada; no segundo ele as relê, refaz todos os portões com as fontes conferidas e descarta qualquer resposta cuja entrada mudou depois da checagem.
 
@@ -62,6 +62,8 @@ Há também um modo opcional pago ([`refresh-api.yml`](.github/workflows/refresh
 
 ## Configuração inicial (uma vez)
 
+0. No computador que vai conferir as fontes (Windows, com [Git for Windows](https://git-scm.com/download/win) instalado): *Settings → Actions → Runners → New self-hosted runner → Windows*, rode os comandos mostrados no PowerShell como administrador, informe o rótulo `clinup-br` e aceite rodar como serviço.
+   Como o repositório é público, em *Settings → Actions → General → Approval for running fork pull request workflows* escolha **Require approval for all external contributors**.
 1. Em *Settings → Pages*, em *Source*, escolha **GitHub Actions**.
 2. Preencha `config/clinup-services.yaml` com os serviços reais e mude `approved` para `true` quando quiser CTAs.
 
